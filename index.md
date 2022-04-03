@@ -9,7 +9,7 @@ Welcome to sammyppr.github.io!
 - [情報デザイン演習 I]
 - [情報デザイン応用演習 I]
 - [サウンドデザイン演習](2022/SoundDesign/index.md)
-- [メディア表現 III]
+- [メディア表現 III](2022/MediaRepresentationIII/index.md)
 - [メディア表現 V](2022/MediaRepresentationV/index.md)
 - [メディア表現 VI]
 
