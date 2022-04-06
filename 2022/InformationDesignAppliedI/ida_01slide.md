@@ -328,10 +328,6 @@ girlクラスを右寄せにしてみよう。
 ## 答え<!-- omit in toc -->
 
 ```
-p {
-   border: 1px solid black;
-   margin: 10px;
-}
 .girl {
    color: red;
    text-align: right;
