@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン演習I 1.オリエンテーション
+header: 情報デザイン応用演習I 1.オリエンテーション
 footer: ""
 ---
 
-# 情報デザイン演習I 1. オリエンテーション<!-- omit in toc -->
+# 情報デザイン応用演習I 1. オリエンテーション<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
