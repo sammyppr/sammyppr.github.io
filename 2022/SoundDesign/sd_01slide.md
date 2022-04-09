@@ -13,16 +13,10 @@ footer: ""
 # 目次<!-- omit in toc -->
 
 1. [はじめに](#はじめに)
-   1. [音声処理がうまくいっていない例](#音声処理がうまくいっていない例)
-   2. [音声の与える影響が大きい例](#音声の与える影響が大きい例)
 2. [昨年度との変化](#昨年度との変化)
 3. [HPの置き場所](#hpの置き場所)
 4. [シラバス](#シラバス)
 5. [おまけ](#おまけ)
-   1. [サイレント映画](#サイレント映画)
-   2. [サウンドデザインの嘘](#サウンドデザインの嘘)
-   3. [アニメや 3D の音](#アニメや-3d-の音)
-   4. [Sound Design の実際](#sound-design-の実際)
 6. [終わり](#終わり)
 
 ## はじめに
@@ -66,8 +60,7 @@ footer: ""
 - Premiere Pro
 - After Effects
 
-入っていない人はまずインストールしましょう。
-
+入っていない人はまずインストールしましょう。最後に質問対応します。
 次の二つも入れておきましょう。二つともアカウント作成は必要です。
 
 - [Soundly](https://getsoundly.com/)
@@ -123,6 +116,7 @@ https://sammyppr.github.io/
 ### Sound Design の実際
 
 音がなかったら、これらのシーンはどのようにあなたに伝わるでしょうか？
+最初、無音で見てもらおうかな...
 
 [SOUND DESIGN for FILMMAKING | Tutorial](https://www.youtube.com/watch?v=MwksKUJSZ9s)
 
@@ -133,4 +127,5 @@ https://sammyppr.github.io/
 - ノートパソコン持ってくること
 - できればイヤホンも(安いイヤホンは貸し出せます)
 - Adobe Audition, Premiere Pro, AfterEffects, Soundly, Studio One Prime をインストールしておくこと
-- できれば Studio One Prime も入れておいてください。
+
+インストールできない人は質問して下さい。
