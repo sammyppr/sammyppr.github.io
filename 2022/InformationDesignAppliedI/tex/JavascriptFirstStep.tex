@@ -1,0 +1,415 @@
+\documentclass[mingoth,11pt,a4j,uplatex]{jsarticle}
+\usepackage[top=20truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage{moreverb}
+\renewenvironment{description}%  descriptionをインデント
+{%
+   \begin{list}{\parbox{1zw}{$\bullet$}}% 見出し記号／直後の空白を調節
+   {%
+      \setlength{\topsep}{1zh}
+      \setlength{\itemindent}{3zw}
+      \setlength{\leftmargin}{5zw}%  左のインデント
+      \setlength{\rightmargin}{0zw}% 右のインデント
+      \setlength{\labelsep}{1zw}%    黒丸と説明文の間
+      \setlength{\labelwidth}{3zw}%  ラベルの幅
+      \setlength{\itemsep}{0em}%     項目ごとの改行幅
+      \setlength{\parsep}{0em}%      段落での改行幅
+      \setlength{\listparindent}{0zw}% 段落での一字下り
+   }
+}{%
+   \end{list}%
+}
+
+\title{Javascript First Step}
+%\author{小林　統 \thanks{帝京平成大学現代ライフ学部人間文化学科メディア文化コース}}
+\date{\today}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+
+\begin{document}
+%\gtfamily	%全てゴシックに
+
+\maketitle
+
+\begin{abstract}
+プログラミングの初心者向けに、Javascriptを利用して説明します。
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{プログラミングするにあたっての心構え}
+\subsection{プログラミングって何?}
+さて、プログラミングってなんだ?
+\begin{center}
+コンピュータに処理をさせるために、プログラムを作ること
+\end{center}
+
+だよね。なので、ほんの少しだけ、プログラマーはコンピュータに考え方を合わせてあげる必要がある。
+
+ただ、前に比べたらはるかに人間の思考を理解するようになっているので、そこまで難しく考える必要はないよ。 ここ数十年、コンピュータのスピードは飛躍的に伸び、いろいろなことができるように準備がされている。
+
+それをうまく利用してあげて、組み合わせればいろんなことがそんなに難しくなく書けるようになるよ。
+
+\subsection{私、理系じゃないし...}
+コンピュータだから理系でないとうまくいかない、と思う人もいるかも知れないけど、実は大きなところではそうではなかったりするよ。
+
+言語能力って、自分が思ってることを正しく相手に伝えるやり方だよね。
+
+コンピュータ言語、っていうくらいなので、実は、自分が指示したいことを正しく相手に伝えるのがプログラミングなんだ。
+
+もちろん、たまには理数系の頭が必要になることもある。でも、大きな意味では、それを必要としない部分もかなりある、と思って欲しい。
+
+
+実際、文系の人がSEになるケースは数十年前からすっごくあるんだ。
+
+人は、類推してくれるかもしれないけど、コンピュータは類推はしてくれなくて、正しく書かないと「わかりませーん」っていうだけ。
+
+\subsection{まずはじめに覚えなくてはいけないこと}
+コンピュータに何かさせたいわけだから、コンピュータになんらかの情報を入力して、計算させて、それの出力を得る、っていうのが基本的な考え方だよ。
+
+自分が何をしているかわからなくなったら、今何をやっているか、ということを認識しよう。
+
+あと、完璧主義者はそんなに向いてない気がする。「とりあえずやってみたら動いたー!」と気楽にしてた 方が、伸びると思うよ。
+
+一つプログラミング言語を覚えると、後は、方言みたいなものだから、次にいくのはそこまで難しくない。 ので、最初につまづかないようにするのが大事だね。
+
+\subsection{英語...}
+日本語のプログラミング言語も一応は存在している(た)んだけど、やっぱり、英語が圧倒的に使われているね。結局そっちの方が書きやすいんだよな... ので、怖がらないでね。
+
+\subsection{全角スペース・半角スペース}
+コンピュータは基本的に、日本語を表示する時以外は、半角の英数、記号を使うよ。間違えないようにしよう。
+
+\subsection{インデント}
+プログラミングはその書いている有効範囲を示すために、「始まり」「終わり」をマークしていくことが多い。で、それがみづらいと非常に読みにくくなってしまう。TABをうまく使って、読みやすく書くように気をつけよう。
+
+インデントをつけすぎた場合には、Shift+TABで元に戻せるよ。
+
+\subsection{アルゴリズム}
+コンピュータにさせたいことの処理手順をアルゴリズムというのだけど、実際にはこれを考えるのが一番大変かな。例えば、A 地点から B 地点にいくのに短距離でいくにはどうしたらよいか?ということを計算させるのに、どうやれば処理手順が短くてすむか、というのを考えるのが一番大事なんだ。
+
+%------------------------------------------------------------------------------------------------------------------------------------------
+\section{超基本的なこと}
+Javascript をベースにプログラミングを学んでいこう。
+
+今日は、何かが動いたりあまりしないのでつまらないかもだけど、英語の基本文法を覚える感じでやってみよう。
+
+\subsection{変数}
+プログラミングするときに、値を保存しておく必要があるので、これのことを「変数」と呼ぶよ。
+\begin{verbatimtab}
+	let myvalue = 10;
+\end{verbatimtab}
+等と書けばOK。文字の場合には
+\begin{verbatimtab}
+	let myvalue = "Hello world!";
+\end{verbatimtab}
+の様にダブルクオーテーションでくくってあげることで、「文字列だよ」と表現するよ。
+
+言語によっては、型宣言というのをすることもあって、変数の型が整数なのか小数なのかなどを定義最初からしてしまうやり方。Javascript では型という考え方はあるけれども、明示はしないよ。
+
+\subsection{つーか、どうやって実行すればいいの?}
+Javascriptはブラウザで実行できるので、VS Code でやりましょうかね。うまく動かない時にはブラウザをリロードしてください。
+
+\begin{verbatimtab}
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			let myvalue = "hello world";
+			document.write(myvalue);
+		</script>
+	</body>
+</html>
+\end{verbatimtab}
+を js.html とでもして保存して実行してみよう(作業用のフォルダ作って、ワークスペース開いてから)。このように、script タグ内にJavascriptを書くことができるよ。 
+
+\subsection{足し算をやってみよう。}
+\begin{verbatimtab}
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			let a = 1;
+			let b = 2;
+			document.write(a+b);
+		</script>
+	</body>
+</html>
+\end{verbatimtab}
+かんたん!じゃ、文字列を足すとどうなるんだろう?
+ \begin{verbatimtab}
+ <html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			let a = "hello ";
+			let b = "world";
+			document.write(a+b);
+		</script>
+	</body>
+</html>
+\end{verbatimtab}
+文字列がつながったね。文字列の連結と呼ぶよ。
+
+他の数字の計算も試してみて
+\begin{description}
+\item[+] 足し算
+\item[-] 引き算
+\item[*] 掛け算
+\item[/] 割り算
+\item[\%] 剰余
+\end{description}
+
+あと、プログラミングでは数学ではありえない変な書き方もするよ。
+\begin{verbatimtab}
+	a = a + 1;
+\end{verbatimtab}
+「=」というのは、
+\begin{description}
+\item[数学]左と右が等しい
+\item[プログラミング]右の値を計算して、左に代入する
+\end{description}
+という意味になるよ。
+\begin{verbatimtab}
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			let a = 1;
+			a = a+1;
+			document.write(a);
+		</script>
+	</body>
+</html>
+\end{verbatimtab}
+とすると、2 と表示されたかな？
+
+\subsection{配列}
+これは聞き慣れないんじゃないかな?データを整理するときに非常に便利な考え方。
+\begin{verbatimtab}
+	let a1 = new Array();
+	let a2 = new Array(111,222,1000);
+\end{verbatimtab}	
+とかって書くよ。a2[0]=111,a2[1]=222,a2[2]=1000 の様になります。同じ型でなくても、文字とかなんでも代入できるよ。
+
+\begin{verbatimtab}
+	let myarray = new Array();
+	myarray[0] = 7;
+	myarray[1] = "hello";
+	document.write(myarray[1]);
+\end{verbatimtab}
+
+
+\subsection{条件分岐}
+条件によって処理を変えることを「条件分岐」と呼ぶよ。例えば、ゲームなら、ゲームオーバーかどうか、等の判定に利用できるね。
+\begin{verbatimtab}
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			let a = 1;
+			if(a > 10){
+				document.write(a+"は 10 より大きいです。"); 
+			} else {
+				document.write(a+"は 10 以下です。"); 
+			}
+		</script>
+	</body>
+</html>
+\end{verbatimtab}
+正しく計算されたら、「let a=20;」として試してみよう。
+
+どちらが大きいかの比較ではなくて、等しいかどうかを知りたいときは「=」でなく「==」「===」を利用するよ。「=」だとさっきの説明通り代入しちゃった結果を評価して、いつでも正しくなっちゃうから。=の数が2個と3個では全く同じ意味ではないけれども、これはかなり詳しい話しになるので、ここでは省略。
+
+\subsection{繰り返し}
+コンピュータは単純作業の繰り返しが非常に得意！(この辺から、html のタグははずして Javascriptだけを記載するよ。)
+\subsubsection{for 文}
+\begin{verbatimtab}
+for(初期化; 繰り返し条件; 変数の更新){
+	繰り返す処理
+}
+\end{verbatimtab}
+と書くことで同一の処理を何度もできるよ。
+\begin{verbatimtab}
+	let i;
+	for(i=1;i<10;i++){
+		 document.write(i+"<br/>");
+	}
+\end{verbatimtab}
+i++ っていうのは「i=i+1」を短く書いたもの。i-であれば「i=i-1」の意味になるよ。 
+
+\subsubsection{while 文}
+while では、条件が正しい時にはずっと処理を繰り返すよ。
+\begin{verbatimtab}
+while(繰り返し条件){
+	繰り返す処理
+}
+\end{verbatimtab}
+\subsubsection{continue,break}
+continue はループは続行しつつ、繰り返す処理をそこで止める。break はループを抜けるよ。
+\begin{verbatimtab}
+let i;
+for(i=1;i<10;i++){
+	if(i%2==0){
+		continue; 
+	}
+	document.write(i+' ');
+}
+document.write("<br/>");
+for(i=1;i<10;i++){
+	if(i==5){
+		break; 
+	}
+	document.write(i+' ');
+}
+\end{verbatimtab}
+
+\subsection{関数}
+同じ処理を何度もする時には、関数として定義して、後で再利用ができるようにしておくよ。
+\begin{verbatimtab}
+function 識別子 (パラメータリスト){
+	関数で定義したい処理
+}
+\end{verbatimtab}
+例えば、「Hello と記載する関数」は次のように書けばいいよ。
+\begin{verbatimtab}
+function hello(){
+  document.write("hello");
+}
+hello();
+\end{verbatimtab}
+識別子は定義されているものとぶつからなければ、自由に設定していいです。 名前をいれて「Hello, Osamu」等としたい場合には
+\begin{verbatimtab}
+function hello2(name){
+	document.write("hello, "+name+"<br/>");
+}
+hello2("Osamu");
+hello2("Michiari");
+\end{verbatimtab}
+のようにパラメータを定義することができるよ。関数として定義しておくと同じ処理をする時に便利でしょ？
+
+\subsection{イベント}
+ボタンをおした時に Javascript を起動したい場合は、
+\begin{verbatimtab}
+<a href="javascript:void(0);" onclick="hello('Sammy');">Click</a>
+\end{verbatimtab}
+とすると
+\begin{center}
+ボタンが押されたよ
+\end{center}
+というイベント(出来事)が発生し、そのイベントにあらかじめ登録された関数を呼び出すことができるよ。
+
+hrefは、跳び先はないよ、だけど、onclickの時にhelloを呼び出してね。と言う意味。return falseはおまじないだと思ってください。
+
+おっと、HTML5では、document.write()が非推奨となってしまった...昔なら、これでどんどん追加できたのに。
+というわけで、ちょっとめんどうくさいけれども
+\begin{verbatimtab}
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			function hello(name){
+				document.body.innerHTML+="hello"+name+"<br/>";
+			}
+		</script>
+	</head>
+	<body id="body">
+		<a href="javascript:void(0)" onclick="hello('Sammy');return false;">Click</a>
+	</body>
+</html>
+\end{verbatimtab}
+これがHTML5のご時世では正解ですね。
+
+%----------------------------------------------------------------------------------------------------
+\section{実践！}
+覚えなくてはいけないことがちょっと多かったかな。でも、これらを組み合わせることでいろいろなことができるよ。(楽なので、document.write()を使います。)
+
+
+\subsection{1からnまでを合計するsum(n)という関数を作ってみよう}
+\begin{verbatimtab}
+function sum(n){
+	let a=0;
+	let sum=0;
+	while(a++ < n){
+		sum+=a;
+		document.write("a: "+a+", "+ "sum: "+sum+"<br/>");
+	}
+}
+sum(10);
+\end{verbatimtab}
+
+\subsection{nが素数かどうかを判定するprimenumber(n)を作ってみよう}
+\begin{verbatimtab}
+function primenumber(n){
+	let i= 1;
+	while(i++ < n){
+		document.write(i+","+n+"<br>");
+		if(n % i != 0){
+			document.write("割り切れない<br/>");
+		} else {
+			document.write("割り切れる<br/>");
+			break;
+		}
+	}
+	if(i == n){
+		document.write("素数!");
+	} else {
+		document.write("素数でない!");
+	}
+}
+primenumber(5);
+\end{verbatimtab}
+
+\subsection{1からnまでの素数を表示するprimenumberlist(n)という関数を作ってみよう}
+関数は
+\begin{center}
+	return 戻り値;
+\end{center}
+とすると値を返してくれます。
+\begin{verbatimtab}
+function primenumber(n){
+	let i= 1;
+	while(i++ < n){
+		//document.write(i+","+n+"<br>");
+		if(n % i != 0){
+			//document.write("割り切れない<br/>");
+		} else {
+			//document.write("割り切れる<br/>");
+			break;
+		}
+	}
+	if(i == n){
+		return 1;//素数
+	} else {
+		return 0;//素数でない
+	}
+}
+document.write(primenumber(5));
+\end{verbatimtab}
+ですので、これを利用しましょう。primenumber(n)はそのままにして
+\begin{verbatimtab}
+function primenumberlist(n){
+	document.write(n+"までの素数は<br/>");
+	for(let i=2; i<n; i++){//素数は1は除外するため
+		if(primenumber(i)==1){
+			document.write(i+" ");
+		}
+	}
+	document.write("<br/>です。");
+}
+primenumberlist(100);
+\end{verbatimtab}
+
+\section*{最後に}
+プログラミングの触りしかしなかったけど、組み合わせることで、面倒くさい作業を自動でやってくれるのが便利だと感じられたかな？あとは、指示を出すあなた次第なので、興味のある人はいろいろ遊んでみよう。
+
+\flushright{以上}
+
+
+\end{document}
