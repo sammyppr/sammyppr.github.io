@@ -60,4 +60,5 @@ Wiki にまとまってるので、確認してみましょう。
 
 それでは入門編やってみましょう。
 
-[JavaScript FirstStep](./tex/JavascriptFirstStep.pdf)
+https://sammyppr.github.io/
+から、PDFファイル見れます。
