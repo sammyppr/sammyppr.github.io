@@ -14,4 +14,4 @@
 
 ## スライド
 
-[スライド資料](./ida_01slide.pdf){:target="_blank"}
+[スライド資料](./ida_02slide.pdf){:target="_blank"}

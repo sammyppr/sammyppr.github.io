@@ -58,4 +58,6 @@ Wiki にまとまってるので、確認してみましょう。
 
 ## JavaScript FirstStep
 
+それでは入門編やってみましょう。
+
 [JavaScript FirstStep](./tex/JavascriptFirstStep.pdf)
