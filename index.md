@@ -4,7 +4,7 @@ Welcome to sammyppr.github.io!
 
 ## CONTENTS 2022
 
-- [コンピュータ演習]
+- [コンピュータ演習](2022/ComputerPractice/index.md)
 - [デジタルデザイン基礎演習 II]
 - [情報デザイン演習 I](2022/InformationDesignI/index.md)
 - [情報デザイン応用演習 I](2022/InformationDesignAppliedI/index.md)
