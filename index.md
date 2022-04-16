@@ -13,6 +13,8 @@ Welcome to sammyppr.github.io!
 - [メディア表現 V](2022/MediaRepresentationV/index.md)
 - [メディア表現 VI](2022/MediaRepresentationVI/index.md)
 - [ゼミ](2022/Seminar/index.md)
+
+
 ## Misc
 
 - [マークダウン Memo](./markdown_memo.md)
