@@ -16,9 +16,9 @@ AppStoreからXcodeをインストールした上で、ターミナルで
 sudo xcode-select -r
 ```
 としないと起動しない。パスワード入力時、カーソルなど動かないので注意。その後
-'''
+```
 sudo xcodebuild -license
-'''
+```
 で「return」をした後「agree」とする必要あり。
 
 ## 照明(DMX)
