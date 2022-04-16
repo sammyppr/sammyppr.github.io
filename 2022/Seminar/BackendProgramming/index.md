@@ -38,3 +38,18 @@
 ---
 ## ここからは
 何をするか決めていこう
+- [15 Best Programming Languages for Web Development in 2022](https://www.globalmediainsight.com/blog/programming-languages-web-development/)
+
+### RubyOnRails
+- [Ruby On Rails入門｜90分でマスター！RubyOnRailsチュートリアル入門](https://www.youtube.com/watch?v=IyEcu9e1YgM){:target="_blank"}
+
+### PHP
+- [PHPのおすすめフレームワーク2021年版](https://engineer-milione.com/programming/php-framework.html){:target="_blank"}
+
+### Python
+- [PythonではどんなWebアプリを作れる？外注先の探し方もご紹介](https://hnavi.co.jp/knowledge/blog/python-web-application/){:target="_blank"}
+
+### Node.js
+JavaScriptのサーバサイド実行環境
+- [Web開発コース(Node.js)](https://prog-8.com/paths/node)
+- 
