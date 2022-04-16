@@ -3,7 +3,7 @@
 ## Roadmap
 [Backend Developer](https://roadmap.sh/backend){:target="_blank"}
 
-[新着！！ Web開発者ロードマップ2022| Web開発でのキャリアを開始するための究極のガイド](https://www.youtube.com/watch?v=7uJGjbkp0-U){:target="_blank"}
+[新着！！ Web開発者ロードマップ2022 Web開発でのキャリアを開始するための究極のガイド](https://www.youtube.com/watch?v=7uJGjbkp0-U){:target="_blank"}
 
 ---
 
