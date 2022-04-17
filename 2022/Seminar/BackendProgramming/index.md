@@ -41,6 +41,7 @@ Webのバックエンドには様々な技術が使われている。全部を�
 ## バージョン管理
 開発にあたっては、何をどのように機能追加したかを管理したり、共同作業によりトラブルが起きないようにバージョン管理をしなくてはいけない。Githubに残したコード量は今後の人生でも評価されることになる。
 - [【超入門】初心者のためのGitとGitHubの使い方](https://tech-blog.rakus.co.jp/entry/20200529/git){:target="_blank"}
+- [初めてのGitとGitHub](https://www.udemy.com/course/intro_git/){:target="_blank"}
 
 ---
 ## 知っておくべき概念
