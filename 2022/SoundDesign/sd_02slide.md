@@ -169,6 +169,8 @@ $$ λ = \frac{V}{F} $$
 
 これが、波だと思っていいです。
 
+[水の波紋と癒やしの響き〜カリヨンチャイムとクリスタルボウル Water Ripples with Crystal Singing Bowls & Zaphir Chimes](https://www.youtube.com/watch?v=3jZFSd5Jwlk&t=25s)
+
 ## 空気の場合には?<!-- omit in toc -->
 
 空気が上下に振動しているわけではありません。
