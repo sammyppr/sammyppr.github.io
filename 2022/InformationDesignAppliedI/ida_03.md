@@ -19,4 +19,4 @@
 
 ## 配布資料
 
-[Canvas FirstStep](./tex/JavascriptFirstStep.pdf)
+[Canvas FirstStep](./tex/CanvasFirstStep.pdf)
