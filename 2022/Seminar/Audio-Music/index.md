@@ -61,3 +61,6 @@ DTM機材やDAWソフトの使い方から音楽制作テクニックまで動�
 - [Sawayaka Trip!](https://sawayakatrip.com/){:target="_blank"}
 DAW・DTM・プラグインのセール情報と音楽制作、DJの話題が中心です。
 - [DTM製品セール情報](https://sleepfreaks-dtm.com/category/sale/)
+
+### Learning Synth
+- [Learning Synth](https://learningsynths.ableton.com/ja/)
