@@ -26,6 +26,7 @@ Webのバックエンドには様々な技術が使われている。全部を�
 ターミナルかっこよくしたい場合は
 - [macOSXのターミナルをもっとお洒落にする（Powerlevel10kの導入）](https://osmaniax.1banzaka.com/osx/macosx%E3%81%AE%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%82%92%E3%82%82%E3%81%A3%E3%81%A8%E3%81%8A%E6%B4%92%E8%90%BD%E3%81%AB%E3%81%99%E3%82%8B%EF%BC%88powerlevel10k%E3%81%AE%E5%B0%8E%E5%85%A5/3710)
 
+
 ---
 
 ## 仮想化について(Option)
