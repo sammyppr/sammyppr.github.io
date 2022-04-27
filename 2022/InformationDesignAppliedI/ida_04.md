@@ -19,4 +19,4 @@
 
 ## 配布資料
 
-[Canvas FirstStep](./tex/CanvasSecondStep.pdf)
+[Canvas SecondStep](./tex/CanvasSecondStep.pdf)
