@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p3.9.0-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2021) (preloaded format=uplatex 2022.3.22)  27 APR 2022 00:12
+This is e-upTeX, Version 3.141592653-p3.9.0-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2021) (preloaded format=uplatex 2022.3.22)  27 APR 2022 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -246,14 +246,14 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 69.
  [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
 [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
-[28] [29] [30] [31] [32] [33] [34] [35] [36] (./CanvasSecondStep.aux) ) 
+[28] [29] [30] [31] [32] [33] [34] [35] (./CanvasSecondStep.aux) ) 
 Here is how much of TeX's memory you used:
  2934 strings out of 479460
  41482 string characters out of 5870464
- 645278 words of memory out of 5000000
+ 595278 words of memory out of 5000000
  20647 multiletter control sequences out of 15000+600000
  418588 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  68i,11n,74p,384b,1729s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CanvasSecondStep.dvi (36 pages, 146116 bytes).
+Output written on CanvasSecondStep.dvi (35 pages, 140548 bytes).

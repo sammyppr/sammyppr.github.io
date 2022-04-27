@@ -115,16 +115,16 @@ CanvasFirstStepのおさらい1。これ間違えると動かないよ。先週�
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
+			let ch;
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -160,7 +160,7 @@ CanvasFirstStepのおさらい1。これ間違えると動かないよ。先週�
 CanvasFirstStepのおさらい2。
 円を描くのに4行使うから、それをdrawCircleという関数にまとめてるよ。
 
-42行目、45-51行目あたり。
+41行目、44-50行目あたり。
 
 一定時間で描写してるけど、同じところに同じもの書いてるだけだから動作は変わらないよ。
 
@@ -172,16 +172,16 @@ CanvasFirstStepのおさらい2。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
+			let ch;
 						
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -198,7 +198,6 @@ CanvasFirstStepのおさらい2。
 				
 				//一定時間ごとに書き換える 30fpsにするために1000msec/30 = 33msec
 				setInterval("draw()",33);
-
 			}
 			
 			function draw(){
@@ -229,7 +228,7 @@ CanvasFirstStepのおさらい2。
 \subsubsection{04-103.html　等速度運動}
 一定のスピードで動くのを等速度運動って言ったよね？？？？
 
-14行目あたり46,7行目あたりかな。
+14,15行目あたり45,46行目あたりかな。
 \begin{lstlisting}[caption=等速度運動]
 <!DOCTYPE html>
 <html>
@@ -237,20 +236,20 @@ CanvasFirstStepのおさらい2。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
+			let ch;
 			
 			//移動速度
-			var speed = 2;
-			var x = 0;
+			const speed = 2;
+			let x = 0;
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -267,7 +266,6 @@ CanvasFirstStepのおさらい2。
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
 			
 			function draw(){
@@ -299,7 +297,7 @@ CanvasFirstStepのおさらい2。
 \subsubsection{04-104.html　摩擦のシミュレーション}
 目的地を設定して、そこに向かって動いて止まる動きをするよ。
 
-16,47行目あたり
+16,46行目あたり
 \begin{lstlisting}[caption=摩擦のシミュレーション]
 <!DOCTYPE html>
 <html>
@@ -307,21 +305,21 @@ CanvasFirstStepのおさらい2。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
+			let ch;
 			
 			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			const speed = 20;
+			let x = 0;
+			const target_x = 400;
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -338,7 +336,6 @@ CanvasFirstStepのおさらい2。
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
 			
 			function draw(){
@@ -367,7 +364,7 @@ CanvasFirstStepのおさらい2。
 </html>
 \end{lstlisting}
 
-\subsection{Particleというオブジェクトを用いた生成方法}
+\subsection{Particleというクラスを用いた生成方法}
 これまでは、Canvasに対して円を書いて！と指示してきたよね。
 
 オブジェクト指向という考え方があって、例えば、車を例にしてみよう。
@@ -376,19 +373,19 @@ CanvasFirstStepのおさらい2。
 
 この様に、機能を持ったモノを定義して、そこに指示を出していくプログラミング方法を「オブジェクト指向」っていうよ。
 
-また、車というオブジェクトがあったときに、Aさんの車、Bさんの車、という風に色々な車があるよね。オブジェクトは抽象化された概念なのに対して、Aさんの車とかは実体化されたもの(インスタンス)と捉えるよ。
+また、車というクラスがあったときに、Aさんの車、Bさんの車、という風に色々な車があるよね。オブジェクトは抽象化された概念なのに対して、Aさんの車とかは実体化されたもの(インスタンス)と捉えるよ。
 
 車という概念を定義しておいて、必要に応じてインスタンスを適宜生成することによって、いろいろなことができる様になるよ。
 
-今回は、Particle(粒子)等オブジェクトを作成して、それのインスタンスをたくさん作ることで面白い表現をしてみよう。
+今回は、Particle(粒子)クラスを作成して、それのインスタンスをたくさん作ることで面白い表現をしてみよう。
 
-41-49あたりは追加。それを受けて、67,68あたりが変わるよ。
+35-52あたり追加。それを受けて、54あたりが追加
 
-42行目からは、Particleの初期化の話
+37行目から、Particleの初期化の話
 
-51行目からは、Particleにdraw()...描け、と言った時の挙動が定義されています。
+46行目からは、Particleにdraw()...描け、と言った時の挙動が定義されています。
 
-59行目で、Particleっていうオブジェクトから実態としてのparticleを生成しています。
+54行目で、Particleっていうクラスから実態としてのparticleを生成しています。
 
 
 \subsubsection{04-201.html　オブジェクトを利用した等加速度運動}
@@ -399,21 +396,16 @@ CanvasFirstStepのおさらい2。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
-			
+			let ch;
+						
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -430,28 +422,28 @@ CanvasFirstStepのおさらい2。
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
 			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, speed){
-				this.scale = scale;
-				this.color = color;
-				this.speed = speed;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			
+			//Particleクラス
+			class Particle {
+				constructor(scale, color,speed){
+					this.scale = scale;
+					this.color = color;
+					this.speed = speed;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+			}
 			//パーティクルの準備
-			var particle = new Particle(20, "#ff0000", 2);
+			let particle = new Particle(20, "#ff0000", 2);
 			
 			function draw(){
 				//画面をリセットする
@@ -475,8 +467,7 @@ CanvasFirstStepのおさらい2。
 \subsubsection{04-202.html　配列にParticleを入れてアニメーション}
 一つだけじゃ、メリットわかりませんね。複数particleを生成してみましょう。
 
-19行目、38行目,78行目あたり
-
+15行目、33行目,  72行目あたり
 
 \begin{lstlisting}[caption=配列にParticleを入れてアニメーション]
 <!DOCTYPE html>
@@ -485,25 +476,20 @@ CanvasFirstStepのおさらい2。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			let ch;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -516,7 +502,7 @@ CanvasFirstStepのおさらい2。
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(6, "#FF0000", Math.random()*(4-2)+2);
 					particles[i].position.x = Math.random()*ch;
 					particles[i].position.y = Math.random()*cw;
@@ -528,27 +514,26 @@ CanvasFirstStepのおさらい2。
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
 			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, speed){
-				this.scale = scale;
-				this.color = color;
-				this.speed = speed;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			
+			//Particleクラス
+			class Particle {
+				constructor(scale, color,speed){
+					this.scale = scale;
+					this.color = color;
+					this.speed = speed;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -556,15 +541,13 @@ CanvasFirstStepのおさらい2。
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].position.x += particles[i].speed;
 					particles[i].draw();
 					
 					if(particles[i].position.x > cw) particles[i].position.x -= cw;			
 				}
 			}
-
-			
 		</script>
 	</head>
 	<body onload="init();">
@@ -577,9 +560,9 @@ CanvasFirstStepのおさらい2。
 \subsubsection{04-203.html　色を変更}
 円を生成する時に色を適当に指定しましょう。
 
-86行目あたりgetRandomColor(),getRandomAlpha()という関数を追加
+81行目あたりgetRandomColor(),getRandomAlpha()という関数を追加
 
-39行目あたり
+35行目あたり
 
 \begin{lstlisting}[caption=色を変更]
 <!DOCTYPE html>
@@ -588,25 +571,21 @@ CanvasFirstStepのおさらい2。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
+			let ch;
 			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -619,7 +598,7 @@ CanvasFirstStepのおさらい2。
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(6, "rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")", Math.random()*(4-2)+2);
 					particles[i].position.x = Math.random()*ch;
 					particles[i].position.y = Math.random()*cw;
@@ -631,27 +610,26 @@ CanvasFirstStepのおさらい2。
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
 			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, speed){
-				this.scale = scale;
-				this.color = color;
-				this.speed = speed;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			
+			//Particleクラス
+			class Particle {
+				constructor(scale, color,speed){
+					this.scale = scale;
+					this.color = color;
+					this.speed = speed;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -659,7 +637,7 @@ CanvasFirstStepのおさらい2。
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].position.x += particles[i].speed;
 					particles[i].draw();
 					
@@ -684,9 +662,9 @@ CanvasFirstStepのおさらい2。
 \end{lstlisting}
 
 \subsubsection{04-204.html　大きさを変更}
-91行目あたり、getRandomScale()っていう関数を追加
+86行目あたり、getRandomScale()っていう関数を追加
 
-39行目あたり
+34行目あたり
 
 \begin{lstlisting}[caption=大きさを変更]
 <!DOCTYPE html>
@@ -695,25 +673,20 @@ CanvasFirstStepのおさらい2。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			let ch;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -726,7 +699,7 @@ CanvasFirstStepのおさらい2。
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(getRandomScale(), "rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")", Math.random()*(4-2)+2);
 					particles[i].position.x = Math.random()*ch;
 					particles[i].position.y = Math.random()*cw;
@@ -740,24 +713,24 @@ CanvasFirstStepのおさらい2。
 				setInterval("draw()",33);
 			}
 			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, speed){
-				this.scale = scale;
-				this.color = color;
-				this.speed = speed;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			
+			//Particleクラス
+			class Particle {
+				constructor(scale, color,speed){
+					this.scale = scale;
+					this.color = color;
+					this.speed = speed;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -765,7 +738,7 @@ CanvasFirstStepのおさらい2。
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].position.x += particles[i].speed;
 					particles[i].draw();
 					
@@ -782,7 +755,6 @@ CanvasFirstStepのおさらい2。
 			function getRandomScale(){
 				return (Math.random()*(8-3))+3;
 			}
-			
 		</script>
 	</head>
 	<body onload="init();">
@@ -794,11 +766,11 @@ CanvasFirstStepのおさらい2。
 
 \subsection{より高度な表現}
 \subsubsection{04-301.html　一定の方向に等加速度運動}
-54,57,58行目でspeedの代わりにvx,vyが増えているね。2次元の速度を持たせるよ。
+49,52,53行目でspeedの代わりにvx,vyが増えているね。2次元の速度を持たせるよ。
 
-これを受けて、39行目も変更
+これを受けて、34行目も変更
 
-updateっていう処理を71行目で追加して、83行目たりでそれを呼び出している。
+updateっていう処理を65行目で追加して、79行目あたりでそれを呼び出している。
 
 \begin{lstlisting}[caption=一定の方向に等加速度運動]
 <!DOCTYPE html>
@@ -807,25 +779,20 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			let ch;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -838,7 +805,7 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(getRandomScale(), "rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")", 5, 1);
 					particles[i].position.x = Math.random()*ch;
 					particles[i].position.y = Math.random()*cw;
@@ -850,33 +817,32 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
-			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, vx, vy){
-				this.scale = scale;
-				this.color = color;
-				this.vx = vx;
-				this.vy = vy;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			Particle.prototype.update = function(){
-				this.position.x += this.vx;
-				this.position.y += this.vy;
-				this.draw();
-			};
-			
+
+			//Particleクラス
+			class Particle {
+				constructor(scale, color, vx, vy){
+					this.scale = scale;
+					this.color = color;
+					this.vx = vx;
+					this.vy = vy;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+				update(){
+					this.position.x += this.vx;
+					this.position.y += this.vy;
+					this.draw();
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -884,7 +850,7 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].update();
 				}
 			}
@@ -909,9 +875,9 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 \end{lstlisting}
 
 \subsubsection{04-302.html　重力のシミュレーション}
-54行目にgv:gravityが増えているね…73行目あたりで速度に重力加速度が増えている。
+49,54行目にgv:gravityが増えているね…67行目あたりで速度に重力加速度が増えている。
 
-これを受けて、54,59行目あたりも増えてるよ。
+これを受けて、34,67行目あたりも増えてるよ。
 
 
 \begin{lstlisting}[caption=重力のシミュレーション]
@@ -921,25 +887,20 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			let ch;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -952,7 +913,7 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(getRandomScale(), "rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")", 5, 1, 0.4);
 					particles[i].position.x = Math.random()*ch;
 					particles[i].position.y = Math.random()*cw;
@@ -964,35 +925,34 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
-			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, vx, vy, gv){
-				this.scale = scale;
-				this.color = color;
-				this.vx = vx;
-				this.vy = vy;
-				this.gv = gv;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			Particle.prototype.update = function(){
-				this.vy += this.gv;
-				this.position.x += this.vx;
-				this.position.y += this.vy;
-				this.draw();
-			};
-			
+
+			//Particleクラス
+			class Particle {
+				constructor(scale, color, vx, vy, gv){
+					this.scale = scale;
+					this.color = color;
+					this.vx = vx;
+					this.vy = vy;
+					this.gv = gv;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+				update(){
+					this.vy += this.gv;
+					this.position.x += this.vx;
+					this.position.y += this.vy;
+					this.draw();
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -1000,7 +960,7 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].update();
 				}
 			}
@@ -1014,7 +974,6 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 			function getRandomScale(){
 				return (Math.random()*(8-3))+3;
 			}
-			
 		</script>
 	</head>
 	<body onload="init();">
@@ -1025,7 +984,7 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 \end{lstlisting}
 
 \subsubsection{04-303.html　床の跳ね返りをシミュレーション}
-77行目あたりで、跳ね返る様に設定している。
+71,72行目あたりで、跳ね返る様に設定している。
 \begin{lstlisting}[caption=床の跳ね返りをシミュレーション]
 <!DOCTYPE html>
 <html>
@@ -1033,25 +992,20 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			let ch;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -1064,7 +1018,7 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(getRandomScale(), "rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")", 5, 1, 1);
 					particles[i].position.x = Math.random()*ch;
 					particles[i].position.y = Math.random()*cw;
@@ -1076,37 +1030,36 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
-			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, vx, vy, gv){
-				this.scale = scale;
-				this.color = color;
-				this.vx = vx;
-				this.vy = vy;
-				this.gv = gv;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			Particle.prototype.update = function(){
-				this.vy += this.gv;
-				this.position.x += this.vx;
-				this.position.y += this.vy;
-				this.draw();
-				if(this.position.x > cw) this.position.x -= cw;
-				if(this.position.y > ch) this.vy = -this.vy;
-			};
-			
+
+			//Particleクラス
+			class Particle {
+				constructor(scale, color, vx, vy, gv){
+					this.scale = scale;
+					this.color = color;
+					this.vx = vx;
+					this.vy = vy;
+					this.gv = gv;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+				update(){
+					this.vy += this.gv;
+					this.position.x += this.vx;
+					this.position.y += this.vy;
+					this.draw();
+					if(this.position.x > cw) this.position.x -= cw;
+					if(this.position.y > ch) this.vy = -this.vy;
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -1114,7 +1067,7 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].update();
 				}
 			}
@@ -1128,7 +1081,6 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 			function getRandomScale(){
 				return (Math.random()*(8-3))+3;
 			}
-			
 		</script>
 	</head>
 	<body onload="init();">
@@ -1139,9 +1091,9 @@ updateっていう処理を71行目で追加して、83行目たりでそれを�
 \end{lstlisting}
 
 \subsubsection{04-304.html　とある点からの吹き出し}
-getRandomVelocity()を102行目あたりで定義。39行目で利用。
+getRandomVelocity()を96行目あたりで定義。34行目で利用。
 
-40行目あたりで左右の真ん中、上から1/4の位置からスタートする様に設定してる。
+35,36行目あたりで左右の真ん中、上から1/4の位置からスタートする様に設定してる。
 
 \begin{lstlisting}[caption=とある点からの吹き出し]
 <!DOCTYPE html>
@@ -1150,25 +1102,20 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			let ch;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -1181,7 +1128,7 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(getRandomScale(), "rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")", getRandomVelocity(), getRandomVelocity(), 1);
 					particles[i].position.x = cw/2;
 					particles[i].position.y = ch/4;
@@ -1193,37 +1140,36 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
 			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, vx, vy, gv){
-				this.scale = scale;
-				this.color = color;
-				this.vx = vx;
-				this.vy = vy;
-				this.gv = gv;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			Particle.prototype.update = function(){
-				this.vy += this.gv;
-				this.position.x += this.vx;
-				this.position.y += this.vy;
-				this.draw();
-				if(this.position.x > cw) this.position.x -= cw;
-				if(this.position.y > ch) this.vy = -this.vy;
-			};
-			
+			//Particleクラス
+			class Particle {
+				constructor(scale, color, vx, vy, gv){
+					this.scale = scale;
+					this.color = color;
+					this.vx = vx;
+					this.vy = vy;
+					this.gv = gv;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+				update(){
+					this.vy += this.gv;
+					this.position.x += this.vx;
+					this.position.y += this.vy;
+					this.draw();
+					if(this.position.x > cw) this.position.x -= cw;
+					if(this.position.y > ch) this.vy = -this.vy;
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -1231,7 +1177,7 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].update();
 				}
 			}
@@ -1248,7 +1194,6 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 			function getRandomVelocity(){
 				return Math.random()*20-10;
 			}
-			
 		</script>
 	</head>
 	<body onload="init();">
@@ -1259,13 +1204,13 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 \end{lstlisting}
 
 \subsubsection{04-305.html　線の追加}
-22行目で線の密度や、配列を追加。
+17,18行目で線の密度や、配列を追加。
 
-88行目からLineというオブジェクトを追加
+84行目からLineというクラスを追加
 
-142行目あたりでgetRandomX(),getRandomY(),getRandomWidth()を追加
+141行目あたりでgetRandomX(),getRandomY(),getRandomWidth()を追加
 
-48行目で線を初期化、128行目で更新をしている。
+42行目で線を初期化、126行目で更新をしている。
 \begin{lstlisting}[caption=線の追加]
 <!DOCTYPE html>
 <html>
@@ -1273,28 +1218,23 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			let ch;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
-			var density_line = 10;
-			var lines = [];
+			const density_line = 10;
+			let lines = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -1307,14 +1247,14 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(getRandomScale(), "rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")", getRandomVelocity(), getRandomVelocity(), 1);
 					particles[i].position.x = cw/2;
 					particles[i].position.y = ch/4;
 					particles[i].draw();			
 				}
 				//線の初期化
-				for(var j=0;j < density_line; j++){
+				for(let j=0;j < density_line; j++){
 					lines[j] = new Line(getRandomX(), getRandomY(), getRandomVelocity(), getRandomVelocity(),getRandomX(), getRandomY(), getRandomVelocity(), getRandomVelocity(),"rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")",getRandomWidth(), 1);
 					lines[j].draw();
 				}
@@ -1324,64 +1264,68 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
 			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, vx, vy, gv){
-				this.scale = scale;
-				this.color = color;
-				this.vx = vx;
-				this.vy = vy;
-				this.gv = gv;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			Particle.prototype.update = function(){
-				this.vy += this.gv;
-				this.position.x += this.vx;
-				this.position.y += this.vy;
-				this.draw();
-				if(this.position.x > cw) this.position.x -= cw;
-				if(this.position.y > ch) this.vy = -this.vy;
-			};
-			
-			var Line = function(x1, y1, vx1, vy1, x2, y2, vx2, vy2, color, width, gv){
-				this.position1 = {x:x1, y:y1};
-				this.v1 = {x:vx1, y:vy1};
-				this.position2 = {x:x2, y:y2};
-				this.v2 = {x:vx2, y:vy2};
-				this.color = color;
-				this.width = width;
-				this.gv = gv;
-			};
-			Line.prototype.draw = function(){
-				ctx.strokeStyle = this.color;
-				ctx.lineWidth = this.width;
-				ctx.beginPath();
-				ctx.moveTo(this.position1.x, this.position1.y);
-				ctx.lineTo(this.position2.x, this.position2.y);
-				ctx.stroke();
-			};
-			Line.prototype.update = function(){
-				this.v1.y += this.gv;
-				this.v2.y += this.gv;
-				this.position1.x += this.v1.x;
-				this.position1.y += this.v1.y;
-				this.position2.x += this.v2.x;
-				this.position2.y += this.v2.y;
-				this.draw();
-				if(this.position1.y > ch) this.v1.y = -this.v1.y;
-				if(this.position2.y > ch) this.v2.y = -this.v2.y;
-			};
+			//Particleクラス
+			class Particle {
+				constructor(scale, color, vx, vy, gv){
+					this.scale = scale;
+					this.color = color;
+					this.vx = vx;
+					this.vy = vy;
+					this.gv = gv;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+				update(){
+					this.vy += this.gv;
+					this.position.x += this.vx;
+					this.position.y += this.vy;
+					this.draw();
+					if(this.position.x > cw) this.position.x -= cw;
+					if(this.position.y > ch) this.vy = -this.vy;
+				}
+			}
+
+			//Lineクラス
+			class Line {
+				constructor(x1, y1, vx1, vy1, x2, y2, vx2, vy2, color, width, gv){
+					this.position1 = {x:x1, y:y1};
+					this.v1 = {x:vx1, y:vy1};
+					this.position2 = {x:x2, y:y2};
+					this.v2 = {x:vx2, y:vy2};
+					this.color = color;
+					this.width = width;
+					this.gv = gv;
+				}
+				draw(){
+					ctx.strokeStyle = this.color;
+					ctx.lineWidth = this.width;
+					ctx.beginPath();
+					ctx.moveTo(this.position1.x, this.position1.y);
+					ctx.lineTo(this.position2.x, this.position2.y);
+					ctx.stroke();
+				}
+				update(){
+					this.v1.y += this.gv;
+					this.v2.y += this.gv;
+					this.position1.x += this.v1.x;
+					this.position1.y += this.v1.y;
+					this.position2.x += this.v2.x;
+					this.position2.y += this.v2.y;
+					this.draw();
+					if(this.position1.y > ch) this.v1.y = -this.v1.y;
+					if(this.position2.y > ch) this.v2.y = -this.v2.y;
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -1389,12 +1333,12 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].update();
 				}
 				
 				//線の描画
-				for(var j=0;j < density_line; j++){
+				for(let j=0;j < density_line; j++){
 					lines[j].update();
 				}
 			}
@@ -1420,7 +1364,6 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 			function getRandomVelocity(){
 				return Math.random()*20-10;
 			}
-			
 		</script>
 	</head>
 	<body onload="init();">
@@ -1431,11 +1374,11 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 \end{lstlisting}
 
 \subsubsection{04-306.html　三角形の追加}
-25行目で三角形の密度や、配列を追加。
+20行目で三角形の密度や、配列を追加。
 
 124行目から三角形というオブジェクトを追加
 
-56行目で三角形を初期化、176行目で更新をしている。
+50行目で三角形を初期化、177行目で更新をしている。
 
 \begin{lstlisting}[caption=三角形の追加]
 <!DOCTYPE html>
@@ -1444,31 +1387,26 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 		<title>Canvas Test</title>
 		<script type="text/javascript">
 			//canvasの中身を指し示すもの
-			var ctx;
+			let ctx;
 			//canvasのwidth 幅
-			var cw;
+			let cw;
 			//canvasのheight 高さ
-			var ch;
-			
-			//移動速度
-			var speed = 20;
-			var x = 0;
-			var target_x = 400;
+			let ch;
 			
 			//パーティクルの準備
-			var density = 100; //パーティクルの密度
-			var particles = [];
+			const density = 100; //パーティクルの密度
+			let particles = [];
 			
-			var density_line = 10;
-			var lines = [];
+			const density_line = 10;
+			let lines = [];
 			
-			var density_tri = 10;
-			var tris = [];
+			const density_tri = 10;
+			let tris = [];
 			
 			//初期化処理
 			function init(){
 				//IDがmycanvasのものをcanvasという変数にいれておく
-				var canvas = document.getElementById('mycanvas');
+				let canvas = document.getElementById('mycanvas');
 				//canvasが存在しないか、canvasの中身がなければ処理終了
 				if(!canvas ||!canvas.getContext){
 					return false;
@@ -1481,19 +1419,19 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				ch = canvas.height;
 				
 				//円の初期化
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i] = new Particle(getRandomScale(), "rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")", getRandomVelocity(), getRandomVelocity(), 1);
 					particles[i].position.x = cw/2;
 					particles[i].position.y = ch/4;
 					particles[i].draw();			
 				}
 				//線の初期化
-				for(var j=0;j < density_line; j++){
+				for(let j=0;j < density_line; j++){
 					lines[j] = new Line(getRandomX(), getRandomY(), getRandomVelocity(), getRandomVelocity(),getRandomX(), getRandomY(), getRandomVelocity(), getRandomVelocity(),"rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")",getRandomWidth(), 1);
 					lines[j].draw();
 				}
 				//三角形の初期化
-				for(var k=0;k<density_tri;k++){
+				for(let k=0;k<density_tri;k++){
 					tris[k] = new Tri(getRandomX(), getRandomY(), getRandomVelocity(), getRandomVelocity(),getRandomX(), getRandomY(), getRandomVelocity(), getRandomVelocity(),getRandomX(), getRandomY(), getRandomVelocity(), getRandomVelocity(),"rgba("+getRandomColor()+","+getRandomColor()+","+getRandomColor()+","+getRandomAlpha()+")",getRandomWidth(), 1);
 					tris[k].draw();
 				}
@@ -1503,100 +1441,107 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				
 				//一定時間ごとに書き換える
 				setInterval("draw()",33);
-
 			}
 			
-			//オブジェクト初期化処理
-			var Particle = function(scale, color, vx, vy, gv){
-				this.scale = scale;
-				this.color = color;
-				this.vx = vx;
-				this.vy = vy;
-				this.gv = gv;
-				this.position = {
-					x: 100,
-					y: 100
-				};
-			};
-			Particle.prototype.draw = function() {
-				ctx.beginPath();
-				ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
-				ctx.fillStyle = this.color;
-				ctx.fill();
-			};
-			Particle.prototype.update = function(){
-				this.vy += this.gv;
-				this.position.x += this.vx;
-				this.position.y += this.vy;
-				this.draw();
-				if(this.position.x > cw) this.position.x -= cw;
-				if(this.position.y > ch) this.vy = -this.vy;
-			};
+			//Particleクラス
+			class Particle {
+				constructor(scale, color, vx, vy, gv){
+					this.scale = scale;
+					this.color = color;
+					this.vx = vx;
+					this.vy = vy;
+					this.gv = gv;
+					this.position = {
+						x: 100,
+						y: 100
+					};
+				}
+				draw(){
+					ctx.beginPath();
+					ctx.arc(this.position.x, this.position.y, this.scale, 0, 2*Math.PI, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+				update(){
+					this.vy += this.gv;
+					this.position.x += this.vx;
+					this.position.y += this.vy;
+					this.draw();
+					if(this.position.x > cw) this.position.x -= cw;
+					if(this.position.y > ch) this.vy = -this.vy;
+				}
+			}
+
+			//Lineクラス
+			class Line {
+				constructor(x1, y1, vx1, vy1, x2, y2, vx2, vy2, color, width, gv){
+					this.position1 = {x:x1, y:y1};
+					this.v1 = {x:vx1, y:vy1};
+					this.position2 = {x:x2, y:y2};
+					this.v2 = {x:vx2, y:vy2};
+					this.color = color;
+					this.width = width;
+					this.gv = gv;
+				}
+				draw(){
+					ctx.strokeStyle = this.color;
+					ctx.lineWidth = this.width;
+					ctx.beginPath();
+					ctx.moveTo(this.position1.x, this.position1.y);
+					ctx.lineTo(this.position2.x, this.position2.y);
+					ctx.stroke();
+				}
+				update(){
+					this.v1.y += this.gv;
+					this.v2.y += this.gv;
+					this.position1.x += this.v1.x;
+					this.position1.y += this.v1.y;
+					this.position2.x += this.v2.x;
+					this.position2.y += this.v2.y;
+					this.draw();
+					if(this.position1.y > ch) this.v1.y = -this.v1.y;
+					if(this.position2.y > ch) this.v2.y = -this.v2.y;
+				}
+			}
 			
-			var Line = function(x1, y1, vx1, vy1, x2, y2, vx2, vy2, color, width, gv){
-				this.position1 = {x:x1, y:y1};
-				this.v1 = {x:vx1, y:vy1};
-				this.position2 = {x:x2, y:y2};
-				this.v2 = {x:vx2, y:vy2};
-				this.color = color;
-				this.width = width;
-				this.gv = gv;
-			};
-			Line.prototype.draw = function(){
-				ctx.strokeStyle = this.color;
-				ctx.lineWidth = this.width;
-				ctx.beginPath();
-				ctx.moveTo(this.position1.x, this.position1.y);
-				ctx.lineTo(this.position2.x, this.position2.y);
-				ctx.stroke();
-			};
-			Line.prototype.update = function(){
-				this.v1.y += this.gv;
-				this.v2.y += this.gv;
-				this.position1.x += this.v1.x;
-				this.position1.y += this.v1.y;
-				this.position2.x += this.v2.x;
-				this.position2.y += this.v2.y;
-				this.draw();
-				if(this.position1.y > ch) this.v1.y = -this.v1.y;
-				if(this.position2.y > ch) this.v2.y = -this.v2.y;
-			};
-			var Tri = function(x1, y1, vx1, vy1, x2, y2, vx2, vy2, x3, y3, vx3, vy3, color, width, gv){
-				this.position1 = {x:x1, y:y1};
-				this.v1 = {x:vx1, y:vy1};
-				this.position2 = {x:x2, y:y2};
-				this.v2 = {x:vx2, y:vy2};
-				this.position3 = {x:x3, y:y3};
-				this.v3 = {x:vx3, y:vy3};
-				this.color = color;
-				this.width = width;
-				this.gv = gv;
-			};
-			Tri.prototype.draw = function(){
-				ctx.strokeStyle = this.color;
-				ctx.lineWidth = this.width;
-				ctx.beginPath();
-				ctx.moveTo(this.position1.x, this.position1.y);
-				ctx.lineTo(this.position2.x, this.position2.y);
-				ctx.lineTo(this.position3.x, this.position3.y);
-				ctx.lineTo(this.position1.x, this.position1.y);
-				ctx.stroke();
-			};
-			Tri.prototype.update = function(){
-				this.v1.y += this.gv;
-				this.v2.y += this.gv;
-				this.v3.y += this.gv;
-				this.position1.x += this.v1.x;
-				this.position1.y += this.v1.y;
-				this.position2.x += this.v2.x;
-				this.position2.y += this.v2.y;
-				this.position3.x += this.v3.x;
-				this.position3.y += this.v3.y;
-				this.draw();
-				if(this.position1.y > ch) this.v1.y = -this.v1.y;
-				if(this.position2.y > ch) this.v2.y = -this.v2.y;
-				if(this.position3.y > ch) this.v3.y = -this.v3.y;
-			};
+			class Tri {
+				constructor(x1, y1, vx1, vy1, x2, y2, vx2, vy2, x3, y3, vx3, vy3, color, width, gv){
+					this.position1 = {x:x1, y:y1};
+					this.v1 = {x:vx1, y:vy1};
+					this.position2 = {x:x2, y:y2};
+					this.v2 = {x:vx2, y:vy2};
+					this.position3 = {x:x3, y:y3};
+					this.v3 = {x:vx3, y:vy3};
+					this.color = color;
+					this.width = width;
+					this.gv = gv;
+				}
+				draw(){
+					ctx.strokeStyle = this.color;
+					ctx.lineWidth = this.width;
+					ctx.beginPath();
+					ctx.moveTo(this.position1.x, this.position1.y);
+					ctx.lineTo(this.position2.x, this.position2.y);
+					ctx.lineTo(this.position3.x, this.position3.y);
+					ctx.lineTo(this.position1.x, this.position1.y);
+					ctx.stroke();
+				}
+				update(){
+					this.v1.y += this.gv;
+					this.v2.y += this.gv;
+					this.v3.y += this.gv;
+					this.position1.x += this.v1.x;
+					this.position1.y += this.v1.y;
+					this.position2.x += this.v2.x;
+					this.position2.y += this.v2.y;
+					this.position3.x += this.v3.x;
+					this.position3.y += this.v3.y;
+					this.draw();
+					if(this.position1.y > ch) this.v1.y = -this.v1.y;
+					if(this.position2.y > ch) this.v2.y = -this.v2.y;
+					if(this.position3.y > ch) this.v3.y = -this.v3.y;
+				}
+			}
 			
 			function draw(){
 				//画面をリセットする
@@ -1604,16 +1549,16 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 				ctx.fillRect(0,0,cw,ch);
 				
 				//円の描画
-				for(var i=0;i < density; i++){
+				for(let i=0;i < density; i++){
 					particles[i].update();
 				}
 				
 				//線の描画
-				for(var j=0;j < density_line; j++){
+				for(let j=0;j < density_line; j++){
 					lines[j].update();
 				}
 				//三角形の描画
-				for(var k=0;k < density_tri; k++){
+				for(let k=0;k < density_tri; k++){
 					tris[k].update();
 				}
 			}
@@ -1639,7 +1584,6 @@ getRandomVelocity()を102行目あたりで定義。39行目で利用。
 			function getRandomVelocity(){
 				return Math.random()*20-10;
 			}
-			
 		</script>
 	</head>
 	<body onload="init();">
