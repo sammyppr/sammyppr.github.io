@@ -121,6 +121,14 @@ Lumetriスコープでも、RGB/YUVの表示が選べます。
 [参考:vol.20 カラー補正におけるLumetriスコープの役割を知る - Adobe Premiere Pro / 藤原ななえ by OFFICE 7e](https://www.youtube.com/watch?v=AwnsqCu-kvk)
 
 ---
+### 注意...
+自分のバージョンだと、たまにLumetriスコープが反応していない時があります。そんな時は
+- 時間を変えてみる
+- 一度違うパネルを開いてからLumetriスコープに戻す
+
+などしてみましょう。
+
+---
 ### ベクトルスコープ
 映像内の色相と輝度を測定したモニターです。
 - 色相：色の種類
