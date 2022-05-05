@@ -21,6 +21,14 @@ sudo xcodebuild -license
 ```
 で「return」をした後「agree」とする必要あり。
 
+---
+## UnrealEngineが重い...
+Unreal Engineはどの環境でもさくさく動くアプリではなく、環境を選びます。
+しかし、設定によって軽量にすることはある程度は可能なので、試してみましょう。
+- [UE4 エディター動作を極限まで軽くしてみる](https://unrealengine.hatenablog.com/entry/2014/10/24/212222){:target="_blank"}
+- [【UE4】作業を快適に行うための個人的設定](https://kazupon.org/ue4-editor-my-opt-settings/){:target="_blank"}
+
+---
 ## 照明(DMX)
 DMXはいらゆるライブ照明（ムービングライト）などの機器を制御するための通信プロトコル。
 ライブイベント業界では、スタンダードな規格で、かなり昔から使われている。
