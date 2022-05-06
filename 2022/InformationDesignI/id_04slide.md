@@ -617,14 +617,18 @@ background-color: red;
 <html>
 <head>
    <meta charset="UTF-8">
-   <title>継承の確認</title>
+   <title>レイアウト</title>
    <link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 <body>
    <header>
       ヘッダー部分
    </header>
-   <main>
+   <main>1. [CSSの基礎](#cssの基礎)
+   1. [Chapter03-01 CSSの基本文法](#chapter03-01-cssの基本文法)
+   2. [Chapter03-02 CSSを記述する場所とCSSの検証について](#chapter03-02-cssを記述する場所とcssの検証について)
+   3. [Chapter03-03 CSSの「継承」と「ボックスモデル」の考え方](#chapter03-03-cssの継承とボックスモデルの考え方)
+   4. [Chapter03-04 ブラウザーのデフォルトCSS](#chapter03-04-ブラウザーのデフォルトcss)
       コンテンツ部分
    </main>
    <footer>
