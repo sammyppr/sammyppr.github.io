@@ -10,3 +10,7 @@
 ## Unity マニュアル
 - [Unity Documentation](https://docs.unity3d.com/ja/2019.3/Manual/UnityBasics.html)
 - [Unity 入門の森](https://3dunity.org/)
+
+## Unity進め方
+- 今年は、2021.3.1f1を基本として動く
+- まずは、[Roll-a-Ball](https://learn.unity.com/project/bolt-roll-a-ball-tutorial)を進めよう
