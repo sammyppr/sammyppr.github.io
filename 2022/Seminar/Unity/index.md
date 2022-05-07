@@ -14,3 +14,5 @@
 ## Unity進め方
 - 今年は、2021.3.1f1を基本として動く
 - まずは、[Roll-a-Ball](https://learn.unity.com/project/bolt-roll-a-ball-tutorial)を進めよう
+
+[![2021.3.1f1 VisualScripting対応版](https://img.youtube.com/vi/ckLBwbVfl14/0.jpg)](https://www.youtube.com/watch?v=ckLBwbVfl14)
