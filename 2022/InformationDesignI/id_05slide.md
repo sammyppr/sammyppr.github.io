@@ -48,7 +48,10 @@ HTML,CSSの基本について学びましたが、まだ、実際にどうデザ
 [PDF](kadai_05_line_if.pdf)
 [やってみた動画](https://www.youtube.com/watch?v=pBoKzm8oLJc)
 
-注意：.containerのheightは消してください。
+※ .containerのheightは消してください。
+※ 動画少し古いので、利用してるアプリVSCodeでないです。
+※ inputタグ横に飛び出る場合はSIZEの数字を小さくしてください。
+
 
 
 ## 画像の作成
