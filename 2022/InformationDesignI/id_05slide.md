@@ -48,9 +48,9 @@ HTML,CSSの基本について学びましたが、まだ、実際にどうデザ
 [PDF](kadai_05_line_if.pdf)
 [やってみた動画](https://www.youtube.com/watch?v=pBoKzm8oLJc)
 
-※ .containerのheightは消してください。
 ※ 動画少し古いので、利用してるアプリVSCodeでないです。
 ※ inputタグ横に飛び出る場合はSIZEの数字を小さくしてください。
+※ Footerの上に隙間ができる様であれば、値を調整してみよう。
 
 
 
