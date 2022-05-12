@@ -45,12 +45,11 @@ HTML,CSSの基本について学びましたが、まだ、実際にどうデザ
 6. styleタグを使って(外部でなくてもOK)、同じになる様にCSSを作成
 7. 知らなそうなHTMLタグ・CSSプロパティはPDFに書いてあります。
 
-[PDF](kadai_05_line_if.pdf)
-[やってみた動画](https://www.youtube.com/watch?v=pBoKzm8oLJc)
+[PDF](kadai_05_line_if.pdf)/[やってみた動画](https://www.youtube.com/watch?v=pBoKzm8oLJc)
 
 ※ 動画少し古いので、利用してるアプリVSCodeでないです。
 ※ inputタグ横に飛び出る場合はSIZEの数字を小さくしてください。
-※ Footerの上に隙間ができる様であれば、値を調整してみよう。
+※ Footerの上に隙間ができる様であれば、margin値を調整してみよう。
 
 
 
