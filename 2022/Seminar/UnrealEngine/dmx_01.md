@@ -3,8 +3,8 @@
 Unreal Engineで照明を置き、動かしてみる。
 
 ## 参考
-- [DMXテンプレートの概要]（https://docs.unrealengine.com/5.0/ja/dmx-template-in-unreal-engine/)
-- [How to simulate DMX using Level Sequencer unreal engine | lights pyro laser fireworks strobe water](https://www.youtube.com/watch?v=iDUID0-okdE)
+- [DMXテンプレートの概要](https://docs.unrealengine.com/5.0/ja/dmx-template-in-unreal-engine/)
+- [How to simulate DMX using Level Sequencer unreal engine lights pyro laser fireworks strobe water](https://www.youtube.com/watch?v=iDUID0-okdE)
 
 ## やってみよう
 ### 準備
