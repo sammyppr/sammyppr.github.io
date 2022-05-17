@@ -83,7 +83,7 @@ https://sammyppr.github.io/
 ### 準備
 あとで利用しますが、少し141MBと重たいので先にダウンロードを済ませておきましょう。
 
-[高度なノイズとリバーブの低減](https://helpx.adobe.com/jp/premiere-pro/how-to/advanced-noise-reverberation-reduction.html)
+[ノイズとリバーブの低減](https://helpx.adobe.com/jp/premiere-pro/how-to/reduce-noise-and-reverberation.html)
 
 からダウンロードしておきましょう。
 
