@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: サウンドデザイン演習 4.音響技術I マイク
+header: サウンドデザイン演習 5.音響技術II ミキサー
 footer: ""
 ---
 
-# サウンドデザイン演習 4.音響技術I マイク<!-- omit in toc -->
+# サウンドデザイン演習 5.音響技術II ミキサー<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
