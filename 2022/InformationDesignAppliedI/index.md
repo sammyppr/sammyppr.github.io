@@ -28,7 +28,7 @@ HTML5のCanvasによるアニメーション表現について学修する。
 6. [アプリ開発入門](./ida_06.md)
 HTML,CSS,JavaScriptを利用してのアプリ開発について学修する。
 
-7. [AI入門]
+7. [AI入門](./ida_07.md)
 JavaScriptのライブラリの利用について学修する。
 
 8. [CUI入門]
