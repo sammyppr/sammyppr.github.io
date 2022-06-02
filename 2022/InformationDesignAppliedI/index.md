@@ -31,7 +31,7 @@ HTML,CSS,JavaScriptを利用してのアプリ開発について学修する。
 7. [AI入門](./ida_07.md)
 JavaScriptのライブラリの利用について学修する。
 
-8. [CUI入門]
+8. [CUI入門](./ida_08.md)
 コンピュータをコマンドで操作するCUIについて学修する。
 
 9. [WordPress ---開発環境構築---]
