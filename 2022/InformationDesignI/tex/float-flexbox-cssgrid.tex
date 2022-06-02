@@ -1,8 +1,9 @@
-\documentclass[mingoth,11pt,a4j,uplatex]{jsarticle}
+\documentclass[mingoth,11pt,a4j,uplatex,dvipdfmx]{jsarticle}
 \usepackage[top=20truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
 \usepackage{moreverb}
 \usepackage{listings,jlisting} %日本語のコメントアウトをする場合jlistingが必要
 								% https://qiita.com/N_Matsukiyo/items/1199f07a0e1bf4fce29c
+\usepackage[dvips]{graphicx,color}
 
 % https://qiita.com/ta_b0_/items/2619d5927492edbb5b03
 \lstset{
@@ -44,7 +45,6 @@
 }
 
 \title{float / flexbox / css grid}
-\author{小林　統 \thanks{帝京平成大学現代ライフ学部人間文化学科メディア文化コース}}
 \date{\today}
 
 \setcounter{secnumdepth}{3}
@@ -206,7 +206,7 @@ headタグの中に次のCSSを入れて見てみよう。入力する前にど�
 \section{Flexboxは横並びに便利}
 \subsection{id08-flexbox.html}
 まずは、レイアウトは考えずにHTML,CSSを入力してみよう。lorem10, lorem20, lorem10, lorem5を使ったよ。
-\begin{lstlisting}[caption=基本のHTML,CSS1]
+\begin{lstlisting}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -356,8 +356,122 @@ flex-startをflex-end, center, space-between, space-around, stretchと変えて�
 https://www.sejuku.net/blog/56401
 
 
-\section{CSS Gridは...}
-\subsection{}
+\section{CSS Grid Layoutは簡単！}
+\subsection{id08-cssgrid.html}
+\begin{lstlisting}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grid Layout</title>
+    <style>
+        .container {
+            display: grid;
+        }
+        .item{color: white;}
+        .itemA{background-color: red;}
+        .itemB{background-color: green;}
+        .itemC{background-color: blue;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item itemA">A</div>
+        <div class="item itemB">B</div>
+        <div class="item itemC">C</div>
+    </div>
+</body>
+</html>
+\end{lstlisting}
+
+\subsection{トラックの指定をしよう}
+.containerの中に追加
+\begin{lstlisting}
+            grid-template-rows: 100px 50px;
+            grid-template-columns: 150px 1fr;
+\end{lstlisting}
+1行目の高さが100px, 2行目の高さが50px;
+
+1列目の幅が150px, 2列目の幅は残り幅(fr: fraction: 分数)という意味です。
+
+セルに順番に割り当てられましたね。
+
+\subsection{アイテムの配置をしよう 方法A：ライン番号でエリアを指定}
+id08-cssgrid.htmlをコピーしてid08-cssgrid-a.htmlとして作業しましょう。
+\begin{description}
+\item[gird-row] アイテムが占める行のライン番号を「/」で区切り指定する
+\item[grid-column] アイテムが占める列のライン番号を「/」で区切り指定する
+\end{description}
+Aを左に縦に使い、B,Cを右に上下に並べて見ましょう。
+.itemAに追加
+\begin{lstlisting}
+            grid-row: 1/3;
+\end{lstlisting}
+
+これで、目的は達せられましたが、ちゃんと全てを正しく指定した場合には以下の様になります。
+
+\begin{lstlisting}
+        .itemA{
+            grid-row: 1/3;
+            grid-column: 1/2;
+            background-color: red;
+        }
+        .itemB{
+            grid-row: 1/2;
+            grid-column: 2/3;
+            background-color: green;}
+        .itemC{
+            grid-row: 2/3;
+            grid-column: 2/3;
+            background-color: blue;
+        }
+\end{lstlisting}
+
+もし、エリアが被った場合にはどうなるのでしょうか？
+
+.itemCのgrid-rowを1/3にしたり,grid-columnを1/3にして見たりしましょう。
+
+HTMLの後ろに記載されてるものが上に乗っかる形になる様です。
+
+\subsection{アイテムの配置をしよう 方法B：エリアに名前をつけて指定する方法}
+id08-cssgrid.htmlをコピーしてid08-cssgrid-a.htmlとして作業しましょう。
+
+.containerに以下を追加して見ましょう。
+\begin{lstlisting}
+            grid-template-areas: 
+                "areaA areaB"
+                "areaA areaC";
+\end{lstlisting}
+これで各セルに名前をつけることができました。
+
+それでは、次にならって、.itemB, .itemCにもgrid-areaを設定してください。
+\begin{lstlisting}
+        .itemA{
+            grid-area: areaA;
+            background-color: red;
+        }
+\end{lstlisting}
+
+簡単でしょ？
+
+\section{Grid Layoutを試してみよう}
+方法A,方法Bで試してみよう。
+
+\includegraphics[width=8cm]{img/3column.png}
+
+時間余った人は、メインの中にFlexboxを使って、記事を3つ横に並べてみよう。
+
+参考
+https://qiita.com/kura07/items/e633b35e33e43240d363
+
+
+
+
+
+
+
+
+
 
 
 \flushright{以上}
