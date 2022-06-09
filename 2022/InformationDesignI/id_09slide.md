@@ -111,16 +111,15 @@ Bootstarpが素晴らしいことは変わりませんが、
 ```
 @media screen and (max-width: 640px){
    .container {
-      color: black;
-            grid-template-columns:none;
-            grid-template-rows:none;
-            grid-template-areas:
-               "header"
-               "nav"
-               "main"
-               "ad"
-               "side"
-               "footer";
+      grid-template-columns:none;
+      grid-template-rows:none;
+      grid-template-areas:
+         "header"
+         "nav"
+         "main"
+         "ad"
+         "side"
+         "footer";
    }
 }
 ```
