@@ -77,7 +77,7 @@ Bootstarpが素晴らしいことは変わりませんが、
 ---
 ### Bootstrapを使わないレスポンシブデザイン
 ```
-@media sereen and (min-width: 640px){
+@media screen and (min-width: 640px){
    CSSの指定
 }
 ```
