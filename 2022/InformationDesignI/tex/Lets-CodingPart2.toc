@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}はじめに}{2}{}%
+\contentsline {subsection}{\numberline {1.1}読み間違えないでね}{2}{}%
+\contentsline {subsection}{\numberline {1.2}注意}{2}{}%
+\contentsline {section}{\numberline {2}今後の方針}{2}{}%
+\contentsline {section}{\numberline {3}デザインしていこう}{2}{}%
+\contentsline {subsection}{\numberline {3.1}共通部分}{2}{}%
+\contentsline {subsection}{\numberline {3.2}worldnews}{3}{}%
+\contentsline {subsection}{\numberline {3.3}morenews}{4}{}%
+\contentsline {subsection}{\numberline {3.4}trending-child}{5}{}%
+\contentsline {subsection}{\numberline {3.5}happening-now-bigchild}{5}{}%
+\contentsline {subsection}{\numberline {3.6}happening-now-smallchild}{6}{}%
+\contentsline {subsection}{\numberline {3.7}time}{7}{}%
+\contentsline {subsection}{\numberline {3.8}メニューバー・フッター}{7}{}%
+\contentsline {subsection}{\numberline {3.9}注意}{7}{}%
+\contentsline {subsection}{\numberline {3.10}まとめ}{7}{}%
