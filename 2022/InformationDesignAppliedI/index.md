@@ -43,8 +43,9 @@ WordPressの開発環境の構築について学修する。
 WordPressのテーマ作成の雛形となるスターターテーマについて学修する。
 (変更) CSSでレイアウト
 
-11. [WordPress ---CSSカスタマイズ---]
+11. [WordPress ---CSSカスタマイズ---](./ida_11.md)
 WordPressのテーマのCSSカスタマイズについて学修する。
+(変更)Wordpress復習+α
 
 12.  [WordPress ---PHPカスタマイズ---]
 WordPressのテーマのPHPカスタマイズについて学修する。
