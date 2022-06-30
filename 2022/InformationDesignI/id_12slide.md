@@ -8,7 +8,7 @@ header: 情報デザイン演習I 12. WordPress基礎
 footer: ""
 ---
 
-# 情報デザイン演習I 11. Wordpress入門<!-- omit in toc -->
+# 情報デザイン演習I 12. WordPress基礎<!-- omit in toc -->
 > Wordpressの導入、及び投稿・固定ページについて学修する。
 
 ---
