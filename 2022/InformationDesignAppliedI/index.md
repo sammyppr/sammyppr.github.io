@@ -47,7 +47,7 @@ WordPressのテーマ作成の雛形となるスターターテーマについ�
 WordPressのテーマのCSSカスタマイズについて学修する。
 (変更)Wordpress復習+α
 
-12.  [WordPress ---PHPカスタマイズ---](./ida_11.md)
+12.  [WordPress ---PHPカスタマイズ---](./ida_12.md)
 WordPressのテーマのPHPカスタマイズについて学修する。
 (変更)Wordpress CSS,PHPカスタマイズ
 
