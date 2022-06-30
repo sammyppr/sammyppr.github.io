@@ -49,7 +49,7 @@ WordPressのテーマのCSSカスタマイズについて学修する。
 
 12.  [WordPress ---PHPカスタマイズ---](./ida_12.md)
 WordPressのテーマのPHPカスタマイズについて学修する。
-(変更 )Wordpress CSS,PHPカスタマイズ
+(変更 )Wordpress CSS,PHPカスタマイズ。
 
 13. [WordPressオリジナルテーマ制作I]
 14. [WordPressオリジナルテーマ制作II]
