@@ -51,8 +51,8 @@ WordPressのテーマのCSSカスタマイズについて学修する。
 WordPressのテーマのPHPカスタマイズについて学修する。
 (変更 )Wordpress CSS,PHPカスタマイズ
 
-13. [WordPressオリジナルテーマ制作I](変更 Wordpressによるポートフォリオサイトの制作I)(./ida_13.md)
-14. [WordPressオリジナルテーマ制作II](変更 Wordpressによるポートフォリオサイトの制作II)
+13. [WordPressオリジナルテーマ制作I](./ida_13.md) (変更 Wordpressによるポートフォリオサイトの制作I)
+14. [WordPressオリジナルテーマ制作II] (変更 Wordpressによるポートフォリオサイトの制作II)
 WordPressのポートフォリオサイトを制作する。
 
 15. [講評]
