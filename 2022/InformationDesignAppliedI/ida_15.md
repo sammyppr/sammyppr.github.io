@@ -15,7 +15,7 @@
 
 ## スライド
 
-- [スライド資料](./ida_14slide.pdf){:target="_blank"}
+なし
 
 ## 最終課題について
 wordpressで制作したポートフォリオサイトを静的化し、QuicktimePlayerで画面収録したmovファイルをNASに提出せよ。
