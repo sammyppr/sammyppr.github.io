@@ -34,22 +34,22 @@
 
 以下、動画に沿ってやってみましょう。
 
-[![](https://img.youtube.com/vi/lrjKPs1EH3Q/0.jpg)](https://www.youtube.com/watch?v=lrjKPs1EH3Q)
+[![](https://img.youtube.com/vi/lrjKPs1EH3Q/0.jpg)](https://www.youtube.com/watch?v=lrjKPs1EH3Q){:target="_blank"}
 
 ### Part2 画像の準備
-[![](https://img.youtube.com/vi/AGxqpeX3OcE/0.jpg)](https://www.youtube.com/watch?v=AGxqpeX3OcE)
+[![](https://img.youtube.com/vi/AGxqpeX3OcE/0.jpg)](https://www.youtube.com/watch?v=AGxqpeX3OcE){:target="_blank"}
 
 ### Part2-2 写真の操作(余裕のある人むけ)
-[![](https://img.youtube.com/vi/qIZwmtVqenY/0.jpg)](https://www.youtube.com/watch?v=qIZwmtVqenY)
+[![](https://img.youtube.com/vi/qIZwmtVqenY/0.jpg)](https://www.youtube.com/watch?v=qIZwmtVqenY){:target="_blank"}
 
 ### Part3 配置とクリッピングマスクとレイアウト
-[![](https://img.youtube.com/vi/_0quQB5dDtQ/0.jpg)](https://www.youtube.com/watch?v=_0quQB5dDtQ)
+[![](https://img.youtube.com/vi/_0quQB5dDtQ/0.jpg)](https://www.youtube.com/watch?v=_0quQB5dDtQ){:target="_blank"}
 
 ### Part4 文字の入力
-[![](https://img.youtube.com/vi/qtHH3LLQtV0/0.jpg)](https://www.youtube.com/watch?v=qtHH3LLQtV0)
+[![](https://img.youtube.com/vi/qtHH3LLQtV0/0.jpg)](https://www.youtube.com/watch?v=qtHH3LLQtV0){:target="_blank"}
  
 ### Part5 PDFの生成
-[![](https://img.youtube.com/vi/UTZy6SbEUlc/0.jpg)](https://www.youtube.com/watch?v=UTZy6SbEUlc)
+[![](https://img.youtube.com/vi/UTZy6SbEUlc/0.jpg)](https://www.youtube.com/watch?v=UTZy6SbEUlc){:target="_blank"}
 
 ### Part6 印刷
 印刷したい人は、教員SAに申し出てください。(人数が多いため、対応できないかもしれません...)
