@@ -23,12 +23,18 @@
 [こんなホームページ作成しよう](hp/click-master/index.html){:target="_blank"}
 
 ### Webインスペクターを使ってみよう
+動画ではSafari使ってますが、授業ではChrome使うと思います。(やれることは一緒です)
 [![](https://img.youtube.com/vi/1FgLJPpG4hU/0.jpg)](https://www.youtube.com/watch?v=1FgLJPpG4hU){:target="_blank"}
 
 ### 一番短いホームページ
+「Open with Live Server」がよくわからない人、教員・SA呼んでください。
 [![](https://img.youtube.com/vi/FWhqiwn-rXs/0.jpg)](https://www.youtube.com/watch?v=FWhqiwn-rXs){:target="_blank"}
 
 ### テンプレートを探そう
+去年作った動画なので、次からダウンロードしてください。Clickダウンロードするのに、メールアドレス要らなくなっているようです。
+
+[無料のHTML5 Bootstrapテンプレート【2022年版】おすすめ25選！ホームページを簡単にカスタマイズ](https://www.seleqt.net/design/open-source-website-templates/){:target="_blank"}
+
 [![](https://img.youtube.com/vi/jac_PdCbuSg/0.jpg)](https://www.youtube.com/watch?v=jac_PdCbuSg){:target="_blank"}
 
 ### 文字を変えよう
