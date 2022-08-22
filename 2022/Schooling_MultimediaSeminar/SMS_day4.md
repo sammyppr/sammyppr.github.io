@@ -39,7 +39,7 @@
 [![](https://img.youtube.com/vi/f14QbSceKn4/0.jpg)](https://www.youtube.com/watch?v=f14QbSceKn4){:target="_blank"}
 
 ### シーケンスの作成 ソース/プログラムについて
-https://www.youtube.com/watch?v=hyMwWjIBu_I{:target="_blank"}
+[![](https://img.youtube.com/vi/hyMwWjIBu_I/0.jpg)](https://www.youtube.com/watch?v=hyMwWjIBu_I){:target="_blank"}
 
 ### 素材の配置方法
 [![](https://img.youtube.com/vi/5BDdiHaTpyQ/0.jpg)](https://www.youtube.com/watch?v=5BDdiHaTpyQ){:target="_blank"}
