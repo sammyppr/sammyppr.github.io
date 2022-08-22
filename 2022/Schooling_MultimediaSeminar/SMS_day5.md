@@ -28,22 +28,23 @@
 
 
 ### GarageBandを使ってみよう
-http://nas1-mc.thu.ac.jp/~o.kobayashi/2020BasicTrainingInDigitalDesignSkillsII/2020BTinDDS2_04.html
+[動画](http://nas1-mc.thu.ac.jp/~o.kobayashi/2020BasicTrainingInDigitalDesignSkillsII/2020BTinDDS2_04.html
+){:target="_blank"}
 
 
 ### Studio One Primeを利用して、作曲してみよう！
-[動画](http://nas1-mc.thu.ac.jp/~o.kobayashi/2021Schooling/mov_schooling2020/day5/sound.mp4)
+[動画](http://nas1-mc.thu.ac.jp/~o.kobayashi/2021Schooling/mov_schooling2020/day5/sound.mp4){:target="_blank"}
 
 
 ### AfterEffectsでアニメーションにトライしよう
-[AfterEffects入門](http://nas1-mc.thu.ac.jp/~o.kobayashi/2020BasicTrainingInDigitalDesignSkillsII/2020BTinDDS2_07.html)
+[AfterEffects入門](http://nas1-mc.thu.ac.jp/~o.kobayashi/2020BasicTrainingInDigitalDesignSkillsII/2020BTinDDS2_07.html){:target="_blank"}
 
 Animateは飛ばしてください。
 
 [AfterEffects入門2](http://nas1-mc.thu.ac.jp/~o.kobayashi/2020BasicTrainingInDigitalDesignSkillsII/2020BTinDDS2_08.html)
 
 ### サウンドデザイン
-[PremiereProで映像に音楽や効果音をつけてみよう](http://nas1-mc.thu.ac.jp/~o.kobayashi/2021OC/topic_sounddesign.html)
+[PremiereProで映像に音楽や効果音をつけてみよう](http://nas1-mc.thu.ac.jp/~o.kobayashi/2021OC/topic_sounddesign.html){:target="_blank"}
 
 ちょっと準備が必要ですので、申し出てください。
 
