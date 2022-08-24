@@ -56,3 +56,8 @@ PremiereProを用いたシンプルな編集の方法について学修する。
 学修した表現方法についてまとめる。
 
 注意事項：毎回ノートパソコン(Win/Mac)を持参すること。
+
+## 授業後追記
+### Motion 周期表
+モーショングラフィックスのアイディアがまとまっています。
+[motiontable](http://foxcodex.html.xdomain.jp/index.html){:target="_blank"}
