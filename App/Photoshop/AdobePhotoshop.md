@@ -8,7 +8,6 @@
 
 - [Adobe Photoshop 使い方](#adobe-photoshop-使い方)
   - [目次](#目次)
-  - [スライド](#スライド)
   - [Photoshop基本](#photoshop基本)
     - [基礎知識](#基礎知識)
       - [色について](#色について)
@@ -28,11 +27,6 @@
       - [レイヤーを使い倒そう](#レイヤーを使い倒そう)
     - [Adobe Sensei](#adobe-sensei)
 
----
-
-## スライド
-
-[スライド資料](./AdobePhotoshop_slide.pdf){:target="_blank"}
 
 ---
 ---
