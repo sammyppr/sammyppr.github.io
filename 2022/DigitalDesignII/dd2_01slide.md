@@ -8,7 +8,8 @@ header: デジタルデザイン基礎演習 第2ターム 1. Illustrator復習
 footer: ""
 ---
 
-# デジタルデザイン基礎演習 第2ターム 1. Illustrator復習<!-- omit in toc -->
+# デジタルデザイン基礎演習 第2ターム 
+> 1. Illustrator復習<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
@@ -173,7 +174,16 @@ https://sammyppr.github.io
 
 ---
 ### GarageBand
-前期に、昨年までやっていたGarageBandをやっていないようなので、4回目に入れるかもしれないです。
+前期に、昨年までやっていたGarageBandをやっていないようなので、2回目に入れる予定です。
+
+---
+### 評価方法
+- 毎回の提出物
+- 自由課題
+- 他の人の自由課題を見たレポート
+
+にて評価します。
+
 
 # Illustrator復習<!-- omit in toc -->
 
