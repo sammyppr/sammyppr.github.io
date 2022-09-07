@@ -122,7 +122,7 @@ footer: ""
 
 ---
 ### ネットワークについて
-[ネットワークについて](./dd2_about_network.md)
+[ネットワーク利用について](https://sammyppr.github.io/2022/DigitalDesignII/dd2_about_network.html)
 
 ---
 ### iMacでの作業について
