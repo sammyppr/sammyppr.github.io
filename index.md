@@ -18,6 +18,8 @@ Welcome to sammyppr.github.io!
 
 ## Application
 - [Adobe Photoshop](App/Photoshop/AdobePhotoshop.md)
+- [DaVinci Resolve](App/DavinciResolve/index.md)
+
 
 ## Misc
 
