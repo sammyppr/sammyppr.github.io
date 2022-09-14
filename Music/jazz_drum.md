@@ -67,7 +67,7 @@
 5. +4泊目にスネアリムショット
 
 フェザリングキックはこれがわかりやすい
-- [Feathering The Bass Drum | Drum Lesson With John Riley](https://www.youtube.com/watch?v=paldJR6FlK4){:target="_blank"}
+- [Feathering The Bass Drum - Drum Lesson With John Riley](https://www.youtube.com/watch?v=paldJR6FlK4){:target="_blank"}
 
 ### メトロノームの使い方
 - [ドラム教則『ゼッタイ叩ける！ジャズ・ドラム超入門』冨永ちひろ Digest](https://www.youtube.com/watch?v=ynJg_DJVKvI&t=194s){:target="_blank"}
