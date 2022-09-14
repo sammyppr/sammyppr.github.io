@@ -130,13 +130,13 @@ AfterEffectsにて3D表現も可能ではありますが、本格的な3D表現�
 - Illustrator + 時間軸 $\fallingdotseq$ AfterEffects
 
 また、Animateという製品もありますが、それは
-- Illustraotr + 時間軸 + プログラミング $\fallingdotseq$ Animate
+- Illustrator + 時間軸 + プログラミング $\fallingdotseq$ Animate
 
-と言えます。
+と言えます。Animateで作ったモーショングラフィックス・インタラクティブ作品はWebでそのまま利用することができます。
 
 ---
 ### モーショングラフィックス<!-- omit in toc -->
-サンプルを見てみましょう。
+モーショングラフィックスのトレンドを見てみましょう。
 
 [Motion Graphics Trends 2022](https://www.youtube.com/watch?v=o4GuSJYSzrY&t=260s)
 
