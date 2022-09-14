@@ -20,7 +20,8 @@ Welcome to sammyppr.github.io!
 - [Adobe Photoshop](App/Photoshop/AdobePhotoshop.md)
 - [DaVinci Resolve](App/DavinciResolve/index.md)
 
-
+## Music
+- [Jazz Drum???](Music/jazz_drum.md)
 ## Misc
 
 - [マークダウン Memo](./markdown_memo.md)
