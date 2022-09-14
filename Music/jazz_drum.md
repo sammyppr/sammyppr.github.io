@@ -71,6 +71,8 @@
 
 ### メトロノームの使い方
 - [ドラム教則『ゼッタイ叩ける！ジャズ・ドラム超入門』冨永ちひろ Digest](https://www.youtube.com/watch?v=ynJg_DJVKvI&t=194s){:target="_blank"}
+
+
 1. 普通に4分音符で鳴らす
 2. テンポを半分にして2,4泊に感じる
 3. 3連符の3つ目に感じる(激ムズのはず！)
@@ -82,7 +84,7 @@
 
 ### え、でもかっこいいことやって目立ちたい！
 パラディドルをやりましょう。
-- [パラディドル　| 打楽器のための基礎練習メニュー](http://drum-percussion.info/category141/entry777.html){:target="_blank"}
+- [パラディドル - 打楽器のための基礎練習メニュー](http://drum-percussion.info/category141/entry777.html){:target="_blank"}
 
 - [How to use the Paradiddle-diddle ジャズドラムのしつけ パラディドルディドルを使ってみよう！](https://www.youtube.com/watch?v=IQwBtXzPRco){:target="_blank"}
 
@@ -103,6 +105,7 @@
 - ooxo
 - oxoo
 - xooo
+
 とバリエーションを変えられます。意図的にアクセントの位置を意識できると表現力が上がるでしょう。
 
 ### 一人で練習つまらない...
