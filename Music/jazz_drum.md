@@ -7,6 +7,7 @@
 ## 目次<!-- omit in toc -->
 
 - [Jazz Drum](#jazz-drum)
+  - [譜面](#譜面)
   - [超基本編](#超基本編)
     - [心構え](#心構え)
     - [頭と体](#頭と体)
@@ -18,6 +19,10 @@
     - [アクセントについて](#アクセントについて)
     - [一人で練習つまらない...](#一人で練習つまらない)
     - [その他参考](#その他参考)
+
+---
+## 譜面
+[The-real-book-sixth-edition.pdf](https://escuelasuperiordejazz.com/wp-content/uploads/2020/03/The-real-book-sixth-edition.pdf)
 
 ---
 ## 超基本編
