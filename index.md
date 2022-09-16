@@ -19,6 +19,7 @@ Welcome to sammyppr.github.io!
 ## Application
 - [Adobe Photoshop](App/Photoshop/AdobePhotoshop.md)
 - [DaVinci Resolve](App/DavinciResolve/index.md)
+- [Houdini](App/Houdini/index.md)
 
 ## Music
 - [Jazz Drum???](Music/jazz_drum.md)
