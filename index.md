@@ -22,8 +22,10 @@ Welcome to sammyppr.github.io!
 - [Houdini](App/Houdini/index.md)
 
 ## Music
-- [Jazz Drum???](Music/jazz_drum.md)
-- 
+- [Jazz](Music/Jazz/index.md)
+- [理論・EarTraining](Music/theory.md)
+
+
 ## Misc
 
 - [マークダウン Memo](./markdown_memo.md)

@@ -1,19 +1,12 @@
 # Jazz Drum
 
-[TOP に戻る](../index.md)
+[TOP に戻る](./index.md)
 
 ---
-
-## 
-教材増えそうなので、URL変えます。
-- [Jazz TOP](Jazz/index.md)
-
 
 ## 目次<!-- omit in toc -->
 
 - [Jazz Drum](#jazz-drum)
-  - [](#)
-  - [譜面](#譜面)
   - [超基本編](#超基本編)
     - [心構え](#心構え)
     - [頭と体](#頭と体)
@@ -24,11 +17,9 @@
     - [え、でもかっこいいことやって目立ちたい！](#えでもかっこいいことやって目立ちたい)
     - [アクセントについて](#アクセントについて)
     - [一人で練習つまらない...](#一人で練習つまらない)
-    - [その他参考](#その他参考)
-
----
-## 譜面
-[The-real-book-sixth-edition.pdf](https://escuelasuperiordejazz.com/wp-content/uploads/2020/03/The-real-book-sixth-edition.pdf)
+  - [その他参考](#その他参考)
+    - [リンク](#リンク)
+    - [リズム練習教本](#リズム練習教本)
 
 ---
 ## 超基本編
@@ -118,6 +109,13 @@
 **ジャズドラム練習用マイナスワン**でYouTubeを探しましょう。たくさん出てきます.
 - [YouTube ジャズドラム練習用マイナスワン](https://www.youtube.com/results?search_query=%E3%82%B8%E3%83%A3%E3%82%BA%E3%83%89%E3%83%A9%E3%83%A0%E7%B7%B4%E7%BF%92%E7%94%A8%E3%83%9E%E3%82%A4%E3%83%8A%E3%82%B9%E3%83%AF%E3%83%B3){:target="_blank"}
 
-### その他参考
+---
+## その他参考
+### リンク
 - [初心者でも１０分で叩けるジャズドラム入門　スイングやレガートなど基礎テクニック](https://www.youtube.com/watch?v=E65X2OBc6ns){:target="_blank"}
 - [ドラム初心者講座](https://www.soundhouse.co.jp/howto/drum/){:target="_blank"}
+
+### リズム練習教本
+[PROGRESSIVE STEP TO SYNCOPATION FOR THE MODERN DRUMMER](https://egorshvets.nethouse.ru/static/doc/0000/0000/0063/63844.kpvp3nh6v2.pdf)
+
+- 音符の上の音を左手、下の音を右手で練習
