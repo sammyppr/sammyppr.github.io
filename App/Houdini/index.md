@@ -17,6 +17,7 @@
 ---
 ## ページ構成
 - 初めに
+- [【初心者向け】これから始めるHoudini ロケット編 ](./houdini_rocket.md)
 - [ゼロから始めるHoudini](houdini_starting_from_scratch.md)
 
 徐々に追加していきます。
@@ -31,7 +32,7 @@
 
 作業した全ての工程がノードに保存されているため、後での修正変更に対して非常に柔軟なことが特徴です。
 
-割と難しいソフトという印象があり、Blenderなどで一通り3Dの製作工程について学んだ後に
+割と難しいソフトという印象があり、Blenderなどで一通り3Dの製作工程について学んだ後に手をつけた方が良いでしょう。
 
 ### インストール
 - [SideFX](https://www.sidefx.com/ja/){:target="_blank"} 
@@ -48,10 +49,11 @@
 ※ LAUNCHERでバージョン管理ができるので、こちらを使いましょう。
 
 ### 方針
+とっつきやすいのは、こちら。
+- [IndyZoneチャンネル 初心者向けこれから始めるHoudini ロケット編](https://www.youtube.com/watch?v=Yx_8UXbPUCU&list=PLDKz2hzFO3ndS6ot8zr2rV9i1E80nBNxo&index=1)
+
+
 SideFXの中の人、さつき先生の
 - [ゼロから始めるHoudini](https://www.youtube.com/playlist?list=PLAsWwUHApt3P92c3R1VjJrPJQNIfEijrT){:target="_blank"} 
 
-が、2022/7/25に公開されました。
-
-特殊なアプリでまず考え方を理解する必要があるので、これを元に解説していきます。
-(このタイミングではまだコンプリートしていないので、ゼミ生と攻略しながら資料作成しています。)
+が、2022/7/25に公開されました。内部の理解はこちらの方が詳しいです。
