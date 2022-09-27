@@ -101,3 +101,6 @@ while final written script
 is under 10 pages.
 
 と書いてあるため、短編にしか使えないかも...
+
+とりあえず、最初にこれみてみること。
+https://www.youtube.com/watch?v=SxzXcKWgzWg
