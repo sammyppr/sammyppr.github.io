@@ -124,5 +124,5 @@ AIリテラシーに入っていきます。
 
 また、進み方は1回で2講とはいっていますが、状況により変化するかも知れないので、1講ずつ別ドキュメントとしようと思います。
 
-- [01講](AI_literacy/cp_AI_01.pdf)
-- [02講](AI_literacy/cp_AI_02.pdf)
+- [01講](https://sammyppr.github.io/2022/ComputerPractice/AI_literacy/cp_AI_01.pdf)
+- [02講](https://sammyppr.github.io/2022/ComputerPractice/AI_literacy/cp_AI_02.pdf)
