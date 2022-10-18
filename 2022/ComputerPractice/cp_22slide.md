@@ -4,7 +4,7 @@ theme: default
 size: 4:3
 paginate: true
 headingDivider: 2
-header: コンピュータ演習 21. AIリテラシー Part3
+header: コンピュータ演習 21. AIリテラシー Part4
 footer: ""
 ---
 
@@ -18,7 +18,7 @@ https://www.youtube.com/playlist?list=PL_g66qvNMUfTi41G75an3JwffeJMeVcV3
 
 # コンピュータ演習 <!-- omit in toc --> 
 
-    20. AIリテラシー Part3
+    20. AIリテラシー Part4
 
 # 目次<!-- omit in toc -->
 - [はじめに](#はじめに)
@@ -71,11 +71,13 @@ http://noa-prolab.co.jp/download/
 # 今日の内容
 シラバスでは
 
-> 【第21回】Section3 Excel/STEP3 グラフを作成しましょう/Lesson1 基本的なグラフを作成しましょう (4)レーダーチャート/Lesson2 複合グラフを作成しましょう (1)複合グラフの作成
+> 【第22回】Section3 Excel/STEP3 グラフを作成しましょう/Lesson2 複合グラフを作成しましょう (2)グラフの印刷
 
-どんどん先に行きます。
+来週からシラバスでPowerPointになっているのでちょうど良い進み方かと思います。
 
 AIリテラシー引き続き行います。(全部で4回予定)
+
+来週は、「Office基礎と情報モラル」の教科書を持ってきましょう。
 
 ## AIリテラシー 概要
 
@@ -96,9 +98,12 @@ AIリテラシー引き続き行います。(全部で4回予定)
 
 余裕があればですが、9-14講の解説ドキュメントも作成しようと思っています。
 
-また、進み方は1回で2講とはいっていますが、状況により変化するかも知れないので、1講ずつ別ドキュメントとしようと思います。
 
-今日は基本的には「データをどう解析して、AIはどんなことをしているのか。また、データはどう扱うべきか」という内容です。
+今日は基本的には「データ・AIを扱うときに注意すること。また、データ・AIにまつわるセキュリティ」という内容です。
 
-- [05講](https://sammyppr.github.io/2022/ComputerPractice/AI_literacy/cp_AI_05.pdf)
-- [06講](https://sammyppr.github.io/2022/ComputerPractice/AI_literacy/cp_AI_06.pdf)
+終わりにmanabaへの感想提出と共に、ドリルについて説明します。
+
+- [07講](https://sammyppr.github.io/2022/ComputerPractice/AI_literacy/cp_AI_07.pdf)
+- [08講](https://sammyppr.github.io/2022/ComputerPractice/AI_literacy/cp_AI_08.pdf)
+
+
