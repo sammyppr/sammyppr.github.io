@@ -4,7 +4,7 @@ theme: default
 size: 4:3
 paginate: true
 headingDivider: 2
-header: コンピュータ演習 21. AIリテラシー Part4
+header: コンピュータ演習 22. AIリテラシー Part4
 footer: ""
 ---
 
@@ -18,7 +18,7 @@ https://www.youtube.com/playlist?list=PL_g66qvNMUfTi41G75an3JwffeJMeVcV3
 
 # コンピュータ演習 <!-- omit in toc --> 
 
-    20. AIリテラシー Part4
+    22. AIリテラシー Part4
 
 # 目次<!-- omit in toc -->
 - [はじめに](#はじめに)
