@@ -27,7 +27,7 @@
 6. [モダンExcel II->(変更)モダンExcel I](./mr6_06.md)
 モダンExcelを用いた分析・可視化について学修する。
 
-7. [Googleツール I]
+7. [Googleツール I->(変更)モダンExcel II](./mr6_07.md)
 Googleが提供する様々なツールについて学修する。
 
 8. [Googleツール II]
