@@ -26,6 +26,7 @@ https://www.youtube.com/playlist?list=PL_g66qvNMUfTi41G75an3JwffeJMeVcV3
   - [プレゼンテーションツール](#プレゼンテーションツール)
     - [今回学ぶこと](#今回学ぶこと)
     - [少しだけ...](#少しだけ)
+    - [教科書は...](#教科書は)
     - [それでは進めていきましょう。](#それでは進めていきましょう)
 
 # 初めに<!-- omit in toc -->
@@ -107,6 +108,10 @@ http://noa-prolab.co.jp/download/
 見やすくわかりやすいスライドを作成するべきです。少し紹介します。
 
 - [伝わるデザイン スライドの作り方](https://student.tsutawarudesign.com/powerpoint_slide/)
+
+### 教科書は...
+今日で終わりとします。
+
 
 ### それでは進めていきましょう。
 
