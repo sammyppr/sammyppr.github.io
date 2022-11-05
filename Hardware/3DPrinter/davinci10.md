@@ -68,5 +68,5 @@ https://www.xyzprinting.com/ja-JP/software
 - [XYZプリンティング ダヴィンチ 1.0チュートリアルビデオ - 初めての3Dモデルを作成してみよう](https://www.youtube.com/watch?v=33EHJjzR53w)
 - [XYZprinting Da Vinci 1.0 レビュー！](https://www.youtube.com/watch?v=H1VVJipAFZs)
 - [XYZprinting Da Vinci 1.0 3D Printer Full Review](https://www.youtube.com/watch?v=hlLcecDXces)
-- [https://www.youtube.com/watch?v=AHIrhZMZAig](https://www.youtube.com/watch?v=AHIrhZMZAig)
+- [XYZprinting Da Vinci 3D Printer - Calibrating the Bed!](https://www.youtube.com/watch?v=AHIrhZMZAig)
 
