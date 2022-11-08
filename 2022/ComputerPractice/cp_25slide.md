@@ -23,6 +23,7 @@ https://www.youtube.com/playlist?list=PL_g66qvNMUfTi41G75an3JwffeJMeVcV3
 # 目次<!-- omit in toc -->
 - [今日の内容](#今日の内容)
     - [今後の予定](#今後の予定)
+    - [UNIPAアンケート](#unipaアンケート)
   - [macOS](#macos)
   - [Excelテスト解説](#excelテスト解説)
   - [発表用スライド作成](#発表用スライド作成)
@@ -82,7 +83,8 @@ http://noa-prolab.co.jp/download/
 - 29回目：Excelテスト
 - 30回目：再テスト(29回目でクリアした人はなし)
 
-
+### UNIPAアンケート
+「2022年度パソコンの使用状況に関する回答のお願い」があります。ご協力よろしくお願いいたします。
 
 ## macOS
 ### OSとは？<!-- omit in toc -->
