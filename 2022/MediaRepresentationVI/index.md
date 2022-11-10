@@ -30,7 +30,7 @@
 7. [Googleツール I->(変更)モダンExcel II](./mr6_07.md)
 Googleが提供する様々なツールについて学修する。
 
-8. [Googleツール II]
+8. [Googleツール II->(変更)Googleツール](./mr6_08.md)
 Googleが提供する様々な管理ツールについて学修する。
 
 9. [情報管理]
