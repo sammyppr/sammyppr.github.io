@@ -21,7 +21,6 @@ https://www.youtube.com/playlist?list=PL_g66qvNMUfTi41G75an3JwffeJMeVcV3
     29. Excelテスト
 
 # 目次<!-- omit in toc -->
-- [25回の補足](#25回の補足)
 - [今日の内容](#今日の内容)
   - [コンピュータ演習のまとめ](#コンピュータ演習のまとめ)
     - [内容](#内容)
@@ -67,11 +66,6 @@ http://noa-prolab.co.jp/download/
 - その中に解凍したフォルダを保存
 
 が良いと思います。
-
-# 25回の補足
-Finderのラベルも便利です。
-
-- [キーボードショートカットを使ってMacのFinderでタグ（ラベル）付けする方法](https://shimesan.com/2019/12/07/mac-finder-tag-keybord-shortcuts/)
 
 
 # 今日の内容
