@@ -62,3 +62,4 @@
 
 ### その他
 - [AIリテラシー教材](AI_literacy/index.md)
+- [付録01 Wordの途中にだけページ番号を振る](./cp_appendix01.md)
