@@ -2,18 +2,17 @@
 
 Welcome to sammyppr.github.io!
 
-## CONTENTS 2022
+過去の内容は、一番下のArchiveへ
 
-- [コンピュータ演習](2022/ComputerPractice/index.md)
-- [デジタルデザイン基礎演習 II](2022/DigitalDesignII/index.md)
-- [情報デザイン演習 I](2022/InformationDesignI/index.md)
-- [情報デザイン応用演習 I](2022/InformationDesignAppliedI/index.md)
-- [サウンドデザイン演習](2022/SoundDesign/index.md)
-- [メディア表現 III](2022/MediaRepresentationIII/index.md)
-- [メディア表現 V](2022/MediaRepresentationV/index.md)
-- [メディア表現 VI](2022/MediaRepresentationVI/index.md)
-- [ゼミ](2022/Seminar/index.md)
-- [夏期スクーリング マルチメディア演習](2022/Schooling_MultimediaSeminar/index.md)
+## CONTENTS 2023
+- [情報デザイン応用演習I]
+- [サウンドデザイン演習]
+- [メディア表現III]
+- [メディア表現V]
+- [造形基礎演習II]
+- [デジタルデザイン基礎演習II]
+- [情報デザイン演習II]
+
 
 ## Application
 - [Adobe Photoshop](App/Photoshop/AdobePhotoshop.md)
@@ -32,3 +31,6 @@ Welcome to sammyppr.github.io!
 
 - [SJ](sj/index.md)
 - [マークダウン Memo](./markdown_memo.md)
+
+## Archive
+- [Contents 2022](2022/index.md)
