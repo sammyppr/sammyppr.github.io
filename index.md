@@ -5,15 +5,17 @@ Welcome to sammyppr.github.io!
 過去の内容は、一番下のArchiveへ
 
 ## CONTENTS 2023
+### 前期
 - [情報デザイン応用演習I]
-- [サウンドデザイン演習]
 - [メディア表現III]
 - [メディア表現V]
+- [サウンドデザイン演習]
+
+### 後期
 - [造形基礎演習II]
 - [デジタルデザイン基礎演習II]
 - [情報デザイン演習II]
-- [メディア表現V]
-
+- [メディア表現VI]
 
 ## Application
 - [Adobe Photoshop](App/Photoshop/AdobePhotoshop.md)
