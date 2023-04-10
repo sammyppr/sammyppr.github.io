@@ -6,10 +6,10 @@ Welcome to sammyppr.github.io!
 
 ## CONTENTS 2023
 ### 前期
-- [情報デザイン応用演習I]
-- [メディア表現III]
-- [メディア表現V]
-- [サウンドデザイン演習]
+- [情報デザイン応用演習I](2023/InformationDesignAppliedI/)
+- [メディア表現III](2023/MediaRepresentationIII/)
+- [メディア表現V](2023/MediaRepresentationV/)
+- [サウンドデザイン演習](2023/SoundDesign/)
 
 ### 後期
 - [造形基礎演習II]

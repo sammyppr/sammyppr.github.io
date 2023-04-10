@@ -35,23 +35,23 @@ JavaScriptのライブラリの利用について学修する。
 
 9. [WordPress ---開発環境構築---](./ida_09.md)
 WordPressの開発環境の構築について学修する。
-(変更) 最近のCSSレイアウト事情
+<!--(変更) 最近のCSSレイアウト事情-->
 
 10.  [WordPress ---スターターテーマ---](./ida_10.md)
 WordPressのテーマ作成の雛形となるスターターテーマについて学修する。
-(変更) CSSでレイアウト
+<!--(変更) CSSでレイアウト-->
 
 11.  [WordPress ---CSSカスタマイズ---](./ida_11.md)
 WordPressのテーマのCSSカスタマイズについて学修する。
-(変更)Wordpress復習+α
+<!--(変更)Wordpress復習+α-->
 
 12.   [WordPress ---PHPカスタマイズ---](./ida_12.md)
 WordPressのテーマのPHPカスタマイズについて学修する。
-(変更 )Wordpress CSS,PHPカスタマイズ
+<!--(変更 )Wordpress CSS,PHPカスタマイズ-->
 
-13.  [WordPressオリジナルテーマ制作I](./ida_13.md) (変更 Wordpressによるポートフォリオサイトの制作I)
-14.  [WordPressオリジナルテーマ制作II](./ida_14.md) (変更 Wordpressによるポートフォリオサイトの制作II)
-WordPressのポートフォリオサイトを制作する。
+13.  [WordPressオリジナルテーマ制作I](./ida_13.md)<!-- (変更 Wordpressによるポートフォリオサイトの制作I)-->
+14.  [WordPressオリジナルテーマ制作II](./ida_14.md) <!--(変更 Wordpressによるポートフォリオサイトの制作II)-->
+WordPressのオリジナルテーマを制作する。
 
 15.  [講評](./ida_15.md)
 各自の制作したテーマについて講評する。
