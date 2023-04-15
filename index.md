@@ -10,6 +10,7 @@ Welcome to sammyppr.github.io!
 - [サウンドデザイン演習](2023/SoundDesign/)
 - [メディア表現III](2023/MediaRepresentationIII/)
 - [情報デザイン応用演習I](2023/InformationDesignAppliedI/)
+- [映像デザイン応用演習I](2023/FilmDesignAppliedI/)
 
 ### 後期
 - [造形基礎演習II]
