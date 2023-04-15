@@ -7,6 +7,7 @@
 - [サウンドデザイン演習](./SoundDesign/index.md)
 - [メディア表現III](./MediaRepresentationIII/index.md)
 - [情報デザイン応用演習I](./InformationDesignAppliedI/index.md)
+- [映像デザイン応用演習I](./FilmDesignAppliedI/)
 
 ### 後期
 - 造形基礎演習II
