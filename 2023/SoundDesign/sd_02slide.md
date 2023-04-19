@@ -285,14 +285,14 @@ Auditionのレベルメーターはこれ。0を超えるとクリップして�
 [スタジオモニター](https://www.soundhouse.co.jp/category/middle/1105)
 楽器屋さんで聴き比べてみることをおすすめします。
 
-### CLASSIC PRO ( クラシックプロ ) / CPH7000 ヘッドフォン
+### CLASSIC PRO ( クラシックプロ ) / [CPH7000](https://www.soundhouse.co.jp/products/detail/item/25126/) ヘッドフォン
 安い
 
-### SONY ( ソニー ) / MDR-7506・MDR-CD900ST 定番スタジオモニターヘッドホン
+### SONY ( ソニー ) / [MDR-7506](https://www.soundhouse.co.jp/products/detail/item/71254/)・[MDR-CD900ST](https://www.soundhouse.co.jp/products/detail/item/71265/) 定番スタジオモニターヘッドホン
 世界中で利用されている
 
 
-### Sennheiser IE 100 PRO イヤホン
+### Sennheiser [IE 100 PRO](https://www.soundhouse.co.jp/products/detail/item/292868/) イヤホン
 イヤホン型で最近評判が良い。
 
 
