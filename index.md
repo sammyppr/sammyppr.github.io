@@ -18,6 +18,9 @@ Welcome to sammyppr.github.io!
 - [情報デザイン演習II]
 - [メディア表現VI]
 
+### 通年
+- [ゼミ](2023/Seminar/)
+
 ## Application
 - [Adobe Photoshop](App/Photoshop/AdobePhotoshop.md)
 - [DaVinci Resolve](App/DavinciResolve/index.md)

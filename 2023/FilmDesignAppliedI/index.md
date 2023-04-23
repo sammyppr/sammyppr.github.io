@@ -1,6 +1,7 @@
 # 映像デザイン応用演習I
 
 - [録⾳に関する注意事項](./soundrecording.md)
+- [録音機材設定について](./soundrecording_setting.md)
 
 ---
 ## 機材について
