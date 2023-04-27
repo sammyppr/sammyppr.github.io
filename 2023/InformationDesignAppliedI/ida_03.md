@@ -20,6 +20,7 @@
 
 ---
 
+
 ## スライド
 
 [スライド資料](./ida_03slide.pdf){:target="_blank"}
