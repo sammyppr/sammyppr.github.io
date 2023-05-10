@@ -318,7 +318,8 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ---
 ### ヘッドセットマイク
 撮影にはほぼ使いません。リモートワークなどでは役立ちます。
-![](https://www.soundhouse.co.jp/images/shop/prod_img/a/at_at810fe.jpg)
+<!--![height:500](https://www.soundhouse.co.jp/images/shop/prod_img/a/at_at810fe.jpg)-->
+![height:500](https://m.media-amazon.com/images/I/61mfrBPgifL._AC_SL1280_.jpg)
 
 
 
@@ -386,7 +387,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ---
 #### ポップガード
 口とマイクの間にポップガードを取り付けることで、ポップノイズを守ることができます。
-
+![height:400](https://m.media-amazon.com/images/I/712VBER42eL._AC_SL1500_.jpg)
 [ポップガード](https://www.soundhouse.co.jp/search/index?s_category_cd=1550&i_type=c)
 
 ---
@@ -466,19 +467,22 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 
 ---
 #### スポンジ型
-![](https://www.watanabe-mi.com/images/product_images/m/91841.jpg)
+![height:500](https://www.watanabe-mi.com/images/product_images/m/91841.jpg)
 
 ---
 #### ファー型
-![](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byb03.jpg)
+<!--![height:500](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byb03.jpg)-->
+![height:500](https://m.media-amazon.com/images/I/71uAgJB5hJL._AC_SL1500_.jpg)
 
+<!--
 ---
 #### カゴ型
-![](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byws1000x.jpg)
+![height:500](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byws1000x.jpg)-->
 
 ---
 #### カゴ+ファー型
-![](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byws1000x_4.jpg)
+<!--![height:500](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byws1000x_4.jpg)-->
+![height:500](https://m.media-amazon.com/images/I/71haJF2i7QL._AC_SL1440_.jpg)
 
 
 ---
@@ -499,7 +503,8 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 - 民生用ラインレベル -10dBV
 - 業務用ラインレベル +4dBu
 
-単位が異なっていますが...
+単位が異なっていますが...同じと思っていいです。
+https://nk-productions.net/column/db-decibel/
 
 > マイクレベル < 民生用ラインレベル < 業務用ラインレベル
 
