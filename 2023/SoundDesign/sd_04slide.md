@@ -12,26 +12,31 @@ footer: ""
 
 # 目次<!-- omit in toc -->
 
-1. [前回のおさらい](#前回のおさらい)
-2. [音響技術I マイク](#音響技術i-マイク)
-   1. [マイクって何?](#マイクって何)
-   2. [マイクの構造の種類](#マイクの構造の種類)
-   3. [マイクの特性](#マイクの特性)
-   4. [マイクの用途による種類](#マイクの用途による種類)
-   5. [録音時のトラブル](#録音時のトラブル)
-   6. [レベルについて](#レベルについて)
-3. [参考動画](#参考動画)
-4. [小レポート](#小レポート)
+- [音響技術I マイク](#音響技術i-マイク)
+  - [マイクって何?](#マイクって何)
+  - [マイクの構造の種類](#マイクの構造の種類)
+  - [マイクの特性](#マイクの特性)
+  - [マイクの用途による種類](#マイクの用途による種類)
+  - [録音時のトラブル](#録音時のトラブル)
+  - [レベルについて](#レベルについて)
+  - [レコーダー・オーディオインターフェイス](#レコーダーオーディオインターフェイス)
+  - [撮影現場での適切な収音テクニック](#撮影現場での適切な収音テクニック)
+- [参考動画まとめ](#参考動画まとめ)
+- [小レポート](#小レポート)
+
+
+
+
 
 ## はじめに
 
-## HPの置き場所(再掲)
+## HPの置き場所(再掲)<!-- omit in toc -->
 
 https://sammyppr.github.io/
 
 に置きます。これは学外からも閲覧可能です。
 
-# 前回のおさらい
+## 前回のおさらい<!-- omit in toc -->
 - 音のデジタル化(サンプリングレート・量子化ビット数・サンプリング定理)
 - ハイレゾ音源
 - 圧縮
@@ -41,6 +46,15 @@ https://sammyppr.github.io/
 - 32bit float
 
 「撮影時に24bit48kHz WAVを利用する」「32bit-float対応だとレベル調整いらない」が一番知っておいてほしいことでした。
+
+## 音響技術の全体<!-- omit in toc -->
+1. マイク
+2. ミキサー
+3. エフェクター
+4. マスタリング
+
+この4つを使いこなして最終的な音を制作していきます
+役割をよく考えましょう。
 
 # 音響技術I マイク
 ## マイクって何?
@@ -53,7 +67,7 @@ https://sammyppr.github.io/
 です。音は「外部の音源から空気を媒介として聴覚が刺激されること」でしたね。
 
 ---
-### 言い換えると
+### 言い換えると<!-- omit in toc -->
 1. 音源から発せられた音が
 2. 空気を振動させ
 3. その空気の振動を何らかの形で
@@ -62,7 +76,7 @@ https://sammyppr.github.io/
 と言えるでしょう。
 
 ---
-### フレミングの法則って知ってる？
+### フレミングの法則って知ってる？<!-- omit in toc -->
 聞いたことある人？
 
 - フレミング左手の法則
@@ -71,13 +85,13 @@ https://sammyppr.github.io/
 の二つあったような気がする人？
 
 ---
-### フレミングの右手の法則・フレミング左手の法則
+### フレミングの右手の法則・フレミング左手の法則<!-- omit in toc -->
 
 ![height:500](https://detail-infomation.com/wp-content/uploads/2020/11/b85228dde1e8249a6cbe201e45c1f9b5.png)
 https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-rule/
 
 ---
-### マイクとスピーカー
+### マイクとスピーカー<!-- omit in toc -->
 - 右手の法則:磁界の向きと力の向きが決まった時に、電流の向きを決める
 - 左手の法則:磁界の向きと電流の向きが決まった時に、力の向きを決める
 
@@ -89,7 +103,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ![height:700](img/sd_04/mic_speaker.png)
 
 ---
-### 同じ仕組み
+### 同じ仕組み<!-- omit in toc -->
 - 磁石があり
 - 電線があり
 - 振動板があり
@@ -100,7 +114,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 - スピーカー:電気の信号を空気の振動に変換
 
 ---
-### 取り扱いに注意
+### 取り扱いに注意<!-- omit in toc -->
 マイクの取り扱いに際しては
 - 落とすな
 - 叩くな
@@ -109,7 +123,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 を守りましょう。
 
 ---
-### なぜ？
+### なぜ？<!-- omit in toc -->
 空気の振動をどれだけうまく電気の信号に変えられるか、がマイクには求められます。
 
 そういった意味では精密な機械なのです。
@@ -119,7 +133,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ## マイクの構造の種類
 
 ---
-### ダイナミックマイク/コンデンサマイクの構造
+### ダイナミックマイク/コンデンサマイクの構造<!-- omit in toc -->
 大きく分けて構造の違いから
 - ダイナミック型: 比較的丈夫で湿度に強い
 - コンデンサ型: より精密で振動や湿気に弱い。電源が必要。
@@ -127,15 +141,15 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 の2種類あります。
 
 ---
-### 構造:ダイナミックマイク
+### 構造:ダイナミックマイク<!-- omit in toc -->
 ![height:500](https://www.toa.co.jp/assets/new_otokukan/images/article/otolabo/otolabo1-1/figure6.png)
 
 ---
-### 構造:コンデンサマイク
+### 構造:コンデンサマイク<!-- omit in toc -->
 ![height:500](https://www.toa.co.jp/assets/new_otokukan/images/article/otolabo/otolabo1-1/figure8.png)
 
 ---
-### コンデンサマイク
+### コンデンサマイク<!-- omit in toc -->
 ダイナミックマイクが
 > 電磁誘導
 
@@ -149,7 +163,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 
 ---
 
-### ファントム電源
+### ファントム電源<!-- omit in toc -->
 コンデンサマイクには電源が必要となり、この電源のことを
 > ファントム電源 または ファンタム電源
 
@@ -163,14 +177,14 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 と呼びます。
 
 ---
-### マイクのケーブル
+### マイクのケーブル<!-- omit in toc -->
 ![](https://info.shimamura.co.jp/digital/img/upload/shimastaff/2018/Roland_Belden_2014CP-500x375.jpg)
 マイクのケーブルにはGND/HOT/COLDの3つの線がありますが、HOT/COLDで+48Vの直流電源を供給します。
 
 (もちろん、マイクを接続される側がファントム電源に対応する必要があります)
 
 ---
-### ファントム電源に対応する機器
+### ファントム電源に対応する機器<!-- omit in toc -->
 - ミキサー
 - オーディオインターフェイス
 - レコーダー
@@ -180,7 +194,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ![](https://info.shimamura.co.jp/digital/img/upload/shimastaff/2018/DSC09239-500x2371.jpg)
 
 ---
-### ファントム電源の使い方
+### ファントム電源の使い方<!-- omit in toc -->
 利用する時
 1. ゲイン・ボリュームはゼロに
 2. ファントム電源をON
@@ -195,7 +209,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 - 基本的にはダイナミックマイクには使ってはいけません(仕方ない時もある)
 
 ---
-### ケーブルの抜き差し時の注意
+### ケーブルの抜き差し時の注意<!-- omit in toc -->
 - ゲイン・ボリュームはゼロ
 
 は基本中の基本となります。
@@ -203,7 +217,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 いきなり電流が流れることにより機器にダメージを与えるからです。
 
 ---
-### ダイナミックマイク/コンデンサマイクの使い分け
+### ダイナミックマイク/コンデンサマイクの使い分け<!-- omit in toc -->
 マイクの使用用途は大きく分けて
 - ライブ
 - レコーディング
@@ -219,48 +233,53 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ## マイクの特性
 
 ---
-### マイクの特性
+### マイクの特性<!-- omit in toc -->
 - 指向性
 - 周波数特性
 - 近接効果
 
 ---
-### 指向性
+### 指向性<!-- omit in toc -->
 マイクがどの方向から音を収音できるかという特性のこと。
 
 マイクの指向性の収音範囲角度を理解して、マイクが何を拾い、何を遮音するかを把握できれば、ハウリングを減らし、音源を分離することができます。
 
 ---
-#### 指向性の比較
+#### 指向性の比較<!-- omit in toc -->
 大まかには3種類あります。
 ![height:500](https://music-thcreate.com/wp-content/uploads/2022/01/Directivity-sum.webp)
 
 ---
-#### もう少し詳しく
+#### もう少し詳しく<!-- omit in toc -->
 ![height:500](https://www.ediusworld.com/old_images/jp/pimopic/images/recording/img03-03.gif)
 
 ---
-#### ガンマイクの仕組み
+#### 動画を見てみましょう<!-- omit in toc -->
+- [マイクロホンの仕様 Part3 極性パターン](https://www.youtube.com/watch?
+
+
+---
+#### ガンマイクの仕組み<!-- omit in toc -->
 さらに遠くの音を拾うために、ガンマイクでは音響管という仕組みを使って超指向性を実現してい ます。
 ![height:400](https://ferret-one.akamaized.net/images/5bfe41bc5b3a435dba0140eb/normal.png)
 
 ---
-#### ナレーション録りでの注意
+#### ナレーション録りでの注意<!-- omit in toc -->
 単一指向性のマイクで反対側から録音すると悲惨な音になります。ポッチを目印にして、向きを間違えないようにしましょう。
 
 ![height:450](https://www.soundhouse.co.jp/images/shop/prod_img/r/rode_nt1kituu_la.jpg)
 
 ---
-### 周波数特性
+### 周波数特性<!-- omit in toc -->
 
 ---
-#### 周波数特性
+#### 周波数特性<!-- omit in toc -->
 マイクロフォンが聴き取れる周波数の範囲と、その感度を表すのが周波数特性です。
 
 ![height:400](https://content-files.shure.com/JP_WordPress/2015/07/2-460x230.png)
 
 ---
-#### 周波数特性の与える影響
+#### 周波数特性の与える影響<!-- omit in toc -->
 
 ありのままを録音したい場合、周波数によって忠実に電気信号に変換できれば良いですが、それは不可能です。
 
@@ -268,17 +287,19 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 
 用途に応じて適切な周波数特性を持つマイクを選ぶことが必要となります。
 
----
-### 近接効果
+- [マイクロホンの仕様 Part2 周波数特性](https://www.youtube.com/watch?v=K9hsgc-iei4)
 
 ---
-#### 音源との距離による周波数特性
+### 近接効果<!-- omit in toc -->
+
+---
+#### 音源との距離による周波数特性<!-- omit in toc -->
 音源とマイクの距離によって周波数特性は変化します。
 
 ![height:400](https://content-files.shure.com/JP_WordPress/2015/07/3-460x230.png)
 
 ---
-#### ナレーション録りで気をつけよう
+#### ナレーション録りで気をつけよう<!-- omit in toc -->
 低音豊かなナレーションを録りたい場合には、つまりポップノイズ・リップノイズ(後述)が起きないようにしながらなるべくマイクに近づいた方が良いことになります。
 
 これは指向性マイクロフォンにて顕著に起こる現象となります。
@@ -290,7 +311,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ## マイクの用途による種類
 
 ---
-### マイクの用途による種類
+### マイクの用途による種類<!-- omit in toc -->
 - ガンマイク
 - ピンマイク
 - ワイヤレスマイク
@@ -299,24 +320,24 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 等があります。
 
 ---
-### ガンマイク
+### ガンマイク<!-- omit in toc -->
 細長いマイクで遠くの音を拾うのに適したマイク。超指向性。コンデンサマイク。
 
 ![height:450](https://www.ginichi.com/img/goods/C/0698813006571_01.jpg)
 
 ---
-### ピンマイク
+### ピンマイク<!-- omit in toc -->
 小さなマイクで、胸元などに付けることで音声を拾う
 
 ![](https://sakidorico.s3.amazonaws.com/wp/wp-content/uploads/2021/01/60011336ba43b-500x333.jpg.webp)
 
 ---
-### ワイヤレスマイク
+### ワイヤレスマイク<!-- omit in toc -->
 レコーダーから離れた人の声を、無線で飛ばすことのできるマイク
 ![height:500](https://www.ginichi.co.jp/wp-content/uploads/2019/11/wirelessgo20191120.jpg)
 
 ---
-### ヘッドセットマイク
+### ヘッドセットマイク<!-- omit in toc -->
 撮影にはほぼ使いません。リモートワークなどでは役立ちます。
 <!--![height:500](https://www.soundhouse.co.jp/images/shop/prod_img/a/at_at810fe.jpg)-->
 ![height:500](https://m.media-amazon.com/images/I/61mfrBPgifL._AC_SL1280_.jpg)
@@ -328,7 +349,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ## 録音時のトラブル
 
 ---
-### トラブルの種類
+### トラブルの種類<!-- omit in toc -->
 - ハウリング
 - ポップノイズ
 - リップノイズ
@@ -339,7 +360,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 綺麗に録音するためには、様々なトラブルの原因、対処法を知っておく必要があります。
 
 ---
-### ハウリング
+### ハウリング<!-- omit in toc -->
 たまに、マイクを使ってると
 - キーン
 - ボー
@@ -347,7 +368,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 のような不快な音が発生することがあります。これをハウリングと言います。
 
 ---
-#### ハウリングの原理
+#### ハウリングの原理<!-- omit in toc -->
 1. マイクの拾った音がアンプに送られて増幅
 2. 増幅された音がスピーカーやヘッドフォンから出力
 3. 出力された音をさらにマイクが拾う
@@ -355,14 +376,14 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 このループでハウリングが起きます。
 
 ---
-#### ハウリングによる被害
+#### ハウリングによる被害<!-- omit in toc -->
 - 人間にとって不快
 - 機材破損の恐れ
 
 があります。
 
 ---
-#### ハウリングの抑制方法
+#### ハウリングの抑制方法<!-- omit in toc -->
 接続する時にはボリュームをゼロにした状態で、徐々に音量を上げるようにしましょう。
 
 また、ナレーション録音時などは、密閉型のヘッドフォンを使って、ハウリングを避けましょう。
@@ -370,7 +391,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 場合によってはグラフィックイコライザーという機械で該当する周波数を下げることもあります。
 
 ---
-### ポップノイズ
+### ポップノイズ<!-- omit in toc -->
 言葉によってはマイクにふきかかる風の量が多くなることがあります。
 例えば、口の前に手を当てて次の二つの言葉を話してみましょう。(あ、マスク...)
 - ロック
@@ -385,13 +406,13 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 [【音響機材】SHURE SM57 の比較とポップノイズ対策！ロングセラーマイクを検証してみました！](https://www.youtube.com/watch?v=P3ZlNW3lE30&t=365s)
 
 ---
-#### ポップガード
+#### ポップガード<!-- omit in toc -->
 口とマイクの間にポップガードを取り付けることで、ポップノイズを守ることができます。
 ![height:400](https://m.media-amazon.com/images/I/712VBER42eL._AC_SL1500_.jpg)
 [ポップガード](https://www.soundhouse.co.jp/search/index?s_category_cd=1550&i_type=c)
 
 ---
-### リップノイズ
+### リップノイズ<!-- omit in toc -->
 口の中の状態が原因で、「ネチャ」「ペチャ」という音が録音されることがあります。
 - 唾液の量が多い
 - 粘り気のある唾液が出る
@@ -401,7 +422,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 マイクと距離を近くすると特に拾いやすくなります。
 
 ---
-#### リップノイズ対策
+#### リップノイズ対策<!-- omit in toc -->
 - 水分をとる
 - 歯を磨く
 - リップクリームを塗る
@@ -411,7 +432,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 なお、最近ではASMR(Autonomous SensoryMeridian Resoponse)というジャンルで意図的にリップノイズを録音する方法もあります。
 
 ---
-### 反響音
+### 反響音<!-- omit in toc -->
 反響音の多い場所で録音すると、編集時に困ることがよくあります。
 
 後から反響音を付加することは簡単なのですが、除去するのは難しいです。
@@ -419,7 +440,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 反響するものが多い場所で反響音は起きるため、その環境を変える必要があります。
 
 ---
-#### 反響音チェック
+#### 反響音チェック<!-- omit in toc -->
 場所に行って、「パン」と叩いて、反響音の長さを確認しましょう。
 - ドライ：反響しない
 - ウェット：反響する
@@ -427,12 +448,12 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 という言葉を使います。
 
 ---
-#### リフレクションフィルター
+#### リフレクションフィルター<!-- omit in toc -->
 ナレーション等の場合には、リフレクションフィルターで反響音を遮りましょう。
 ![height:500](https://rentry.jp/note/wp-content/uploads/2022/01/81UULXIyBEL._AC_SL1500_-622x720-1.jpg)
 
 ---
-#### 室内ロケでウェットな場所の場合
+#### 室内ロケでウェットな場所の場合<!-- omit in toc -->
 カメラに映らないように、布を貼ったりすると、反響音を抑えることができます。
 
 反響しやすいものは
@@ -442,7 +463,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 という特性があるため、逆に布でひだを作ることで、反響を抑えることができます。
 
 ---
-### 屋外ロケでのノイズ
+### 屋外ロケでのノイズ<!-- omit in toc -->
 そもそも、屋外では意図しないノイズがたくさんあります。気をつけましょう。
 - 車・電車の音
 - サイレンの音
@@ -451,11 +472,11 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 風はある程度対策しようがあります。それ以外のノイズは偶発的に起こるため再撮しかないですね。
 
 ---
-### 屋外ロケで風が強い場合
+### 屋外ロケで風が強い場合<!-- omit in toc -->
 風が振動板に直接当たると「ボフボフ」いう音が録音されてしまいます。
 
 ---
-#### ウィンドジャマー
+#### ウィンドジャマー<!-- omit in toc -->
 ウィンドシールド・ウィンドスクリーンなどとも呼ばれますが、風防のことです。
 大きく
 - スポンジ型
@@ -466,11 +487,11 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 があります。後ろに行くほど風に対して有効になりますが、少しずつ音質は悪くなっていきます。
 
 ---
-#### スポンジ型
+#### スポンジ型<!-- omit in toc -->
 ![height:500](https://www.watanabe-mi.com/images/product_images/m/91841.jpg)
 
 ---
-#### ファー型
+#### ファー型<!-- omit in toc -->
 <!--![height:500](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byb03.jpg)-->
 ![height:500](https://m.media-amazon.com/images/I/71uAgJB5hJL._AC_SL1500_.jpg)
 
@@ -480,13 +501,13 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ![height:500](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byws1000x.jpg)-->
 
 ---
-#### カゴ+ファー型
+#### カゴ+ファー型<!-- omit in toc -->
 <!--![height:500](https://www.soundhouse.co.jp/images/shop/prod_img/b/boya_byws1000x_4.jpg)-->
 ![height:500](https://m.media-amazon.com/images/I/71haJF2i7QL._AC_SL1440_.jpg)
 
 
 ---
-### マイクスタンドの立て方
+### マイクスタンドの立て方<!-- omit in toc -->
 マイクスタンドはしっかり支えると共に、床の振動からマイクを守る、という役割があります。しっかり広げて設置しましょう。
 
 ![](https://tunegate.me/userfiles/images/SD1203_mike_02_03%281%29.jpg)
@@ -498,7 +519,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 電気信号には信号の大きさがあります。音の波形の振れ幅のことです。
 
 ---
-### 様々なレベル
+### 様々なレベル<!-- omit in toc -->
 - マイクレベル -60〜-40dBu
 - 民生用ラインレベル -10dBV
 - 業務用ラインレベル +4dBu
@@ -511,7 +532,7 @@ https://nk-productions.net/column/db-decibel/
 となっています。
 
 ---
-#### レベルは合わせないといけない
+#### レベルは合わせないといけない<!-- omit in toc -->
 レベルがバラバラだと、どうにもなりません。
 そのため、マイクプリアンプ(略してマイクプリ)を使って増幅してラインレベルに合わせます。
 
@@ -524,13 +545,50 @@ https://nk-productions.net/column/db-decibel/
 
 ことがあることを知っておきましょう。
 
----
+<!-----
 #### マイクプリの例
-![](https://www.soundhouse.co.jp/images/shop/prod_img/p/presonus_tubeprev2.jpg)
+![](https://www.soundhouse.co.jp/images/shop/prod_img/p/presonus_tubeprev2.jpg)-->
 
 
+## レコーダー・オーディオインターフェイス
 
-# 参考動画
+---
+### 編集するために<!-- omit in toc -->
+マイクからの音をデジタル化してデータ化するわけですが、
+- レコーダー：録音専用機(SDカードに保存)
+- オーディオインターフェイス：PCとの接続を前提として音をデジタル化
+
+の二つがあります。最近のレコーダーにはオーディオインターフェイスを兼ねているものもあります。
+
+---
+### どっちを使う？<!-- omit in toc -->
+ロケであればレコーダー一択となります。
+
+ナレーション撮りやスタジオ内であれば、レコーダーorオーディオインターフェイスとなります。
+
+---
+### どのように選ぶ？トラック数<!-- omit in toc -->
+同時に何本のマイクを利用するかによってトラック数が決まります。
+
+- 通常のマイクであれば1トラック
+- ステレオマイクであれば2トラック
+
+トラック数を扱えるレコーダ・オーディオインターフェイスを利用しましょう。
+
+---
+### どのように選ぶ？フォーマット<!-- omit in toc -->
+前回伝えたように通常であれば
+> 24bit 48kHz
+
+が扱えれば十分です。
+ただし、32bit floatの利点を考えると今後はこれを利用することが標準になっていくかもしれません。
+
+## 撮影現場での適切な収音テクニック
+
+- [撮影現場での適切な収音テクニック](https://www.youtube.com/watch?v=NFRRiME4WS8)
+
+
+# 参考動画まとめ
 
 - [マイクロホンの仕様を理解する Part１ 動作原理](https://www.youtube.com/watch?v=YZvjzcd4CTI)
 - [マイクロホンの仕様 Part2 周波数特性](https://www.youtube.com/watch?v=K9hsgc-iei4)
