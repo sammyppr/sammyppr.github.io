@@ -255,7 +255,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 
 ---
 #### 動画を見てみましょう<!-- omit in toc -->
-- [マイクロホンの仕様 Part3 極性パターン](https://www.youtube.com/watch?
+- [マイクロホンの仕様 Part3 極性パターン](https://www.youtube.com/watch?v=WNdqIzSPqEE)
 
 
 ---
