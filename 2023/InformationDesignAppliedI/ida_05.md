@@ -6,10 +6,10 @@
 
 ## 目次
 
-1. [情報デザイン応用演習I ５.WebGL入門](#情報デザイン応用演習i-５webgl入門)
-   1. [目次](#目次)
-   2. [スライド](#スライド)
-   3. [配布資料](#配布資料)
+- [情報デザイン応用演習I ５.WebGL入門](#情報デザイン応用演習i-５webgl入門)
+  - [目次](#目次)
+  - [スライド](#スライド)
+  - [配布資料](#配布資料)
 
 ---
 
@@ -19,4 +19,4 @@
 
 ## 配布資料
 
-[three.js FirestStep](./tex/ThreeJsFirstStep.pdf)
+[three.js FirstStep](./tex/ThreeJsFirstStep.pdf)
