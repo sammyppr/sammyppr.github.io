@@ -33,13 +33,6 @@ footer: ""
 
 ## HPの置き場所(再掲)
 
-今年、ちょっとやり方を変えてみます。
-これまで
-
-http://nas1-mc.thu.ac.jp/joomla/
-
-にデータを置いていましたが、これは学外から閲覧できませんでした。
-そのため
 
 https://sammyppr.github.io/
 
