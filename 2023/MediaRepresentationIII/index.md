@@ -58,6 +58,7 @@ PremiereProを用いたシンプルな編集の方法について学修する。
 
 注意事項：毎回ノートパソコン(Win/Mac)を持参すること。
 
-### Motion 周期表
+### モーショングラフィックスの参考リンク
 モーショングラフィックスのアイディアがまとまっています。
-[motiontable](http://foxcodex.html.xdomain.jp/index.html){:target="_blank"}
+- [MOTION  PERIODIC TABLE](http://foxcodex.html.xdomain.jp/index.html){:target="_blank"}
+- [TRANSITION PERIODIC TABLE](https://transition-b89.pages.dev/){:target="_blank"}
