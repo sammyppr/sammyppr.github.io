@@ -96,6 +96,9 @@ O：大文字のオー
 \end{itemize}
 
 \newpage
+\section{Electronとバージョンアップ}
+どんどんバージョンアップされています。昨年バージョンがうまく動かなくなったり等のことがよくアプリ開発では起きますので、そういうものだと思っておきましょう。
+
 \section{Electronのインストール}
 ちょっとややこしいのですが、パッケージ管理システムを複数利用してインストールします。
 
@@ -112,7 +115,11 @@ https://brew.sh/
 にアクセスして、インストールと書いてある行をコピーしましょう。
 ターミナルを開いてペーストしてリターンしましょう。
 
-XCode CommandLine Toolのインストールを呼ばれることがあります。
+XCode CommandLine Toolのインストールを聞かれた場合、メッセージに応じてタイピングしてください(多分リターンキーでOK)
+
+
+
+
 \subsection{Node.jsのインストール}
 引き続いてターミナルで
 \begin{quote}
@@ -120,12 +127,21 @@ XCode CommandLine Toolのインストールを呼ばれることがあります�
 \end{quote}
 としましょう。
 
+エラーっぽいのが出てきた場合には、そのメッセージに応じて対応しましょう。
+
+\begin{itemize}
+\item npm audit fix
+\item npm audit fix --force
+\end{itemize}
+等を求められたりします。
+
 \subsection{Electronのインストール}
 引き続いてターミナルで
 \begin{quote}
 \$ npm install electron -g
 \end{quote}
 としましょう。
+
 
 \section{とりあえず起動してみる。}
 ターミナルで
@@ -205,6 +221,7 @@ function createWindow() {
         height: 400,
         webPreferences: {
             nodeIntegration: true, //Electron6から必要らしい
+            contextIsolation: false, //Security的には良くないらしいが...
         }
     })
 
@@ -258,16 +275,16 @@ app.on('activate', () => {
 <body>
     <h1>Hello World!</h1>
     <p>
-    	We are using node
-	    <script>document.write(process.versions.node)</script>,
-	</p>
+        We are using node
+        <script>document.write(process.versions.node)</script>,
+    </p>
     <p>
-	    Chrome
-    	<script>document.write(process.versions.chrome)</script>,
-	</p>
+        Chrome
+        <script>document.write(process.versions.chrome)</script>,
+    </p>
     <p>
-	    and Electron
-	    <script>document.write(process.versions.electron)</script>.
+        and Electron
+        <script>document.write(process.versions.electron)</script>.
     <p>
 </body>
 
@@ -291,7 +308,7 @@ npm start
 \end{quote}
 とすると、ウィンドウが次のよう表示されるはずです。
 
-[注意：electronのバグで、processが現在使えなくなってます。数字は出なくて構いません。]
+[注意：contextIsolation: falseのところを間違えると多分バージョン番号が出ません]
 
 \includegraphics[width=5cm]{img/helloworld.png}
 
@@ -463,6 +480,7 @@ main.jsのwin=new BrowserWindow部分を以下のように3行追記しましょ
         resizable: false, // ウィンドウのリサイズを禁止
         webPreferences: {
             nodeIntegration: true, //Electron6から必要らしい
+            contextIsolation: false, //Security的には良くないらしいが...
         }
     })
 \end{lstlisting}
@@ -479,6 +497,7 @@ body {
     color: #fff;
     -webkit-app-region: drag;
     -webkit-user-select: none;
+    user-select: none; //なくても動きますが、ないとVSCが警告を出します
 }
 \end{lstlisting}
 
@@ -487,7 +506,7 @@ body {
 \item[背景色/背景画像]
 透過ウィンドウでは「何もない部分」はクリック出来ないため、背景を指定します
 rgba(r, g, b, a)による色指定を行うことで、透明度を持った背景色が指定できます
-\item[webkit-app-region: drag;]
+\item[-webkit-app-region: drag;]
 要素をウィンドウのタイトルバーのように扱う指定です
 いずれかの要素にこの指定を行わないと、ドラッグによるウィンドウ移動が出来ません
 \item[-webkit-app-region: no-drag;]
@@ -515,6 +534,7 @@ body {
 
     -webkit-app-region: drag;
     -webkit-user-select: none;
+    user-select: none; //なくても動きますが、ないとVSCが警告を出します
 }
 
 #digital_clock {
@@ -533,6 +553,7 @@ body {
 詳しくは
 \begin{quote}
 https://saruwakakun.com/html-css/basic/google-fonts
+https://peraichi.com/univ/20220502
 \end{quote}
 をみましょう。
 
@@ -556,15 +577,15 @@ npm install -D electron
 \subsection{package.json}
 \begin{verbatim}
   "devDependencies": {
-    "electron": "^12.0.9",
-    "electron-builder": "^22.6.1"
+    "electron": "^24.4.0",
+    "electron-builder": "^24.4.0"
   }
 \end{verbatim}
 の後に以下のように6行追記してください。「,」を忘れずに
 \begin{verbatim}
   "devDependencies": {
-    "electron": "^12.0.9",
-    "electron-builder": "^22.6.1"
+    "electron": "^24.4.0",
+    "electron-builder": "^24.4.0"
   },
   "build": {
     "appId": "jp.test.app1",
@@ -579,11 +600,24 @@ npm install -D electron
 
 ターミナルで
 \begin{verbatim}
-./node_modules/.bin/electron-builder --mac --x64
+./node_modules/.bin/electron-builder --mac --universal
 \end{verbatim}
 としましょう。うまくいけば、distフォルダができて、その中に配布用のdmgファイルができるはずです。
 
-[注意：う、なんか設定おかしくて今日やってみたらアプリしかできてなかった...m1 Macだからかな...]
+macにはIntel, AppleSiliconの二つの種類のCPUがありますが、そのどちらでも動くアプリケーションを作成するために「--universal」としています。
+
+windowsの場合には次を参考にしてください。
+\begin{quote}
+https://maku.blog/p/2tcs8n2/
+\end{quote}
+
+\subsection{セキュリティについて}
+アプリ開発時にはセキュリティについて考慮する必要があります。今回のサンプルでは煩雑になるため手抜きしています。
+詳しくは次を参考にしてください。
+\begin{quote}
+https://gist.github.com/umamichi/5d52367235c98425e9d3fa4439d35046\\
+https://zenn.dev/sprout2000/books/6f6a0bf2fd301c/viewer/13340
+\end{quote}
 
 \section{まとめ}
 これまで学んできた、Canvas,WebGLもJavaScriptなわけですから、Electronを利用することでアプリケーションを開発することができたのが理解できたでしょうか？
@@ -600,7 +634,7 @@ https://qiita.com/nyanchu/items/9a1c910bbca55e9d2f3c
 https://qiita.com/Yuta\_spade/items/2493c05cd868ea5f2677
 
 \section*{P.S.}
-buildする時に、はまったーーーー...
+バージョンアップすると、動かなくなるから、それの対処方法に少しハマったー
 
 
 \flushright{以上}
