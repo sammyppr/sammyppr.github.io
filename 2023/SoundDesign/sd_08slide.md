@@ -306,7 +306,7 @@ Auditionを起動し、
 「あー、これでもない、これでもない」
 と途方に暮れることになります。
 
-そのために、SoundlyのようなSample Managerというアプリがあります。
+SoundlyのLocalでも管理できますが、もう一つADSR Sample Managerというアプリを紹介します。
 - ADSR Sample Manager(無料)
 
 ---
@@ -319,7 +319,9 @@ https://www.adsrsounds.com/product/software/adsr-sample-manager/
 
 (住所など登録必要)
 
-Soundlyとの違いは、ループやキーに対応しているため、より音楽的なサンプルの管理に向いていることです。
+Soundlyとの違いは、BPMに対応しているため、より音楽的なサンプルの管理に向いていることです。
+
+- [ADSR / ADSR Sample Managerの使い方を紹介！](https://www.youtube.com/watch?v=mTtZPAr66Qg)
 
 <!--
 有料化のため却下
