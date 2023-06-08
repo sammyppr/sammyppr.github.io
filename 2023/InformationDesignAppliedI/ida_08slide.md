@@ -188,6 +188,23 @@ DNSサーバにお伺いを立てる前に、/etc/hostsのファイルを見る�
 今回は使いません。
 
 ---
+### 開発環境...
+MAMPでもLocalでも、どちらにしろ、開発するための環境であり、実際に公開はできません。
+
+まさかと思って調べてみたら、無料でホスティングしてくれるサービスがある模様です。
+
+実際に、ポートフォリオなどをWebで公開したい人、vivivitでも問題ありませんが、Wordpressで使うなら、こういうサービスがあることを知っておきましょう。
+
+- [14 Best Free WordPress Hosting Providers for 2023](https://blog.hubspot.com/website/best-free-wordpress-hosting-providers)
+
+なお、このHPが置いてあるGithubでも静的なホームページの公開は可能です
+
+バックエンドのプログラミングが必要な場合でも、Netlifyを含め、以下のような無料サービスがあります。
+
+- [Herokuの代替サービス30選、使ってみた参考記事リンク付き](https://qiita.com/rana_kualu/items/f7fc4916b7dc9797839e)
+
+
+---
 ### 複数端末での表示確認(Chrome)
 Chromeでレスポンシブデザインを確認するときには
 - デベロッパーツール(Option+Command+I)
