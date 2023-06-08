@@ -29,31 +29,31 @@ HTML,CSS,JavaScriptを利用してのアプリ開発について学修する。
 7. [AI入門](./ida_07.md)
 JavaScriptのライブラリの利用について学修する。
 
-8. [CUI入門]
+8. [CUI入門](./ida_08.md)
 コンピュータをコマンドで操作するCUIについて学修する。
-(追加)WordPressの開発環境の構築について学修する。
+WordPressの開発環境の構築について学修する。
 
-9. [WordPress ---開発環境構築---]
+1. [WordPress ---開発環境構築---]
 WordPressの開発環境の構築について学修する。
 <!--(変更) 最近のCSSレイアウト事情-->
 
-10.  [WordPress ---スターターテーマ---]
+1.   [WordPress ---スターターテーマ---]
 WordPressのテーマ作成の雛形となるスターターテーマについて学修する。
 <!--(変更) CSSでレイアウト-->
 
-11.  [WordPress ---CSSカスタマイズ---]
+1.   [WordPress ---CSSカスタマイズ---]
 WordPressのテーマのCSSカスタマイズについて学修する。
 <!--(変更)Wordpress復習+α-->
 
-12.   [WordPress ---PHPカスタマイズ---]
+1.    [WordPress ---PHPカスタマイズ---]
 WordPressのテーマのPHPカスタマイズについて学修する。
 <!--(変更 )Wordpress CSS,PHPカスタマイズ-->
 
-13.  [WordPressオリジナルテーマ制作I]<!-- (変更 Wordpressによるポートフォリオサイトの制作I)-->
-14.  [WordPressオリジナルテーマ制作II] <!--(変更 Wordpressによるポートフォリオサイトの制作II)-->
+1.   [WordPressオリジナルテーマ制作I]<!-- (変更 Wordpressによるポートフォリオサイトの制作I)-->
+2.   [WordPressオリジナルテーマ制作II] <!--(変更 Wordpressによるポートフォリオサイトの制作II)-->
 WordPressのオリジナルテーマを制作する。
 
-15.  [講評]
+1.   [講評]
 各自の制作したテーマについて講評する。
 
 注意事項：毎回ノートパソコンを持参すること。
