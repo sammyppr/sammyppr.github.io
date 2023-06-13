@@ -2,6 +2,7 @@
 
 - [録⾳に関する注意事項](./soundrecording.md)
 - [録音機材設定について](./soundrecording_setting.md)
+- [32bit float対応機器の利用方法](./32bit_float.md)
 
 ---
 ---
