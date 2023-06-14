@@ -12,6 +12,14 @@
 提出先：StudentVolume - サウンドデザイン演習 - 最終課題
 の中に学籍番号フォルダを作成して、そこに提出
 
+## 下準備
+- 下の素材データのダウンロード(300M)からダウンロード
+- 解凍する
+- ファイル「5-AuditionandPremierePro.prproj」を開く
+- バージョン古いと言われるので、5-AuditionandPremierePro_1.prproj、として続行
+- プロジェクトフォルダからCompleteMixSequenceをダブルクリック
+- 頭の映像が切れているので、伸ばしてください
+- 会話はA1,A2。A3からA10に会話以外の音が入っているので、削除します。
 
 ## 素材データ
 - [最終課題用素材データ](https://helpx.adobe.com/jp/audition/how-to/music-editor.html){:target="_blank"}
