@@ -126,6 +126,10 @@ CSSでの定義に関数を使うことも可能になってきています。
 - [FlexboxとCSS Gridの違いと使い分け｜よくあるレイアウトで理解する](https://webliker.info/css/flexbox-grid/)
 
 ---
+### モダンCSS
+これもチェックしておきましょう。
+ - [2023年モダンCSSの最新トレンド](https://speakerdeck.com/tonkotsuboy_com/2023nian-modancssnozui-xin-torendo)
+
 ### というわけで
 おさらいしてみましょう。
 
