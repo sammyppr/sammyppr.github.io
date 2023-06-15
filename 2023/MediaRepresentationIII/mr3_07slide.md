@@ -48,6 +48,7 @@ PremiereやAfterEffectsでは、
 
 思い浮かべてみましょう。Illustratorでパスを2点打っても、直線や曲線を表現することができます。
 
+---
 ### 時間補完法・空間補完法
 Illustratorでは静止画ですが、Premiere,AfterEffectsでは時間軸を扱えます。そのため
 - 時間補完法：時間軸をどのように計算するか
