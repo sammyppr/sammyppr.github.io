@@ -6,11 +6,11 @@
 
 ## 目次
 
-1. [情報デザイン応用演習I 9. 最近のCSSレイアウト事情](#情報デザイン応用演習i-9-最近のcssレイアウト事情)
-   1. [目次](#目次)
-   2. [スライド](#スライド)
-   3. [配布資料](#配布資料)
-   4. [チートシート](#チートシート)
+- [情報デザイン応用演習I 9. 最近のCSSレイアウト事情](#情報デザイン応用演習i-9-最近のcssレイアウト事情)
+  - [目次](#目次)
+  - [スライド](#スライド)
+  - [配布資料](#配布資料)
+  - [チートシート](#チートシート)
 
 ---
 
@@ -19,7 +19,7 @@
 - [スライド資料](./ida_09slide.pdf){:target="_blank"}
 
 ## 配布資料
-- [float/Flexbox/CSS Grid](../InformationDesignI/tex/float-flexbox-cssgrid.pdf){:target="_blank"}
+- [float/Flexbox/CSS Grid](../../2022/InformationDesignI/tex/float-flexbox-cssgrid.pdf){:target="_blank"}
 
 ## チートシート
 - [Flexboxチートシート](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet#flexbox14){:target="_blank"}
