@@ -24,6 +24,10 @@
 ## 素材データ
 - [最終課題用素材データ](https://helpx.adobe.com/jp/audition/how-to/music-editor.html){:target="_blank"}
 
+## シーン分析
+好きに使ってください。どこに音を入れるなど管理しやすくなると思います。
+- [Structure.xlsx](xls/ElephantDreamStructure.xlsx)
+
 ## 参考
 - [脚本](https://www.scripts.com/script/elephants_dream_7567){:target="_blank"}
 - [Elephant Dream 脚本の翻訳もどき](xls/translate.xlsx){:target="_blank"}
