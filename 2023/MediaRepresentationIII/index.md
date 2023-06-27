@@ -62,3 +62,15 @@ PremiereProを用いたシンプルな編集の方法について学修する。
 モーショングラフィックスのアイディアがまとまっています。
 - [MOTION  PERIODIC TABLE](http://foxcodex.html.xdomain.jp/index.html){:target="_blank"}
 - [TRANSITION PERIODIC TABLE](https://transition-b89.pages.dev/){:target="_blank"}
+
+### 便利なAE無償プラグイン
+#### MotionToolsPro
+- [【After Effects】『Motion Tools Pro』の機能や使い方を徹底解説!!](https://nextist.net/motion-tools-pro/){:target="_blank"}
+- [【最新!!完全版!!】『Motion Tools Pro』のカスタマイズ方法や20種類のツールの紹介、zxpインストール、アクティベート方法などを徹底解説!!](https://www.youtube.com/watch?v=ibRMABgo0J4){:target="_blank"}
+
+#### EaseCopy
+- [無料AEプラグイン EaseCopy の使い方 | イーズだけをコピー・ペースト](https://arisanworks.com/aftereffects/easecopy){:target="_blank"}
+- [【After Effects《無料》】キーフレームのコピペだけじゃない!?導入必須の無料スクリプト『EaseCopy』を徹底解説!!](https://www.youtube.com/watch?v=xke00oUy8g0){:target="_blank"}
+
+#### その他
+- [After Effectsの無料プラグイン 46選を一挙ご紹介](https://www.shutterstock.com/ja/blog/40-free-plugins-and-filters-for-after-effects){:target="_blank"}
