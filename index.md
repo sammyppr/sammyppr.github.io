@@ -22,6 +22,7 @@ Welcome to sammyppr.github.io!
 - [ゼミ](2023/Seminar/)
 
 ## Application
+- [Mac](./Mac/index.md)
 - [Adobe Photoshop](App/Photoshop/AdobePhotoshop.md)
 - [DaVinci Resolve](App/DavinciResolve/index.md)
 - [Houdini](App/Houdini/index.md)
