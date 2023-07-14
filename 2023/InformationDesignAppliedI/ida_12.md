@@ -16,3 +16,5 @@
 
 - [スライド資料](./ida_12slide.pdf){:target="_blank"}
 
+
+
