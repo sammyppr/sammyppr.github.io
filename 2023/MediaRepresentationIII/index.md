@@ -71,7 +71,7 @@ PremiereProを用いたシンプルな編集の方法について学修する。
 - [【最新!!完全版!!】『Motion Tools Pro』のカスタマイズ方法や20種類のツールの紹介、zxpインストール、アクティベート方法などを徹底解説!!](https://www.youtube.com/watch?v=ibRMABgo0J4){:target="_blank"}
 
 #### EaseCopy
-- [無料AEプラグイン EaseCopy の使い方 | イーズだけをコピー・ペースト](https://arisanworks.com/aftereffects/easecopy){:target="_blank"}
+- [無料AEプラグイン EaseCopy の使い方: イーズだけをコピー・ペースト](https://arisanworks.com/aftereffects/easecopy){:target="_blank"}
 - [【After Effects《無料》】キーフレームのコピペだけじゃない!?導入必須の無料スクリプト『EaseCopy』を徹底解説!!](https://www.youtube.com/watch?v=xke00oUy8g0){:target="_blank"}
 
 #### その他
