@@ -541,5 +541,170 @@ https://github.com/sammyppr/portfolio
 
 ここまで2023/07/20 16:00 update
 ---
+---
+---
 
 
+index.htmlの共通部分
+- header
+- footer
+
+を後で修正しなくていいように、まずはリンクや文言などを整えておこう。
+
+ロゴからindex.htmlに飛ぶのを忘れずに
+
+(ハンバーガーメニューの実装ミス発覚。モバイルモードで、ロゴのボタンが押せない。面倒なので、メニューにHomeを加えた)
+
+ファイルを複製してから直すのは非常に面倒くさい(こういうのはWordpressが得意としているところ。静的ファイルで制作するデメリット)
+
+---
+### aboutme.html
+#header-catch部分の構造が異なる。
+#header-simple(カテゴリーページでも使いまわせそう)とする。
+
+中は適当に...
+
+- index.htmlをコピーしてaboutme.htmlとする
+- #header-catchの代わりに#header-simpleにとする。
+
+```
+        <div id="header-simple">
+            <h2>About Me</h2>
+            <p>Agency provides a full service range including technical skills, design, <br>business understanding.</p>
+        </div>
+```
+CSSは
+```
+#header-simple{
+    text-align: center;
+}
+
+```
+
+- mainの中はバッサリ削除して、適当に作り直し
+
+簡素化のため、mainの中に「div#main-aboutme」を作成し「div#main-aboutme-img+div#main-aboutme-text」
+
+```
+#main-aboutme {
+    color: var(--secondary-color);
+    background-color: var(--secondary-bg);
+    padding: var(--padding-default);
+}
+```
+くらいであとはお好きに...
+
+---
+### category-all.html
+
+モバイルで、選択制のになっているが、JavaScript使いたくないので、縦に並べる
+
+- about.htmlをcategory-all.htmlにコピー
+- mainの中を削除
+- 「div#main-portfolio」作成
+- 中に「div#main-portfolio-menu+div#main-portfolio-images」
+- div#main-portfolio-menuの中にタイトルやli等
+- div#main-portfolio-imagesにdiv.main-portfolio-imageを適当に追加。例えば「(div.main-portfolio-image>(img+div.work-genre+div.work-title))*9」
+
+```
+#main-portfolio{
+    color: var(--secondary-color);
+    background-color: var(--secondary-bg);
+    padding: var(--padding-default);
+}
+#main-portfolio li{
+    list-style-type: none;
+}
+#main-portfolio a,
+#main-portfolio a:link,
+#main-portfolio a:visited,
+#main-portfolio a:hover{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+```
+
+下の画像については
+
+```
+.main-portfolio-image {
+    position: relative;
+}
+
+@media(min-width: 768px){
+    #main-portfolio-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main-portfolio-image {
+        width: 30%;
+    }
+}
+```
+
+くらいで並べた。
+
+自分の場合は、
+- category-movie.html
+- cagtegory-programming.html
+- category-design.html
+
+が必要なので、コピって適当に修正
+
+デモなので、最初のサムネイルに
+- work-movie-00.html
+- work-programming-00.html
+- work-design-00.html
+
+にリンクするようにしておいた。
+
+Category-***.html とりあえずここで完了
+---
+
+### work-***-**.html
+- category-all.htmlをコピーして、work-(genre名)-00.html等に
+- div#header-simpleを削除
+- div#main-portfolioを削除してdiv#main-workに
+
+```
+#main-work{
+    color: var(--secondary-color);
+    background-color: var(--secondary-bg);
+    padding: var(--padding-default);
+}
+```
+あとは、適当にー
+
+#### YouTubeの埋め込み
+- 映像を見る
+- 共有
+- 埋め込むのコードをコピー
+- width, heightのところは外す
+
+```
+/* iframe */
+#main-work {
+    width: 100%;
+    padding: 0px;
+    aspect-ratio: 16 / 9;
+}
+#main-work iframe {
+    width: 100%;
+    height: 100%;
+}
+```
+で貼り付けられる。
+
+#### HTMLの埋め込み
+全部うまくいくかわからないが、Canvas入門のファイルを
+- html/ida_00
+
+に配置し、
+
+```
+        <div id="main-work">
+            <iframe src="./html/ida_00/index.html" frameborder="1" ></iframe>
+        </div>
+```
+とすることで、Canvasの内容も晴れる。
