@@ -165,4 +165,381 @@ Github上にポートフォリオサイトを作成せよ
 Mobile, PCのデザインを見比べて、そこそこ要素が入っていることを確認しよう。
 
 ### css/style.css
-利用できるようにindex.htmlのhead内に
+利用できるようにindex.htmlのhead内に次を追加
+```
+<link rel="stylesheet" href=".css/style.css">
+```
+
+変数を定義する。他も適宜必要であれば追加。
+bodyのmarginもリセット。imgはとりあえずwidth:100%にしておく
+```
+/* CSS 変数定義 */
+:root {
+    --primary-bg: #28293E;
+    --secondary-bg: #FDF0E9;
+    --primary-color: white;
+    --secondary-color: #391400;
+    --padding-default: 24px;
+    --padding-narrow: 12px;
+}
+/* body リセット */
+body {
+    margin: 0px;
+}
+img {
+    width: 100%;
+}
+```
+
+背景と文字色のデフォルトを指定。ロゴのサイズも指定しておく
+```
+/* header */
+header {
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+}
+#logo {
+    width: 195px;
+}
+
+/* main */
+main {
+
+}
+main #main-about {
+    color: var(--secondary-color);
+    background-color: var(--secondary-bg);
+}
+main #main-latestwork {
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+}
+
+/* footer */
+footer {
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+}
+```
+
+#header-catch, #main-aboutの画像、テキストを適当に入れよう。
+
+左右のpaddingが現在ないので、
+header,#main-about,#main-latestwork-titleに以下を追加
+```
+    padding: var(-default-padding);
+```
+#main-latestwork-imagesのところは
+```
+main #main-latestwork-images {
+    padding: var(--padding-narrow);
+}
+```
+
+main #main-imagesはflexを使って
+```
+main #main-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+main #main-images img{
+    width: 50%;
+}
+```
+
+workのところの.work-genle,.work-titleに文字入れて、整えてみよう
+
+```
+/* work-card */
+.main-latestwork {
+    position: relative;
+}
+.work-genre, .work-title {
+    position: absolute;
+}
+.work-genre {
+    bottom: 60px;
+    left: 12px;
+    background-color: white;
+    color: var(--secondary-color);
+    font-size: 12px;
+    padding: 4px 24px;
+    border-radius: 24px;
+}
+.work-title {
+    bottom: 24px;
+    left: 12px;
+    font-weight: bold;
+}
+```
+
+Footerの中を整えよう。
+.footer-menu-title, .footer-menu-itemを適宜入れて、
+
+```
+
+/* footer */
+footer {
+    padding-top: 40px;
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+    font-size: 12px;
+    padding-left: var(--padding-footer);
+    padding-right: var(--padding-footer);
+}
+footer hr {
+    border-color: rgba(255,255,255,0.2);
+    margin-bottom: 12px;
+}
+#footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.footer-menu {
+    margin: 36px;
+}
+.footer-menu-title {
+    color: var(--teritiary-color);
+    margin-bottom: 24px;
+}
+.footer-menu-item {
+    margin-bottom: 8px;
+}
+#footer-sns {
+    margin-bottom: 24px;
+}
+.sns-icon {
+    width: 24px;
+}
+#footer-title, #footer-menus, #footer-sns {
+    text-align: center;
+}
+
+#footer-sub{
+    text-align: center;
+    font-size: 9px;
+    padding-bottom: var(--padding-narrow);
+}
+```
+
+ハンバーガーメニューのところを残しているけれども、
+レスポンシブ対応にしていこう
+
+```
+@media(min-width: 768px){
+    #header-catch {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #header-catch-img,#header-catch-text {
+       padding: 5%; 
+    }
+}
+
+@media(min-width: 768px){
+    #main-about {
+        display: flex;
+    }
+    #main-about-image,#main-about-text {
+        padding: 10%;
+    }
+    #main-latestwork-images {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-latestwork {
+        flex-basis: 33%;
+    }
+    main #main-images{
+        flex-wrap: nowrap;
+        justify-content: space-between
+    }
+    main #main-images img{
+        width: 16%;
+    }
+}
+
+@media(min-width: 768px){
+    #footer-main, #footer-menus {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+```
+
+まだまだ調整はできるけど、あとはハンバーガーメニューかな
+
+これを参考に実装します。
+https://web-camp.io/magazine/archives/88361
+
+このサンプルでは、メディアクエリーでの切り替えはやっていないので、
+- メニューを追加(position:absoluteで、上に引っ付ける)
+- メディアクエリーで切り替え
+- pc版の時のメニューを最初に普通にCSSで作る
+
+の方針でやってみます。
+
+htmlのheaderの一番上で以下を追加
+```
+            <div class="nav">
+    
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input id="drawer_input" class="drawer_hidden" type="checkbox">
+            
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer_input" class="drawer_open"><span></span></label>
+            
+                <!-- メニュー -->
+                <nav class="nav_content">
+                  <ul class="nav_list">
+                    <li class="nav_item"><a href="">メニュー1</a></li>
+                    <li class="nav_item"><a href="">メニュー2</a></li>
+                    <li class="nav_item"><a href="">メニュー3</a></li>
+                    <li class="nav_item"><a href="">メニュー3</a></li>
+                  </ul>
+                </nav>
+           
+              </div>
+
+```
+
+CSSの一番最後に以下を追加
+
+```
+
+/* メニュー */
+header{
+    position: relative;
+}
+#menubar-mobile{
+    display: block;
+    position: absolute;
+    top: 0px;
+}
+
+/* ここから下がハンバーガーメニューに関するCSS */
+#menubar-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav {
+    margin-right: 40px;
+}
+/* チェックボックスを非表示にする */
+.drawer_hidden {
+    display: none;
+  }
+  
+  /* ハンバーガーアイコンの設置スペース */
+  .drawer_open {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;/* 重なり順を一番上にする */
+    cursor: pointer;
+  }
+  
+  /* ハンバーガーメニューのアイコン */
+  .drawer_open span,
+  .drawer_open span:before,
+  .drawer_open span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: white;
+    transition: 0.5s;
+    position: absolute;
+  }
+  
+  /* 三本線の一番上の棒の位置調整 */
+  .drawer_open span:before {
+    bottom: 8px;
+  }
+  
+  /* 三本線の一番下の棒の位置調整 */
+  .drawer_open span:after {
+    top: 8px;
+  }
+  
+  /* アイコンがクリックされたら真ん中の線を透明にする */
+  #drawer_input:checked ~ .drawer_open span {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+  #drawer_input:checked ~ .drawer_open span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  
+  #drawer_input:checked ~ .drawer_open span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+    
+  /* メニューのデザイン*/
+  .nav_content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%; /* メニューを画面の外に飛ばす */
+    z-index: 99;
+    background: var(--primary-bg);
+    color: var(--primary-color);
+    transition: .5s;
+  }
+  .nav_content a,
+  .nav_content a:link,
+  .nav_content a:hover,
+  .nav_content a:active {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  /* メニュー黒ポチを消す */
+  .nav_list {
+    list-style: none;
+  }
+  
+  /* アイコンがクリックされたらメニューを表示 */
+  #drawer_input:checked ~ .nav_content {
+    left: 0;/* メニューを画面に入れる */
+  }
+
+  @media(min-width: 768px){
+    #menubar-mobile{
+        display: none;
+    }
+}
+```
+
+あと、PC版のメニューの調整で
+```
+#menubar #menu, #menubar #contact {
+    display: none;
+}
+@media(min-width: 768px){
+    #menubar #menu, #menubar #contact {
+        display: block;
+    }
+}
+```
+
+くらいまでとりあえず...
+
+https://github.com/sammyppr/portfolio
+
+のindex.html, css/style.cssが現在の最新版となります。
+
+ここまで2023/07/20 16:00 update
+---
+
+
