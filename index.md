@@ -12,6 +12,11 @@ Welcome to sammyppr.github.io!
 - [情報デザイン応用演習I](2023/InformationDesignAppliedI/)
 - [映像デザイン応用演習I](2023/FilmDesignAppliedI/)
 
+### 夏期スクーリング
+- [マルチメディア演習](2023/Schooling_MultimediaSeminar/index.md)
+
+※ 整備途中です。
+
 ### 後期
 - [造形基礎演習II]
 - [デジタルデザイン基礎演習II]
