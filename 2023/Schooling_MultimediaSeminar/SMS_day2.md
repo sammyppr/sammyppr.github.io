@@ -17,6 +17,13 @@
 
 [スライド資料](./SMS_day2slide.pdf){:target="_blank"}
 
+## 簡単なHTML, CSSの例
+開いて、ソースを確認してみましょう。
+
+- [簡単なHTML](./src/day2_html.html)
+- [簡単なCSS](./src/day2_css.html)
+
+
 ---
 ## 演習
 ### 今日の目標
@@ -27,13 +34,16 @@
 [![](https://img.youtube.com/vi/1FgLJPpG4hU/0.jpg)](https://www.youtube.com/watch?v=1FgLJPpG4hU){:target="_blank"}
 
 ### 一番短いホームページ
-「Open with Live Server」がよくわからない人、教員・SA呼んでください。
+「Open with Live Server」がよくわからない人、教員・SA呼んでください。(VSCの拡張機能でLive Serverを探してインストール)
 [![](https://img.youtube.com/vi/FWhqiwn-rXs/0.jpg)](https://www.youtube.com/watch?v=FWhqiwn-rXs){:target="_blank"}
 
 ### テンプレートを探そう
-去年作った動画なので、次からダウンロードしてください。Clickダウンロードするのに、メールアドレス要らなくなっているようです。
+一昨年作った動画なので、次からダウンロードしてください。
+- Click – Free Responsive HTML5 Photography Template
 
-[無料のHTML5 Bootstrapテンプレート【2022年版】おすすめ25選！ホームページを簡単にカスタマイズ](https://www.seleqt.net/design/open-source-website-templates/){:target="_blank"}
+ダウンロードするのに、メールアドレス要らなくなっているようです。
+
+[無料のHTML5 Bootstrapテンプレート【2023年版】おすすめ25選！ホームページを簡単にカスタマイズ](https://www.seleqt.net/design/open-source-website-templates/){:target="_blank"}
 
 [![](https://img.youtube.com/vi/jac_PdCbuSg/0.jpg)](https://www.youtube.com/watch?v=jac_PdCbuSg){:target="_blank"}
 
@@ -56,7 +66,7 @@
 ### 提出
 1. 「Day2」を右クリックして「"Day2"を圧縮」してDay2.zipを作成
 2. Teamsのファイルタブを開きましょう。
-3. 「提出_Day2_HTML」の中に
+3. 「02_課題提出」「02_Day2_課題提出(HP)」の中に
 4. "学籍番号＋氏名"というフォルダを作成して
 5. その中にDay2.zipをアップロードしてください。
 6. 「ネットワーク演習/情報通信」を取っている人は、USBにコピーしておきましょう。
