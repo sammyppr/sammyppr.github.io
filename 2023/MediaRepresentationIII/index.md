@@ -76,3 +76,5 @@ PremiereProを用いたシンプルな編集の方法について学修する。
 
 #### その他
 - [After Effectsの無料プラグイン 46選を一挙ご紹介](https://www.shutterstock.com/ja/blog/40-free-plugins-and-filters-for-after-effects){:target="_blank"}
+- [ayato@web](http://www.ayatoweb.com/){:target="_blank"}
+- [EverydaySkillShare](https://everydayskillshare.jp/){:target="_blank"}
