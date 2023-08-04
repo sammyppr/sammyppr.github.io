@@ -50,7 +50,7 @@ footer: ""
 
 フォルダの中に必要なファイルを用意しないとホームページは正しく表示されません。
 
-word が写真のファイル一度挿入すれば、元ネタがどこにあってもよいの とは違いますね。
+word が写真のファイル一度挿入すれば、元ネタがどこにあってもよいのとは違いますね。
 
 ## 昨日の作品紹介<!-- omit in toc -->
 適当にピックアップして紹介していきます。
@@ -133,9 +133,12 @@ https://www.adobe.com/jp/creativecloud/plans.html
 
 ---
 ### Photoshopの代替
-「Photoshop  無料」「Photoshop  代替」「Photoshop  alternative」でググりましょう。結構いろいろあります。有名なのは GIMP です。
+「Photoshop  無料」「Photoshop  代替」「Photoshop  alternative」でググりましょう。結構いろいろあります。有名なのは GIMP です。Kritaも少しずつ伸びています。
 
 基本 Photoshop の操作方法を真似ているので、今日学ぶことは生きるでしょう。
+
+- [GIMP](https://www.gimp.org/)
+- [Krita](https://krita.org/jp/)
 
 
 ## 色についてもう一度
