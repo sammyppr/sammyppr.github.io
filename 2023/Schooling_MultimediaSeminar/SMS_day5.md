@@ -22,28 +22,25 @@
 昨日のが終わっていない人は、続けてください。5限まで制作時間としたいと思います。
 
 終わっている人は、適当に、下の中から気になるものをやってみましょう。(提出先は)
-**提出_DayX**にお願いします。
+**「02_課題提出」「05_DayX_課題提出(その他)」**にお願いします。
 
-以下のコンテンツは学内からのみアクセス可能です。
 
 
 ### GarageBandを使ってみよう
-[動画](http://nas1-mc.thu.ac.jp/~o.kobayashi/2020BasicTrainingInDigitalDesignSkillsII/2020BTinDDS2_04.html
-){:target="_blank"}
+[GarageBand入門](https://sammyppr.github.io/2022/DigitalDesignII/dd2_02.html){:target="_blank"}
 
 
-### Studio One Primeを利用して、作曲してみよう！
+### Studio One Primeを利用して、作曲してみよう！(以下のコンテンツは学内からのみアクセス可能です。)
 [動画](http://nas1-mc.thu.ac.jp/~o.kobayashi/2021Schooling/mov_schooling2020/day5/sound.mp4){:target="_blank"}
 
 
 ### AfterEffectsでアニメーションにトライしよう
-[AfterEffects入門](http://nas1-mc.thu.ac.jp/~o.kobayashi/2020BasicTrainingInDigitalDesignSkillsII/2020BTinDDS2_07.html){:target="_blank"}
+[AfterEffects入門](https://sammyppr.github.io/2022/DigitalDesignII/dd2_02.html){:target="_blank"}
 
-Animateは飛ばしてください。
 
-[AfterEffects入門2](http://nas1-mc.thu.ac.jp/~o.kobayashi/2020BasicTrainingInDigitalDesignSkillsII/2020BTinDDS2_08.html)
+[シェイプアニメーション入門](https://sammyppr.github.io/2022/DigitalDesignII/dd2_03.html)
 
-### サウンドデザイン
+### サウンドデザイン(以下のコンテンツは学内からのみアクセス可能です。)
 [PremiereProで映像に音楽や効果音をつけてみよう](http://nas1-mc.thu.ac.jp/~o.kobayashi/2021OC/topic_sounddesign.html){:target="_blank"}
 
 ちょっと準備が必要ですので、申し出てください。
