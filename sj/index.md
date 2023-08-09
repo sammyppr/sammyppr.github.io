@@ -6,5 +6,6 @@
 - [イベントスケジュール](./wp-event-schedule.md)
 - [リビジョン](./wp-revisions.md)
 
-
+## アーカイブ用PDFの作成方法
+- [PDF修正方法](./pdf-mod.md)
 
