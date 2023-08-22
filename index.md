@@ -15,8 +15,6 @@ Welcome to sammyppr.github.io!
 ### 夏期スクーリング
 - [マルチメディア演習](2023/Schooling_MultimediaSeminar/index.md)
 
-※ 整備途中です。
-
 ### 後期
 - [造形基礎演習II]
 - [デジタルデザイン基礎演習II]
