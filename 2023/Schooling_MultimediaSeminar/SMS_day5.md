@@ -45,3 +45,17 @@
 
 ちょっと準備が必要ですので、申し出てください。
 
+### Blenderで3Dに触ってみよう
+[メディア表現V](../MediaRepresentationV/index.md){:target="_blank"}
+
+
+---
+## ブラウザ上で動くクリエイティブツール
+高校のコンピュータへのインストール権限がもらっていないときはどのようにすれば良いかとの相談がありました。
+「ブラウザ上 photoshop」「ブラウザ上 デザイン」等でググると出てくるかと思います。Webサービスはいつ有料化になるか、サービス打ち切りになるかはわからないので、確認してから利用しましょう。
+- [無料でブラウザ上からPhotoshop並に画像を編集しまくれる多機能ツール「Photopea」を使ってみた](https://gigazine.net/news/20171215-photopea-review/){:target="_blank"}
+- [Photoshop Web【ブラウザ版Photoshopの使い方】](https://photoshopbook.com/2021/11/18/photoshopwebbeta/){:target="_blank"}
+- [【厳選6サイト比較】Illustratorはもういらない！？ブラウザ上でイラスト編集ができるオンラインサービス6選](https://www.linustock.com/article/recommends/createvectors){:target="_blank"}
+- [ブラウザだけで動画編集ができるウェブサービスまとめ](https://douga-tec.com/?p=9636){:target="_blank"}
+- [音楽が作れる無料ウェブサイト12選（ダウンロード不要）](https://trivisionstudio.com/7-free-music-production-for-browser/){:target="_blank"}
+- [超簡単！ブラウザ上で3Dモデルを作成できる無料Webサービス厳選まとめ！](https://paiza.hatenablog.com/entry/2022/04/27/143000){:target="_blank"}
