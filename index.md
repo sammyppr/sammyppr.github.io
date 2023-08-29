@@ -30,6 +30,7 @@ Welcome to sammyppr.github.io!
 - [DaVinci Resolve](App/DavinciResolve/index.md)
 - [Houdini](App/Houdini/index.md)
 - [Screenwriting Software](App/ScreenwritingSoftware/index.md)
+- [VJ/Projection Mapping](App/VJ/)
 
 ## Music
 - [Jazz](Music/Jazz/index.md)
