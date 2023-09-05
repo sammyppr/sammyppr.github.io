@@ -1,0 +1,376 @@
+\documentclass[mingoth,11pt,a4j,uplatex,dvipdfmx]{jsarticle}
+\usepackage[top=20truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage{moreverb}
+\usepackage{listings,jlisting} %日本語のコメントアウトをする場合jlistingが必要
+								% https://qiita.com/N_Matsukiyo/items/1199f07a0e1bf4fce29c
+\usepackage[dvips]{graphicx,color}
+
+% https://qiita.com/ta_b0_/items/2619d5927492edbb5b03
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+
+
+\renewenvironment{description}%  descriptionをインデント
+{%
+   \begin{list}{\parbox{1zw}{$\bullet$}}% 見出し記号／直後の空白を調節
+   {%
+      \setlength{\topsep}{1zh}
+      \setlength{\itemindent}{3zw}
+      \setlength{\leftmargin}{5zw}%  左のインデント
+      \setlength{\rightmargin}{0zw}% 右のインデント
+      \setlength{\labelsep}{1zw}%    黒丸と説明文の間
+      \setlength{\labelwidth}{3zw}%  ラベルの幅
+      \setlength{\itemsep}{0em}%     項目ごとの改行幅
+      \setlength{\parsep}{0em}%      段落での改行幅
+      \setlength{\listparindent}{0zw}% 段落での一字下り
+   }
+}{%
+   \end{list}%
+}
+
+\title{デザインをコーディングしてHPにしてみよう Part2}
+\date{\today}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+%\gtfamily	%全てゴシックに
+
+\maketitle
+
+\begin{abstract}
+前回の続きをやってみましょう。前回の終わってない人はHPに配置しているので、「リンク先を別名で保存...」を利用してください。
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{はじめに}
+\subsection{読み間違えないでね}
+
+\begin{lstlisting}[caption=読み間違えないでね]
+数字：0123456789
+小文字：abcdefghijklmnopqrstuvwxyz
+大文字：ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+1：イチ
+l：小文字のエル
+i：小文字のアイ
+!：ビックリマーク
+|：バーティカルバー。Shiftと￥を押したもの。
+
+0：ゼロ
+o：小文字のオー
+O：大文字のオー
+
+.：ピリオド
+,：コンマ
+\end{lstlisting}
+
+\subsection{注意}
+\begin{itemize}
+\item これから出てくるソースコードには、左に「行番号」と呼ばれる番号が出てくるけど、入力する必要ないからね。
+\end{itemize}
+
+
+
+\section{今後の方針}
+最初にHTMLをコーディングした時には、大まかな構成を気にしました。
+つまり、細かい部分の文章などまだ入力できていない部分がたくさんあります。
+
+そこで、「この部分を整えよう」として、必要に応じて、HTMLを変更して、CSSを当ててデザインしていきます。
+
+\section{デザインしていこう}
+\subsection{共通部分}
+XDで背景色を調べると\#F6F8F9なので
+
+\begin{lstlisting}
+        body {
+            background-color: #F6F8F9;
+        }
+\end{lstlisting}
+
+こんな感じで、h2,h3のfont-sizeも調べ(全部が一致してないけど...多くが)
+
+\begin{lstlisting}
+        h2 {
+            font-size: 24px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+\end{lstlisting}
+
+時計マークのところはとりあえず
+
+\begin{lstlisting}
+        p.time {
+            font-size: 13px;
+            color: #A6ADB4;
+        }
+\end{lstlisting}
+
+としておこう。
+
+もし、背景にエリアを確認するために色をつけた人はこのタイミングで消しておこう
+
+\begin{lstlisting}
+        header, main, footer {
+            background-color: transparent;
+        }
+\end{lstlisting}
+
+\subsection{worldnews}
+デザインするためにdiv.worldnewsを以下に変更しよう
+
+\begin{lstlisting}
+            <div class="worldnews">
+                <div class="worldnews-inner">
+                    <h2>WORLD NEWS</h2>
+                    <h3>Amazing places in America to visit</h3>
+                    <p>For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+\end{lstlisting}
+
+mainの左の余白と同じに、.worldnews-innerのmargin-leftをすれば、縦に位置が揃いますね。
+CSSに計算させましょう。
+
+\begin{lstlisting}
+        .worldnews-inner {
+            margin-left: calc((100vw - 1160px)/2);
+            width: 600px;
+        }
+\end{lstlisting}
+
+innerを真ん中に置きたいので、1要素ですけどFlexboxを使いましょう。
+
+\begin{lstlisting}
+        .worldnews {
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+\end{lstlisting}
+
+あとは適当にやってみます。
+
+\begin{lstlisting}
+        .worldnews-inner h2{
+            padding-bottom: 40px;
+            border-bottom: 2px solid white;
+        }
+        .worldnews-inner button {
+            color: white;
+            padding: 14px 28px;
+            background-color: #FA6980;
+            border-radius: 6px;
+        }
+\end{lstlisting}
+
+\subsection{morenews}
+morenews-childの中を追記しましょう。2箇所ありますよ。
+
+\begin{lstlisting}
+                    <div class="morenews-child">
+                        <h3>Article Title</h3>
+                        <p class="genre">TRAVEL</p>
+                        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                        <p class="time">2 min ago</p>
+                    </div>
+\end{lstlisting}
+
+余白を手で計算しても良いですが、CSSに計算させましょう。
+見出しも普通にやります。
+\begin{lstlisting}
+        .morenews {
+            padding: calc((600px - 380px)/2)
+        }
+        .morenews h2 {
+            height: 60px;
+            border-bottom: 1px solid  #EBEDED;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+\end{lstlisting}
+
+morenews-childの中、H3は記事の見出しで、ジャンルはその中に紐づくものとして書いてみました。そうすると、実際の並びと変わりますね。というわけでCSS Gridでエリアに名前を決めて、順番を入れ替えます。
+
+\begin{lstlisting}
+        .morenews-child {
+            display: grid;
+            flex-direction: column;
+            grid-template-areas:
+                "morenews-genre" "morenews-title" "morenews-p" "morenews-time";
+            margin-bottom: 20px;
+        }
+        .morenews-child h3 {
+            grid-area: morenews-title;
+            margin: 0;
+        }
+        .morenews-child p {
+            grid-area: morenews-p;
+            margin: 0;
+        }
+        .morenews-child .genre{
+            grid-area: morenews-genre;
+            color: #FA6980;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .morenews-child .time {
+            grid-area: morenews-time;
+        }
+\end{lstlisting}
+
+\subsection{trending-child}
+trending-childのpaddingを設定したいところですが、画像は幅いっぱいに表示したいので、
+h3, pの左右にpadingをつけます。
+
+\begin{lstlisting}
+        .trending-child h3, .trending-child p {
+            padding-left: calc((360px - 280px)/2);
+            padding-right: calc((360px - 280px)/2);
+        }
+\end{lstlisting}
+
+あとは適当に整えていきましょう。
+
+\begin{lstlisting}
+        .trending-child img {
+            margin-bottom: 4px;
+        }
+        .trending-child h3, .trending-child p {
+            margin: 4px;
+        }
+        .trending-child {
+            background-color: white;
+        }
+\end{lstlisting}
+
+\subsection{happening-now-bigchild}
+
+2つ要素があります。背景画像を当てる関係でhn-big1,hn-big2が入っていますので、二つともこれに変えましょう。
+
+\begin{lstlisting}
+                        <div class="happening-now-bigchild hn-big1">
+                            <h3>Large article title</h3>
+                            <p class="genre">CITY</p>
+                            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                            <p class="time">2m ago</p>
+                        </div>
+                        <div class="happening-now-bigchild hn-big2">
+                            <h3>Large article title</h3>
+                            <p class="genre">TRAVEL</p>
+                            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                            <p class="time">2m ago</p>
+                        </div>
+\end{lstlisting}
+
+
+ここもmorenews-childと同じで、順番が変わっているのですが、genreだけ特殊な方法で左上に指定しようと思います。(難易度高)
+
+position:absolute というのを使うと親要素に対して「左から40px, 上から40px」という指示を出すことができます。親要素にはおまじないのようにposition:relative を設定する必要があります。
+
+今回は、それとflexboxを組み合わせてみました。
+
+4つある要素のうち、ジャンルにposition:absoluteを設定することで、左上にジャンルを配置し、残り3つをFlexboxに従わせることができました。
+
+\begin{lstlisting}
+        .happening-now-bigchild{
+            padding: 40px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            position: relative;
+        }
+        .happening-now-bigchild .genre {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+        }
+        .happening-now-bigchild .genre {
+            margin: 0;
+        }
+\end{lstlisting}
+
+\subsection{happening-now-smallchild}
+位置調整は終わっているのでちょっとした調整だけですね。
+
+\begin{lstlisting}
+        .happening-now-smallchild h3 {
+            margin-bottom: 0px;
+        }
+\end{lstlisting}
+
+\subsection{time}
+時計のマークのアイコンの挿入方法をやってみましょう。
+
+Fontawesomeのアイコンを利用します。
+
+Fontawesomeを利用するのには、headタグ内に次のタグを貼ります。
+
+\begin{lstlisting}
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+\end{lstlisting}
+
+p.timeの前にアイコンを挿入するにはこんなCSSを描きます。
+
+\begin{lstlisting}
+        p.time::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f017";
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+\end{lstlisting}
+
+\subsection{メニューバー・フッター}
+とりあえず、メニューバー・フッター以外ある程度デザインできたかと思います。
+
+残りについては、自分でHTML,CSSを考えてやってみましょう。
+
+\subsection{注意}
+一つづつ、どのように変更したかを確認させるために、同じ要素についても今回は後ろへ後ろへとCSSを追加していきました。
+
+基本的には同じ要素のCSS指定は一つの
+
+\begin{lstlisting}
+要素 {
+	CSSの指定
+}
+\end{lstlisting}
+の中に書いていきます。
+
+\subsection{まとめ}
+HTMLを構造的に考えながら、CSSでデザインしていく流れがわかったでしょうか。
+
+本当はレスポンシブデザインまでトライして欲しいところです。
+
+多分、来週以降、違う内容で演習を進めていきます。
+
+
+\flushright{以上}
+
+
+\end{document}
