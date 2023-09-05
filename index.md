@@ -18,7 +18,7 @@ Welcome to sammyppr.github.io!
 ### 後期
 - [造形基礎演習II]
 - [デジタルデザイン基礎演習II]
-- [情報デザイン演習II]
+- [情報デザイン演習II](2023/InformationDesignII/)
 - [メディア表現VI]
 
 ### 通年

@@ -12,6 +12,6 @@
 ### 後期
 - 造形基礎演習II
 - デジタルデザイン基礎演習II
-- 情報デザイン演習II
+- [情報デザイン演習II](./InformationDesignII/index.md)
 - メディア表現VI
   
