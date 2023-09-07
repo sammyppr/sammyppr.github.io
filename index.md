@@ -16,7 +16,7 @@ Welcome to sammyppr.github.io!
 - [マルチメディア演習](2023/Schooling_MultimediaSeminar/index.md)
 
 ### 後期
-- [造形基礎演習II]
+- [造形基礎演習II](2023/AnalogueDesignII/)
 - [デジタルデザイン基礎演習II]
 - [情報デザイン演習II](2023/InformationDesignII/)
 - [メディア表現VI]
