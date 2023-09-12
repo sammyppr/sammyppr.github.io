@@ -19,7 +19,7 @@ Welcome to sammyppr.github.io!
 - [造形基礎演習II](2023/AnalogueDesignII/)
 - [デジタルデザイン基礎演習II]
 - [情報デザイン演習II](2023/InformationDesignII/)
-- [メディア表現VI]
+- [メディア表現VI](2023/MediaRepresentationVI/)
 
 ### 通年
 - [ゼミ](2023/Seminar/)
