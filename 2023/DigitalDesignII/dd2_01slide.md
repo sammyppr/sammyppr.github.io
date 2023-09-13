@@ -189,6 +189,17 @@ https://sammyppr.github.io
 # デジタルデザイン基礎演習II<!-- omit in toc -->
 > 第2ターム：モーショングラフィックス
 
+---
+### 一応確認<!-- omit in toc -->
+皆さんのMacにはウイルス対策ソフトは入っているでしょうか？
+
+入っていない場合には、
+- [Avira for Mac](https://www.avira.com/ja/free-antivirus-mac)
+
+を入れておきましょう。メニューバーの傘が開いていればOKです。
+(他のソフトでも構いません)
+
+
 ## 進め方
 
 ---
