@@ -170,6 +170,11 @@ TABキーで入力できます。
 - [Visual Studio Code(VSC)](https://azure.microsoft.com/ja-jp/products/visual-studio-code){:target="_blank"}
 - [Chrome](https://www.google.com/intl/ja_jp/chrome/){:target="_blank"}
 
+入ってますね？VSCodeに
+- Japanese Language Pack
+- LiveServer
+- Zenkaku
+
 入ってますね？
 
 ## やってみよう<!-- omit in toc -->
@@ -314,6 +319,17 @@ Live Serverをインストールしているので、再読み込みをしなく
    <img src="https://hello-world-movie.com/assets/img/ogp_img2.jpg">
 ```
 
+## alt
+```
+   <img src="画像のURL" alt="画像の説明">
+```
+の様に画像を貼る時にはaltをつけることが推奨されています。
+役割としては
+- 目の見えない人に何の画像が説明する
+- 画像が壊れていた時に、説明を表示する
+
+があります。
+
 ## リンクを使ってみよう<!-- omit in toc -->
 ```
    <a href="https://www.google.co.jp/">Google</a>
@@ -332,6 +348,43 @@ Live Serverをインストールしているので、再読み込みをしなく
       <img src="https://hello-world-movie.com/assets/img/ogp_img2.jpg">
    </a>
 ```
+
+## Webで利用できる画像について
+- 種類
+  - 昔から使える:jpg, gif
+  - 現在標準的：png
+  - 新しいこれから標準になる: webp, avif
+  - ベクター画像用：svg
+- 解像度
+  - 大きすぎると容量が重くなるのでwebには不適切
+  - 必要最低限の解像度に抑えよう
+
+### webで利用できない画像
+- heic:iPhoneの最近の高効率な圧縮方法の形式
+- psd:Photoshopの編集用
+
+画像についてはまた詳しくやります。
+
+<!--
+
+## Webで利用できる画像形式
+
+jpg 色普通に使えるけど圧縮される。透明ダメ
+gif 256色まで。透明可能(0 or 1)。アニメーション可能
+
+png 色普通に使える。劣化なしも可能。透明も可能。アニメーション可能
+
+webp
+avif
+
+svg(ベクター)
+
+
+heic
+psd
+
+
+-->
 
 ## あ...<!-- omit in toc -->
 別にこの映画が好きなわけでもなんでもなく、プログラマーはとりあえずなんか作る時にまずは「Hello World」って表示することになっていて、その画像探したら、こんなになりました。
@@ -380,6 +433,35 @@ HTMLを書いていると、人がわかりやすいようにコメントを残�
 - [HTML5 タグ★チートシート](https://atmarkit.itmedia.co.jp/fdotnet/chushin/cheatsheet_02/cheatsheet_02_01.html){:target="_blank"}
 - [HTML Living Standard チートシート](https://htmlls.docs-share.com/){:target="_blank"}
 
+## caniuse.com
+HTML, CSS, 画像フォーマット等どのブラウザで何が利用できるかを確認できる
+- [caniuse.com](https://caniusde.com)
+
+があります。非常に便利ですので知っておきましょう。
+
+## 入れ子
+> あるモノの中にそれと同じモノを入れた構造
+
+- Excelのif文
+- シーケンスの中のシーケンス(Premiere Pro)
+- コンポジションの中のコンポジション(AfterEffects)
+- HTMLタグの中のHTMLタグ
+
+入れ子という構造も知っておきましょう。
+
+## 入れ子の例...ul
+```
+<ul>
+   <li>項目1</li>
+   <li>項目2
+      <ul>
+         <li>サブ項目1</li>
+         <li>サブ項目2</li>
+      </ul>
+   </li>
+</ul>
+```
+
 ## 実は...
 ここまでで教科書の
 - Chapter2 2-1〜2-9,2-14(P.50-68)
@@ -391,6 +473,8 @@ HTMLを書いていると、人がわかりやすいようにコメントを残�
 - 2-13 ブロック要素
   
 がまだですが、簡単かな？
+
+教科書持っていない人用に、AirPlay使って確認してみましょう。
 
 ## 知ってほしいこと
 - HTMLファイルには基本となる形がある
@@ -406,10 +490,10 @@ HTMLを書いていると、人がわかりやすいようにコメントを残�
 
 ググって学んでないタグ使っても構いません。
 
-「なんでもいい」が困る人は、うちの大学のキャンパス・学部・学科・コースなど階層を意識して書いてみましょう。
+「なんでもいい」が困る人は、うちの大学のキャンパス・学部・学科・コースなど階層を意識して書いてみましょう。好きなアーティストグループの説明でもいいですよ。
 
 ### 提出先
-> StudentVolume - 2023演習 - 情報デザイン演習II - 01回
+> StudentVolume - 2023演習 - 情報デザイン演習II - 02回
 
 に学籍番号フォルダを作成して、ID_02をコピーしてください。
 
