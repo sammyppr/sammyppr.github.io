@@ -9,3 +9,6 @@
 ## アーカイブ用PDFの作成方法
 - [PDF修正方法](./pdf-mod.md)
 
+## Error解消履歴
+- [Error解消履歴](./error.md)
+
