@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+        .child {
+            border: 1px solid black;
+            float: left;
+            width: 25%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        .columns::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="columns">
+        <div class="child">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, minima.</div>
+        <div class="child">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptates doloremque temporibus reiciendis consectetur voluptas saepe autem amet sint modi.</div>
+        <div class="child">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam beatae animi distinctio amet, omnis in culpa nam temporibus odit ducimus! Dolores cumque et facere dolorem vel odio vero sunt possimus.</div>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quo voluptate? Numquam et odit eaque labore autem fuga temporibus doloribus, deserunt ullam eius nisi dolor rerum nulla, reprehenderit voluptatibus! Ratione cumque porro, facere, accusantium corporis maiores sunt quasi pariatur ducimus fugit tenetur reiciendis. Nobis error id blanditiis molestiae debitis omnis!</p>
+    </div>
+</body>
+</html>
