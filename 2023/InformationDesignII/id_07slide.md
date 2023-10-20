@@ -224,6 +224,44 @@ float/Flexbox/CSS Grid
 
 となります。仕組みだけ伝えて終わりにしようと思います。
 
+
+---
+### 追記:
+教科書の5-8ではmin-width, max-widthを使っていますが、これより「range-syntax」の方が直感的で分かりやすいです。
+
+- [ついにSafariも。 media queryの範囲指定をより直感的に書ける記法が全ブラウザ対応へ](https://zenn.dev/moneyforward/articles/css-range-syntax)
+
+---
+### サンプル html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        div {height: 50vh;}
+        @media screen and (width<800px) {
+            div {background-color: green;}
+        }
+        @media screen and (800px <= width <= 1000px) {
+            div {background-color: red;}
+        }
+        @media screen and (1000px < width) {
+            div {background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Hello</p>
+    </div>
+</body>
+</html>
+```
+
+
 ---
 ### レスポンシブ対応するには？
 メディアクエリを利用して、gridのエリアを変更するだけですね！！！
