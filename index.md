@@ -31,6 +31,7 @@ Welcome to sammyppr.github.io!
 - [Houdini](App/Houdini/index.md)
 - [Screenwriting Software](App/ScreenwritingSoftware/index.md)
 - [VJ/Projection Mapping](App/VJ/)
+- [TouchDesigner](App/TouchDesigner/index.md)
 
 ## Music
 - [Jazz](Music/Jazz/index.md)
