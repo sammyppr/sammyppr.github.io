@@ -36,6 +36,7 @@ Welcome to sammyppr.github.io!
 ## Music
 - [Jazz](Music/Jazz/index.md)
 - [理論・EarTraining](Music/theory.md)
+- [ギター講座](Music/Guitar/index.md)
 
 ## Hardware
 - [3DPrinter](./Hardware/3DPrinter/index.md)

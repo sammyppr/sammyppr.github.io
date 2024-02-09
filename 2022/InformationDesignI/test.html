@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>地面に影のある回転するCube</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script>
+        // シーンの作成
+        var scene = new THREE.Scene();
+
+        // カメラの作成
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.z = 5;
+
+        // レンダラーの作成
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // 地面の作成
+        var groundGeometry = new THREE.PlaneGeometry(100, 100);
+        var groundMaterial = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+        var ground = new THREE.Mesh(groundGeometry, groundMaterial);
+        ground.rotation.x = -Math.PI / 2; // 地面を水平に配置
+        scene.add(ground);
+
+        // 照明の作成
+        var light = new THREE.DirectionalLight(0xffffff, 1);
+        light.position.set(0, 3, 2); // 照明の位置
+        light.castShadow = true; // 影を有効化
+        scene.add(light);
+
+        // cubeの作成
+        var cubeGeometry = new THREE.BoxGeometry(1, 1, 1);
+        var cubeMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+        var cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
+        cube.position.y = 0.5; // cubeを地面の上に配置
+        scene.add(cube);
+
+        // 影の設定
+        cube.castShadow = true; // cubeから影を投影
+        ground.receiveShadow = true; // 地面が影を受け取る
+
+        // アニメーションの設定
+        function animate() {
+            requestAnimationFrame(animate);
+            cube.rotation.x += 0.01;
+            cube.rotation.y += 0.01;
+            renderer.render(scene, camera);
+        }
+        animate();
+    </script>
+</body>
+</html>
