@@ -8,6 +8,7 @@
 - サウンドデザイン演習
 - [インターネット基礎理論](./BasicTheoryOfInternet/index.md)
 
+
 ### 後期
 - メディア表現VI
 - 情報デザイン応用演習II
