@@ -23,7 +23,7 @@
 ## Ear Training
 このサイトだと、下の音を固定して練習できるので、これを少し試してみましょう。
 
-https://www.teoria.com/en/exercises/ie2.php
+[Interval Ear Training From Note](https://www.teoria.com/en/exercises/ie2.php)
 
 ![](img/bs02_eartraining.png)
 
