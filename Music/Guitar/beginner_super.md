@@ -155,3 +155,4 @@ Chromeだと等幅フォントがうまく反映されないので、珍しくSa
 
 - [Day01](./beginner_super_01.md)
 - [Day02](./beginner_super_02.md)
+- [Day03](./beginner_super_03.md)
