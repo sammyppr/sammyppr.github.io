@@ -5,4 +5,3 @@
 ## FABOOL Laser Cutter
 - [使い方](./fabool_laser_mini.md)
 
-## 光造形型
