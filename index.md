@@ -40,6 +40,7 @@ Welcome to sammyppr.github.io!
 
 ## Hardware
 - [3DPrinter](./Hardware/3DPrinter/index.md)
+- [3DLaserCutter](./Hardware/3DLaserCutter/index.md)
 - [AudioRecording](./Hardware/Audio/index.md)
 
 ## Misc
