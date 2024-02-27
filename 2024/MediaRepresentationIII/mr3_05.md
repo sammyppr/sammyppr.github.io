@@ -1,0 +1,23 @@
+# メディア表現 III 5.カラーグレーディング
+
+[メディア表現III TOP に戻る](./index.md)
+
+---
+
+## 目次
+
+- [メディア表現 III 5.カラーグレーディング](#メディア表現-iii-5カラーグレーディング)
+  - [目次](#目次)
+  - [スライド](#スライド)
+  - [動画](#動画)
+
+---
+
+## スライド
+
+[スライド資料](./mr3_05slide.pdf){:target="_blank"}
+
+
+## 動画
+- [Premiere Pro ティールアンドオレンジ](https://www.youtube.com/watch?v=zcRHzZbJZHA){:target="_blank"}
+

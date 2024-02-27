@@ -12,13 +12,13 @@ Welcome to sammyppr.github.io!
 - [メディア表現V](2024/MediaRepresentationV/)
 
 ### 後期
-- [造形基礎演習II](2024/AnalogueDesignII/)
-- [情報デザイン演習II](2024/InformationDesignII/)
-- [情報デザイン応用演習II](2024/InformationDesignAppliedII/)
-- [メディア表現VI](2024/MediaRepresentationVI/)
+- [造形基礎演習II]
+- [情報デザイン演習II]
+- [情報デザイン応用演習II]
+- [メディア表現VI]
 
 ### 夏期スクーリング
-- [マルチメディア演習](2024/Schooling_MultiMedia/)
+- [マルチメディア演習]
 
 ### 通年
 - [ゼミ](2024/Seminar_Sammy/)
