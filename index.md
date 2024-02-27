@@ -4,25 +4,27 @@ Welcome to sammyppr.github.io!
 
 過去の内容は、一番下のArchiveへ
 
-## CONTENTS 2023
+## CONTENTS 2024
 ### 前期
-- [メディア表現V](2023/MediaRepresentationV/)
-- [サウンドデザイン演習](2023/SoundDesign/)
-- [メディア表現III](2023/MediaRepresentationIII/)
-- [情報デザイン応用演習I](2023/InformationDesignAppliedI/)
-- [映像デザイン応用演習I](2023/FilmDesignAppliedI/)
-
-### 夏期スクーリング
-- [マルチメディア演習](2023/Schooling_MultimediaSeminar/index.md)
+- [インターネット基礎理論](2024/BasicTheoryOfInternet/index.md)
+- [サウンドデザイン演習](2024/SoundDesign/)
+- [メディア表現III](2024/MediaRepresentationIII/)
+- [メディア表現V](2024/MediaRepresentationV/)
 
 ### 後期
-- [造形基礎演習II](2023/AnalogueDesignII/)
-- [デジタルデザイン基礎演習II](2023/DigitalDesignII/)
-- [情報デザイン演習II](2023/InformationDesignII/)
-- [メディア表現VI](2023/MediaRepresentationVI/)
+- [造形基礎演習II](2024/AnalogueDesignII/)
+- [情報デザイン演習II](2024/InformationDesignII/)
+- [情報デザイン応用演習II](2024/InformationDesignAppliedII/)
+- [メディア表現VI](2024/MediaRepresentationVI/)
+
+### 夏期スクーリング
+- [マルチメディア演習](2024/Schooling_MultiMedia/)
 
 ### 通年
-- [ゼミ](2023/Seminar/)
+- [ゼミ](2024/Seminar_Sammy/)
+
+---
+---
 
 ## Application
 - [デジタルクリエイティブ授業 by Adobe](http://adc.thu.ac.jp/digital-creative-course/)
@@ -51,5 +53,6 @@ Welcome to sammyppr.github.io!
 - [マークダウン Memo](./markdown_memo.md)
 
 ## Archive
+- [Contents 2023](2023/index.md)
 - [Contents 2022](2022/index.md)
   

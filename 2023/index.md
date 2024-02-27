@@ -14,4 +14,9 @@
 - [デジタルデザイン基礎演習II](./DigitalDesignII/index.md)
 - [情報デザイン演習II](./InformationDesignII/index.md)
 - [メディア表現VI](./MediaRepresentationVI/index.md)
-  
+
+### 夏期スクーリング
+- [マルチメディア演習](./Schooling_MultimediaSeminar/index.md)
+
+### 通年
+- [ゼミ](./Seminar/index.md)
