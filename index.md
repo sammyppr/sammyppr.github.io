@@ -20,11 +20,15 @@ Welcome to sammyppr.github.io!
 ### 夏期スクーリング
 - [マルチメディア演習]
 
-### 通年
-- [ゼミ](2024/Seminar_Sammy/)
 
 ---
 ---
+### ゼミ
+- [ゼミ](Seminar_Sammy/)
+
+---
+---
+
 
 ## Application
 - [デジタルクリエイティブ授業 by Adobe](http://adc.thu.ac.jp/digital-creative-course/)
