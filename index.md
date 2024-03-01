@@ -31,7 +31,9 @@ Welcome to sammyppr.github.io!
 
 
 ## Application
+<!--
 - [デジタルクリエイティブ授業 by Adobe](http://adc.thu.ac.jp/digital-creative-course/)
+-->
 - [Mac](./Mac/index.md)
 - [Adobe Photoshop](App/Photoshop/AdobePhotoshop.md)
 - [DaVinci Resolve](App/DavinciResolve/index.md)
