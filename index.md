@@ -52,6 +52,7 @@ Welcome to sammyppr.github.io!
 - [3DPrinter](./Hardware/3DPrinter/index.md)
 - [3DLaserCutter](./Hardware/3DLaserCutter/index.md)
 - [AudioRecording](./Hardware/Audio/index.md)
+- [Camera](./Hardware/Camera/index.md)
 
 ## Misc
 
