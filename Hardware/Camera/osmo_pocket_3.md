@@ -20,4 +20,4 @@
   - [PDF](https://www.tamaragabriel.uk/s/TG_DJI_Osmo_Pocket_3_Beginners_Filming_Guide-v2.pdf)
   - [LUTS](https://www.tamaragabriel.uk/creative-luts)
   - [DJI Osmo Pocket 3 BEST Video Settings](https://www.youtube.com/watch?v=w2kNFhB_Ois)
-- [DJI OSMO POCKET 3 | 100 TIPS TRICKS & HIDDEN FEATURES!!](https://www.youtube.com/watch?v=cbCKpyHOqwI)
+- [DJI OSMO POCKET 3 - 100 TIPS TRICKS & HIDDEN FEATURES!!](https://www.youtube.com/watch?v=cbCKpyHOqwI)
