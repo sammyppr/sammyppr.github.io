@@ -240,6 +240,8 @@ Key=Aだと
 その中で、明るいスケールを**メジャーペンタとニックスケール**と呼びます。
 
 ブルース進行に合わせて、次の指板の位置を適当に弾いてみましょう。
+- [Blues Backing Track Key in A For Guitar ブルースギターの練習用カラオケ](https://www.youtube.com/watch?v=-v1FZl7kd-g)
+
 
 ```
 |2| | |5|
