@@ -79,6 +79,32 @@ I,IIm,IIIm,IV,V,VIm,VIIdim,I
 
 色々弾いてみよう！
 
+わかりづらいから、引用します。
+### ルート音
+![](https://anglers-sound.com/wp-content/uploads/2019/08/バレーコード用音-1.jpg)
+Eは6限0Fまたは5弦7Fになりますね。
+
+### 5弦ルート
+- メジャーセブンス
+![](https://anglers-sound.com/wp-content/uploads/2019/08/メジャーセブン-1.jpg)
+- マイナーセブンス
+![](https://anglers-sound.com/wp-content/uploads/2019/08/マイナー７.jpg)
+- (ドミナント)セブンス
+![](https://anglers-sound.com/wp-content/uploads/2019/08/セブンス-1.jpg)
+- マイナーセブンフラット5
+![](https://anglers-sound.com/wp-content/uploads/2019/08/ｍ７フラットファイブ-1.jpg)
+
+### 6弦ルート
+- メジャーセブンス
+![](https://anglers-sound.com/wp-content/uploads/2019/08/メジャーセブン.jpg)
+- マイナーセブンス
+![](https://anglers-sound.com/wp-content/uploads/2019/08/マイナーセブンス.jpg)
+- (ドミナント)セブンス
+![](https://anglers-sound.com/wp-content/uploads/2019/08/セブンス.jpg)
+- マイナーセブンフラット5
+![](https://anglers-sound.com/wp-content/uploads/2019/08/ｍ７フラットファイブ.jpg)
+  
+
 ### 6弦ルートの形でKey=Fの4和音のダイアトニックコード
 - ルート音だけまずは6弦で抑えてみよう
   - F G A Bb C D E F
