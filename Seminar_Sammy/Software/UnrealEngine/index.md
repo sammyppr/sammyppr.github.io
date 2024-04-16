@@ -6,14 +6,17 @@
 UnrealEngineはゲームを作るだけでなく、映像、モーショングラフィックス等様々な用途で活用できます。
 起動に時間がかかるのでコンピュータのスペックは高い方がいいです。非力なマシンだとイライラします。
 
+---
 ## Unityとどっちがいいの?
 - [[Unity vs UnrealEngine5]どっちのゲームエンジンが良いのか徹底比較!!](https://zenn.dev/daichi_gamedev/articles/unity-vs-unrealengine#%E7%B5%90%E8%AB%96){:target="_blank"}
 - [【徹底比較】Unity vs Unreal Engine！どう違うの？ゲームエンジンの説明からメリット・デメリットまで解説します！](https://www.geekly.co.jp/column/cat-webgame/1903_051/){:target="_blank"}
 
+---
 ## インストールについて
 - Epic Games Launcherからインストールとなります。
 - 起動時にエラーが出る時は、下記参照
 
+---
 ### xcode関連のエラーが出る
 AppStoreからXcodeをインストールした上で、ターミナルで
 ```
@@ -34,9 +37,19 @@ Unreal Engineはどの環境でもさくさく動くアプリではなく、環�
 
 
 
-## はじめに
-2024/3/5に良さそうなチュートリアルが出ました。自動翻訳など使ってやってみましょう。...あ、これゲーム用じゃなかった...
+---
+## チュートリアル
+### 猫でも分かるUnreal Engineの学び方 - 超初心者向け編 2023 v1.0
+最初にまずは読んで良さそうなスライドです。
+- [猫でも分かるUnreal Engineの学び方 - 超初心者向け編 2023 v1.0](https://www.docswell.com/s/EpicGamesJapan/KW1WNR-HowToLearnUE5_2023#p24)
+
+### UE5の基礎知識(全20話)
+2024/3/5に良さそうなチュートリアルが出ました。自動翻訳など使ってやってみましょう。
+...あ、これゲーム専用じゃなかった...
 - [Unreal Engine 5 Beginner Tutorial](https://3dnchu.com/archives/ue5-beginner-tutorial-bad-decisions-studio/)
+
+> 本日より、Unreal Engine 5 をマスターするために必要な基礎知識をすべて学べる全20話のシリーズをアップロードする予定です。
+> 映画、ゲーム、イベント用ビジュアル、モーショングラフィックス、商品撮影など、アンリアルを使用する目的は問いません。このチュートリアルが終了する頃には、どのような用途にも対応できるようになります。
 
 ```
 Part 00 – はじめに
@@ -61,7 +74,7 @@ Part 18 – アニメーションとシーケンサーの応用
 Part 19 – レンダリング設定とコンソールコマンド
 ```
 
-## その他有意義なチュートリアル
+### その他有意義なチュートリアル
 - [誰でも始められる！知識ゼロから自宅で本格【実写+3DCGミュージックビデオ】の作り方](https://www.youtube.com/watch?v=eSS_mbtQxrI)
 
 
