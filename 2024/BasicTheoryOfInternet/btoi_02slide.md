@@ -369,7 +369,7 @@ Intel Core i3,i5,i7全て64bitとなります。
 Macで現在利用しているM1,M2,M3等は多少面倒くさいので後で説明します。
 
 ### GPU
-- **CGU** Graphics Processing Unit
+- **GPsU** Graphics Processing Unit
 
 元々はゲーマーの間で人気があったのですが、最近、人工知能のDeepLearning という技術と共に、GPU と呼ばれるプロセッサも注目を浴びています。CPU も GPU もどちらも計算することには変わりないのですが、何が違うかビデオをみてみましょう。
 
