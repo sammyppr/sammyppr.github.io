@@ -6,8 +6,36 @@
 UnrealEngineはゲームを作るだけでなく、映像、モーショングラフィックス等様々な用途で活用できます。
 起動に時間がかかるのでコンピュータのスペックは高い方がいいです。非力なマシンだとイライラします。
 
+## Unityとどっちがいいの?
+- [[Unity vs UnrealEngine5]どっちのゲームエンジンが良いのか徹底比較!!](https://zenn.dev/daichi_gamedev/articles/unity-vs-unrealengine#%E7%B5%90%E8%AB%96){:target="_blank"}
+- [【徹底比較】Unity vs Unreal Engine！どう違うの？ゲームエンジンの説明からメリット・デメリットまで解説します！](https://www.geekly.co.jp/column/cat-webgame/1903_051/){:target="_blank"}
+
+## インストールについて
+- Epic Games Launcherからインストールとなります。
+- 起動時にエラーが出る時は、下記参照
+
+### xcode関連のエラーが出る
+AppStoreからXcodeをインストールした上で、ターミナルで
+```
+sudo xcode-select -r
+```
+としないと起動しない。パスワード入力時、カーソルなど動かないので注意。その後
+```
+sudo xcodebuild -license
+```
+で「return」をした後「agree」とする必要あり。
+
+---
+## UnrealEngineが重い...
+Unreal Engineはどの環境でもさくさく動くアプリではなく、環境を選びます。
+しかし、設定によって軽量にすることはある程度は可能なので、試してみましょう。
+- [UE4 エディター動作を極限まで軽くしてみる](https://unrealengine.hatenablog.com/entry/2014/10/24/212222){:target="_blank"}
+- [【UE4】作業を快適に行うための個人的設定](https://kazupon.org/ue4-editor-my-opt-settings/){:target="_blank"}
+
+
+
 ## はじめに
-2024/3/5に良さそうなチュートリアルが出ました。自動翻訳など使ってやってみましょう。
+2024/3/5に良さそうなチュートリアルが出ました。自動翻訳など使ってやってみましょう。...あ、これゲーム用じゃなかった...
 - [Unreal Engine 5 Beginner Tutorial](https://3dnchu.com/archives/ue5-beginner-tutorial-bad-decisions-studio/)
 
 ```
