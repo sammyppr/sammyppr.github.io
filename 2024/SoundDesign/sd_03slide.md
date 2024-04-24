@@ -320,12 +320,26 @@ AACの方が後から出たファイル形式なので、圧縮率が高いで�
 [驚異の録音性能32bitフロートレコーダーZOOM F6＆F2の開発者に聞く「32bitフロート録音の技術とは」](https://www.pronews.jp/column/202012071100176250.html)
 
 ---
+## ZOOM F3
+大学ではZoom F3という32bit float対応のレコーダーを揃えました。
+最大限に利用して欲しいです。
+
+[ZOOM F3は32bitフロートの録音も凄いが、それ以外もいろいろ凄い。機能・使い方レビュー【動チェク！】](https://www.youtube.com/watch?v=N_y_-X-xsLo)
+
+さりげなくRode Wireless Proも2セット導入しています。
+
+[RØDEが超小型ワイヤレスマイク最強モデル「Wireless PRO」を発売！](https://www.miroc.co.jp/rock-on/rode_wireless-pro/)
+
+---
 ### 詳しく知りたい人は
 YouTubeで「32bit float 録音」とすると色々な解説動画が出ているので調べてみましょう。
 
 音声のデジタル化が始まって以来の革命と言って良いかと思います。
 
 [ZOOM F3は32bitフロートの録音も凄いが、それ以外もいろいろ凄い。機能・使い方レビュー【動チェク！】](https://www.youtube.com/watch?v=N_y_-X-xsLo&t=180s)
+
+
+
 
 # 小レポート
 「音のデジタル化」について400字程度でまとめてmanabaにて提出
