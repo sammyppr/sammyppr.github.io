@@ -365,7 +365,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 - キーン
 - ボー
 
-のような不快な音が発生することがあります。これをハウリングと言います。
+のような不快な音が発生することがあります。これをハウリング(Feedback)と言います。
 
 ---
 #### ハウリングの原理<!-- omit in toc -->
@@ -393,7 +393,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ---
 ### ポップノイズ<!-- omit in toc -->
 言葉によってはマイクにふきかかる風の量が多くなることがあります。
-例えば、口の前に手を当てて次の二つの言葉を話してみましょう。(あ、マスク...)
+例えば、口の前に手を当てて次の二つの言葉を話してみましょう。
 - ロック
 - ポップ
 
