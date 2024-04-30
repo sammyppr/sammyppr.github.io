@@ -1,0 +1,33 @@
+# メディア表現 III 4.カラーコレクション
+
+[メディア表現III TOP に戻る](./index.md)
+
+---
+
+## 目次
+
+- [メディア表現 III 4.カラーコレクション](#メディア表現-iii-4カラーコレクション)
+  - [目次](#目次)
+  - [スライド](#スライド)
+  - [データ](#データ)
+  - [追加](#追加)
+
+---
+
+## スライド
+
+[スライド資料](./mr3_04slide.pdf){:target="_blank"}
+
+## データ
+- [グレイスケールチャート](data/grayscale.png){:target="_blank"}
+- [肌色の修正](https://helpx.adobe.com/jp/premiere-pro/how-to/correct-skin-tones.html){:target="_blank"}
+
+## 追加
+- [How to Color Correct (for beginners) - Master the Basics]https://www.youtube.com/watch?v=pcpyaY3kl10
+
+1. Contrast
+2. Saturation
+3. Exposure
+4. WhiteBalance
+5. Curves
+
