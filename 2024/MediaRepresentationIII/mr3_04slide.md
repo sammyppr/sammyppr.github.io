@@ -166,7 +166,7 @@ AfterEffectsのエフェクトは全てビットマップ形式に対して有�
 
 ---
 ### シェイプレイヤーの「追加」の項目
-![](img/mr3_09shapelayer_item.png)
+![](img/mr3_04shapelayer_item.png)
 
 ---
 ### 追加の項目の種類
@@ -249,8 +249,9 @@ AfterEffectは基本的にビットマップが得意なモーショングラフ
 「結合・追加・型抜き・交差・中マド」が利用できます。
 
 Illustratorのパスファインダーを思い出しましょう。
+ん？上から順に処理されるっぽいですね。
 
-![](img/mr3_09pathfinder.png)
+![](img/mr3_04pathfinder.png)
 
 ---
 ### パスのオフセット
