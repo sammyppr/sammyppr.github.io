@@ -4,12 +4,12 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: メディア表現III 7. プラグイン・モーショングラフィックステンプレート
+header: メディア表現III 6. プラグイン・モーショングラフィックステンプレート
 footer: ""
 ---
 
 # メディア表現III<!-- omit in toc -->
-> 7. プラグイン・モーショングラフィックステンプレート
+> 6. プラグイン・モーショングラフィックステンプレート
 
 # 目次<!-- omit in toc -->
 1. [AfterEffects イージング・グラフエディター](#aftereffects-イージンググラフエディター)
@@ -74,7 +74,7 @@ AfterEffectsにてはグラフエディタについてより詳細に扱うこ�
 
 ---
 ### やってみよう
-スクリーンキャスト、HPにあります。
+[スクリーンキャスト](https://www.youtube.com/watch?v=8J-pdPuWUDM)、HPにあります。
 1. AfterEffectsで新規コンポジションを作成(HDTV1080 29.97)
 2. 新規平面で適当に背景追加
 3. シェイプレイヤー追加
