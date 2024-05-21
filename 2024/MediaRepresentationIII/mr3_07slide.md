@@ -4,12 +4,12 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: メディア表現III 10.モーショングラフィックステンプレートの制作
+header: メディア表現III 07.モーショングラフィックステンプレートの制作
 footer: ""
 ---
 
 # メディア表現III<!-- omit in toc -->
-> 10.モーショングラフィックステンプレートの制作
+> 07.モーショングラフィックステンプレートの制作
 
 # 目次<!-- omit in toc -->
 1. [モーショングラフィックステンプレートの制作](#モーショングラフィックステンプレートの制作)
@@ -22,7 +22,6 @@ footer: ""
 
 # 前回までのおさらい<!-- omit in toc -->
 
-順番を入れ替えたりしましたが、色の後に
 - 構造
 - シェイプアニメーション
 - エフェクト
@@ -36,7 +35,7 @@ footer: ""
 
 ---
 ### モーショングラフィックステンプレート
-7(9)回目に
+6回目に
 - [Premiere Composer](https://flashbackj.com/product/premiere-composer-starter-pack)
 - [Animation Composer](https://flashbackj.com/product/animation-composer)
 
@@ -78,6 +77,7 @@ PremiereComposerを使った方が良い、と言いましたが必須ではな�
 
 ---
 ### まずはMOGRTをちゃんと使ってみよう。
+復習...
 パラメータの設定方法がどんなか、等わかると、これから作るときに役立ちます。
 
 動画はPremiereComposerありでやっていますが、どちらでもいいです。
@@ -118,13 +118,17 @@ aepファイルを保存しておくと、あとで修正できるので楽で�
 ---
 ### Premiereで実際に使ってみよう
 
+---
+### 最終課題
+- MOGRTを作成して提出
+- ソースコード(aep)も提出
 
-
+AfterEffectでいろいろなことを試してMOGRTにしてくれることを期待しています。まだ時間あるので、構想を練っておきましょう。
 
 # まとめ<!-- omit in TOC -->
 MOGRTを自分で作成できれば、テロップなどで非常に役立つと思います。
 ぜひ、オリジナルのMOGRTを作成して、表現を広げましょう。
 
-(MOGRT作成 最終課題の一つとなります)
+
 
 
