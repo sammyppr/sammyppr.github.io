@@ -4,12 +4,12 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: メディア表現III 11.エクスプレッション
+header: メディア表現III 8.エクスプレッション
 footer: ""
 ---
 
 # メディア表現III<!-- omit in toc -->
-> 11.エクスプレッション
+> 8.エクスプレッション
 
 # 目次<!-- omit in toc -->
 1. [エクスプレッション](#エクスプレッション)
