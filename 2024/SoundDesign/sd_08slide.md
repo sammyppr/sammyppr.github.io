@@ -105,8 +105,9 @@ https://sammyppr.github.io/
 
 外国人にとっても「これって結局どういうストーリーなの？」という質問が飛ぶほどです。
 
-一応、翻訳を作成しました。
+一応、翻訳・構成表を作成しました。
 - [翻訳](xls/translate.xlsx)
+- [構成表](xls/ElephantDreamStructure.xlsx)
 
 今日、最後に音声だけで再生してみてみます。
 
