@@ -4,12 +4,12 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: メディア表現III 12.ヌルオブジェクト
+header: メディア表現III 09.ヌルオブジェクト
 footer: ""
 ---
 
 # メディア表現III<!-- omit in toc -->
-> 12.ヌルオブジェクト
+> 09.ヌルオブジェクト
 
 # 目次<!-- omit in toc -->
 1. [最終課題について](#最終課題について)
