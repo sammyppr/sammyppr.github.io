@@ -107,13 +107,6 @@ Google翻訳で見てみましょう。
 [Elephants Dream by scripts.com](https://www.scripts.com/script/elephants_dream_7567)
 
 ---
-### 翻訳...
-全然完全でないですが...翻訳してみたのをHPに置いておきます。
-
-うまく意訳できなかった。
-
-
----
 ### ヒント
 4分10秒あたりから、Proogは足場と遊んで前に進んでいますが、Emoはつまんなそうに普通に歩いています。
 
