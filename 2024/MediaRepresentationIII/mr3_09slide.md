@@ -32,7 +32,7 @@ footer: ""
 
 ---
 ### 最終課題について
-以下の二つの課題をNASに提出してください。(smb://nas1-mc.thu.ac.jp, 2023演習-メディア表現III-最終課題-学籍番号フォルダ)
+以下の二つの課題をNASに提出してください。(smb://nas1-mc.thu.ac.jp, 2024演習-メディア表現III-最終課題-学籍番号フォルダ)
 
 ---
 #### 1. MOGRTを作成せよ。
@@ -97,7 +97,7 @@ Aftereffectsでは基本的には2Dで制御を行なっていますが、3Dレ�
 - スケール
 - 回転
 
-が2パラメータ(X,Y)から3パラメータ(X,Y,Z)に増えるます。
+が2パラメータ(X,Y)から3パラメータ(X,Y,Z)に増えます。
 また、方向というパラメータが増えます。回転の仕方が変わります。
 
 [３DレイヤーにおけるRotation（回転）とOrientation（方向）の違い](https://migmotiongraphics.wordpress.com/2012/09/09/%EF%BC%93d%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8Brotation%EF%BC%88%E5%9B%9E%E8%BB%A2%EF%BC%89%E3%81%A8orientation%EF%BC%88%E6%96%B9%E5%90%91%EF%BC%89%E3%81%AE%E9%81%95/)
