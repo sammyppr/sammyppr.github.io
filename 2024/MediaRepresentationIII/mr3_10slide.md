@@ -111,11 +111,28 @@ footer: ""
 - [【見ないと損！】プレミアプロ大変身！オーディオUI大解剖！2024年5月アップデートver24.4.1【PremierePro & beta】](https://www.youtube.com/watch?v=ANbKPAAQL2c)
 
 ## カット編集応用
-カット編集は、徐々に切り替わることなくパッと映像が切り替わることを指しますが、いくつもテクニックがあり、その中でも今日はJカット,Lカットについて紹介しようと思います。
+カット編集は、徐々に切り替わることなくパッと映像が切り替わることを指しますが、いくつもテクニックがあり、その中でも今日はジャンプカット・Jカット,Lカットについて紹介しようと思います。
 
-[参考:9 Cuts Every Video Editor Should Know | Filmmaking Tips](https://www.youtube.com/watch?v=Wv3Hmf2Dxlo)
-[参考:カット編集とは？コツ3つとすぐに使えるテクニック9選を解説](https://capworks.jp/blog/cut-editing/)
+用語覚えてもいいですが、編集時のアイディアとして利用できるといいですね。
 
+- [絶対にマスターすべきトランジション８選 / 基本〜上級レベルのカットの繋ぎ方【シネマティック動画編集】](https://www.youtube.com/watch?v=ZKONKbxPG1Q)
+- [参考:9 Cuts Every Video Editor Should Know | Filmmaking Tips](https://www.youtube.com/watch?v=Wv3Hmf2Dxlo)
+- [参考:カット編集とは？コツ3つとすぐに使えるテクニック9選を解説](https://capworks.jp/blog/cut-editing/)
+
+---
+### ジャンプカットとは？
+動画内の無駄な部分をカットして、時間が飛んだような映像にすることができます。
+YouTuberによって、非常にこの手法を良く目にするようになりました。
+「あー」「えー」等をカットすることにより、テンポよい動画にすることができます。
+
+最近では、音声から自動でカットすることができるようになっています。
+- [【速報Part5】待望の時短機能が搭載！自動文字起こしの無音部分一括削除！MAXアップデート【PremierePro】](https://www.youtube.com/watch?v=3gziVYGy_tU)
+
+YouTuber向けでなくても、映画などでも利用されています。
+<!--
+- [ジャンプカットとは | 映像制作者の基礎知識8つのカットについて](https://vook.vc/n/4678)
+-->
+- [What is a Jump Cut & When to Use It — 5 Essential Jump Cut Editing Techniques Explained](https://www.youtube.com/watch?v=03zw4RNv0gE)
 ---
 ### Jカット・Lカットとは？
 2つの映像と音声のカットする位置をずらすテクニックになります。
