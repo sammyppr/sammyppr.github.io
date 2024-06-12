@@ -105,12 +105,16 @@ footer: ""
 
 [Premiere Proで使えるビデオトランジションのサンプル一覧](https://premiere-pro.net/video-transition-sample/)
 
+### 音声トラックのトランジション
+前回紹介しましたが、音声トラックのトランジションのUIが変更されています。
+
+- [【見ないと損！】プレミアプロ大変身！オーディオUI大解剖！2024年5月アップデートver24.4.1【PremierePro & beta】](https://www.youtube.com/watch?v=ANbKPAAQL2c)
 
 ## カット編集応用
 カット編集は、徐々に切り替わることなくパッと映像が切り替わることを指しますが、いくつもテクニックがあり、その中でも今日はJカット,Lカットについて紹介しようと思います。
 
-[参考:カット編集とは？コツ3つとすぐに使えるテクニック9選を解説](https://capworks.jp/blog/cut-editing/)
 [参考:9 Cuts Every Video Editor Should Know | Filmmaking Tips](https://www.youtube.com/watch?v=Wv3Hmf2Dxlo)
+[参考:カット編集とは？コツ3つとすぐに使えるテクニック9選を解説](https://capworks.jp/blog/cut-editing/)
 
 ---
 ### Jカット・Lカットとは？
