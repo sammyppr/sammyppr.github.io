@@ -133,6 +133,18 @@ YouTuber向けでなくても、映画などでも利用されています。
 - [ジャンプカットとは | 映像制作者の基礎知識8つのカットについて](https://vook.vc/n/4678)
 -->
 - [What is a Jump Cut & When to Use It — 5 Essential Jump Cut Editing Techniques Explained](https://www.youtube.com/watch?v=03zw4RNv0gE)
+
+---
+### 脱線(イマジナリーライン)...追加
+30度の話が出たので、追加でイマジナリーラインについて紹介しておきます。
+
+- [映像・マンガ制作の基本 イマジナリーラインとは？](https://tech.pepabo.com/2017/06/26/imaginary-line/)
+
+原則ですので、絶対に守らなくてはいけないものではありませんが、破ると気持ち悪く見えます。
+
+
+
+
 ---
 ### Jカット・Lカットとは？
 2つの映像と音声のカットする位置をずらすテクニックになります。
