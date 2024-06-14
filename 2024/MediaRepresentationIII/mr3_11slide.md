@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: メディア表現III 4.カラーコレクション
+header: メディア表現III 11.カラーコレクション
 footer: ""
 ---
 
-# メディア表現III 4. カラーコレクション<!-- omit in toc -->
+# メディア表現III 11. カラーコレクション<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
@@ -28,13 +28,14 @@ footer: ""
 
 
 # 前回のおさらい<!-- omit in toc -->
-
-- Ver 22.3の新機能
 - 4つの編集ポイントツール(リップル・ローリング・スリップ・スライド)
 - トランジション
 - Jカット・Lカット
 
-について学びましたね。
+について学びました。いろいろな映像がどのような編集されているか気にして見るようになりましょう。
+
+# 今日のテーマ
+今日から2回、色について学びます。
 
 # ホワイトバランス
 撮影時のことなので詳しく説明しませんが、ホワイトバランスとは撮影環境での光の色の影響を補正して、白を白く写すための機能となります.
@@ -58,12 +59,12 @@ footer: ""
 ![Xrite Color Checker Passport Video](https://www.xrite.com/-/media/global-product-images/c/colorchecker-passport-video/colorchecker-passport-video_05.jpg)
 
 ## DataColor SpyderCHECKR24<!-- omit in toc -->
-現在入手できるものは
+現在日本で入手できるものは
 **DataColor SpyderCHECKR24**
 となります。
 
-
 http://www.datacolor.jp/products/camerasolutions/spydercheckr24.html
+https://www.amazon.co.jp/Datacolor-SpyderCHECKR-%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB-SCK200-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%BF%9D%E8%A8%BC%E4%BB%98%E3%80%91/dp/B06XFSXZ88
 
 ## 参考<!-- omit in toc -->
 - [【WB】プロが教える正しいホワイトバランスの取り方【白】](https://www.youtube.com/watch?v=pWoUZIvsVWI&t=463s)
@@ -192,6 +193,8 @@ Lumetriスコープでも、RGB/YUVの表示が選べます。
 5. 「HSLセカンダリ」で一部の色を調整し
 6. 「ビネット」で必要であればビネット効果を付与します。
 
+1の部分がカラーコレクションであり、2以降がカラーグレーディングとなります。
+
 ## 基本補正
 
 ---
@@ -222,6 +225,7 @@ RAW/LOG撮影をしている場合には、LUTと呼ばれるファイルを当�
 ### ライト<!-- omit in toc -->
 「露光量」「コントラスト」「ハイライト」「シャドウ」「白レベル」「黒レベル」
 
+#### やってみよう
 これ、わかりそうで、わかりにくいんです。ですので、HPからグレースケールチャートをダウンロードして、触って、メーター見ながらどう変化するかを確認してみてください。
 
 エフェクトコントロールのモーションのスケールを33にしてください。(サイズを合わせるため)
@@ -252,7 +256,6 @@ RAW/LOG撮影をしている場合には、LUTと呼ばれるファイルを当�
 これはスキントーンと言って、不思議なことに黒人であろうと白人であろうと、肌色がこの線にのっていれば、正しく補正されていることになります。
 
 
----
 ## まとめ
 撮影時に正しく撮影することが基本ですが、カラーコレクションを行うことによって、色補正ができます。
 
