@@ -182,6 +182,25 @@ PureDataと呼ばれる、音をプログラミングする環境があるので
 
 これからの作品作りに活かしてくれればと思います。
 
+## 8の字巻
+
+---
+### 8の字巻とは
+ケーブルの巻き方となります。
+もともと、[地面に8の字を描くようにケーブルを巻いていく方法](https://www.youtube.com/watch?v=dm4xtDN7PmA)を、
+地面を使わずに同様の効果(絡みづらい)を得られるようにする巻き方です。
+
+いくつか方法があるようなのですが、
+- [自分が一番慣れてる方法](https://www.youtube.com/watch?v=IVv3yueAui4)
+- [ググるとよく出てくる方法](https://www.youtube.com/watch?v=E4oowgUYsjI)
+
+どちらでも構いません。音響・映像とも、長いケーブルを利用する時には必ず、この巻き方をするようにしましょう。
+
+- [https://www.yamaha-ss.co.jp/tips/tips-18.html](https://www.yamaha-ss.co.jp/tips/tips-18.html)
+
+---
+### やってみよう
+数人に1本しかありませんが、順番にやってみましょう。
 
 ## Eleaphant Dreamに効果音を当ててみよう
 
