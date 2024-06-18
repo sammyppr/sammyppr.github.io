@@ -198,6 +198,9 @@ PureDataと呼ばれる、音をプログラミングする環境があるので
 
 - [https://www.yamaha-ss.co.jp/tips/tips-18.html](https://www.yamaha-ss.co.jp/tips/tips-18.html)
 
+この動画もおすすめだなぁ...
+- [【結音】音響屋が教えるわかりやすい！”8の字巻き”のコツ！【 How to over and under 】](https://www.youtube.com/watch?v=UOz2BdFTdN4)
+
 ---
 ### やってみよう
 数人に1本しかありませんが、順番にやってみましょう。
