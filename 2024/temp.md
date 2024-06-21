@@ -82,10 +82,13 @@
 - [メディア表現Vトップ](https://sammyppr.github.io/2024/MediaRepresentationV/)
 - [メディア表現V 11回目](https://sammyppr.github.io/2024/MediaRepresentationV/mr5_11.html)
 
-自分は、資料を全て[Github](https://sammyppr.github.io/)上に置いている。そのメリットとして以下が挙げられる。
+それぞれの進み具合に応じて確認できるようにスクリーンキャスト(YouTube)を多様している。
+また、資料を全て[Github](https://sammyppr.github.io/)上に置いていあり、15回分先に公開している。
+
+そのメリットとして以下が挙げられる。
 - 学内からのみならず、学外からの予習復習も容易
-- 授業が終了したあとで見返すことも可能
-- 先取りすることも可能
+- 授業を先取りすることも可能。
+- 授業が終了したあと、見返すことも可能
 
 以上
 
