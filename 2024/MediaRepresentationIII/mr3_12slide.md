@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: メディア表現III 5.カラーグレーディング
+header: メディア表現III 12.カラーグレーディング
 footer: ""
 ---
 
-# メディア表現III 5.カラーグレーディング<!-- omit in toc -->
+# メディア表現III 12.カラーグレーディング<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
@@ -262,4 +262,4 @@ https://www.youtube.com/watch?v=w_ewDAjuBXA&list=PLYTBsaElYK5pWc03OP4MMT6R9Caokn
 雰囲気を出す方法には色以外にも様々な要素がありますが、まずは色からコントロールして、より良い作品づくりに役立ててください。
 
 # 小レポート<!-- omit in TOC -->
-映像における色の表現について考えることを400字程度でまとめ、manabaより提出せよ。
+映像における色の表現について注意することを400字程度でまとめ、manabaより提出せよ。
