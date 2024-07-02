@@ -21,21 +21,16 @@ footer: ""
 # 初めに<!-- omit in toc -->
 
 # 前回のおさらい<!-- omit in toc -->
+2回利用して
+- カラーコレクション
+- カラーグレーディング
 
-- ヌルオブジェクト
-- 3Dカメラ
+と色・質感についてやってきました。作品制作に活かしていきましょう。
 
 # 最終課題について
-- [最終課題について](https://sammyppr.github.io/2023/MediaRepresentationIII/mr3_kadai.html)
+- [最終課題について](https://sammyppr.github.io/2024/MediaRepresentationIII/mr3_kadai.html)
 
----
-### 今後の予定
-- 13回目：7/20
-- 14回目：7/25
-- 15回目：7/27
-- 定期試験：7/31-8/4
-
-最終課題の締切日は8/4とします。
+最終課題の締切日は7月末とします。
 
 
 # 今日のトピック
@@ -44,6 +39,7 @@ footer: ""
 ---
 ### マスク・キーイング・ロトスコープ
 今日は、映像合成のために、どのように切り抜くかと言うことについて説明していきます。
+演習方式でする時間がないので、説明中心となります。
 
 マスク > キーイング > ロトスコープ
 
@@ -62,13 +58,21 @@ footer: ""
 
 円・長方形・ペンツールを利用して設定します。
 
-パスの使い方慣れていない人は、
-[ペンツールで描くベジェ曲線をマスターする](https://helpx.adobe.com/jp/illustrator/how-to/draw-edit-curves.html)
-でおさらいをしておきましょう。
+- [使えなきゃヤバい！マスクの基礎と使い方3選！！](https://www.youtube.com/watch?v=CrSGgXTMHgM) 1:10-16:30
 
 #### 参考
-[使えなきゃヤバい！マスクの基礎と使い方3選！！](https://www.youtube.com/watch?v=CrSGgXTMHgM)
-[マスクについて -作成・編集・用途-](https://www.youtube.com/watch?v=ku0V2PU0t1s)
+- [マスクについて -作成・編集・用途-【AfterEffects/チュートリアル】](https://www.youtube.com/watch?v=ku0V2PU0t1s)
+
+---
+### ベジェ曲線のコツ
+パスの使い方慣れていない人は、
+- [ペンツールで描くベジェ曲線をマスターする](https://helpx.adobe.com/jp/illustrator/how-to/draw-edit-curves.html)
+
+でおさらいをしておきましょう。
+
+コツとしては以下の2点に注意しましょう。
+- 接線を意識する
+- 不必要にポイントを増やさない
 
 
 ---
@@ -91,6 +95,8 @@ footer: ""
 つまり、動かすこともできると言うことですね。
 
 ただし、マスクするものが動いていると、1フレームずつ設定していかないとダメですね。
+
+これ、大変な作業となります。フレーム数が多い場合にはロトスコープを試しましょう。(後述)
 
 ---
 ### マスクトランジション
@@ -139,13 +145,14 @@ footer: ""
 
 編集時に後悔することになります。
 
-[意外と簡単にできるグリーンバック撮影3つのポイント](https://www.youtube.com/watch?v=wl2zJ8f7ntQ)
+- [意外と簡単にできるグリーンバック撮影3つのポイント](https://www.youtube.com/watch?v=wl2zJ8f7ntQ)
 
 ---
 ### 撮影のコツ
 なんでも簡単にできそうですが、いろいろ考えないとうまく抜けません。
 ヒントになりそうな動画貼っておきます。
 
+#### 参考
 - [グリーンバック合成撮影の基本！安易に手を出すとケガをする？！クロマキーで失敗しないための動画講座！](https://www.youtube.com/watch?v=wpT55Vt2tfc)
 - [グリーンバックで大切なのは人物ライティング【クロマキー合成】](https://www.youtube.com/watch?v=LNvof0GZd8E)
 
@@ -184,7 +191,7 @@ AfterEffectsでは
 ### 練習ファイル
 授業中にはやらないですが、ここから試してみることができます。
 
-[グリーンバックの映像素材の問題点をすばやく修正](https://helpx.adobe.com/jp/after-effects/how-to/fix-green-screen-footage.html)
+- [グリーンバックの映像素材の問題点をすばやく修正](https://helpx.adobe.com/jp/after-effects/how-to/fix-green-screen-footage.html)
 
 
 ---
@@ -216,6 +223,10 @@ AfterEffectsを利用すれば、グリーンバックを利用しなくても�
 - 背景からオブジェクトを分離
 - 不要なオブジェクトを置き換える
 
+AfterEffectsではロトブラシというツールを利用してロトスコープを行います。
+
+パスで設定をしなくても、「この辺」と指示するだけで綺麗に抜いてくれます。
+
 ---
 ### AfterEffectsでのロトスコープの使い方
 - [ロトブラシツールで動画の一部を切り抜く方法](https://helpx.adobe.com/jp/after-effects/how-to/roto-brush-isolate-elements.html)
@@ -228,7 +239,15 @@ AfterEffectsを利用すれば、グリーンバックを利用しなくても�
 
 時間があれば、やってみたいのにトライしてみましょう。
 
+---
+### ロトブラシ3.0
+> 次世代ロトブラシは、まったく新しい AI モデルを搭載した最新かつ改良版のロトブラシツールです。ロトブラシ 2 と比較して、時間と空間にわたってフッテージ内のオブジェクトを選択および追跡する際の精度が向上します。これにより、重なり合う手足、髪、透明部分などの複雑なオブジェクトを素早く簡単にマスクできます。
 
+2024.5アップデートでワークフローが大幅に機能強化されました。
+
+- [ロトブラシとマットを調整機能](https://helpx.adobe.com/jp/after-effects/using/roto-brush-refine-matte.html)
+
+- [【After Effects】最新ロトブラシ3はすごい！機能検証！これ使う人は必見！](https://www.youtube.com/watch?v=XorK-9zGofo) 5:52-
 
 # まとめ<!-- omit in TOC -->
 さまざまなツールを駆使して、映像の合成を使いこなせるようになりましょう。
