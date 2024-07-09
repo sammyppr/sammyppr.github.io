@@ -36,9 +36,7 @@ https://sammyppr.github.io/
 ### サウンドデザイン実践 II
 今日も基本作業時間に充てます。
 
----
-### F3実戦
-前回、F3での録音をまだやっていない人は324にて行いましょう。
+前回までにナレーション撮りをできていない人は、今日体験しましょう。
 
 ---
 ### 火がついて大変な人にヒント
@@ -51,7 +49,26 @@ https://sammyppr.github.io/
 かといって、頭から根つめてやっても、終わりが見えなくて途方に暮れます。
 
 大まかな流れを作って、ディテイルにこだわる、という方針でやっていきましょう。
+---
 
+## その他
+
+### AIツール
+いやーなAIツールが出てきました。
+
+- [【Voice Isolater】雑音を消して声をクリアにする超便利なAIツールをご紹介](https://www.youtube.com/watch?v=PZtTF5OmfLo)
+
+### Over 50G samples
+「Cymatics Sample Library」というところが、期間限定でとんでもないことをやっていました。
+
+- [総容量50GBを超えるメロディー、ドラム、FX、ボーカルなど、有償サンプルパック製品を含む50製品を収録したサンプルパックコレクション Cymatics「50 Free Packs」が48時間限定無償配布中！！](https://www.freekontaktina.com/2024/07/cymatics-50-free-packs.html)
+
+音いいです。NAS1の
+
+> /Volumes/StudentVolume/素材/Cymatics Sample Library
+
+においたので、いろんな音さがしている人はみてみましょう。
+(多すぎて、探すの大変ですけど...)
 
 ### 最終課題について
 - [最終課題について]([./sd_kadai.md](https://sammyppr.github.io/2023/SoundDesign/sd_kadai.html))
