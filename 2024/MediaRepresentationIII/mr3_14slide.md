@@ -88,11 +88,15 @@ https://no-rules.site/design/aftereffects-howto/
 ### コンピュータの仕組み
 おさらいしましょう。
 - CPU: 複雑な計算を処理する
-- GPU: 単純な計算を処理する
+- GPU: 単純な計算を高速に処理する
 - メモリ：結果などを一時的に蓄える
 - HDD/SSD：ファイルや計算結果(キャッシュ)を保存
 
 [Mythbusters Demo GPU versus CPU](https://www.youtube.com/watch?v=-P28LKWTzrI)
+
+アプリで適切に設定されているか確認しましょう。
+- [Premiere](https://helpx.adobe.com/jp/x-productkb/multi/gpu-acceleration-and-hardware-encoding.html)
+- [AfterEffects](https://helpx.adobe.com/jp/after-effects/using/basics-gpu-after-effects.html)
 
 ---
 ### リソースは有限
