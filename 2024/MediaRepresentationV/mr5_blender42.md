@@ -1,8 +1,11 @@
 # Blender4.2 update
-
 2024/7/16にBlender4.2のアップデートが予定されています。
 
 いくつもポイントがあるのですが、EEVEE NEXTが非常に大きなアップデートとなっています。
+
+## 履歴
+- 2024/7/15 新規
+
 
 ## EEVEE NEXT
 レイトレーシングが可能になったら表現力が上がっています。
@@ -23,5 +26,5 @@
 ## その他4.2のポイント
 - [Blender 4.2 Best features in 5 MINS](https://www.youtube.com/watch?v=ST2_eFRcKwQ)
 - [Blender 4.2 - The Best New Features!](https://www.youtube.com/watch?v=lf0dteL4Wxg)
-- [Will Eevee 2.0 Replace Cycles? | Blender 4.2](https://www.youtube.com/watch?v=K8Gc5ys5Ba8)
+- [Will Eevee 2.0 Replace Cycles?  Blender 4.2](https://www.youtube.com/watch?v=K8Gc5ys5Ba8)
 - [Blender 4.2 Is Here](https://www.youtube.com/watch?v=S3phJ3GDb7o)
