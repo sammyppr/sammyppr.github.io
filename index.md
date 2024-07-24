@@ -18,7 +18,7 @@ Welcome to sammyppr.github.io!
 - [メディア表現VI]
 
 ### 夏期スクーリング
-- [マルチメディア演習]
+- [マルチメディア演習](2024/Schooling_MultiMedia/)
 
 
 ---
