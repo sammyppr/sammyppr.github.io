@@ -43,7 +43,7 @@
 
 ダウンロードするのに、メールアドレス要らなくなっているようです。
 
-[無料のHTML5 Bootstrapテンプレート【2023年版】おすすめ25選！ホームページを簡単にカスタマイズ](https://www.seleqt.net/design/open-source-website-templates/){:target="_blank"}
+[無料のHTML5 Bootstrapテンプレート【2024年版】おすすめ25選！ホームページを簡単にカスタマイズ](https://www.seleqt.net/design/open-source-website-templates/){:target="_blank"}
 
 [![](https://img.youtube.com/vi/jac_PdCbuSg/0.jpg)](https://www.youtube.com/watch?v=jac_PdCbuSg){:target="_blank"}
 
