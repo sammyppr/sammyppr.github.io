@@ -25,7 +25,7 @@
 第５回 CSS, JavaScript入門
 第６回 テンプレートを利用したホームページ制作演習
 
-- [3日目]
+- [3日目](SMS_day3.md)
 第７回 Photoshop入門
 第８回 Photoshop応用
 第９回 Photoshopを用いた画像編集演習

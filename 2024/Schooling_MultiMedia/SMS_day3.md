@@ -45,23 +45,27 @@ Googleなどで画像検索後に
 ### レイヤーを使い倒そう
 [![](https://img.youtube.com/vi/NUzHjXtVIUk/0.jpg)](https://www.youtube.com/watch?v=NUzHjXtVIUk){:target="_blank"}
 
-### 髪の毛の切り抜き(古い方法)
+### 髪の毛の切り抜き
 次に説明をする**被写体を選択**機能がなかったときには、このように髪の毛の切り抜きをおこなっていました。
 
 どんな感じか見てみましょう。
 
 [【2019年版】Photoshop 髪の毛の切り抜きはここまで進化](https://design-trekker.jp/design/photoshop/photoshop-clipping-hair/){:target="_blank"}
 
+現在ではこんなです。
+
+[「被写体を選択」で髪の⽑を切り抜く方法](https://creativecloud.adobe.com/cc/learn/photoshop/web/jp-auto-select?locale=ja){:target="_blank"}
+
+
 ### Adobe Sensei, Adobe Firefly
 AIの機能でここまで便利になっています。
 余力のある人はやってみましょう。
-- [複雑な髪の⽑も⼀瞬で切り抜く(古い)](https://helpx.adobe.com/jp/photoshop/how-to/jp-auto-select.html)
-- [【AI生成塗りつぶし】フォトショップで髪の毛を切り抜く方法(最新)](https://photoshopvip.net/148441)
-- [「コンテンツに応じた塗りつぶし」で写真から不要物をすばやく消去](https://helpx.adobe.com/jp/photoshop/how-to/arima-content-aware-fill.html)
-- [「被写体を選択」を使って補正対象にすばやく選択範囲を作成](https://helpx.adobe.com/jp/photoshop/how-to/kakita-select-subject.html)
-- [写真の空を置き換え](https://helpx.adobe.com/jp/photoshop/using/replace-sky.html)
 
-ベータ版のみ対応した内容もありますので、よくわからない人は質問してください。
+- [「コンテンツに応じた塗りつぶし」で写真から不要物をすばやく消去](https://helpx.adobe.com/jp/photoshop/how-to/arima-content-aware-fill.html){:target="_blank"}
+- [「被写体を選択」機能の切り抜きと色調整方法](https://creativecloud.adobe.com/cc/learn/photoshop/web/kakita-select-subject?locale=ja){:target="_blank"}
+- [写真の空を置き換え](https://helpx.adobe.com/jp/photoshop/using/replace-sky.html){:target="_blank"}
+- [ニューラルフィルターの概要](https://helpx.adobe.com/jp/photoshop/using/neural-filters.html){:target="_blank"}
+
 
 
 
@@ -72,8 +76,9 @@ AIの機能でここまで便利になっています。
 4. "学籍番号＋氏名"というフォルダを作成して
 5. その中にDay3.zipをアップロードしてください。
 
-
+<!--
 ### おまけ
 昨年からAIによる画像生成が非常に注目を集めています。
 - [MidjourneyとStable Diffusionの違いを徹底解説！どちらがおすすめ？](https://bocek.co.jp/media/exercise/stable-diffusion/5012/)
 - [Adobe AIを活用した最新機能が登場](https://www.adobe.com/jp/products/photoshop/generative-fill.html)
+-->
