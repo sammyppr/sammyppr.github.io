@@ -27,7 +27,6 @@
 ### サンプル
 [![](https://img.youtube.com/vi/bdmtwA7_NJE/0.jpg)](https://www.youtube.com/watch?v=bdmtwA7_NJE){:target="_blank"}
 
-今年は開催されるみたい...
 
 ### 素材
 [NHKクリエイティブライブラリー](http://www1.nhk.or.jp/archives/creative/){:target="_blank"}

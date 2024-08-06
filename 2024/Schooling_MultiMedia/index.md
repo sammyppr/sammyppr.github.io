@@ -30,7 +30,7 @@
 第８回 Photoshop応用
 第９回 Photoshopを用いた画像編集演習
 
-- [4日目]
+- [4日目](SMS_day4.md)
 第１０回 動画の基礎知識
 第１１回 Premiere入門
 第１２回 CM制作演習
