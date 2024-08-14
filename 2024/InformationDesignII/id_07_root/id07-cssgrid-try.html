@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Try</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0px;
+        }
+        .container {
+            display: grid;
+            height: 100vh;
+
+            grid-template-rows: 100px 100px 1fr 100px;
+            grid-template-columns: 100px 1fr 100px;
+
+            grid-template-areas:
+                "header header header"
+                "nav main ad"
+                "nav main side"
+                "footer footer footer";
+        }
+        header {
+            grid-area: header;
+            background-color: pink;
+        }
+        nav {
+            grid-area: nav;
+            background-color: lightblue;
+        }
+        main {
+            grid-area: main;
+            background-color: lightgreen;
+        }
+        aside.ad {
+            grid-area: ad;
+            background-color: #888;
+        }
+        aside.side {
+            grid-area: side;
+            background-color: darkorchid;
+        }
+        footer {
+            grid-area: footer;
+            background-color: #aaa;
+        }
+        .flex-box {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: 80%;
+        }
+        .flex-item {
+            width: 30%;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>タイトル</h1>
+        </header>
+        <nav>ナビ</nav>
+        <main>
+            <h2>メイン</h2>
+            <div class="flex-box">
+                <div class="flex-item">hello</div>
+                <div class="flex-item">world</div>
+                <div class="flex-item">!</div>
+                <div class="flex-item">hello</div>
+                <div class="flex-item">world</div>
+                <div class="flex-item">!</div>
+                <div class="flex-item">hello</div>
+                <div class="flex-item">world</div>
+                <div class="flex-item">!</div>
+                <div class="flex-item">hello</div>
+                <div class="flex-item">world</div>
+                <div class="flex-item">!</div>
+                <div class="flex-item">hello</div>
+                <div class="flex-item">world</div>
+                <div class="flex-item">!</div>
+                <div class="flex-item">hello</div>
+                <div class="flex-item">world</div>
+                <div class="flex-item">!</div>
+            </div>
+        </main>
+        <aside class="ad">広告</aside>
+        <aside class="side">サイド</aside>
+        <footer>フッター</footer>
+    </div>
+</body>
+</html>

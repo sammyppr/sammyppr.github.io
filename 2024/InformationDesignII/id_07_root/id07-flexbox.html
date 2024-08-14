@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        .flex-box {
+            background-color: #eee;
+            padding: 10px;
+
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            height: 100vh;
+        }
+        .flex-item {
+            padding: 10px;
+            color: #fff;
+            margin: 10px;
+            border-radius: 5px;
+            width: 30%;
+        }
+        .item1 {
+            background-color: blue;
+        }
+        .item2 {
+            background-color: green;
+        }
+        .item3{
+            background-color: darkblue;
+        }
+        .item4{
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <div class="flex-item item1">1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, dolores.</div>
+        <div class="flex-item item2">2. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil deserunt porro, explicabo provident aut ut dolore obcaecati blanditiis? Labore, magnam!</div>
+        <div class="flex-item item3">3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, neque.</div>
+        <div class="flex-item item4">4. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, commodi?</div>
+    </div>
+</body>
+</html>
