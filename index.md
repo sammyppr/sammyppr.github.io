@@ -12,7 +12,7 @@ Welcome to sammyppr.github.io!
 - [メディア表現V](2024/MediaRepresentationV/)
 
 ### 後期
-- [造形基礎演習II]
+- [造形基礎演習II](2024/AnalogueDesignII/index.md)
 - [情報デザイン演習II](2024/InformationDesignII/index.md)
 - [情報デザイン応用演習II]
 - [メディア表現VI]
