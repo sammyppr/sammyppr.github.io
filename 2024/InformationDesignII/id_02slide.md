@@ -23,10 +23,9 @@ footer: ""
 
 ---
 
-- 606に部屋変更しました。
 - テキスト持ってない人どのくらいいる？(今日もまだ持っていない人いる想定だけど)
 
----
+
 ## 教科書<!-- omit in toc -->
 必ず購入してください。
 
@@ -93,6 +92,7 @@ HTML5が利用されています。
 
 書籍などではHTML5という記載方法で本がまだ売られています。厳密に言えば「HTML5」「HTML Living standard」は別物ですが、かなり似ています。ですので、極めない限りはそんなに差は感じないでしょう。
 
+
 [参考：どうしてHTML5が廃止されたのか](https://future-architect.github.io/articles/20210621a/)
 
 
@@ -145,18 +145,20 @@ HTML 6が登場することはありません。
 
 ## HTMLタグ(再掲)<!-- omit in toc -->
 - <xxxx>を開始タグ
-- </xxxx>を終了タグ
+- </xxxx>を終了タグ(閉じタグ)
 
 と呼びます。
 
 全てのタグが開始タグ・終了タグから成り立っているわけではなく、終了タグを書かないものもあります。
+
+[【初心者でもわかる】HTML（HTML5）で閉じタグがいらない要素の一覧](https://naruweb.com/coding/endtag/)
 
 ## 行頭のスペース(再掲)<!-- omit in toc -->
 
 インデントと呼びます。
 これにより、タグの始まりと終わりの関係が分かりやすくなります。
 
-TABキーで入力できます。
+TABキーで入力できます。Shift+TABで一つ上に戻ります。
 
 
 ## それぞれの意味(再掲)<!-- omit in toc -->
@@ -220,26 +222,26 @@ LiveServerを利用するときなど、**どこを基準に作業している�
 ```
 <!DOCTYPE html>
 <html>
-<head>
-   <meta charset="UTF-8">
-   <title>HTMLの基礎</title>
-</head>
-<body>
-   <h1>見出し1</h1>
-   <h2>見出し2</h2>
-   <h3>見出し3</h3>
-   <h4>見出し4</h4>
-   <h5>見出し5</h5>
-   <h6>見出し6</h6>
-   <p>段落</p>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>HTMLの基礎</title>
+   </head>
+   <body>
+      <h1>見出し1</h1>
+      <h2>見出し2</h2>
+      <h3>見出し3</h3>
+      <h4>見出し4</h4>
+      <h5>見出し5</h5>
+      <h6>見出し6</h6>
+      <p>段落</p>
+   </body>
 </html>
 ```
-- h1: heading1...
+- h1,h2...: heading1, heading2...
 - p: paragraph
 
 ## Live Server<!-- omit in toc -->
-実際にブラウザで閲覧するには、右下のGo Liveをクリックだったね。
+実際にブラウザで閲覧するには、右下のGo Liveをクリックです。
 
 Live Serverをインストールしているので、再読み込みをしなくても、ソースを保存するとアップデートされるよ。
 
@@ -259,7 +261,7 @@ Live Serverをインストールしているので、再読み込みをしなく
 - EUC
 - UTF-8
 
-がありますが、UTF-8が一般的になりつつあります。
+がありますが、UTF-8が一般的になりました。
 
 ```
    <meta charset="UTF-8">
@@ -436,7 +438,7 @@ HTMLを書いていると、人がわかりやすいようにコメントを残�
 
 ## caniuse.com
 HTML, CSS, 画像フォーマット等どのブラウザで何が利用できるかを確認できる
-- [caniuse.com](https://caniusde.com)
+- [caniuse.com](https://caniuse.com)
 
 があります。非常に便利ですので知っておきましょう。
 
