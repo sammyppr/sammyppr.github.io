@@ -156,7 +156,7 @@ PC で見る時と、テレビで見る時と映像の色は完全に一致す�
 
 キーワード：スーパーホワイト・スーパーブラック
 
-https://mount-q.com/yamaqblog/archives/676
+https://www.eizo.co.jp/eizolibrary/color_management/colorworkflow/series-06.html
 
 ---
 ### 映像の制作フロー
