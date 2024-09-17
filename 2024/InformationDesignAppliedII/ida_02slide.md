@@ -45,7 +45,7 @@ JavaScript の標準規格である ECMAScript について学修する
 
 ## JavaScript? ECMAScript?<!-- omit in toc -->
 
-総称すると、JavaScript なんですけれども、バージョンが色々あります。 JavaScript だと、バージョンがよくわからないので、ES2020 などと略されることがあるだけです。
+総称すると、JavaScript なんですけれども、バージョンが色々あります。 JavaScript だと、バージョンがよくわからないので、ES2023 などと略されることがあるだけです。
 Wiki にまとまってるので、確認してみましょう。
 
 [ECMAScript Wiki](https://ja.wikipedia.org/wiki/ECMAScript)
