@@ -29,7 +29,7 @@ footer: ""
 ## 教科書<!-- omit in toc -->
 必ず購入してください。
 
-- [1冊ですべて身につくHTML & CSSとWebデザイン入門講座](https://www.sbcr.jp/product/4797398892/)
+- [1冊ですべて身につくHTML & CSSとWebデザイン入門講座［第2版］](https://www.sbcr.jp/product/4815618469/)
 
 
 ## HPの置き場所(再掲)<!-- omit in toc -->
