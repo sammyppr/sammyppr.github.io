@@ -46,7 +46,7 @@ footer: ""
 までやっていこうと思います。前回までの内容をより詳しくやっていきます。
 2回一応説明しているので、適当に飛ばしながら行きます。
 
-古い教科書でこちらに書かれていないことも触れようと思います。
+教科書に書いてなくても知ってて欲しいことは都度触れようと思います。
 
 # Chapter1 最初に知っておこう!Webサイトの基本
 ## よいWebデザインとは?<!-- omit in toc -->
@@ -80,7 +80,7 @@ footer: ""
 ## ユーザビリティとは<!-- omit in toc -->
 ### 使いやすい操作性にする<!-- omit in toc -->
 - 予想ができる様にする
-- 動作を早くする
+- 動作を速くする
 - 一目見てわかる様にする
 
 ## Webサイトの仕組み<!-- omit in toc -->
@@ -112,16 +112,25 @@ footer: ""
 - Google Chrome
 - Safari
 - Microsoft Edge
-- Microsoft Internet Explorer(もう考えなくて良い)
 - Firefox
 
  [シェア](https://gs.statcounter.com/)
+  
 
+
+第一版には
+- Microsoft Internet Explorer
+
+が記載されていましたが、ついになくなりました！！！
+- [Microsoft 社 Internet Explorer のサポート終了について](https://www.ipa.go.jp/archive/security/security-alert/2021/ie-eos.html)
+- [脱線：IEの為のCSSハック](https://qiita.com/zwirky/items/1e99a0797551ee9d4da9)
+
+---
 ### レンダリングエンジン<!-- omit in toc -->
 表示を担当するソフトウェア。レンダリングエンジンが異なると違う表示をする可能性が増える。
 [各Webブラウザが使っているレンダリングエンジン](https://laboradian.com/rendering-engine-and-browser/)
 
-## ブラウザの種類<!-- omit in toc -->
+---
 ### Javascriptエンジン<!-- omit in toc -->
 Javascriptの実行を担当するソフトウェア。レンダリングエンジンが異なると異なる挙動をする可能性がある。
 [ブラウザとJavaScriptエンジンの関係とJavaScriptエンジンの構造](https://devsakaso.com/about-javascript-engine/)
@@ -140,7 +149,8 @@ Javascriptの実行を担当するソフトウェア。レンダリングエン�
 - ブラウザをインストールする(Chrome)
 
 ### グラフィックツールを確認する<!-- omit in toc -->
-- XD
+- XD(おっと、本から消されてる...)
+- Figma
 - Photoshop
 - Illustrator
 
@@ -292,7 +302,7 @@ Webページを作る上で土台となる言語
 > タグ：「<」「>」で挟まれた文字列
 
 ## HTMLファイルを作ろう<!-- omit in toc -->
-今日の作業フォルダ「ID_02」を「ID_root」内に作成してファイル名を「sample2-2.html」として以下の内容を書いてみましょう。
+今日の作業フォルダ「ID_03」を「ID_root」内に作成してファイル名を「sample2-2.html」として以下の内容を書いてみましょう。
 ```
 <!DOCTYPE html>
 <html lang="ja">
@@ -346,6 +356,11 @@ HTMLが正しく記載されているかのチェックサービスが一応あ�
 なるべくエラーを出さない様に記述するのが望ましいです。
 - [WHATWG HTML Conformance Checkers](https://whatwg.org/validator/)
 
+あれ...不具合？他のリンク貼っておきます。
+- [HTMLコードのチェックが簡単にできるおすすめツール5選](https://seotimes.jp/html-code-check-tool/)
+
+
+
 ## HTMLの基本の書き方を身につけよう<!-- omit in toc -->
 - 半角英数字で書く
 - 小文字で統一しよう
@@ -353,7 +368,7 @@ HTMLが正しく記載されているかのチェックサービスが一応あ�
 - タグに情報を書き加えることができる(属性)
 
 ## 見出しをつけよう・文章を表示しよう<!-- omit in toc -->
-- 見出し：h1〜h6
+- 見出し：h1〜h6(飛ばさない)
 - 段落：p
 - 改行：br(閉じタグなし)
 
@@ -512,7 +527,7 @@ GIFより軽くなりやすい
 
 ---
 ### AVIF<!-- omit in toc -->
-まだWebで使うのは危険かもです。Edgeが対応していないためです。
+まだあまり普及していないイメージがあります。性能はいいんですが...
 - 非可逆圧縮の圧縮率が高い
 - 可逆圧縮／非可逆圧縮を選択できる
 - GIFのようなアニメーションを制作できる
@@ -570,8 +585,16 @@ GIFより軽くなりやすい
 
 を使うのが普通だと思います。
 
+---
+### 画像を書き出してみよう。
+1. [FREEPIK](https://jp.freepik.com/search?format=search&last_filter=selection&last_value=1&query=Web+Templates&selection=1&type=psd)から好きなものをダウンロード
+2. Photoshopで開く
+3. 書き出したい画像をコピー(Command+C)
+4. 新規作成でクリップボード(Command+N) 透過させたい場合にはカンバスカラーを透明に
+5. ペースト(Command+V)
+6. ファイル-書き出し形式、「書き出し」
 
-## XDでの書き出し
+## XDでの書き出し(紹介のみ)
 - ファイル - UIキットを入手...
 - Urgym（マーケティング）をダウンロードしましょう。
 
@@ -585,14 +608,24 @@ GIFより軽くなりやすい
 がいいかな。Webにすると、倍の大きさでも書き出してくれます。
 XDでデザインした大きさで出してくれるので便利ですね。
 
+## Figmaでの書き出し やってみよう
+自分まだFigma真剣に触ってないので...
 
+- [【Figma入門⑦】画像の書き出し・エクスポートの設定方法を解説](https://skillhub.jp/blogs/390)
+
+ここからダウンロードして、画像をいくつか書き出してみましょう。
+- [無料で使えるFigmaテンプレート35選。Webデザイン/モバイルUI/デザインガイドライン作成におすすめ](https://goworkship.com/magazine/figma-ui-templates/)
+
+1. 選択して(グループとか気をつけて中に入らないとかもですね)
+2. エクスポート
+
+で終わり。簡単！
 
 # データの位置
 
 ---
 ### データの位置について<!-- omit in toc -->
 前回画像を表示してみましたが、ネット上の画像だったためにURLを貼ればOKでした。
-
 データの位置を表現するには
 - URL
 - 相対パス
@@ -660,9 +693,9 @@ ID_root - ID_03 - img - test.jpg
 - サイト外のデータはURLを使うしかないですね。
 
 
-https://sammyppr.github.io/2023/InformationDesignII/id_03_root
+https://sammyppr.github.io/2024/InformationDesignII/id_03_root.zip
 
-にサンプルを置いたのでみてみましょう。
+にサンプルを置いたので、ダウンロードしてみてみましょう。
 
 <!--
 
