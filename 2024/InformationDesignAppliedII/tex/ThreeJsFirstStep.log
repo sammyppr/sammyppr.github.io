@@ -1,144 +1,137 @@
-This is e-upTeX, Version 3.141592653-p3.9.0-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2021) (preloaded format=uplatex 2022.3.22)  11 MAY 2022 23:14
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.24-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2019.9.27)  12 OCT 2024 14:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **ThreeJsFirstStep.tex
 (./ThreeJsFirstStep.tex
-pLaTeX2e <2020-10-01u04>+2 (based on LaTeX2e <2020-10-01> patch level 4)
-L3 programming layer <2021-02-18>
-(/usr/local/texlive/2021/texmf-dist/tex/platex/jsclasses/jsarticle.cls
-Document Class: jsarticle 2020/10/09 jsclasses (okumura, texjporg)
-\jsc@mpt=\dimen154
-\jsc@mmm=\dimen155
-\jsc@smallskipamount=\skip47
-LaTeX Info: Redefining \textmc on input line 497.
-LaTeX Info: Redefining \textgt on input line 499.
+pLaTeX2e <2019-04-06u02> (based on LaTeX2e <2018-12-01>)
+(/usr/local/texlive/2019/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2019/04/06 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen118
+\jsc@mmm=\dimen119
+\jsc@smallskipamount=\skip41
+LaTeX Info: Redefining \rmfamily on input line 466.
+LaTeX Info: Redefining \sffamily on input line 469.
+LaTeX Info: Redefining \ttfamily on input line 472.
+LaTeX Info: Redefining \textmc on input line 476.
+LaTeX Info: Redefining \textgt on input line 478.
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 561.
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 540.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 755.
+(Font)              scaled to size 9.60999pt on input line 731.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 755.
-\fullwidth=\dimen156
+(Font)              scaled to size 9.60999pt on input line 731.
+\fullwidth=\dimen120
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 908.
+(Font)              scaled to size 7.68799pt on input line 884.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 908.
-\c@part=\count178
-\c@section=\count179
-\c@subsection=\count180
-\c@subsubsection=\count181
-\c@paragraph=\count182
-\c@subparagraph=\count183
-\@abstractbox=\box64
-\c@figure=\count184
-\c@table=\count185
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\jsc@tocl@width=\dimen157
-\@lnumwidth=\dimen158
-\bibindent=\dimen159
-(/usr/local/texlive/2021/texmf-dist/tex/platex/jsclasses/jslogo.sty
-Package: jslogo 2019/07/25 okumura, texjporg
-LaTeX Info: Redefining \TeX on input line 82.
-LaTeX Info: Redefining \LaTeX on input line 135.
-LaTeX Info: Redefining \LaTeXe on input line 188.
+(Font)              scaled to size 7.68799pt on input line 884.
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\@abstractbox=\box43
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\jsc@tocl@width=\dimen121
+\@lnumwidth=\dimen122
+\bibindent=\dimen123
+(/usr/local/texlive/2019/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2017/02/24 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 94.
+LaTeX Info: Redefining \LaTeX on input line 147.
+LaTeX Info: Redefining \LaTeXe on input line 200.
 )
-\heisei=\count186
+\heisei=\count91
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks15
 )
-(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-\Gm@cnth=\count187
-\Gm@cntv=\count188
-\c@Gm@tempcnt=\count189
-\Gm@bindingoffset=\dimen160
-\Gm@wd@mp=\dimen161
-\Gm@odd@mp=\dimen162
-\Gm@even@mp=\dimen163
-\Gm@layoutwidth=\dimen164
-\Gm@layoutheight=\dimen165
-\Gm@layouthoffset=\dimen166
-\Gm@layoutvoffset=\dimen167
-\Gm@dimlist=\toks17
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/moreverb/moreverb.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen124
+\Gm@wd@mp=\dimen125
+\Gm@odd@mp=\dimen126
+\Gm@even@mp=\dimen127
+\Gm@layoutwidth=\dimen128
+\Gm@layoutheight=\dimen129
+\Gm@layouthoffset=\dimen130
+\Gm@layoutvoffset=\dimen131
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks18
-\verbatim@line=\toks19
-\verbatim@in@stream=\read2
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
 )
-\tab@position=\count190
-\tab@size=\count191
-\listing@line=\count192
+\tab@position=\count95
+\tab@size=\count96
+\listing@line=\count97
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count193
-\lst@gtempboxa=\box65
-\lst@token=\toks20
-\lst@length=\count194
-\lst@currlwidth=\dimen168
-\lst@column=\count195
-\lst@pos=\count196
-\lst@lostspace=\dimen169
-\lst@width=\dimen170
-\lst@newlines=\count197
-\lst@lineno=\count198
-\lst@maxwidth=\dimen171
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count98
+\lst@gtempboxa=\box44
+\lst@token=\toks19
+\lst@length=\count99
+\lst@currlwidth=\dimen132
+\lst@column=\count100
+\lst@pos=\count101
+\lst@lostspace=\dimen133
+\lst@width=\dimen134
+\lst@newlines=\count102
+\lst@lineno=\count103
+\lst@maxwidth=\dimen135
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count199
-\lst@skipnumbers=\count266
-\lst@framebox=\box66
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count104
+\lst@skipnumbers=\count105
+\lst@framebox=\box45
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
 (./jlisting.sty
 Package: jlisting 2006/02/20 0.2 (Thor)
-\lst@nextchar=\count267
-\lst@inputfile=\read3
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
-\l__pdf_internal_box=\box67
-\g__pdf_backend_object_int=\count268
-\l__pdf_backend_content_box=\box68
-\l__pdf_backend_model_box=\box69
-\g__pdf_backend_annotation_int=\count269
-\g__pdf_backend_link_int=\count270
-\g__pdf_backend_link_sf_int=\count271
-)
-(./ThreeJsFirstStep.aux)
+\lst@nextchar=\count106
+\lst@inputfile=\read2
+) (./ThreeJsFirstStep.aux)
 \openout1 = `ThreeJsFirstStep.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
@@ -183,7 +176,7 @@ LaTeX Font Info:    ... okay on input line 53.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count272
+\c@lstlisting=\count107
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 56.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -245,7 +238,15 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 66.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 69.
- [2] [3] [4] [5] [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+ [2] [3] [4]
+[5] [6]
 Overfull \hbox (13.20706pt too wide) in paragraph at lines 330--332
 []\OT1/cmr/m/n/10 http://planetpixelemporium.com/earth.html \JY2/mc/m/n/10 か
 ら 、 \OT1/cmr/m/n/10 color map \JY2/mc/m/n/10 をダウンロ ードして 
@@ -254,12 +255,12 @@ Overfull \hbox (13.20706pt too wide) in paragraph at lines 330--332
 
 [7] [8] [9] [10] [11] [12] [13] [14] [15] (./ThreeJsFirstStep.aux) ) 
 Here is how much of TeX's memory you used:
- 2929 strings out of 479460
- 41422 string characters out of 5870464
- 572255 words of memory out of 5000000
- 20644 multiletter control sequences out of 15000+600000
- 417696 words of font info for 87 fonts, out of 8000000 for 9000
+ 2724 strings out of 493212
+ 36135 string characters out of 6144392
+ 226453 words of memory out of 5000000
+ 6741 multiletter control sequences out of 15000+600000
+ 17571 words of font info for 73 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 68i,6n,74p,232b,1727s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,6n,32p,256b,1700s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ThreeJsFirstStep.dvi (15 pages, 61620 bytes).
+Output written on ThreeJsFirstStep.dvi (15 pages, 61424 bytes).
