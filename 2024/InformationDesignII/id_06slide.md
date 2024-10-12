@@ -53,9 +53,10 @@ footer: ""
 ---
 ### 終わっていないところ<!-- omit in toc -->
 - 2-13 ブロック要素でグループ分けをしよう
-- 3-14 レイアウトを組もう
+- 3-16 レイアウトを組もう
+- 3-17 CSSグリッドでタイル型に並べよう
 
-がまだ終わっていませんでしたね。見た目に楽しい3-14は来週となりますが、それの下準備が今回となります。
+がまだ終わっていませんでしたね。見た目に楽しいく、実用的な内容で、来週となりますが、それの下準備が今回となります。
 
 ---
 ### あらためて、Webデザインとは?<!-- omit in toc -->
@@ -122,6 +123,8 @@ CSSについても書き方が変わってきたりしています。
 ### いずれにせよ<!-- omit in toc -->
 - インターネット・Webの仕組みが理解できる
 の部分が必要ですので、この演習で身につけてほしいと思います。
+
+この辺の素地となる資格がWebリテラシー試験(宣伝www)
 
 
 # 2-13 ブロック要素でグループ分けをしよう
@@ -305,6 +308,7 @@ sectionはarticleと似ていますが、その部分だけをみても完結は
 
 - [
 【HTML】コンテンツを区切るタグ、sectionとarticleの違いについて解説](https://zero-plus.io/media/html-section-article/)
+- [articleとsectionの違いと使い分け【HTML】](https://pecopla.net/web-column/section-article-difference)
 
 完結しているかしていないか、が大きな違いとなりそうですね。
 
@@ -355,12 +359,19 @@ sectionはarticleと似ていますが、その部分だけをみても完結は
 
 HTMLではこの階層構造の作り方が現状混乱しています。(策定された考え方(セクショニング・ルート)が廃止など)
 現時点では
-- [Living Standard — Last Updated 11 September 2023](https://momdo.github.io/html/sections.html#exposing-outlines-to-users)
+- [Living Standard — Last Updated 19 September 2024](https://momdo.github.io/html/sections.html#exposing-outlines-to-users)
 
 が一番最新の様ですが、とりあえずは、見出しタグでアウトラインを作ることを徹底しましょう。
 
+
+---
+### アウトラインアルゴリズムの削除
+
 ぐちゃぐちゃな経緯は
 - [HTML のアウトラインアルゴリズムが見出しレベルをベースとしたものに刷新されそう](https://blog.w0s.jp/671)
+- [【HTML5】標準規格というものに失望した話](https://qiita.com/silane1001/items/7126d33340120ff972fe)
+
+とりあえず、見出しタグでアウトライン作っておけば良さそうですね。
 
 ---
 ### アウトラインの確認の準備<!-- omit in toc -->
@@ -371,17 +382,18 @@ HTMLではこの階層構造の作り方が現状混乱しています。(策定
 
 次に、アウトラインを確認する機能拡張を入れましょう。
 - Chromeで
-- [HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo?hl=ja)にアクセス
+- ~~[HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo?hl=ja)にアクセス~~
+- [HTML Outline](https://chromewebstore.google.com/detail/html-outline/bbdofojliblplnpnjjckgbbobblppipj)にアクセス
 - 「Chromeに追加」
+
+古くなったようなので、入れ替えました。
 
 ---
 ### アウトラインの確認<!-- omit in toc -->
 1. Googleで適当に検索
-2. HTML5 Outlinerのアイコンをクリック
+2. ページを右クリックして「HTML Outline」で表示されます。
 
-![width:400px](img/html5_outliner.png)
-
-他のページでも確認してみよう。
+いろんなページで確認してみよう。
 
 ---
 ### 見えないところのデザイン<!-- omit in toc -->
@@ -392,7 +404,10 @@ Googleの様に綺麗に書くのは大変だと思いますが、仕事では�
 
 (仕様が混乱していることも事実です。最新の情報を確認しましょう)
 
+<!--
 - [(参考)文書のアウトラインとセクショニング](https://web.havincoffee.com/html/html5/html5_a_sectioning.html)
+-->
+- [Living Standard：セクション](https://momdo.github.io/html/sections.html)
 
 ---
 ### セマンティックコーディング
@@ -487,10 +502,9 @@ footer {
 1. ID_06_02を作成しましょう。
 2. index.html, style.cssはコピーしてきてから作業でも構いません。
 3. headerタグの中に、4項目のメニューをnavタグを使って実装しましょう。
-4. リストのスタイルをnoneにしておきましょう。
-5. navを右寄せにしましょう。
-6. liのlist-styleをnone, displayをinlineにしてマージンを適当につけましょう。
-7. footerにコピーライト表記をして、センタリングしましょう。
+4. navを右寄せにしましょう。
+5. liのlist-styleをnone, displayをinlineにしてマージンを適当につけましょう。
+6. footerにコピーライト表記をして、センタリングしましょう。
 
 
 - [Copyright(コピーライト：著作権表示)の正しい書き方を知っていますか？：webサイト制作](https://serinaishii.hatenablog.com/entry/2015/09/30/Copyright%28%E3%82%B3%E3%83%94%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%EF%BC%9A%E8%91%97%E4%BD%9C%E6%A8%A9%E8%A1%A8%E7%A4%BA%29%E3%81%AE%E6%AD%A3%E3%81%97%E3%81%84%E6%9B%B8%E3%81%8D%E6%96%B9%E3%82%92)
@@ -587,7 +601,7 @@ li {
 こういう作りのものもあります。
 
 ---
-### float(P.166)<!-- omit in toc -->
+### float(P.16i)<!-- omit in toc -->
 画像の右寄せ・左寄せについてどう記述するかを学んでおきましょう。
 
 1. mainの中にpタグ,imgタグ,pタグ,pタグの順に適当に挿入
@@ -595,19 +609,27 @@ li {
 3. 回り込みを解除するために<br class="clear">を最後のpタグの前に追加
 4. clearクラスに clear:bothを追加
 
+画像の右寄せ・左寄せ、以外ではもう使うことがないと思います。教科書のような使い方はしなくなります。(来週説明)
+
 ---
 ### 答え html<!-- omit in toc -->
 ```html
     <main>
         メイン
         <p>Lorem ipsum ...</p>
-        <img src="https://www.google.co.jp/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        <img src="https://picsum.photos/200/300">
         <p>Lorem ipsum ...</p>
         <br class="clear">
         <p>Lorem ipsum ...</p>
     </main>
 ```
 pタグの中はlorem20等使って適当に長くしておいてください。
+画像は、loremの画像版です。デモを作成する時に非常に便利かと
+
+- [ Lorem Picsum](https://picsum.photos/)
+
+日本語のダミー文章が欲しい時はこちら
+- [Lorem JPsum ](https://lorem.sabigara.com/)
 
 ---
 ### 答え css<!-- omit in toc -->
@@ -659,7 +681,7 @@ floatはclearとセットにしないと高さをうまく計算してくれな�
 6. 最後にarticleタグを追加しよう。記事名をh2, それ以下の見出しはh3を使おう(完結するような内容を記載しよう)
 7. cssを整えよう
 
-HTML5 Outlinerでアウトラインを確認しながらやってみよう。
+HTML Outlineでアウトラインを確認しながらやってみよう。
 アウトラインを綺麗にまとめるのはかなり難しいです。
 
 ---
