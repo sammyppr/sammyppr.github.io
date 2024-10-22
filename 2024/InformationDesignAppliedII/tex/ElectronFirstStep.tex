@@ -306,7 +306,7 @@ app.on('activate', () => {
 \begin{quote}
 npm start
 \end{quote}
-とすると、ウィンドウが次のよう表示されるはずです。
+とすると、ウィンドウが次のよう表示されるはずです。(あ、この画像すでにcssついてる...気にしない...)
 
 [注意：contextIsolation: falseのところを間違えると多分バージョン番号が出ません]
 
@@ -434,25 +434,25 @@ clock();
 
 function clock () {
     // 現在日時を取得
-    var d = new Date();
+    let d = new Date();
 
     // デジタル時計を更新
     updateDigitalClock(d);
 
     // 次の「0ミリ秒」に実行されるよう、次の描画処理を予約
-    var delay = 1000 - new Date().getMilliseconds();
+    let delay = 1000 - new Date().getMilliseconds();
     setTimeout(clock, delay);
 }
 
 function updateDigitalClock (d) {
-    var AA_str = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-    var YY = d.getFullYear().toString().slice(-2);
-    var MM = d.getMonth() + 1;
-    var DD = d.getDate();
-    var AA = d.getDay();
-    var hh = d.getHours();
-    var mm = d.getMinutes();
-    var ss = d.getSeconds();
+    const AA_str = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    let YY = d.getFullYear().toString().slice(-2);
+    let MM = d.getMonth() + 1;
+    let DD = d.getDate();
+    let AA = d.getDay();
+    let hh = d.getHours();
+    let mm = d.getMinutes();
+    let ss = d.getSeconds();
 
     // 桁あわせ
     if(MM < 10) { MM = "0" + MM; }
@@ -461,7 +461,7 @@ function updateDigitalClock (d) {
     if(mm < 10) { mm = "0" + mm; }
     if(ss < 10) { ss = "0" + ss; }
 
-    var text = YY + '/' + MM + '/' + DD + ' (' + AA_str[AA] + ')<br>' + hh + ':' + mm + ':' + ss;
+    let text = YY + '/' + MM + '/' + DD + ' (' + AA_str[AA] + ')<br>' + hh + ':' + mm + ':' + ss;
     document.getElementById("digital_clock").innerHTML = text;
 }
 \end{lstlisting}
@@ -577,15 +577,15 @@ npm install -D electron
 \subsection{package.json}
 \begin{verbatim}
   "devDependencies": {
-    "electron": "^24.4.0",
-    "electron-builder": "^24.4.0"
+    "electron": "^33.0.1",
+    "electron-builder": "^25.1.8"
   }
 \end{verbatim}
 の後に以下のように6行追記してください。「,」を忘れずに
 \begin{verbatim}
   "devDependencies": {
-    "electron": "^24.4.0",
-    "electron-builder": "^24.4.0"
+    "electron": "^33.0.1",
+    "electron-builder": "^25.1.8"
   },
   "build": {
     "appId": "jp.test.app1",
@@ -606,7 +606,7 @@ npm install -D electron
 
 macにはIntel, AppleSiliconの二つの種類のCPUがありますが、そのどちらでも動くアプリケーションを作成するために「--universal」としています。
 
-windowsの場合には次を参考にしてください。
+windowsの場合には次を参考にしてください。(うまく行くかな...)
 \begin{quote}
 https://maku.blog/p/2tcs8n2/
 \end{quote}
