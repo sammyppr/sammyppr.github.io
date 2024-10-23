@@ -42,22 +42,21 @@ footer: ""
 
 ---
 ### FlexboxとCSS Grid
-前回、floatを触りましたが、これからはレイアウトにfloatは使いません。
+前回、floatについて触れましたが、これからはレイアウトにfloatは使いません。
 
 画面をレイアウトするときに利用するのが、
 - Flexbox
 - CSS Grid
 
-になります。Flexboxが先に一般的になり、CSS Gridがその後にできた技術となります。ですが、二つ揃ったことにより、明確にどう使うかが区別されてきました。
+になります。Flexboxが先に一般的になり、CSS Gridがその後にできた技術となります。現在は、どっちを使うか、で議論が起きている気がしますが、
 
-大まかには
+一般的には
 
 - Flexbox: 1方向に並べる時(折り返しあり)
 - CSS Grid: 2次元にレイアウトする時
 
-と言えるでしょう。
+と言われています。
 
----
 ## float
 
 ---
@@ -74,8 +73,6 @@ footer: ""
 
 ---
 ### 今日のPDF資料について
-2022年度のままの資料をHPに貼ってあります。
-8回目にやったので、id_08になっていますが、07に読み替えてやっていきましょう。
 レイアウトの実験が目的なので
 - 内部スタイルシートを利用している(styleタグで、CSSを実装)
 - header, main, footer等のセマンティックコーディングはしていないことに注意してください。
@@ -129,6 +126,7 @@ CSS Grid Layoutが正式名称となります。
 
 Flexboxが1次元だったのに対し、CSS Grid Layoutでは2次元レイアウトを作成することが可能になります。
 
+<!--
 ---
 ### CSS Gridはどのブラウザで使える？
 caniuse.comで調べて見ましょう。
@@ -137,13 +135,15 @@ IEだけ微妙ですね。ところがです。
 Microsoft社におけるIEのサポート終了が、2022/6/16になりました。
 
 これで、全てのWeb関係者が頭を悩ます一つの要因が世の中から消えることとなります。
-
+-->
+<!--
 ---
 ### とはいえ...
 こんな記事が...
 https://www.itmedia.co.jp/news/articles/2205/23/news066.html
 
 企業や自治体は早急な対応が求められます。
+-->
 
 ---
 ### これからのWebデザイン
@@ -190,8 +190,7 @@ https://www.itmedia.co.jp/news/articles/2205/23/news066.html
 
 ---
 ### どう使い分ける？
-float/Flexbox/CSS Grid
-と3種類ありますが、以下の様にすると良いでしょう。
+
 #### float
 純粋に画像などの回り込みに利用する
 
@@ -201,12 +200,17 @@ float/Flexbox/CSS Grid
 #### CSS Grid
 サイト全体をレイアウトする
 
-
 ---
 ### 詳しい記事
 - [FlexboxとCSS Gridの違いと使い分け｜よくあるレイアウトで理解する](https://webliker.info/css/flexbox-grid/)
 
 詳しくみていきましょう。
+
+
+Flexbox/CSS Gridの使い分けに関しては多少議論があるようです。
+
+- [実例で学ぶFlexboxとCSS Gridの使い分け](https://www.tak-dcxi.com/article/learning-by-example-flex-vs-grid-usage/)
+
 
 
 
@@ -215,19 +219,22 @@ float/Flexbox/CSS Grid
 
 ---
 ### 教科書で復習しよう
-3-14「レイアウトを組もう」P.152~P.166です。
+- 3-16「レイアウトを組もう」P.154~P.159
+- 3-17「CSSグリッドでタイル型に並べよう」P.160-P.166
+
+です。
 
 これで、3章まで終わりました。
 
 レイアウトの基本で漏れていることが
-- 5-8 レスポンシブに対応させよう(P. 216~225)
+- 4-10 レスポンシブに対応させよう(P.206~214)
 
 となります。仕組みだけ伝えて終わりにしようと思います。
 
 
 ---
 ### 追記:
-教科書の5-8ではmin-width, max-widthを使っていますが、これより「range-syntax」の方が直感的で分かりやすいです。
+教科書ではmin-width, max-widthを使っていますが、これより「range-syntax」の方が直感的で分かりやすいです。
 
 - [ついにSafariも。 media queryの範囲指定をより直感的に書ける記法が全ブラウザ対応へ](https://zenn.dev/moneyforward/articles/css-range-syntax)
 
