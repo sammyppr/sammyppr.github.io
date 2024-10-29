@@ -47,7 +47,13 @@ Flexbox, CSS Gridによって重要度が下がってる気がしますが、説
 
 一番有名なのは「Bootstrap」と呼ばれる旧Twitter社が開発したものになります。
 
+- [【2024年最新版】CSSのおすすめフレームワーク10選｜メリット・デメリットも解説](https://freelance.bizlink.io/tips/css-framework)
+- [Web制作者がチェックしておきたい！ 2024年版、CSSフレームワークのまとめ](https://coliss.com/articles/build-websites/operation/css/awesome-css-frameworks.html)
+- [【分野別】おすすめCSSフレームワーク40選！最新から定番、無料で使えるものまで紹介](https://jitera.com/ja/insights/27681)
+
+<!--
 - [【2023年最新！】おすすめのCSSフレームワーク40選！効率的にデザイン作成をしよう！](https://mid-works.com/columns/language/others/1114801){:target="_blank"}
+-->
 
 ---
 ### CSSフレームワークの使い方<!-- omit in toc -->
@@ -100,7 +106,7 @@ Bootstrapを利用するとお手軽にそれなりのデザインを実装す�
 
 ---
 ### というわけで...<!-- omit in toc -->
-CSSフレームワークについてはしっかりは本演習では扱わないことにします。
+CSSフレームワークについて、しっかりは本演習では扱わないことにします。
 
 自分の頭を使ってCSSでデザインできれば問題ないわけですから。
 
@@ -115,7 +121,7 @@ CSSが難しい場合には「Generator」を使って必要なところをコ�
 ### 教科書の構成<!-- omit in toc -->
 4章かけて、1つのホームページを作成する構成になっています。
 
-- Chapter 4: フルスクリーンのWebサイトを制作する index.html
+- Chapter 4: シングルカラムのWebサイトを制作する index.html
 - Chapter 5: 2カラムのWebサイトを制作する news.html
 - Chapter 6: タイル型のWebサイトを制作する menu.html
 - Chapter 7: 外部メディアを利用するcontact.html
@@ -127,20 +133,20 @@ Wordpressの部分を少し短くするかもしれません。
 ---
 ### 準備<!-- omit in toc -->
 1. P.12に
-- [DOWNLOAD SAMPLE DATA](https://www.sbcr.jp/support/15065)
+- [DOWNLOAD SAMPLE DATA](https://www.sbcr.jp/support/4815617811)
 
 があります。
 
-> HTML-CSS-Webdesign-5.zip
+> HTML-CSS-Webdesign2.zip
 
 をダウンロードしましょう。
 
 2. 2回連続で行いますので、ID_ROOTの中に「WCBCafe」フォルダを作成しましょう。
 3. cssフォルダを作成して中にstyle.cssを作成しましょう。
-4. zipファイルを解凍して、imagesフォルダを「WCBCafe」にコピーしましょう。
+4. zipファイルを解凍して、「WCBCafe」フォルダのimagesフォルダを「WCBCafe」にコピーしましょう。
 
 ---
-### フルスクリーンとは/制作の流れの確認<!-- omit in toc -->
+### シングルカラムとは/シングルカラムページの制作の流れ<!-- omit in toc -->
 P.174-177
 
 ## 4章をやってみよう<!-- omit in toc -->
@@ -150,7 +156,7 @@ P.174-177
 - 少し打ったら、保存してLiveServer使ってどこが変わったか確認しましょう。
 - なぜそう入力するのかをよく考えましょう。
 
-4-7はやってみたい人だけでも構いません。
+4-12はやってみたい人だけで構いません。
 
 ---
 ### P.179<!-- omit in toc -->
@@ -163,10 +169,20 @@ P.174-177
 #### Philosopher<!-- omit in toc -->
 - [Google Fonts](https://fonts.google.com/)
 
-でPhilosopherを探すと出てくるので、4書体とも選択すると、教科書と異なりますが、CSSが出てきてコピーできます。
+でPhilosopherを探すと出てくるので、教科書と多少異なりますが、CSSが出てきてコピーできます。
 
 ---
-### P.181<!-- omit in toc -->
+### P.180
+モバイルファーストで作成することが多くなっている模様です。
+
+Googleがモバイルファーストインデックスを打ち出したことも一つの理由でしょう。
+- [モバイルサイトとモバイルファースト インデックスに関するおすすめの方法](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing?hl=ja)
+
+1. モバイルでCSS制作
+2. PC用に相違点をCSS追加
+
+---
+### P.184<!-- omit in toc -->
 #### font-family<!-- omit in toc -->
 font-familyのところ面倒ですね。
 ゴシック体を指定したいだけですからググりましょう。「CSS ゴシック体」でググると
@@ -176,20 +192,16 @@ font-familyのところ面倒ですね。
 
 ---
 ### 2カラムのレイアウトとは/2カラムページの制作の流れ<!-- omit in toc -->
-P.198-202
-
----
-### レスポンシブに対応させよう<!-- omit in toc -->
-P.216-217
+P.222-225
 
 ## 5章をやってみよう
-5-3(p.203)からやってみましょう。
+5-3(p.226)からやってみましょう。
 
 - タイピング練習ではありません。
 - 少し打ったら、保存してLiveServer使ってどこが変わったか確認しましょう。
 - なぜそう入力するのかをよく考えましょう。
 
-5-9はやってみたい人だけでも構いません。
+5-7はやってみたい人だけでも構いません。
 
 ## まとめ
 味気ないのと違って、いい感じにデザインできると嬉しいですね。
