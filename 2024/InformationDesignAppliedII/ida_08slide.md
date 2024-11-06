@@ -57,8 +57,13 @@ https://www.geekly.co.jp/column/cat-position/2011_037/
 
 #### 作業系の職種
 - Webデザイナー
+- DTP・グラフィックデザイナー
+- UI/UXデザイナー
 - Webエンジニア
+- サーバーエンジニア
 - Webライター
+- Webオペレーター
+- プログラマ
 
 #### 解析系の職種
 - Webマーケター
@@ -82,7 +87,7 @@ https://www.geekly.co.jp/column/cat-position/2011_037/
 
 ---
 ### なお...
-7つに分類しましたが、案件によって一人で複数こなすこともあることは知っておいてください。
+12つに分類してありましたが(2023は7だったのに...)、案件によって一人で複数こなすこともあることは知っておいてください。
 
 ## 開発環境構築
 
@@ -130,7 +135,7 @@ Webサーバ・データベースサーバ、2つのサーバがどうしても�
 > Local by flywheel
 
 という素晴らしい開発環境が出てきました。(数年前からあったけど)
-3年ではこちらを使って見ましょう。
+去年使ってないよね...
 
 ---
 ### Local by flywheelのインストール
@@ -203,6 +208,15 @@ MAMPでもLocalでも、どちらにしろ、開発するための環境であ�
 
 - [Herokuの代替サービス30選、使ってみた参考記事リンク付き](https://qiita.com/rana_kualu/items/f7fc4916b7dc9797839e)
 
+---
+### Studio by wordpress.com
+Localの対抗馬のStudioも紹介しておきます。
+
+> Studio by WordPress.comは、WordPressの開発元であるAutomatticが提供する、ローカル開発環境を簡単に構築できる無料のツールです。
+
+- [Studio by WordPress.comの使い方・設定方法【ローカル環境が爆速構築】](https://shogo-log.com/studio-by-wordpress-com/)
+
+デモサイトを5つまで無料で共有できるのはいいですね。
 
 ---
 ### 複数端末での表示確認(Chrome)
@@ -222,6 +236,11 @@ Chromeでレスポンシブデザインを確認するときには
 [Responsively App](https://responsively.app/)
 
 これも入れておきましょう。
+
+Chrome拡張として**Responsive Viewer**というのも出ています。
+どちらにするかは気分ですかね。
+
+- [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=ja)
 
 ---
 ### Responsively App
@@ -369,13 +388,11 @@ OSの1種です。で、
 - テーマって何？
 - 子テーマって何？
 
----
-### 次回
-多分CSSの新しい技術について説明を挟みますが、その後Wordpressで行きたいので簡単に使って思い出しましょう。
 
 ---
 ### Wordpressの進化
 Wordpressが2022/5/24に6.0をリリースしました。
+2024/9/10には6.6.2まで出ています。
 
 大きく変わったところは
 > FSE(フルサイト編集)
@@ -398,15 +415,17 @@ Gutenbergでは記事部分のみだったのが拡張された、というこ�
 
 ---
 ### FSEで気をつけること
-まだ、リリースされたばかりで情報が少ないですが
+まだ、リリースされて日が浅いので、実際にFSEが現場で使われているのかちょっとまだよくわかりません。
+
 > ブロックエディタでいろいろカスタマイズできる = 簡単にデザインの一貫性が壊れる
 
 ということを意味します。ここだけ注意しましょう。
 
 なお、FSE対応テーマでないと有効にはなりません。TwentyTwentyTwoが対応しています。
 
-海外では少しずつテーマが公開されている様です。
-[WordPress Full Site Editing](https://fullsiteediting.com/themes/)
+対応テーマはいかにまとまっています。
+- [WordPressでフルサイト編集ができるベストブロックテーマ21選 (2024)](https://www.wpbeginner.com/ja/showcase/best-wordpress-full-site-editing-themes/)
+- [WordPress Full Site Editing](https://fullsiteediting.com/themes/)
 
 ---
 ### 残り時間
@@ -427,9 +446,3 @@ Wordpressをおさらいしていきます。
 
 ---
 ### 終わり
-来週はCSSをコントロールする
-- float
-- Flexbox
-- CSS Grid
-
-について説明していきます。
