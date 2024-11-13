@@ -29,7 +29,7 @@ footer: ""
 - CUI入門
 
 を行いました。
-今日は一回Wordpress離れます。
+今日は一回CSSをおさらいして、触れるようであれば、wordpressをもう少し触ってみましょう。
 
 ---
 ### CSS覚えてますか？
@@ -68,12 +68,9 @@ HTMLでid, classを設定し、それについてCSSで指定をしましたよ�
 
 ---
 ### 最近のCSSレイアウト事情
-昨年までに教えていますが、
-- float
-- flexbox
-- css grid
-
-この3つの使い分けを後でしっかりやっていこうと思います。
+色々進化が早くて困る...
+全部最新を使わなければいけないわけではありませんが、
+最新の方がより効率的に開発できるのでいくつか紹介していきます。
 
 ---
 ### メディアクエリ
@@ -85,6 +82,16 @@ HTMLでid, classを設定し、それについてCSSで指定をしましたよ�
 }
 ```
 等としてウィンドウサイズによってCSSの切り替えができましたね。
+
+---
+### range指定
+```
+@media (600px <= width < 800px) {
+}
+```
+今後は、range指定と呼ばれる、より直感的な記述法が使えるようになりました。
+ただ、まだ普及途中なので、どちらでも使えるように(読めるように)しておきましょう。
+
 
 ---
 ### コンテナクエリ
@@ -103,7 +110,7 @@ HTMLでid, classを設定し、それについてCSSで指定をしましたよ�
 
 - [CSS コンテナクエリ（@container）の基礎知識と便利な使い方を解説](https://coliss.com/articles/build-websites/operation/css/about-css-container-queries.html)
 
-まだ数ヶ月ですが、確実にこのコンテナクエリも必須な知識となると思います。
+まだ2年弱ですが、確実にこのコンテナクエリも必須な知識となると思います。
 
 ---
 ### CSS 関数
@@ -112,49 +119,46 @@ CSSでの定義に関数を使うことも可能になってきています。
 
 - [全部使ったことある？便利なCSS関数12選！！](https://ginneko-atelier.com/blogs/entry462/)
 
----
-### 2年生の教科書
-古くなったので、今年から(後期担当なんだけど)変えようと思っています。
-
-- [1冊ですべて身につくHTML & CSSとWebデザイン入門講座](https://www.amazon.co.jp/%E3%80%90Amazon-co-jp-%E9%99%90%E5%AE%9A%E3%80%911%E5%86%8A%E3%81%A7%E3%81%99%E3%81%B9%E3%81%A6%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%8FHTML-CSS%E3%81%A8Web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%85%A5%E9%96%80%E8%AC%9B%E5%BA%A7-DL%E7%89%B9%E5%85%B8-Flexbox/dp/4797398892)
-
-どんどん進化するので仕方ないですね。
+- [最近リリースされたCSSの新機能と新しい関数のまとめ](https://coliss.com/articles/build-websites/operation/css/new-values-and-functions-in-css.html)
 
 ---
-### flexbox, css grid
-ここだけちょっと追加してみます。
+### Flexbox, CSS Grid
+FlexboxとCSS Gridも思い出しておきましょう。
 - [FlexboxとCSS Gridの違いと使い分け｜よくあるレイアウトで理解する](https://webliker.info/css/flexbox-grid/)
+
+---
+### subgrid
+CSS Gridでかなり表現力が上がったのですが、入れ子表現ができない、という問題がありました。
+これを解決するためのsubgridという機能も徐々に使われてきています
+
+- [CSSのSubgridが全ブラウザ対応。Gridの入れ子の基本から応用までを完全理解する](https://zenn.dev/tonkotsuboy_com/articles/css-subgrid-all-browsers)
+
 
 ---
 ### モダンCSS
 これもチェックしておきましょう。
- - [2023年モダンCSSの最新トレンド](https://speakerdeck.com/tonkotsuboy_com/2023nian-modancssnozui-xin-torendo)
-
----
-### もう一つ
-SAさんの内定が決まった会社のHPを見ていたら、ソースコードに見慣れないタグが見つかりました。
-
-ちょっと、みなさん、これについてどう解釈したら良いか、調べてみましょう。
+- [2023年モダンCSSの最新トレンド](https://speakerdeck.com/tonkotsuboy_com/2023nian-modancssnozui-xin-torendo)
+- [2024年、CSSの最新トレンドにおける現状のまとめ、よく使用する新機能やプロパティや疑似クラス、人気のフレームワークや検証環境など](https://coliss.com/articles/build-websites/operation/css/state-of-css-2024.html)
 
 
 ---
-### 出てきませんね...
+### 見慣れないタグ...自分で定義できるHTMLタグがある
 HTMLタグは元々ある程度定義されていますが、独自に定義のできる
 
 - Web Components
 
-というのも利用が出てきます。カスタム要素、カスタムタグ等とも呼ばれます。
+というのも利用ができるようになっています。カスタム要素、カスタムタグ等とも呼ばれます。
 
 これは、JavaScriptで独自のタグを定義することで利用可能となります。
 ソースを読んでて、よくわからない、というときにはこれを怪しんでみましょう(JavaScriptの方も見ないといけないですが)
 
-- [【2022年版】Web Components詳細入門ガイド](https://kinsta.com/jp/blog/web-components/)
+- [【2024年版】Web Components詳細入門ガイド](https://kinsta.com/jp/blog/web-components/)
 
 ---
 ### というわけで
 おさらいしてみましょう。
 
-ここから、完全に昨年のおさらいとなりますが、floatはやらなくていいかな...
+ここから、完全に昨年のおさらいとなりますが、floatはやらなくていいです。
 
 
 ---
@@ -205,21 +209,6 @@ CSS Grid Layoutが正式名称となります。
 
 Flexboxが1次元だったのに対し、CSS Grid Layoutでは2次元レイアウトを作成することが可能になります。
 
----
-### CSS Gridはどのブラウザで使える？
-caniuse.comで調べて見ましょう。
-
-IEだけ微妙ですね。ところがです。
-Microsoft社におけるIEのサポート終了が、2022/6/16になりました。
-
-これで、全てのWeb関係者が頭を悩ます一つの要因が世の中から消えることとなります。
-
----
-### とはいえ...
-こんな記事が...
-https://www.itmedia.co.jp/news/articles/2205/23/news066.html
-
-企業や自治体は早急な対応が求められます。
 
 ---
 ### これからのWebデザイン
@@ -285,6 +274,24 @@ float/Flexbox/CSS Grid
 
 
 
+# wordpress
+
 ---
-### 終わり
-来週の内容、今日の理解度でちょっと考えます。
+### おさらい
+- テーマを決める
+- ⼦テーマを設定
+- サイト構成の決定
+- カテゴリの設定
+- 固定ページの作成
+- メニューの作成
+- 必要に応じてプラグインインストール・設定
+
+---
+### 忘れちゃってる人もいると思うので、
+わりと素晴らしいと思われるページを見つけました。
+まずは、これからやっていきましょう。
+
+- [Lightning G3 クイックスタート](https://lightning.vektor-inc.co.jp/setting/quick-start/)
+
+### Ligntning G3をカスタマイズしてみよう
+- [WordPressでホームページを自作する手順！無料テーマですぐに作れる](https://www.xserver.ne.jp/bizhp/homepage-creation-by-wordpress/)
