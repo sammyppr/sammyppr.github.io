@@ -18,4 +18,4 @@
 - [スライド資料](./ida_10slide.pdf){:target="_blank"}
 
 ## 参考
-- [2022 メディア表現VI Git資料](https://sammyppr.github.io/2022/MediaRepresentationVI/mr6_11.html)
+- [2024 メディア表現VI Git資料](https://sammyppr.github.io/2024/MediaRepresentationVI/mr6_11.html)

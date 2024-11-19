@@ -36,20 +36,20 @@ WordPressの開発環境の構築について学修する。
 9. [WordPress ---開発環境構築---](./ida_09.md)
 WordPressの開発環境の構築について学修する。(変更)現在のCSS、おさらい
 
-10.  [WordPress ---スターターテーマ---]
+10.  [WordPress ---スターターテーマ---(変更)ポートフォリオ作成I](./ida_10.md)
 WordPressのテーマ作成の雛形となるスターターテーマについて学修する。
 
-11.  [WordPress ---CSSカスタマイズ---]
+11.   [WordPress ---CSSカスタマイズ---(変更)ポートフォリオ作成II]
 WordPressのテーマのCSSカスタマイズについて学修する。
 
-12.  [WordPress ---PHPカスタマイズ---]
+12.   [WordPress ---PHPカスタマイズ---(変更)ポートフォリオ作成III]
 WordPressのテーマのPHPカスタマイズについて学修する。
 
-13.  [WordPressオリジナルテーマ制作I]
-14.  [WordPressオリジナルテーマ制作II]
+13.   [WordPressオリジナルテーマ制作I(変更)ポートフォリオ作成IV]
+14.   [WordPressオリジナルテーマ制作II(変更)(変更)ポートフォリオ作成V]
 WordPressのオリジナルテーマを制作する。
 
-15.  [講評]
+15.   [講評]
 各自の制作したテーマについて講評する。
 
 <!-->

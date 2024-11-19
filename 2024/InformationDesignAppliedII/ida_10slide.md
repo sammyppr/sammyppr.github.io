@@ -49,6 +49,9 @@ footer: ""
 - Github Pagesとして公開すること
 - レスポンシブ対応であること
 
+### Git/Github
+メディア表現VIでやっている人もいますが、そうでない人もいるので、やってないていで進めていきます。
+
 # Github Pagesとは?
 
 ちょっと10分ほど自分で調べてみよう
@@ -115,10 +118,10 @@ Webサーバを使えるようにすれば、Webページを作成できます�
 
 ---
 ### Github vscode 連携 紹介動画<!-- omit in toc -->
-Githubでプロジェクト作成して、それをVScodeで**クローン**(ローカルに引っ張ってくる)のが一番簡単だともうので、その方法、及び更新方法について説明します。
+Githubでプロジェクト作成して、それをVScodeで**クローン**(ローカルに引っ張ってくる)のが一番簡単だとおもうので、その方法、及び更新方法について説明します。
 - [GIT with VSCode | Clone, Commit & Push | Git Commit & Push with VSCode | GIT Clone, Commit & Push](https://www.youtube.com/watch?v=lYiE5lBS13E)
 
-git configの件は、個人を特定するだけなので、ユーザ名とか適当でいいです。メアドは有効な方がエラーなど報告があるので、使えるメアドにしましょう。(一回だけdす)
+git configの件は、個人を特定するだけなので、ユーザ名とか適当でいいです。メアドは有効な方がエラーなど報告があるので、使えるメアドにしましょう。(設定は一回だけです)
 
 ---
 ### 仕組みの紹介動画<!-- omit in toc -->
@@ -218,9 +221,9 @@ Webページ内に別のWebページや画像、動画などのコンテンツ�
 ### Webサイトデザイン<!-- omit in toc -->
 情報を整理し、ユーザビリティを考慮したWebページをデザインします。
 
-一から制作するのは大変ですので、XDのテンプレートを利用してもOKです。レスポンシブ対応なことにも留意しましょう。
+一から制作するのは大変ですので、XD,Figmaのテンプレートを利用してもOKです。レスポンシブ対応なことにも留意しましょう。
 
-- [Free XD responsive portfolio template](https://www.xdguru.com/free-xd-responsive-portfolio-template/)
+- [FREE Responsive Portfolio Template -- Behance](https://www.behance.net/gallery/133154469/FREE-Responsive-Portfolio-Template)
 
 こんなの使うと作りやすいかもです。自分でも探してみましょう。
 
@@ -304,7 +307,10 @@ Githubで公開できるようにして終了です。
 ---
 ### やってみよう
 それでは、まず1-3あたりをやっていきましょう。
+- 掲載する作品集め
+- ページ構成
 
+とよく考えましょう。
 今日を入れて、残り6回となります。
 
 トラブったらどんどん質問してください。
