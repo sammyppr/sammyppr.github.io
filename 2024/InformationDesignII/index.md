@@ -73,4 +73,4 @@ Wordpressを用いた実践的なサイトを構築する。
 4-7章までをスクリーンキャスト化しました。
 
 テキストだけでよくわからない人は参考にしてください。
-- [スクリーンキャスト](https://www.youtube.com/watch?v=rEcsDLsZX3A)
+- [スクリーンキャスト](https://www.youtube.com/watch?v=rEcsDLsZX3A&list=PLeaTO-zJc7wAbJBwSaILCWwVpbr7bZEEr)
