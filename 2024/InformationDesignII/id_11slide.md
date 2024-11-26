@@ -72,12 +72,12 @@ footer: ""
 ### CMS
 「Contents Management System」の略で。コンテンツ管理システム、 と訳すことができるでしょう。
 
-ブログやtwitterを書く時に、HTML を人があまり意識しないで済むのと同じよう に、ホームページを管理できたらいいよね、というこという考え方です。
+ブログやtwitterを書く時に、HTML を人があまり意識しないで済むのと同じように、ホームページを管理できたらいいよね、という考え方です。
 
 ---
 ### CMS のシェア
 いろいろなものがありますが、シェアを確認してみましょう。
-「CMS シェア 2023」でググってみましょう。
+「CMS シェア 2024」でググってみましょう。
 
 ダントツでWordpressが利用されていることになります。
 残りの5回でこれを利用できる様になりましょう。
@@ -155,6 +155,7 @@ PHPはPHP: Hypertext Preprocessorの略で、どのくらい親和性が高い�
 
 とすると、それは既にphpファイルとなるレベルです。
 
+
 ---
 ### Wordpressインストール手順
 
@@ -189,16 +190,17 @@ MacはIntel, M1を選びましょう。
 
 - https://ja.wordpress.org/
 
-から「WordPressを入手」「Wordpress6.4.1をダウンロード」をクリックしましょう。
+から「WordPressを入手」「Wordpress6.7.1をダウンロード」をクリックしましょう。
 
 ---
 ### Webサーバ上にwordpressを設置
-- アプリケーションフォルダのMAMPフォルダの中のMAMP.appを開く
+- アプリケーションフォルダのMAMPフォルダの中のMAMP.appを開く(MAMP PROは捨ててOK)
 - Preferences - Server - Open in Finder
-- ダウンロードしたwordpressを解凍してこの中に移動
+- ダウンロードしたwordpressを解凍してこの中に移動(htdocsの中にwordpressフォルダを入れる)
 - PreferencesはOKで閉じる
 - Startで「Welcome to MAMP」が表示されるまで待つ
-- 「My Website」をクリックして「WordPressへようこそ。始める前に、以下の項目を知っておく必要があります。」が表示されればここまでOK
+- 「My Website」をクリックして、「http://localhost:8888/wordpress/」になるようにURLを追記してリターン
+- 「WordPressへようこそ。始める前に、以下の項目を知っておく必要があります。」が表示されればここまでOK
 
 5つの項目知ってませんね。準備しましょう。
 
@@ -520,7 +522,10 @@ googleから以下のような情報が出ています。
 
 ---
 ### (ひょっとして...外観 - メニューがなければ)
-対処します...
+- Twenty Twenty-Four
+- Twenty Twenty-Five
+
+はちょっと特殊なので、Twenty Twenty-Threeで行こうかな...
 
 ---
 ### 外観 - メニュー
@@ -588,7 +593,7 @@ Wordpressのデザインや構造を決定づけるものとなります。
 - Twenty Twenty-One
 - Twenty Twenty-Two
 
-が利用できます。これは、Wordpressが公式に配布しているテーマとなります。
+等が利用できます。これは、Wordpressが公式に配布しているテーマとなります。
 
 それぞれ、有効化を押して、デザインが変わることを確認しましょう。
 
@@ -666,7 +671,7 @@ Wordpressの機能を簡単に拡張する機能となります。
 
 ---
 ### プラグインの動向
-「wordpress プラグイン 2022」
+「wordpress プラグイン 2024」
 
 でググってみましょう。
 
