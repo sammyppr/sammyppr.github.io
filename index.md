@@ -42,6 +42,7 @@ Welcome to sammyppr.github.io!
 - [Storyboard Software](App/Storyboard/index.md)
 - [VJ/Projection Mapping](App/VJ/)
 - [TouchDesigner](App/TouchDesigner/index.md)
+- [RealityScan](App/RealityScan/index.md)
 
 ## Music
 - [Jazz](Music/Jazz/index.md)
