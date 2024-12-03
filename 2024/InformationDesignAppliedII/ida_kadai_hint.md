@@ -707,4 +707,4 @@ Category-***.html とりあえずここで完了
             <iframe src="./html/ida_00/index.html" frameborder="1" ></iframe>
         </div>
 ```
-とすることで、Canvasの内容も晴れる。
+とすることで、Canvasの内容も貼れる。
