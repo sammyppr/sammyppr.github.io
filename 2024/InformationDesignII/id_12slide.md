@@ -76,8 +76,11 @@ phpでは、データベースからデータを呼び出し、それを元にHT
 
 ---
 ### テーマのバージョン
+共通でいじっていくにあたり、「Twenty Twenty」をインストール・有効化しておきましょう。
+(Twenty Twenty-Two以降がFSE対応テーマのため、Twenty Twenty-oneはちょっと特殊)
+
 外観-テーマで Twenty Twenty-Oneの詳細を見てみましょう。
-Ver1.6とあります。
+Ver2.4とあります。
 
 これは、バージョン管理されていてアップデートされることを意味しています。
 
@@ -125,7 +128,9 @@ wordpressの挙動は以下の通りになります。
 
 テーマによって、たまに苦労することもあります。
 
-[WordPressの子テーマとは？作り方を解説](https://www.webdeki.com/column/5501/)
+[【初心者向け】WordPressの子テーマとは？設定方法・活用法も解説](https://www.onamae.com/column/wordpress/30/)
+<!--
+[WordPressの子テーマとは？作り方を解説](https://www.webdeki.com/column/5501/)-->
 
 ## ブラウザのキャッシュ
 
@@ -149,20 +154,25 @@ wordpressの挙動は以下の通りになります。
 
 ---
 ### それでは
+まずはLocalで簡単にインストール
+- 起動して、「+」ボタンで新しくwordpressをインストールしよう
+- 管理画面からSettingで、日本語・UTC+9に設定
+- 外観-テーマから「新しいテーマ」で「Twenty Twenty」を検索してインストール
+- 
 
 子テーマを作成していきましょう。
-1. MAMP を起動
-2. http://localhost:8888/ でサイトの画面
-3. http://localhost:8888/wp-admin で管理画面
-4. Twenty Twenty が選択されていることを確認しよう。
+
 
 Twenty Twenty-Oneはちょっと特殊なテーマなので、やめました
 [テーマTwenty Twenty-Oneの子テーマの作り方](https://web-children.com/2022/04/13/tt1-child-theme-creation-in-wordpress/)
 
 ---
 ### 子テーマの作成 ファイル
-1. /wp-content/themes/の中に新規フォルダを作成し、 my-twentytwenty としましょう。
-2. vscodeで開く
+
+1. LocalでGo to site folder
+2. app/publicの中にwordpressのファイルが入っている
+3. /wp-content/themes/の中に新規フォルダを作成し、 my-twentytwenty としましょう。
+4. vscodeで開く
 
 ---
 ### style.css
@@ -205,7 +215,7 @@ wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', 
 - サイトタイトル部分を選択
 - colorが.site-title a で指定されていることがわかる
 - Developer Tool上で、redにしてみる
-- CSSで指定してみる
+- 実際にstyle.cssに指定してみる
 
 ---
 ### 変えたいのにうまく変わってくれない時

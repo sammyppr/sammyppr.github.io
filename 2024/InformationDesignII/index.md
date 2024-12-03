@@ -53,7 +53,7 @@ XDを利用したプロトタイプを作成する。
 11. [Wordpress入門](./id_11.md)
 Wordpressの導入、及び投稿・固定ページについて学修する。
 
-12. [WordPress基礎]
+12. [WordPress基礎](./id_12.md)
 WordPressのテーマ・メニュー・プラグインについて学修する。
 
 13. [WordPressによるサイトの制作1-企画立案]
