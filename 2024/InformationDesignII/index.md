@@ -74,3 +74,7 @@ Wordpressを用いた実践的なサイトを構築する。
 
 テキストだけでよくわからない人は参考にしてください。
 - [スクリーンキャスト](https://www.youtube.com/watch?v=rEcsDLsZX3A&list=PLeaTO-zJc7wAbJBwSaILCWwVpbr7bZEEr)
+
+## wordpress簡単な使い方
+wordpressの機能を一通り触って、簡単なページを作ってみます。
+- [wordpress簡単な使い方](./wordpress-tutorial.md)
