@@ -2,6 +2,7 @@
 
 - [wordpress 簡単な使い方](#wordpress-簡単な使い方)
   - [できるようになること](#できるようになること)
+  - [スクリーンキャスト](#スクリーンキャスト)
   - [やってみよう](#やってみよう)
     - [Local by flywheelを利用してのwordpressインストール](#local-by-flywheelを利用してのwordpressインストール)
     - [クラシックテーマ(FSE対応ではない)としてTwenty-Twentyを利用](#クラシックテーマfse対応ではないとしてtwenty-twentyを利用)
@@ -28,6 +29,10 @@
 - メニューの設定
 - ウィジェットでフッターに「カレンダー」「最新の投稿」の埋め込み
 - 子テーマでのsite-titleの色の変更
+
+## スクリーンキャスト
+できることを理解することに特化しているので、9本ありますが、16:39しかありません。まずは、この手順を理解しましょう。
+- [WordpressEasyTutorial2024](https://www.youtube.com/watch?v=Ja_sYdGywXs&list=PLeaTO-zJc7wAWapDE3wvZSaz8091pv2ZS)
 
 ## やってみよう
 ### Local by flywheelを利用してのwordpressインストール
