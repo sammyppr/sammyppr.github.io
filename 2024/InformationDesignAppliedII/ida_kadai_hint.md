@@ -91,7 +91,9 @@ Github上にポートフォリオサイトを作成せよ
 ```
     <header>
         <div id="menubar">
-            <div id="logo"><img src="./img/header/logo.png"></div>
+            <div id="logo">
+                <img src="./img/header/logo.png">
+            </div>
             <div id="menu">
                 <ul>
                     <li><a href="">aboutme</a></li>
@@ -100,7 +102,9 @@ Github上にポートフォリオサイトを作成せよ
                     <li><a href="">design</a></li>
                 </ul>
             </div>
-            <div id="contact"></div><button>contact</button></div>
+            <div id="contact">
+                <button>contact</button>
+            </div>
         </div>
         <div id="header-catch">
             <div id="header-catch-img">ヘッダー画像</div>
