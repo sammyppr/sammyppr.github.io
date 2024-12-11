@@ -66,6 +66,10 @@ Github上にポートフォリオサイトを作成せよ
 - [【チートシート付き】Emmetをまとめてみた！コーディング速度アップを目指そう！](https://pengi-n.co.jp/blog/emmet/)
 
 ## コーディング作業
+
+index.html部分までとりあえずスクリーンキャスト化しました。
+[ida_portfolio](https://www.youtube.com/watch?v=s6FE3g6wI08&list=PLeaTO-zJc7wA7_HK4V8sQOSDhqYqZf64H&themeRefresh=1)
+
 ### index.html
 1. 「!」で最低限のHTML作成
 2. titleタグはportfolioへ
