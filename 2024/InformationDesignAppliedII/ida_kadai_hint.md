@@ -87,6 +87,9 @@ Github上にポートフォリオサイトを作成せよ
 18. div#footer-menusを「(div.footer-menu>(div.footer-menu-title+div.footer-menu-item))*2」
 19. div#footer-subにCopyright文(Terms of Use, Privacy Policyは省いた)
 
+
+画像はXDから書き出してimgフォルダに適切な名前をつけて保存しておきましょう。利用する画像はHTMLで指定しましょう。
+
 ここまででとりあえずbody内は
 ```
     <header>
@@ -171,7 +174,7 @@ Mobile, PCのデザインを見比べて、そこそこ要素が入っている�
 ### css/style.css
 利用できるようにindex.htmlのhead内に次を追加
 ```
-<link rel="stylesheet" href=".css/style.css">
+<link rel="stylesheet" href="./css/style.css">
 ```
 
 変数を定義する。他も適宜必要であれば追加。
@@ -181,10 +184,12 @@ bodyのmarginもリセット。imgはとりあえずwidth:100%にしておく
 :root {
     --primary-bg: #28293E;
     --secondary-bg: #FDF0E9;
+    --teritiary-color: #EF6D58;
     --primary-color: white;
     --secondary-color: #391400;
     --padding-default: 24px;
     --padding-narrow: 12px;
+    --padding-footer: 24px;
 }
 /* body リセット */
 body {
@@ -231,7 +236,7 @@ footer {
 左右のpaddingが現在ないので、
 header,#main-about,#main-latestwork-titleに以下を追加
 ```
-    padding: var(-default-padding);
+    padding: var(--default-padding);
 ```
 #main-latestwork-imagesのところは
 ```
@@ -386,6 +391,7 @@ https://web-camp.io/magazine/archives/88361
 
 htmlのheaderの一番上で以下を追加
 ```
+        <div id="menubar-mobile">
             <div class="nav">
     
                 <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
@@ -400,12 +406,12 @@ htmlのheaderの一番上で以下を追加
                     <li class="nav_item"><a href="">メニュー1</a></li>
                     <li class="nav_item"><a href="">メニュー2</a></li>
                     <li class="nav_item"><a href="">メニュー3</a></li>
-                    <li class="nav_item"><a href="">メニュー3</a></li>
+                    <li class="nav_item"><a href="">メニュー4</a></li>
                   </ul>
                 </nav>
            
-              </div>
-
+            </div>
+        </div>
 ```
 
 CSSの一番最後に以下を追加
@@ -533,6 +539,28 @@ header{
 @media(min-width: 768px){
     #menubar #menu, #menubar #contact {
         display: block;
+    }
+    #menubar{
+        display: flex;
+        justify-content: space-between;
+    }
+    #menubar ul {
+        display: flex;
+    }
+    #menubar li {
+        list-style: none;
+        margin-right: 10px;
+    }
+    #menubar a {
+        text-decoration: none;
+    }
+    #menubar li a, #menubar li a:hover {
+        color: var(--primary-color);
+    }
+    #menubar button {
+        background-color: var(--primary-bg);
+        color: var(--primary-color);
+        border: 1px solid white;
     }
 }
 ```
