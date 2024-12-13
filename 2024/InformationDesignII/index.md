@@ -78,3 +78,6 @@ Wordpressを用いた実践的なサイトを構築する。
 ## wordpress簡単な使い方
 wordpressの機能を一通り触って、簡単なページを作ってみます。
 - [wordpress簡単な使い方](./wordpress-tutorial.md)
+
+## Localがうまく動かない場合
+- [Local は Apple シリコンの Mac では Rosetta 2 が必要](../../App/Local/index.md)

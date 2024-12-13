@@ -91,3 +91,6 @@ WordPressのオリジナルテーマを制作する。-->
 
 
 ※１授業につき、２限連続
+
+## Localがうまく動かない場合
+- [Local は Apple シリコンの Mac では Rosetta 2 が必要](../../App/Local/index.md)
