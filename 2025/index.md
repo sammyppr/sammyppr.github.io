@@ -7,6 +7,7 @@
 - [メディア表現V](./MediaRepresentationV/index.md)
 - [サウンドデザイン演習](./SoundDesign/index.md)
 - [インターネット基礎理論](./BasicTheoryOfInternet/index.md)
+- [メディア文化論V](./MediaCultureTheoryV/index.md)
 - [造形基礎演習I](./AnalogueDesignII/index.md)
 
 ### 後期
