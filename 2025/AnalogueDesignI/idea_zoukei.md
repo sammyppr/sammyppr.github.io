@@ -310,6 +310,7 @@ https://opac.ll.chiba-u.jp/da/curator/900120467/S13482084-70-P251.pdf
 - 【第１回】折り紙
   - 簡単な鶴・飛行機など
   - マジックボール(8折・16折・32折)(https://www.youtube.com/watch?v=6Ynf53v-rIM)
+  - https://www.youtube.com/watch?v=OZy-PDXFWXI&ab_channel=NishichanOrigami
 - 【第２回】多面体
   - 展開図を書いて正多面体・準正多面体・半正多面体etc(https://cc.musabi.ac.jp/zoukei_file/03/seizu/NewFiles/tenkaizu.html)
   - ストローやビーズを用いた正多面体(https://polyhedra.cocolog-nifty.com/blog/2017/10/post-6f99.html)
