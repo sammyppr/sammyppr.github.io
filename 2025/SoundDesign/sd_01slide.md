@@ -60,10 +60,10 @@ Adobe CC を個人所有のコンピュータにインストールすること�
 - After Effects
 
 入っていない人はまずインストールしましょう。最後に質問対応します。
-次の二つも入れておきましょう。二つともアカウント作成は必要です。
+次のアプリも入れておきましょう。アカウント作成は必要です。
 
 - [Soundly](https://getsoundly.com/)
-- [Studio One Prime](https://www.mi7.co.jp/products/presonus/studioone/prime/)
+<!-- - [Studio One Prime](https://www.mi7.co.jp/products/presonus/studioone/prime/)-->
 
 ## HPの置き場所
 
@@ -79,6 +79,8 @@ https://sammyppr.github.io/
 - 水曜4限
 - 木曜4限
 の2クラス体制で開講します。2コマ演習と被らないところで履修してくれればと考えています。内容は基本同じです。(同じくらいの人数になると非常に嬉しい)
+
+3限にはPremiere,AfterEffectsを扱う「メディア表現III」が開講されます。(2クラス体制)
 
 ## 授業の進め方
 講義してから演習、の流れでやってきたのですが、講義部分意外と聞いてくれないな...と感じています。
@@ -122,7 +124,7 @@ https://sammyppr.github.io/
 ### Sound Design の実際
 
 音がなかったら、これらのシーンはどのようにあなたに伝わるでしょうか？
-最初、無音で見てもらおうかな...
+最初、無音で見てもらおうかな...(〜1:45)
 
 [SOUND DESIGN for FILMMAKING | Tutorial](https://www.youtube.com/watch?v=MwksKUJSZ9s)
 
@@ -132,8 +134,11 @@ https://sammyppr.github.io/
 
 最近ではAIを利用して作曲するサービスが出てきています。著作権フリーのサイトから好きな曲を利用するだけでなく、積極的に利用していきましょう。
 
-- [AI・人工知能が作曲？自動で音楽を生成するおすすめソフト10選](https://aismiley.co.jp/ai_news/6-ai-softwares-that-automatically-compose-music/)
+<!-- 2024 - [AI・人工知能が作曲？自動で音楽を生成するおすすめソフト10選](https://aismiley.co.jp/ai_news/6-ai-softwares-that-automatically-compose-music/) 
 - [作曲ができるAIが登場！『Suno AI』とは？](https://romptn.com/article/27764#toc4)
+-->
+- [【2025年最新】おすすめの音楽生成ツール24選！利用するメリットや商用利用の際の注意点について解説](https://www.sms-datatech.co.jp/column/consulting_music-generation-ai/)
+
 
 ## 終わり
 
@@ -141,6 +146,7 @@ https://sammyppr.github.io/
 
 - ノートパソコン持ってくること
 - できればイヤホンも(安いイヤホンは貸し出せます)
-- Adobe Audition, Premiere Pro, AfterEffects, Soundly, Studio One Prime をインストールしておくこと
+- Adobe Audition, Premiere Pro, AfterEffects, Soundlyをインストールしておくこと
 
 インストールできない人は質問して下さい。
+
