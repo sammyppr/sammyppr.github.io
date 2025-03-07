@@ -3,17 +3,17 @@
 
 ## CONTENTS 2025
 ### 前期
-- [メディア表現III](./MediaRepresentationIII/index.md)
-- [メディア表現V](./MediaRepresentationV/index.md)
-- [サウンドデザイン演習](./SoundDesign/index.md)
-- [インターネット基礎理論](./BasicTheoryOfInternet/index.md)
-- [メディア文化論V](./MediaCultureTheoryV/index.md)
-- [造形基礎演習I](./AnalogueDesignII/index.md)
+- [メディア表現III](./MediaRepresentationIII/)
+- [メディア表現V](./MediaRepresentationV/)
+- [サウンドデザイン演習](./SoundDesign/)
+- [インターネット基礎理論](./BasicTheoryOfInternet/)
+- [メディア文化論V](./MediaCultureTheoryV/)
+- [造形基礎演習I](./AnalogueDesignII/index.)
 
 ### 後期
-- [メディア表現VI](./MediaRepresentationVI/index.md)
-- [情報デザイン応用演習II](./InformationDesignAppliedII/index.md)
-- [情報デザイン演習II](./InformationDesignII/index.md)
+- [メディア表現VI](./MediaRepresentationVI/)
+- [情報デザイン応用演習II](./InformationDesignAppliedII/)
+- [情報デザイン演習II](./InformationDesignII/)
 
 ### 夏期スクーリング
-- [マルチメディア演習](./Schooling_MultiMedia/index.md)
+- [マルチメディア演習](./Schooling_MultiMedia/)
