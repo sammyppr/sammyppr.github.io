@@ -21,3 +21,5 @@
 https://pochi-gurashi.com/free-itibannbosi/
 こんなのを1行ずつ録ってきてもらって、ただつなげただけだと、聞きづらいから、どうやったら聞きやすくなるかを試してもらうとか...
 
+test
+
