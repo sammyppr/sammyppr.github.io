@@ -5,7 +5,7 @@
 ---
 ## 譜面
 <!-- [The-real-book-sixth-edition.pdf](https://escuelasuperiordejazz.com/wp-content/uploads/2020/03/The-real-book-sixth-edition.pdf)-->
-[The Real Book Sixth Edition volume 1](https://archive.org/details/The_Real_Book_Sixth_Edition_volume_1/page/n13/mode/2up)
+[The Real Book Sixth Edition volume 1](https://archive.org/details/The_Real_Book_Sixth_Edition_volume_1/)
 
 ---
 ## Jazz練習用 - 初心者向け
