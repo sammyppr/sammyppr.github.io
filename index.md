@@ -11,7 +11,7 @@ Welcome to sammyppr.github.io!
 - [サウンドデザイン演習](2025/SoundDesign/index.md)
 - [インターネット基礎理論](2025/BasicTheoryOfInternet/index.md)
 - [メディア文化論V](2025/MediaCultureTheoryV/index.md)
-- [造形基礎演習I](2025/AnalogueDesignII/index.md)
+- [造形基礎演習I](2025/AnalogueDesignI/index.md)
 
 ### 後期
 - [メディア表現VI](2025/MediaRepresentationVI/index.md)
