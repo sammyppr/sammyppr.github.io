@@ -8,7 +8,7 @@
 - [サウンドデザイン演習](./SoundDesign/)
 - [インターネット基礎理論](./BasicTheoryOfInternet/)
 - [メディア文化論V](./MediaCultureTheoryV/)
-- [造形基礎演習I](./AnalogueDesignII/index.)
+- [造形基礎演習I](./AnalogueDesignI/)
 
 ### 後期
 - [メディア表現VI](./MediaRepresentationVI/)
