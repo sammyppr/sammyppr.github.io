@@ -482,4 +482,4 @@ VHSの普及は、家庭エンターテインメントの革命を引き起こ�
 
 
 デジタル記録媒体の変遷 紙テープから最新のSSDまで【ゆっくり解説】
-https://www.youtube.com/watch?v=rawXs_40KT8&t=26s
+https://www.youtube.com/watch?v=rawXs_40KT8
