@@ -1,5 +1,6 @@
 ---
 marp: true
+math: mathjax
 theme: default
 size: 16:9
 paginate: true
