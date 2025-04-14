@@ -40,11 +40,10 @@ https://sammyppr.github.io
 
 
 ### まずはアンケート
-![bg right width:10cm](img/02_enquete_qr.png)
+manabaでアンケートに答えてください。
 
-あなたがスマホを選ぶときの基準について簡単に教えてください。
+> あなたがスマホを選ぶときの基準について簡単に教えてください。
 
-https://forms.office.com/r/9TPAgwTgnW
 
 ## ハードウェアとは
 ### 有名な川柳
@@ -348,7 +347,7 @@ CDには平らな部分と突起部分があります。
 通常
 - **CPU** Central Processing Unit
 
-と呼ばれていて日本語では「中央処理装置」「中央円山処理装置」と呼ばれます。
+と呼ばれていて日本語では「中央処理装置」「中央演算処理装置」と呼ばれます。
 
 ### CPUの仕組み
 CPU はプログラムと呼ばれる命令を順に読んで解釈・実行することで情 報の加工を行います。
@@ -369,7 +368,7 @@ Intel Core i3,i5,i7全て64bitとなります。
 Macで現在利用しているM1,M2,M3等は多少面倒くさいので後で説明します。
 
 ### GPU
-- **GPsU** Graphics Processing Unit
+- **GPU** Graphics Processing Unit
 
 元々はゲーマーの間で人気があったのですが、最近、人工知能のDeepLearning という技術と共に、GPU と呼ばれるプロセッサも注目を浴びています。CPU も GPU もどちらも計算することには変わりないのですが、何が違うかビデオをみてみましょう。
 
@@ -538,12 +537,11 @@ iPhoneやMacに搭載されているA17, M2等やAndroidに搭載されている
 
 先ほどの図を見ると、全ての情報はバスを経由しているため、そのスピードにコンピュータの性能が左右されることがわかります。
 
-### M2の場合
-![bg right width:12cm](img/02_m2.jpg)
-
-[Mac Mini](https://www.apple.com/jp/mac-mini/)
-の「M2とM2Proの中身を見る」をみてみましょう。
-
+### M4の場合
+- [Apple、M4チップを発表](https://www.apple.com/jp/newsroom/2024/05/apple-introduces-m4-chip/)
+- [Apple、M4 ProとM4 Maxを発表](https://www.apple.com/jp/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/)
+- [Apple Event — 11月11日(8:00)](https://www.youtube.com/live/5AwdkGKmZ0I?si=ipCsg_CH_W6zs8V3&t=352)
+- [The new iPad Pro + M4 chip(4:00)](https://www.youtube.com/watch?v=zXJbdtxh0XE)
 CPUの中にいろんなものを搭載することで、処理速度などを大幅に上げています。
 
 ただし、その代わりに後からメモリを増やしたい、みたいなことができなくなっています。
