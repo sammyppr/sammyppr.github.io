@@ -215,6 +215,16 @@ BC2000頃になると、カヤツリグサ科の植物「パピルス草」の�
 
 - [Herman Hollerith Punch Card Machine(8:31)](https://www.youtube.com/watch?v=GoUK2_vXqQk)
 
+## tabulate
+> tabulate 表にする
+
+と言う意味です。そのため、tarbulating machineは**作表機**と訳されます。
+
+キーボードについている「Tabキー」はもともとタイプライターで表を作成する際に用紙を一定の間隔に区切った位置(タブストップ)に印字ヘッドを移動するために使用されたキーです。
+
+ギターやベースのタブ譜も**一覧表**の意味で、語源一緒ですね。
+
+
 ## コンピュータ会社に
 ハーマンはTabulating Machine Companyを法人化し、それはその後CTR-IBMというコンピュータ会社へと発展していきました。
 
