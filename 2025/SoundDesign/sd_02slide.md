@@ -120,8 +120,14 @@ A と B の音の高さを比較できますよね。
 ## ハイパーソニックエフェクト(聞こえないはずの音)<!-- omit in toc -->
 まだ未解明なことの多い現象ではありますが、20kHz 以上の波も人の生理活動・脳活動に影響を与えることがわかってきています。
 
+<!--
 - [ハイパーソニック・サウンド](https://www.env.go.jp/nature/nats/sound/about.html)
+-->
+<!--
 - [ハイパーソニック・エフェクトとは何か](https://www.yamashirogumi.jp/research/hypersonic/)
+-->
+- [聴こえない高周波が脳を活性化する：ハイパーソニック・エフェクトの発見](https://www.yamashirogumi.jp/research/research-2-1.html)
+- [超高周波「ハイパーソニック・エフェクト」が心身に与える影響とは？ーー『AKIRA』のサントラを手掛けた芸能山城組のドキュメンタリー『音と文明』公開イベント総括](https://www.audio-technica.co.jp/always-listening/articles/sound-and-civilization/)
 
 ## 音質 (音色):timbre, sound quality, tone color<!-- omit in toc -->
 定義が難しいらしく JIS(日本規格協会) にて次のように定義されています。
