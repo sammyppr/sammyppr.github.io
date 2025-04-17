@@ -187,6 +187,8 @@ https://sammyppr.github.io/
 
 - 1.2.1, 1.2.1_2, 1.2.2, 1.2.3, 1.2.4, 1.2.4_2(6枚)
 
+11:30まで予定です。
+
 ## 今日の課題2
 ミウラ折りをやってみましょう。
 
@@ -194,6 +196,14 @@ https://sammyppr.github.io/
 
 ![](img/ad1_02_qr_miura.png)
 
+早く終わった人は、課題1の残り、終わってたら課題3準備してます。
+
+## 今日の課題3(予備)
+- [6×6 基本のマジックボール Magic ball](https://www.youtube.com/watch?v=Q2tRAMjOs5M)
+![](img/ad1_02_qr_magicball66.png)
+
+- [12×12 基本のマジックボール　Magic ball](https://www.youtube.com/watch?v=TdxWVLyiuvU)
+![](img/ad1_02_qr_magicball1212.png)
 
 
 ## 提出
