@@ -100,7 +100,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 - スピーカー:電流の大きさから振動板を動かし、音の波を生じさせる
 
 ---
-![height:700](img/sd_04/mic_speaker.png)
+![height:600](img/sd_04/mic_speaker.png)
 
 ---
 ### 同じ仕組み<!-- omit in toc -->
@@ -255,7 +255,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 
 ---
 #### 動画を見てみましょう<!-- omit in toc -->
-- [マイクロホンの仕様 Part3 極性パターン](https://www.youtube.com/watch?v=WNdqIzSPqEE)
+- [マイクロホンの仕様 Part3 極性パターン(5:21)](https://www.youtube.com/watch?v=WNdqIzSPqEE)
 
 
 ---
@@ -287,7 +287,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 
 用途に応じて適切な周波数特性を持つマイクを選ぶことが必要となります。
 
-- [マイクロホンの仕様 Part2 周波数特性](https://www.youtube.com/watch?v=K9hsgc-iei4)
+- [マイクロホンの仕様 Part2 周波数特性(2:57)](https://www.youtube.com/watch?v=K9hsgc-iei4)
 
 ---
 ### 近接効果<!-- omit in toc -->
@@ -304,8 +304,10 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 
 これは指向性マイクロフォンにて顕著に起こる現象となります。
 
-- [Proximity Effect(近接効果) Explained - Sound Pure Gear Tip](https://www.youtube.com/watch?v=I58Il7yIerk&t=80s)
-
+<!--
+- [Proximity Effect(近接効果) Explained - Sound Pure Gear Tip(1:20-3:28)](https://www.youtube.com/watch?v=I58Il7yIerk&t=80s)
+-->
+- [マイクとの距離の取り方 日本語版 / beyerdynamic(1:09)](https://www.youtube.com/watch?v=G48sCQT8tK8)
 
 
 ## マイクの用途による種類
@@ -403,7 +405,7 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 
 パ行以外でも、サ行・タ行・ハ行も風が多く出ます。
 
-[【音響機材】SHURE SM57 の比較とポップノイズ対策！ロングセラーマイクを検証してみました！](https://www.youtube.com/watch?v=P3ZlNW3lE30&t=365s)
+[【音響機材】SHURE SM57 の比較とポップノイズ対策！ロングセラーマイクを検証してみました！(6:06-12:44)](https://www.youtube.com/watch?v=P3ZlNW3lE30&t=365s)
 
 ---
 #### ポップガード<!-- omit in toc -->
@@ -450,7 +452,10 @@ https://detail-infomation.com/flemings-right-hand-rule-and-flemings-left-hand-ru
 ---
 #### リフレクションフィルター<!-- omit in toc -->
 ナレーション等の場合には、リフレクションフィルターで反響音を遮りましょう。
+<!--
 ![height:500](https://rentry.jp/note/wp-content/uploads/2022/01/81UULXIyBEL._AC_SL1500_-622x720-1.jpg)
+-->
+![height:500](img/sd_04_reflectionfilter.png)
 
 ---
 #### 室内ロケでウェットな場所の場合<!-- omit in toc -->
@@ -585,7 +590,7 @@ https://nk-productions.net/column/db-decibel/
 
 ## 撮影現場での適切な収音テクニック
 
-- [撮影現場での適切な収音テクニック](https://www.youtube.com/watch?v=NFRRiME4WS8)
+- [撮影現場での適切な収音テクニック(9:41)](https://www.youtube.com/watch?v=NFRRiME4WS8)
 
 
 # 参考動画まとめ
@@ -594,7 +599,7 @@ https://nk-productions.net/column/db-decibel/
 - [マイクロホンの仕様 Part2 周波数特性](https://www.youtube.com/watch?v=K9hsgc-iei4)
 - [マイクロホンの仕様 Part3 極性パターン](https://www.youtube.com/watch?v=WNdqIzSPqEE)
 - [マイクロホンの仕様を理解する Part4 電気出力](https://www.youtube.com/watch?v=3Bg5uGDXtTY)
-- [Proximity Effect(近接効果) Explained - Sound Pure Gear Tip](https://www.youtube.com/watch?v=I58Il7yIerk&t=80s)
+- [マイクとの距離の取り方 日本語版 / beyerdynamic(1:09)](https://www.youtube.com/watch?v=G48sCQT8tK8)
 - [撮影現場での適切な収音テクニック](https://www.youtube.com/watch?v=NFRRiME4WS8)
 
 
