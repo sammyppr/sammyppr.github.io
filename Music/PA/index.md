@@ -10,5 +10,8 @@ PAとはPublic Address(パブリック・アドレス)の略で「多くの人�
 - [YAMAHA：PAお悩み相談室](https://jp.yamaha.com/products/contents/proaudio/musicianspa/consultant/)
 - [YAMAHA：PA Beginners Guide](https://jp.yamaha.com/products/contents/proaudio/musicianspa/beginer_guide.html)
 
- 
-
+## 参考動画
+- [マイクの正しい使い方を、プロの音響さんが解説します！](https://www.youtube.com/watch?v=dJKLIgWmpFA)
+- [音響ミキサーの基本的な扱い方を覚えると、どんなミキサーでも使えるように！](https://www.youtube.com/watch?v=VEPXzsQUufA)
+- [【音響機材】PAスピーカーについての説明 〜後半はイヤホンで聞いて下さい！〜](https://www.youtube.com/watch?v=4QbSDC_sEjs)
+- 
