@@ -219,6 +219,13 @@ https://sammyppr.github.io/
 
 - [ポップアップカード設計アプリ    Pop Up Block Card Designer](https://mitani.cs.tsukuba.ac.jp/ja/software/popup_card/)
 
+## 今日のまとめ
+造形の時間ですが、アイディアを出すのに
+- ひらめき
+- 設計
+
+二つの異なる頭の使い方をやってみました。
+クリエイティブな作業にはこの二つの側面があることを意識してみましょう。
 
 ## 片付け
 カッターはしっかり刃を納めましょう。
