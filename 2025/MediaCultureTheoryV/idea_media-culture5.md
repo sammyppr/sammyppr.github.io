@@ -485,4 +485,6 @@ VHSの普及は、家庭エンターテインメントの革命を引き起こ�
 https://www.youtube.com/watch?v=rawXs_40KT8
 
 - [Blu-rayが消えDVDが残った？](https://www.youtube.com/watch?v=n9LGz3sxx4E)
-- 
+
+
+- [海外の反応】日本のビデオテープが未来的⁉世界が日本製磁気テープを再び使う驚愕の理由とは・・・](https://www.youtube.com/watch?v=k04xh3Fci5E)
