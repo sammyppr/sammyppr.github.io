@@ -242,13 +242,12 @@ AfterでもPremiereでも一緒となります。
 - [Easing functions](https://haiyang.me/easing/Easings.html)
 
 ---
-### やってみよう
+### やってみよう(PremierePro)
 - [説明動画](https://www.youtube.com/watch?v=iiMJ9Eya8O0)
 
-Premiereでやってみましょう。
 1. 作業フォルダ「mr3_05」を作成
 2. [PremiereLogo](img/adobe-premiere-logo.png)をダウンロードしてフォルダの中に
-3. 新規シーケンス「HD 1080p」「HD 1080p 29.97fps」を選択
+3. 新規シーケンス「HD 1080p」-「HD 1080p 29.97fps」を選択
 4. プロジェクトにロゴを読み込んで、シーケンスに配置。選択
 5. エフェクトコントールで次の位置にキーフレーム
    - 位置:0,15フレーム
