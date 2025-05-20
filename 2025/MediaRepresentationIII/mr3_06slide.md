@@ -44,38 +44,46 @@ PremiereやAfterEffectsでは、
 ### リニア・ベジエ
 特別な設定をしなければ線形的に(グラフにすると直線であり、速度一定)で移動します。これを**リニア**と呼びます。
 
-一方、設定をすることで様々な表情をつけることができます。
+一方、設定をすることで様々な表情(曲線的な動き)をつけることができます。これを**ベジェ**と呼びます。
 
 思い浮かべてみましょう。Illustratorでパスを2点打っても、直線や曲線を表現することができます。
 
 ---
 ### 時間補完法・空間補完法
-Illustratorでは静止画ですが、Premiere,AfterEffectsでは時間軸を扱えます。そのため
+通常のパラメータは、一つなので、時間に対しての動きを決定します。
+
+位置情報等に関しては、時間・位置の二つを扱うことができるため、
 - 時間補完法：時間軸をどのように計算するか
 - 空間補完法：位置情報等をどのように計算するか
 
 の二つの方法があります。
 
 違いを見てみましょう。
+<!--
 - [【キー・空間補間法】思うように動かない時に設定を確認してみよう！](https://chokaidokuae.com/kiso_11/)
+-->
+- [『キーフレームの時間補間法・区間補間法-リニア、ベジェ、イーズイン、イーズアウト-』【動画編集 Premiere Proプレミアプロ】](https://www.youtube.com/watch?v=rHm26DxR_u0)
 
+<!--
 ---
 ### Premiereの場合
 - エフェクトコントロールのパラメータの左三角を開くと速度変化を修正することができます。
 - エフェクトコントロールのパラメータを選択し、動きのパスを修正することができます。
 
 (例示)
-
+-->
 ---
 ### AfterEffectsの場合
+前回はPremiereで試したので、今回はAfterEffectsで試しましょう。
 AfterEffectsにてはグラフエディタについてより詳細に扱うことが可能となります。
+
 
 - [参考:【After Effects】キーフレーム補完法と速度グラフ【初心者】](https://www.youtube.com/watch?v=75Xcty3XB3E)
 
 ---
 ### やってみよう
 [スクリーンキャスト](https://www.youtube.com/watch?v=8J-pdPuWUDM)、HPにあります。
-1. AfterEffectsで新規コンポジションを作成(HDTV1080 29.97)
+1. AfterEffectsで新規コンポジションを作成(HD 1920x1080 29.97)
 2. 新規平面で適当に背景追加
 3. シェイプレイヤー追加
 4. 多角形追加(3角形に)。塗りを追加。角を丸くする
@@ -151,20 +159,19 @@ PremiereProもAfterEffectsも機能を拡張することができます。
 
 
 1. https://misterhorse.com/ にいく
-2. Animation ComposerのところのLearn more & downloadをクリック
-3. Download for Macをクリック
+2. 「Get started for free」をクリック
+3. 「Download for Mac」をクリック
 4. DMGファイルをダブルクリックして、Mister Horse Product ManagerをAppフォルダへ
 5. 起動
 6. Create new accountでアカウント作成
 7. メールで確認
 8.  Mister Horse Product Manager を起動して、二つをインストール(Starter Packは自動でインストールされます)
-   - Animation Composer3
-   - Premiere Composer
+   - Animation Composer3/Premiere Composer
 
 ---
 ### Premiere Composerを使ってみよう
 1. 新規プロジェクト作成
-2. 新規シーケンス(AVCHD 1080p30)
+2. 新規シーケンス(HD 1080p 29.97)
 3. ウィンドウ-エクステンション-Premiere Composer
 
 Text Boxes/Text Presets/Transitions/Social Media/Shape Elements/Soundsを適当に試してみましょう。
@@ -185,7 +192,7 @@ Add folderというところに
 ---
 ### Animation Composer3を使ってみよう
 1. 新規プロジェクト作成
-2. 新規コンポジション(HDTV1080 29.97)
+2. 新規コンポジション(HD 1920x1080 29.97)
 3. ウィンドウ-Animation Composer 3
 
 コンポジションに何か追加してみましょう。使い方の詳細は割愛します。
@@ -225,16 +232,23 @@ PremierePro/AfterEffects用にテンプレートを配布していて、比較�
 2. エッセンシャルグラフィックスパネルの右下の「+」を押す
 3. mogrtファイルを選択
 
+<!--
 ~~これで管理すると、エッセンシャルグラフィックスのマイテンプレートがずーっと下に長くなってしまいます。~~
+-->
 ローカルテンプレートフォルダに保存されます。
 
 [モーショングラフィックステンプレートのインストールと使用](https://helpx.adobe.com/jp/premiere-pro/using/motion-graphics-templates.html)
+<!--
 これでいっか...
+-->
 
 ---
-### Premiere Composerで管理
-2024/3にローカルテンプレートフォルダができたので、いらないかも
+### Premiere/Animation Composerで管理
+Premiere/Animation Composerで管理することもできます。
 
+2024/3にローカルテンプレートフォルダができたので、いらないかも。
+数多く整理したい場合には、Premiere/Animation Composerで管理でも良いです。
+<!--
 1. 書類フォルダに「VideoLibrary」フォルダを作成
 2. その中に「mixkit」フォルダを作成
 3. その中に「LowerThird」フォルダを作成
@@ -245,15 +259,16 @@ PremierePro/AfterEffects用にテンプレートを配布していて、比較�
 8. Premiere ComposerでUserLibraryにて「Add Folder」をクリックして「VideoLibrary」を選択
 9. シーケンス(AVCHD 1080p30)に追加すると、サイズが4K用みたいなので、エフェクトコントロールのスケールで50%に
 10. Premiere ComposerのEditで文字を変えてみましょう。
-
+-->
 ---
+
 ### 注意
 なお、mixkitのLowerThirdの中には、mogrtでないものもたまにあります。
 Fontのインストールが必要なものもあります。状況に応じて対応していきましょう。
 
 ---
 ### 無償なものはたくさんあります。
-[【After Effects】初心者に絶対入れてほしい！おすすめ無料プラグイン/スクリプト/エクステンションまとめ2021年版](https://www.kotsuxkotsu.work/after-effects-essential-free-plugin-script-extension/)
+[【2024年版】After Effects初心者おすすめ！無料プラグイン/プリセットまとめ](https://www.kotsuxkotsu.work/after-effects-essential-free-plugin-script-extension/)
 
 必要に応じて、道具を整備していきましょう。
 
