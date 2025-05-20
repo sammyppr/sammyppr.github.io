@@ -27,6 +27,19 @@ MSX
 「フロッピーと音楽機材について教えてください」
 
 https://www.youtube.com/watch?v=yEY35ovFYSw
+
+TOPIC
+- フロッピーディスクの仕組み
+- 8->5.25->3が主流に
+- 番外：文字の活字化(日本と欧米の比較) タイプライター〜ワープロ〜コンピュータ
+  - https://museum.ipsj.or.jp/computer/word/index.html
+- 初期のコンピュータの動作(OS->データ) cドライブ
+  - Mac 起動：https://www.youtube.com/watch?v=-eSRnmj3QaQ&list=PL7T-s_57hKbqIxHk1x-RD2_pp8a99YpMF&index=9
+- 番外？：デジカメ
+  - QuickTake100,150 コンピュータに接続(RS-422)しないとデータを取り出せなかった
+  - Mavica https://www.youtube.com/watch?v=AE-aXHmS-0A
+  - その後、スマートメディア・CFカード・メモリースティック等を経てSDカードへ
+- 
 -->
 
 
