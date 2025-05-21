@@ -6,7 +6,8 @@
 - [スライド](./btoi_06slide.pdf)
 
 ## 参考資料等
-### Google I/O絡み(Xより)
+### Google I/O絡み(X,Znennより)
+- https://zenn.dev/schroneko/articles/google-io-2025
 - https://x.com/sora19ai/status/1925003653255229443?s=53&t=lHcTTPVthCRzDFMCzPWBYg
 - https://x.com/schroneko/status/1925026182690701680?s=53&t=lHcTTPVthCRzDFMCzPWBYg
 - https://x.com/kajikent/status/1925022031973908712?s=53&t=lHcTTPVthCRzDFMCzPWBYg
