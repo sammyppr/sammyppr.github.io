@@ -110,6 +110,9 @@ TCP/IPの仕組み,サーバ・クライアント,プロトコル等について
 
 そういう場合は、エラーとなります。
 
+## 動画で見てみよう
+- [パケットの中身を見てTCP/IPを絶対に理解したい](https://www.youtube.com/watch?v=fmN3xrqEz_0)
+
 ## パケットを見てみよう！
 
 では、実際に、パケットを見てみましょう。  
@@ -119,7 +122,7 @@ TCP/IPの仕組み,サーバ・クライアント,プロトコル等について
 
 等とすると、直ぐに見つかります。
 
-ここでは、Cocoa Packet Analyzerというソフトウェアを利用します。
+ここでは、Wiresharkというソフトウェアを利用します。
 
 ## サーバ・クライアント
 
@@ -245,13 +248,15 @@ SSHはSecureShellという、暗号や認証の技術を利用して、安全に
 
 ### その他のファイル転送用のプロトコル
 
-他に
-
 **WebDAV**: Web-based Distributed Authoring and Versioning
 
-というものがあります。
-
+というものがありました。
 これは、httpを拡張したものであり、Webサーバに対して直接ファイルのコピーや削除を行ったりすることが可能になります。
+
+が、現在では非推奨となっています。
+> WebDAVは、設計が古いプロトコルを使用しているため、現代のセキュリティ要件を十分に満たせないという問題があります。特にパスワード認証の仕組みが弱く、強固なセキュリティ対策が求められる現代の標準では不十分となります。例えば、過去にWebDAVに関連する複数のセキュリティ脆弱性が報告されており、攻撃者に悪用されるリスクがあります。このように、WebDAVはセキュリティ上に不安があるとして利用が推奨されなくなりました。([WebDAVとは？リスクと非推奨の理由、代用ツールを解説！](https://www.miraiserver.ne.jp/column/about_webdav/))
+
+
 
 ### メール用のプロトコル
 
@@ -397,6 +402,15 @@ TCPの利点をこれまで説明してきましたが、HTTP/3ではQUICと呼�
 を利用しています。
 
 - [GoogleのQUICプロトコル：TCPからUDPへWebを移行する](https://postd.cc/googles-quic-protocol-moving-web-tcp-udp/)
+
+Chromeでは「開発者ツール」-「Network」で、タイトルを右クリックして「Protocol」にチェックを入れることで、どのプロトコルが使われているのか確認できます。
+
+### HTTP/3 利用率
+- [Usage statistics of HTTP/3 for websites](https://w3techs.com/technologies/details/ce-http3)
+
+### HTTP/3 ? HTTP/2 ?
+- [HTTP/3として知られるQUICは高速インターネット環境ではHTTP/2に大敗することが判明](https://gigazine.net/news/20240910-http2-faster-than-http3-quic/)
+
 
 ### HTTP3 動画
 - [HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
