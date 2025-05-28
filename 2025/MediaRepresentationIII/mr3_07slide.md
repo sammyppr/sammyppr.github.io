@@ -97,8 +97,13 @@ https://www.youtube.com/watch?v=hjpnfrba070
 
 https://www.youtube.com/watch?v=ESscOboNjA8
 
+注：4:09あたりでハンドルが出ない人、速度グラフを使うか、値グラフで次元分割(右クリック)、x,yを別々にしましょう。
+[キーフレーム間で速度を制御する](https://helpx.adobe.com/jp/after-effects/using/speed.html)
+
+<!--
 注：4:09あたりでハンドルが出ない人、次元分割をクリックして、x,yを別々にしましょう。(仕様が変わったかも...追記20240522)
 [AfterEffectsのグラフエディタの使い方](https://rabbitc.co.jp/library/mg-07/#:~:text=%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B9%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AE%E3%80%8C%E4%BD%8D%E7%BD%AE%E3%80%8D%E3%82%92,%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82)
+-->
 
 ## パラメータの設定 & 書き出し
 
