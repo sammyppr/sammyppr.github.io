@@ -127,7 +127,10 @@ After Effectsにはもう一つ強力な
 - wiggle
 - loopOut
 
+<!--
 [参考：4つだけ覚えればエクスプレッションマスター！](https://www.youtube.com/watch?v=HEkbATORdaI)
+-->
+- [よく使うエクスプレッション5選【AfterEffects/アフターエフェクト】](https://www.youtube.com/watch?v=N_IrRC_fpqc)
 
 ## time
 
