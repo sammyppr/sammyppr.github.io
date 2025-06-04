@@ -26,12 +26,11 @@
 - 頭の映像が切れているので、伸ばしてください
 - 会話はA1,A2。A3からA10に会話以外の音が入っているので、削除します。
 
-## 素材データ
+## 素材データetc
 - [最終課題用素材データ](https://helpx.adobe.com/jp/audition/how-to/music-editor.html){:target="_blank"}
+- [翻訳](xls/translate.xlsx)
+- [構成表](xls/ElephantDreamStructure.xlsx)
 
-## 構成表
-好きに使ってください。どこに音を入れるなど管理しやすくなると思います。
-- [Structure.xlsx](xls/ElephantDreamStructure.xlsx)
 
 ## 参考
 - [脚本](https://www.scripts.com/script/elephants_dream_7567){:target="_blank"}
