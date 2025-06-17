@@ -57,7 +57,7 @@ https://sammyppr.github.io/
 
 ---
 ### BGMとは？<!-- omit in toc -->
-Background Musicの略で、映像・放送などで背景に流す音楽。と定義できます。
+BackGround Musicの略で、映像・放送などで背景に流す音楽。と定義できます。
 
 主に、音を使って、場の雰囲気を作るのに役立つといえるでしょう。
 
