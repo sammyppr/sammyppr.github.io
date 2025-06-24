@@ -32,7 +32,7 @@ footer: ""
 - トランジション
 - Jカット・Lカット
 
-について学びました。いろいろな映像がどのような編集されているか気にして見るようになりましょう。
+について学びました。いろいろな映像がどのように編集されているか気にして見るようになりましょう。
 
 # 今日のテーマ
 今日から2回、色について学びます。
@@ -51,20 +51,22 @@ footer: ""
 となります。ただ、白い紙にもいろいろあるので、 厳密にはあいません。
 
 ## Color Checker<!-- omit in toc -->
-生産終了になってますが、Xrite Color Checker Passport Videoというものがあります。
+X-riteという会社では生産終了になってますが、calibriteから[Color Checker Passport Video](https://calibrite.com/jp/product/colorchecker-passport-video/?noredirect=ja-JP)が再度販売されました。
 これを撮影しておくことによって、編集時により正確な色補正が可能となります。
 
 大学に私物・コース所有の2つあります。
 
 ![Xrite Color Checker Passport Video](https://www.xrite.com/-/media/global-product-images/c/colorchecker-passport-video/colorchecker-passport-video_05.jpg)
 
-## DataColor SpyderCHECKR24<!-- omit in toc -->
+<!--
+## DataColor SpyderCHECKR24
 現在日本で入手できるものは
 **DataColor SpyderCHECKR24**
 となります。
 
-http://www.datacolor.jp/products/camerasolutions/spydercheckr24.html
-https://www.amazon.co.jp/Datacolor-SpyderCHECKR-%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB-SCK200-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%BF%9D%E8%A8%BC%E4%BB%98%E3%80%91/dp/B06XFSXZ88
+- http://datacolor.jp/datacolor/camerasolutions/spydercheckr24.html
+- https://www.amazon.co.jp/Datacolor-SpyderCHECKR-%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB-SCK200-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%BF%9D%E8%A8%BC%E4%BB%98%E3%80%91/dp/B06XFSXZ88
+-->
 
 ## 参考<!-- omit in toc -->
 - [【WB】プロが教える正しいホワイトバランスの取り方【白】](https://www.youtube.com/watch?v=pWoUZIvsVWI&t=463s)
@@ -140,7 +142,7 @@ Lumetriスコープでも、RGB/YUVの表示が選べます。
 
 ---
 ### 注意...<!-- omit in toc -->
-自分のバージョンだと、たまにLumetriスコープが反応していない時があります。そんな時は
+自分のバージョンだと、たまにLumetriスコープが正しく反応していない時があります。そんな時は
 - 時間を変えてみる
 - 一度違うパネルを開いてからLumetriスコープに戻す
 
@@ -244,7 +246,7 @@ RAW/LOG撮影をしている場合には、LUTと呼ばれるファイルを当�
 
 ---
 ### やってみよう<!-- omit in toc -->
-1. 新規調整レイヤーを作成し、V3に二つのクリップにまたがるようにお木、選択
+1. 新規調整レイヤーを作成し、V3に二つのクリップにまたがるように置き、選択
 2. 基本補正のホワイトバランスのスポイトで黒人のシャツの襟あたりをクリック
 3. J.mp4を選択して、エフェクトコントロール・不透明度から四角をクリック
 4. 額に合わせて、ベクトルスコープYUVが左上のラインと重なっていることを確認。
@@ -261,6 +263,13 @@ RAW/LOG撮影をしている場合には、LUTと呼ばれるファイルを当�
 
 これはスキントーンと言って、不思議なことに黒人であろうと白人であろうと、肌色がこの線にのっていれば、正しく補正されていることになります。
 
+---
+### おまけ
+シーケンス設定に「リニアカラーで合成」という項目があり、二つのレイヤーの合成のされ方が変わるようです。
+
+デフォルトではチェックが入っていますが、チェックオフにするのも試してみていいでしょう。
+
+- [リニアカラーで合成 #PremierePro](https://www.youtube.com/watch?v=-eXh29M3ZsE)
 
 ## まとめ
 撮影時に正しく撮影することが基本ですが、カラーコレクションを行うことによって、色補正ができます。
