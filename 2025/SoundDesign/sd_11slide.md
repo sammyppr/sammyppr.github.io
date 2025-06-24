@@ -109,7 +109,7 @@ http://www.marblehead.net/foley/jack.html
 
 ---
 ### フォーリーアーティストの仕事
-全部は見れないな...
+全部は見れないな...最初の二本見て見ましょう。
 
 - https://www.youtube.com/watch?v=5hWbmn7GtDE 3:08
 - https://www.youtube.com/watch?v=RRM--iEWGGo 6:33
@@ -122,13 +122,15 @@ http://www.marblehead.net/foley/jack.html
 - Library Effects 前もって録音された効果音
 - Foley 足音・洋服・小道具
 
-と分けることができます。Library EffectsをSoundlyで利用しても良いですが、興味ある人にはFoleyチャレンジしてもらいたいです。
+と分けることができます。Library EffectsをSoundly等で利用しても良いですが、興味ある人にはFoleyチャレンジしてもらいたいです。
 
 ---
 ### 存在しない音
 SF等ではどのように作っているのでしょうか？スターウォーズの例をみてみましょう.
 
+<!--
 - https://www.youtube.com/watch?v=msSFQxEoDFc 2:52
+  -->
 - https://www.youtube.com/watch?v=unyk-Zso5Nk 4:13
 
 [「スター・ウォーズ」シリーズのサウンドデザイナーが奇妙な効果音の謎解説](https://www.esquire.com/jp/entertainment/movies/a30905518/real-world-stuff-behind-star-wars-iconic-sounds/)
@@ -196,7 +198,7 @@ PureDataと呼ばれる、音をプログラミングする環境があるので
 
 どちらでも構いません。音響・映像とも、長いケーブルを利用する時には必ず、この巻き方をするようにしましょう。
 
-- [https://www.yamaha-ss.co.jp/tips/tips-18.html](https://www.yamaha-ss.co.jp/tips/tips-18.html)
+- [上手なケーブルの巻き方・扱い方 YAMAHA](https://www.yamaha-ss.co.jp/tips/tips-18.html)
 
 この動画もおすすめだなぁ...
 - [【結音】音響屋が教えるわかりやすい！”8の字巻き”のコツ！【 How to over and under 】](https://www.youtube.com/watch?v=UOz2BdFTdN4)
@@ -227,7 +229,7 @@ PureDataと呼ばれる、音をプログラミングする環境があるので
 
 ---
 ### 最終課題
-- [最終課題](https://sammyppr.github.io/2023/SoundDesign/sd_kadai.html)
+- [最終課題](https://sammyppr.github.io/2025/SoundDesign/sd_kadai.html)
 
 
 
