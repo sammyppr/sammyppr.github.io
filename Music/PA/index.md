@@ -15,3 +15,7 @@ PAとはPublic Address(パブリック・アドレス)の略で「多くの人�
 - [音響ミキサーの基本的な扱い方を覚えると、どんなミキサーでも使えるように！](https://www.youtube.com/watch?v=VEPXzsQUufA)
 - [【音響機材】PAスピーカーについての説明 〜後半はイヤホンで聞いて下さい！〜](https://www.youtube.com/watch?v=4QbSDC_sEjs)
 - 
+
+
+## 講座用資料
+- [PA入門 2025/7/2](./introduction_to_pa.md)
