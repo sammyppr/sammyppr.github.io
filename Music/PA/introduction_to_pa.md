@@ -19,12 +19,12 @@ PAとはPublic Address(パブリック・アドレス)の略で「多くの人�
   - [電源の入れ方、落とし方](#電源の入れ方落とし方)
   - [音の経路を考えよう](#音の経路を考えよう)
     - [ブロックダイヤグラム](#ブロックダイヤグラム)
-    - [Cubeでの実践](#cubeでの実践)
-  - [Mixer・パワーアンプ・スピーカー使って実践](#mixerパワーアンプスピーカー使って実践)
   - [イコライザー(EQ)](#イコライザーeq)
     - [グラフィックイコライザー(GEQ)](#グラフィックイコライザーgeq)
     - [パラメトリックイコライザー(PEQ)](#パラメトリックイコライザーpeq)
     - [ハウリング対策](#ハウリング対策)
+  - [Cubeでの実践](#cubeでの実践)
+  - [Mixer・パワーアンプ・スピーカー使って実践](#mixerパワーアンプスピーカー使って実践)
 
 
 ## 信号の流れ
@@ -99,21 +99,6 @@ PAとはPublic Address(パブリック・アドレス)の略で「多くの人�
 
 [ブロックダイヤグラムの見方を覚えて、ミキサーの構成を読み解く！](https://www.youtube.com/watch?v=zx0NG3-cXSo)
 
-### Cubeでの実践
-- [CubeEXマニュアル](https://static.roland.com/jp/media/pdf/CUBE_STEX_j01_W.pdf)
-
-![](img/cube_ex_blockdiagram.png)
-
-1. 電源OFF
-2. EQUALIZER 3つとも5。エフェクトも全部0。Volume0。MICをセレクト。
-3. マイクを接続
-4. OUTPUT POWERをECO/NORMAL/MAXから選ぶ
-5. 電源ON
-
-
-## Mixer・パワーアンプ・スピーカー使って実践
-TODO:
-
 ## イコライザー(EQ)
 音質を整えるのがイコライザー(EQ)の機能です。
 
@@ -150,6 +135,24 @@ TODO:
 - GEQで該当の周波数を削る
 
 となります。
+
+## Cubeでの実践
+- [CubeEXマニュアル](https://static.roland.com/jp/media/pdf/CUBE_STEX_j01_W.pdf)
+
+![](img/cube_ex_blockdiagram.png)
+
+1. 電源OFF
+2. EQUALIZER 3つとも5。エフェクトも全部0。Volume0。MICをセレクト。
+3. マイクを接続
+4. OUTPUT POWERをECO/NORMAL/MAXから選ぶ
+5. 電源ON
+
+
+## Mixer・パワーアンプ・スピーカー使って実践
+[旧アカペラ部機材](./acappella_equipment.md)
+
+を使ってみましょう。
+
 
 
 
