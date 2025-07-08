@@ -327,7 +327,7 @@ SEO対策をすれば良いと言われてきましたが、事情がAIによっ
 
 長いので、途中で止めますが、みてみましょう。
 
-- [【グーグル検索の60％がクリックされない】「SEOは通用しない」HubSpotトップが警告／時価総額4兆円企業はChatGPTもGeminiも使い倒す／AI時代のマーケティング激変に備えよ【1on1】(33:58)](https://www.youtube.com/watch?v=6nUoVWfGxc0)
+- [【グーグル検索の60％がクリックされない】「SEOは通用しない」HubSpotトップが警告／時価総額4兆円企業はChatGPTもGeminiも使い倒す／AI時代のマーケティング激変に備えよ【1on1】(33:58 15:50-23:09)](https://www.youtube.com/watch?v=6nUoVWfGxc0)
 
 
 
