@@ -28,7 +28,7 @@ footer: ""
 と色・質感についてやってきました。作品制作に活かしていきましょう。
 
 # 最終課題について
-- [最終課題について](https://sammyppr.github.io/2024/MediaRepresentationIII/mr3_kadai.html)
+- [最終課題について](https://sammyppr.github.io/2025/MediaRepresentationIII/mr3_kadai.html)
 
 最終課題の締切日は7月末とします。
 
