@@ -351,6 +351,8 @@ AirDropも非常に便利ですよね。Android/Windowsの人は似たような�
 
 - [データセンターって何？(3:01)](https://www.youtube.com/watch?v=V4ClkzD-aOY)
 
+想像よりすごいスピードでデータセンターは拡張をしています。
+- [投資額年間約 140 億ドル！1 時間に 200 台のサーバーを拡張するデータセンターをご紹介！ビジネスで使える IT ネタをお届けする「ネタバース」 | 日本マイクロソフト(10:57)](https://www.youtube.com/watch?v=GExEUbUEY_8)
 
 
 ## 小レポート
