@@ -269,6 +269,8 @@ AIは既存のデータを機械学習してモデルが生成されています
 
 
 - [音楽生成AIのSunoとUdioを全米レコード協会が著作権侵害で提訴](https://www.itmedia.co.jp/news/articles/2406/25/news101.html)
+- [「AI作曲で稼ぐ」の終わり？米著作権局がAI生成物に例外を除き著作権を認めないと発表](https://note.com/saturday/n/n5b00b88df9f5)
+- [アメリカレコード協会が Suno / Udio を訴えた件って今どうなってる？](https://note.com/saturday/n/ncc588339f65c)
 
 Adobeなどは著作権問題がないことを売りにしたサービスを展開しています。
 
