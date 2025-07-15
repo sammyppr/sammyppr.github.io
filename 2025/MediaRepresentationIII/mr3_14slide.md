@@ -45,7 +45,7 @@ footer: ""
 
 ---
 ### 最終課題について
-- [最終課題](https://sammyppr.github.io/2024/MediaRepresentationIII/mr3_kadai.html)
+- [最終課題](https://sammyppr.github.io/2025/MediaRepresentationIII/mr3_kadai.html)
 
 # 今日のトピック
 最適化
@@ -295,6 +295,10 @@ FullHDに比べて縦横とも2倍の解像度があるため、4倍の情報量
 
 そこで、プロキシ(代理)という考え方が出てきます。
 
+- [【超効率化】プロキシ作成〜使い方解説！プロキシ活用してサクサク編集 | Premiere Pro チュートリアル(8:12)](https://www.youtube.com/watch?v=OSPnvszbmw4)
+- [【After Effects】『プロキシ』の機能や使い方について徹底解説!!(10:51)](https://www.youtube.com/watch?v=i11QT0WETfc)
+
+<!--
 ---
 ### プロキシ
 実験を行ってみました。
@@ -319,13 +323,13 @@ http://footage3.openspc2.org/HDTV/footage/4K/30f/
 そりゃ、処理が軽くなります。
 
 プロキシの切り替えをONにすると、コンピュータへの負荷が減ります。
-
+-->
 
 ## まとめ
 
 ---
 ### まとめ
-PremiereProをメインで扱いましたが、コンピュータを効率的に扱うと、スペックの低いマシンでも編集は可能です。
+コンピュータを効率的に扱うと、スペックの低いマシンでも編集は可能です。
 
 20年前はSD(640x480)という解像度でしたが、その頃からいかに誤魔化して編集をするか、は課題でした。
 
