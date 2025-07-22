@@ -4,8 +4,7 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 3
-header: "インターネット基礎理論 15 まとめ
-"
+header: "インターネット基礎理論 15 まとめ"
 math: true
 ---
 
@@ -138,7 +137,7 @@ TCP/IP・IPアドレス・ドメインネーム・DNS・URL・ポート・パケ
    - SEO
 
 ###
-- [【第１４回】インターネットと~~生活~~ AI]
+- [【第１４回】インターネットと AI]
     - [経済産業省、アニメやゲーム、広告などの業界に向けた生成AI利活用ガイドブックを公表](https://japan.cnet.com/article/35221229/)
 
 
