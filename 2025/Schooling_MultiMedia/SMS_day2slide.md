@@ -506,6 +506,34 @@ HTML,CSSはそこそこわかっててJavaScriptやってみたい人は申し�
 
 前述した Bootstrap というライブラリはこれを簡単に実現するためのものです。
 
+---
+### Web制作ツールについて
+先に述べたWordpress等を使わない場合には、
+- 画像編集：Photoshop
+- デザイン：Figma・(Illustrator)
+- コード作成：Visual Studio Code
+
+が一般的になっている気がします。
+
+AdobeではHP開発用にDreamweaverというアプリを出していますが、そんなに利用されなくなっています。UI/UXデザイン用にXEDというアプリを出していましたが、Figmaに座を譲りました。
+
+---
+### Figma
+- [大手企業が相次ぎ採用のデザインソフト　注目の理由は？（2024年3月13日）(5:16)](https://www.youtube.com/watch?v=plWtIppog30)
+
+Figmaは無料で教育機関に開放されていて、ブラウザから利用できるため、アプリケーションのインストールの必要性もありません。
+
+---
+### Visual Studio Code
+HPの開発においては、基本テキストエディタがあれば良いのですが、テキストエディタ戦国時代を乗り越えVisual Studio Codeが一旦制覇しました。(AI対応エディタは現在様々なものが出てきています。)
+
+プラグインにて便利な機能を追加できます。
+インストールして利用するのが普通ですが、ブラウザから利用できるのも一つの特徴です。
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio Code Web版](https://vscode.dev/?vscode-lang=ja)
+
+Microsoft製ですが、「Visual Studio」(統合開発環境)とは異なるので注意しましょう。
+
 # テンプレートを利用したホームページの制作
 
 ## 演習内容
