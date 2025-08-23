@@ -35,6 +35,9 @@
 
 ### 一番短いホームページ
 「Open with Live Server」がよくわからない人、教員・SA呼んでください。(VSCの拡張機能でLive Serverを探してインストール)
+
+ごめんなさい。ホームページの中でVSC起動時に「Option+スペース」と書いてありますが、「Command+スペース」の間違いです。
+
 [![](https://img.youtube.com/vi/FWhqiwn-rXs/0.jpg)](https://www.youtube.com/watch?v=FWhqiwn-rXs){:target="_blank"}
 
 ### テンプレートを探そう
