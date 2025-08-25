@@ -65,6 +65,17 @@
 [![](https://img.youtube.com/vi/mLKDdTaafvY/0.jpg)](https://www.youtube.com/watch?v=mLKDdTaafvY){:target="_blank"}
 
 ### 書き出し
+多少インターフェイスが変更されています。わからない場合呼んでください。
+YouTubeに書き出すには、音量を整えるために
+> エフェクト - ラウドネスの正規化
+
+にて
+- ラウドネス標準：ITU BS.1770-3
+- 目標ラウドネス：-14
+
+にすると良いとされています。(大きすぎたり小さ過ぎたりする全体の音量を整えてくれます。)
+
+
 [![](https://img.youtube.com/vi/5dNTFc7sGQs/0.jpg)](https://www.youtube.com/watch?v=5dNTFc7sGQs){:target="_blank"}
 
 
