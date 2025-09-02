@@ -12,8 +12,8 @@
 
 ### 後期
 - [メディア表現VI](./MediaRepresentationVI/)
-- [情報デザイン応用演習II](./InformationDesignAppliedII/)
 - [情報デザイン演習II](./InformationDesignII/)
+- [情報デザイン応用演習II](./InformationDesignAppliedII/)
 
 ### 夏期スクーリング
 - [マルチメディア演習](./Schooling_MultiMedia/)
