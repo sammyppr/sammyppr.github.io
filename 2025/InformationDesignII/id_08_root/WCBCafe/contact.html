@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <!--
+        4-5までで、俺で20分かなぁ。chapter4で30分だから、これで一コマかな
+        5-3から、俺で25分だな。やっぱりこれで一コマ
+        6-3 15分
+        7-2 20分(プラグインの置き換えなし)
+
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCB Cafe - CONTACT</title>
+    <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https:/unpkg.com/ress/dist/ress.min.css">
+    <!--
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <div id="contact" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/logo.svg" alt="WCBカフェ ホーム"></a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <h2 class="page-title">Contact</h2>
+            <form action="#">
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="your-name">
+                </div>
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="text" id="email" name="your-email">
+                </div>
+                <div>
+                    <label for="name">メッセージ</label>
+                    <textarea type="text" id="message" name="your-message"></textarea>
+                </div>
+                <input type="submit" class="button" value="送信">
+            </form>
+        </div>
+    </div>
+    <section id="location">
+        <div class="wrapper">
+            <div class="location-info">
+                <h3 class="sub-title">カフェ 東駅前店</h3>
+                <p>
+                    住所：東京都XX区<br>
+                    asdfjkl;<br>
+                    asdfjk<br>
+                    電話：03-1111-1111<br>
+                    営業時間：10:00〜20:00<br>
+                    休日：水曜
+                </p>
+            </div>
+            <div class="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.745490495485!2d139.6562848120454!3d35.707880172464314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f28568f3a5e5%3A0x1309ba5c3f540a7e!2z5bid5Lqs5bmz5oiQ5aSn5a2mIOS4remHjuOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1698217396556!5m2!1sja!2sjp" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="sns">
+        <div class="wrapper">
+            <div class="sns-box">
+                <h3 class="sub-title">Facebook</h3>
+            </div>
+            <div class="sns-box">
+                <h3 class="sub-title">Twitter</h3>
+            </div>
+            <div class="sns-box">
+                <h3 class="sub-title">YouTube</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2023 Sammy</small></p>
+        </div>
+    </footer>
+
+    <!-- Facebook Javascript SDK-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v18.0" nonce="1CEXg2w8"></script>
+</body>
+</html>

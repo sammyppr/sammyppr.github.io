@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}はじめに}{2}% 
+\contentsline {subsection}{\numberline {1.1}読み間違えないでね}{2}% 
+\contentsline {subsection}{\numberline {1.2}注意}{2}% 
+\contentsline {section}{\numberline {2}07-01.html ブラウザからカメラの情報を取得しよう}{3}% 
+\contentsline {section}{\numberline {3}07-02.html 顔の特徴となる点を取得しよう}{4}% 
+\contentsline {section}{\numberline {4}07-03.html 特徴となる点を数値で見てみよう}{6}% 
+\contentsline {section}{\numberline {5}07-04.html 特徴となる点を元にSNOWにするよ}{8}% 
+\contentsline {section}{\numberline {6}07-05.html 抽出された点から感情を導き出す関数を利用してみよう。}{10}% 
+\contentsline {section}{\numberline {7}07-06.html 感情を元に画像を付け加えよう}{13}% 

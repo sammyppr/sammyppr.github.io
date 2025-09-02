@@ -1,0 +1,697 @@
+\documentclass[mingoth,11pt,a4j,uplatex]{jsarticle}
+\usepackage[top=20truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage{moreverb}
+\usepackage{listings,jlisting} %日本語のコメントアウトをする場合jlistingが必要
+								% https://qiita.com/N_Matsukiyo/items/1199f07a0e1bf4fce29c
+
+% https://qiita.com/ta_b0_/items/2619d5927492edbb5b03
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+
+
+\renewenvironment{description}%  descriptionをインデント
+{%
+   \begin{list}{\parbox{1zw}{$\bullet$}}% 見出し記号／直後の空白を調節
+   {%
+      \setlength{\topsep}{1zh}
+      \setlength{\itemindent}{3zw}
+      \setlength{\leftmargin}{5zw}%  左のインデント
+      \setlength{\rightmargin}{0zw}% 右のインデント
+      \setlength{\labelsep}{1zw}%    黒丸と説明文の間
+      \setlength{\labelwidth}{3zw}%  ラベルの幅
+      \setlength{\itemsep}{0em}%     項目ごとの改行幅
+      \setlength{\parsep}{0em}%      段落での改行幅
+      \setlength{\listparindent}{0zw}% 段落での一字下り
+   }
+}{%
+   \end{list}%
+}
+
+\title{Canvas First Step}
+%\author{小林　統 \thanks{帝京平成大学現代ライフ学部人間文化学科メディア文化コース}}
+\date{\today}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+%\gtfamily	%全てゴシックに
+
+\maketitle
+
+\begin{abstract}
+WebGLを扱いやすくしたthree.jsを利用して3Dアニメーションを作成してみよう。
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{はじめに}
+\subsection{読み間違えないでね}
+
+\begin{lstlisting}[caption=読み間違えないでね]
+数字：0123456789
+小文字：abcdefghijklmnopqrstuvwxyz
+大文字：ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+1：イチ
+l：小文字のエル
+i：小文字のアイ
+!：ビックリマーク
+|：バーティカルバー。Shiftと￥を押したもの。
+
+0：ゼロ
+o：小文字のオー
+O：大文字のオー
+
+.：ピリオド
+,：コンマ
+\end{lstlisting}
+
+\subsection{注意}
+\begin{itemize}
+\item これから出てくるソースコードには、左に「行番号」と呼ばれる番号が出てくるけど、入力する必要ないからね。
+
+\item scriptタグの中で「//」で始まる文は、コメントで、プログラムは読み飛ばすよ。
+
+\item コピーできるところはコピーして効率よく入力して行こう
+\item 徐々に追加されていくから、量が多く見えるけど、平気だよ！
+\end{itemize}
+
+
+\newpage
+\section{three.js入門}
+参考：https://ics.media/tutorial-three/
+
+\subsection{05-11.html　立方体を配置してみよう}
+\begin{lstlisting}[caption=05-11.html]
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8" />
+  <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+  <script>
+    // ページの読み込みを待つ
+    window.addEventListener('DOMContentLoaded', init);
+
+    function init() {
+      // サイズを指定
+      const width = 960;
+      const height = 540;
+
+      // レンダラーを作成
+      const renderer = new THREE.WebGLRenderer({
+        canvas: document.querySelector('#myCanvas'),
+      });
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.setSize(width, height);
+
+      // シーンを作成
+      const scene = new THREE.Scene();
+
+      // カメラを作成
+      const camera = new THREE.PerspectiveCamera(45, width / height);
+      camera.position.set(0, 0, +1000);
+
+      // 箱を作成
+      const geometry = new THREE.BoxGeometry(400, 400, 400);
+      const material = new THREE.MeshNormalMaterial();
+      const box = new THREE.Mesh(geometry, material);
+      scene.add(box);
+
+      // レンダリング
+      renderer.render(scene, camera); 
+    }
+  </script>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+  </body>
+</html>
+\end{lstlisting}
+
+正方形が見えるだけで、立方体だってわからないね。
+
+\subsection{05-12.html　立方体を回してみよう}
+\begin{lstlisting}[caption=05-12.html]
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+  <script>
+    // ページの読み込みを待つ
+    window.addEventListener('DOMContentLoaded', init);
+
+    function init() {
+
+      // サイズを指定
+      const width = 960;
+      const height = 540;
+
+      // レンダラーを作成
+      const renderer = new THREE.WebGLRenderer({
+        canvas: document.querySelector('#myCanvas')
+      });
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.setSize(width, height);
+
+      // シーンを作成
+      const scene = new THREE.Scene();
+
+      // カメラを作成
+      const camera = new THREE.PerspectiveCamera(45, width / height);
+      camera.position.set(0, 0, +1000);
+
+      // 箱を作成
+      const geometry = new THREE.BoxGeometry(400, 400, 400);
+      const material = new THREE.MeshNormalMaterial();
+      const box = new THREE.Mesh(geometry, material);
+      scene.add(box);
+
+      tick();
+
+      // 毎フレーム時に実行されるループイベントです
+      function tick() {
+        box.rotation.y += 0.01;
+        renderer.render(scene, camera); // レンダリング
+
+        requestAnimationFrame(tick);
+      }
+    }
+  </script>
+</head>
+<body>
+  <canvas id="myCanvas"></canvas>
+</body>
+</html>
+\end{lstlisting}
+
+\subsection{05-13.html　インタラクティブ性を追加しよう}
+6行目に注意
+\begin{lstlisting}[caption=05-13.html]
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.137.4/examples/js/controls/OrbitControls.js"></script>
+  <script>
+    // ページの読み込みを待つ
+    window.addEventListener('DOMContentLoaded', init);
+
+    function init() {
+
+      // サイズを指定
+      const width = 960;
+      const height = 540;
+
+      // レンダラーを作成
+      const renderer = new THREE.WebGLRenderer({
+        canvas: document.querySelector('#myCanvas')
+      });
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.setSize(width, height);
+
+      // シーンを作成
+      const scene = new THREE.Scene();
+
+      // カメラを作成
+      const camera = new THREE.PerspectiveCamera(45, width / height);
+      camera.position.set(0, 0, +1000);
+
+      // カメラコントローラーを作成
+      const controls = new THREE.OrbitControls(camera, document.body);
+
+      // 箱を作成
+      const geometry = new THREE.BoxGeometry(400, 400, 400);
+      const material = new THREE.MeshNormalMaterial();
+      const box = new THREE.Mesh(geometry, material);
+      scene.add(box);
+
+      tick();
+
+      // 毎フレーム時に実行されるループイベントです
+      function tick() {
+        box.rotation.y += 0.01;
+        renderer.render(scene, camera); // レンダリング
+
+        requestAnimationFrame(tick);
+      }
+    }
+  </script>
+</head>
+<body>
+  <canvas id="myCanvas"></canvas>
+</body>
+</html>
+\end{lstlisting}
+
+\subsection{05--21.html　ライトを当ててみよう}
+05-12.htmlを改造したほうがいいかも
+\begin{lstlisting}[caption=05-21.html]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+    <script>
+      // ページの読み込みを待つ
+      window.addEventListener('DOMContentLoaded', init);
+
+      function init() {
+        // サイズを指定
+        const width = 960;
+        const height = 540;
+
+        // レンダラーを作成
+        const renderer = new THREE.WebGLRenderer({
+          canvas: document.querySelector('#myCanvas'),
+        });
+        renderer.setSize(width, height);
+
+        // シーンを作成
+        const scene = new THREE.Scene();
+
+        // カメラを作成
+        const camera = new THREE.PerspectiveCamera(45, width / height);
+        camera.position.set(0, 0, +1000);
+
+        // 球体を作成
+        const geometry = new THREE.SphereGeometry(300, 30, 30);
+        // マテリアルを作成
+        const material = new THREE.MeshStandardMaterial({ color: 0xff0000 });
+        // メッシュを作成
+        const mesh = new THREE.Mesh(geometry, material);
+        // 3D空間にメッシュを追加
+        scene.add(mesh);
+
+        // 平行光源
+        const directionalLight = new THREE.DirectionalLight(0xffffff);
+        directionalLight.position.set(1, 1, 1);
+        // シーンに追加
+        scene.add(directionalLight);
+
+        tick();
+
+        // 毎フレーム時に実行されるループイベントです
+        function tick() {
+          // レンダリング
+          renderer.render(scene, camera);
+
+          requestAnimationFrame(tick);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+  </body>
+</html>
+\end{lstlisting}
+
+\subsection{05-22.html　球に画像を貼ってみよう}
+http://planetpixelemporium.com/earth.html
+から、color mapをダウンロードして、img/earthmap1k.jpgに配置しておこう
+
+\begin{lstlisting}[caption=一定時間ごとにランダムな長方形を描こう]
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+    <script>
+        // ページの読み込みを待つ
+        window.addEventListener('DOMContentLoaded', init);
+
+        // サイズを指定
+        const width = 960;
+        const height = 540;
+
+        function init() {
+            // レンダラーを作成
+            const renderer = new THREE.WebGLRenderer({
+                canvas: document.querySelector('#myCanvas')
+            });
+            renderer.setSize(width, height);
+
+            // シーンを作成
+            const scene = new THREE.Scene();
+
+            // カメラを作成
+            const camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
+            camera.position.set(0, 0, +1000);
+
+            // 球体を作成
+            const geometry = new THREE.SphereGeometry(300, 30, 30);
+            // 画像を読み込む
+            const loader = new THREE.TextureLoader();
+            const texture = loader.load('img/earthmap1k.jpg');
+            // マテリアルにテクスチャーを設定
+            const material = new THREE.MeshStandardMaterial({
+                map: texture
+            });
+            // メッシュを作成
+            const mesh = new THREE.Mesh(geometry, material);
+            // 3D空間にメッシュを追加
+            scene.add(mesh);
+
+            // 平行光源
+            const directionalLight = new THREE.DirectionalLight(0xFFFFFF);
+            directionalLight.position.set(1, 1, 1);
+            // シーンに追加
+            scene.add(directionalLight);
+
+            tick();
+
+            // 毎フレーム時に実行されるループイベントです
+            function tick() {
+                // メッシュを回転させる
+                mesh.rotation.y += 0.01;
+                // レンダリング
+                renderer.render(scene, camera);
+
+            requestAnimationFrame(tick);
+            }
+        }
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+</body>
+</html>
+\end{lstlisting}
+
+\subsection{05-23.html　マウスのX軸によって見える方向を変えよう}
+
+
+\begin{lstlisting}[caption=05-23.html]
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+    <script>
+        // ページの読み込みを待つ
+        window.addEventListener('DOMContentLoaded', init);
+
+        // サイズを指定
+        const width = 960;
+        const height = 540;
+
+        function init() {
+            let rot = 0; // 角度
+            let mouseX = 0; // マウス座標
+
+            // マウス座標はマウスが動いた時のみ取得できる
+                document.addEventListener("mousemove", (event) => {
+                mouseX = event.pageX;
+            });
+
+            // レンダラーを作成
+            const renderer = new THREE.WebGLRenderer({
+                canvas: document.querySelector('#myCanvas')
+            });
+            renderer.setSize(width, height);
+
+            // シーンを作成
+            const scene = new THREE.Scene();
+
+            // カメラを作成
+            const camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
+            camera.position.set(0, 0, +1000);
+
+            // 球体を作成
+            const geometry = new THREE.SphereGeometry(300, 30, 30);
+            // 画像を読み込む
+            const loader = new THREE.TextureLoader();
+            const texture = loader.load('img/earthmap1k.jpg');
+            // マテリアルにテクスチャーを設定
+            const material = new THREE.MeshStandardMaterial({
+                map: texture
+            });
+            // メッシュを作成
+            const mesh = new THREE.Mesh(geometry, material);
+            // 3D空間にメッシュを追加
+            scene.add(mesh);
+
+            // 平行光源
+            const directionalLight = new THREE.DirectionalLight(0xFFFFFF);
+            directionalLight.position.set(1, 1, 1);
+            // シーンに追加
+            scene.add(directionalLight);
+
+            tick();
+
+            // 毎フレーム時に実行されるループイベントです
+            function tick() {
+                // メッシュを回転させる
+                mesh.rotation.y += 0.01;
+
+                // マウスの位置に応じて角度を設定
+                // マウスのX座標がステージの幅の何%の位置にあるか調べてそれを360度で乗算する
+                const targetRot = (mouseX / window.innerWidth) * 360;
+                // イージングの公式を用いて滑らかにする
+                // 値 += (目標値 - 現在の値) * 減速値
+                rot += (targetRot - rot) * 0.02;
+
+                // ラジアンに変換する
+                const radian = rot * Math.PI / 180;
+                // 角度に応じてカメラの位置を設定
+                camera.position.x = 1000 * Math.sin(radian);
+                camera.position.z = 1000 * Math.cos(radian);
+                // 原点方向を見つめる
+                camera.lookAt(new THREE.Vector3(0, 0, 0));
+
+
+                // レンダリング
+                renderer.render(scene, camera);
+
+                requestAnimationFrame(tick);
+            }
+        }
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+</body>
+</html>
+\end{lstlisting}
+
+\subsection{05-31.html　大量のオブジェクトを描画してみよう}
+
+\begin{lstlisting}[caption=05-31.html]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+    <script src="https://unpkg.com/stats.js@0.17.0/build/stats.min.js"></script>
+    <script>
+      // ページの読み込みを待つ
+      window.addEventListener('DOMContentLoaded', init);
+
+      function init() {
+        // サイズを指定
+        const width = 960;
+        const height = 540;
+        // 1辺あたりに配置するオブジェクトの個数
+        const CELL_NUM = 20;
+
+        // レンダラーを作成
+        const renderer = new THREE.WebGLRenderer({
+          canvas: document.querySelector('#myCanvas'),
+        });
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(width, height);
+
+        // シーンを作成
+        const scene = new THREE.Scene();
+
+        // カメラを作成
+        const camera = new THREE.PerspectiveCamera(45, width / height);
+        camera.position.set(0, 0, 400);
+
+        const container = new THREE.Group();
+        scene.add(container);
+
+        // 共通マテリアル
+        const material = new THREE.MeshNormalMaterial();
+        // Box
+        for (let i = 0; i < CELL_NUM; i++) {
+          for (let j = 0; j < CELL_NUM; j++) {
+            for (let k = 0; k < CELL_NUM; k++) {
+              // 立方体個別の要素を作成
+              const mesh = new THREE.Mesh(new THREE.BoxGeometry(5, 5, 5), material);
+
+              // XYZ座標を設定
+              mesh.position.set(10 * (i - CELL_NUM / 2), 10 * (j - CELL_NUM / 2), 10 * (k - CELL_NUM / 2));
+
+              // メッシュを3D空間に追加
+              container.add(mesh);
+            }
+          }
+        }
+
+        // フレームレートの数値を画面に表示
+        const stats = new Stats();
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+
+        tick();
+
+        // 毎フレーム時に実行されるループイベントです
+        function tick() {
+          container.rotation.x += Math.PI / 180;
+          container.rotation.y += Math.PI / 180;
+
+          // レンダリング
+          renderer.render(scene, camera);
+
+          // レンダリング情報を画面に表示
+          document.getElementById('info').innerHTML = JSON.stringify(renderer.info.render, '', '    ');
+
+          // フレームレートを表示
+          stats.update();
+
+          requestAnimationFrame(tick);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <pre id="info"></pre>
+  </body>
+</html>
+\end{lstlisting}
+
+\subsection{05-32.html　最適化してみよう}
+\begin{lstlisting}[caption=05-32.html]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.137.4/examples/js/utils/BufferGeometryUtils.js"></script>
+    <script src="https://unpkg.com/stats.js@0.17.0/build/stats.min.js"></script>
+
+    <script>
+      // ページの読み込みを待つ
+      window.addEventListener('DOMContentLoaded', init);
+
+      function init() {
+        // サイズを指定
+        const width = 960;
+        const height = 540;
+
+        // レンダラーを作成
+        const renderer = new THREE.WebGLRenderer({
+          canvas: document.querySelector('#myCanvas'),
+        });
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(width, height);
+
+        // シーンを作成
+        const scene = new THREE.Scene();
+
+        // カメラを作成
+        const camera = new THREE.PerspectiveCamera(45, width / height);
+        camera.position.set(0, 0, 400);
+
+        // 1辺あたりに配置するオブジェクトの個数
+        const CELL_NUM = 25;
+        // 結合用のジオメトリを格納する配列
+        const boxes = [];
+        for (let i = 0; i < CELL_NUM; i++) {
+          for (let j = 0; j < CELL_NUM; j++) {
+            for (let k = 0; k < CELL_NUM; k++) {
+              // 立方体個別の要素を作成
+              const geometryBox = new THREE.BoxGeometry(5, 5, 5);
+
+              // 座標調整
+              const geometryTranslated = geometryBox.translate(
+                10 * (i - CELL_NUM / 2),
+                10 * (j - CELL_NUM / 2),
+                10 * (k - CELL_NUM / 2)
+              );
+
+              // ジオメトリを保存
+              boxes.push(geometryTranslated);
+            }
+          }
+        }
+        // ジオメトリを生成
+        const geometry = THREE.BufferGeometryUtils.mergeBufferGeometries(boxes);
+
+        // マテリアルを作成
+        const material = new THREE.MeshNormalMaterial();
+        // メッシュを作成
+        const mesh = new THREE.Mesh(geometry, material);
+        scene.add(mesh);
+
+        // フレームレートの数値を画面に表示
+        const stats = new Stats();
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.top = '10px';
+        document.body.appendChild(stats.domElement);
+
+        tick();
+
+        // 毎フレーム時に実行されるループイベントです
+        function tick() {
+          mesh.rotation.x += Math.PI / 180;
+          mesh.rotation.y += Math.PI / 180;
+
+          // レンダリング
+          renderer.render(scene, camera);
+
+          // レンダリング情報を画面に表示
+          document.getElementById('info').innerHTML = JSON.stringify(renderer.info.render, '', '    ');
+
+          // フレームレートを表示
+          stats.update();
+
+          requestAnimationFrame(tick);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <pre id="info"></pre>
+  </body>
+</html>
+\end{lstlisting}
+
+\section{できちゃった人}
+オブジェクト指向を使った
+
+https://ics.media/tutorial-three/class/
+
+https://ics.media/tutorial-three/class\_method/
+
+をトライしてみよう。
+
+
+\flushright{以上}
+
+
+\end{document}

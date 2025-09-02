@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container {
+            display: grid;
+
+            grid-template-rows: 100px 50px;
+            grid-template-columns: 150px 1fr;
+
+            grid-template-areas:
+                "areaA areaB"
+                "areaA areaC";
+        }
+        .item{
+            color: white;
+        }
+        .itemA{background-color: red;}
+        .itemB{background-color: green;}
+        .itemC{background-color: blue;}
+
+        .itemA{
+            grid-area: areaA;
+        }
+        .itemB {
+            grid-area: areaB;
+        }
+        .itemC {
+            grid-area: areaC;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item itemA">A</div>
+        <div class="item itemB">B</div>
+        <div class="item itemC">C</div>
+    </div>
+</body>
+</html>

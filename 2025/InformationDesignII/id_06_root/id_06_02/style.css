@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+header {
+    background-color: red;
+    height: 100px;
+}
+main {
+    background-color: blue;
+    height: 100vh;
+}
+footer {
+    background-color: green;
+    height: 50px;
+}
+header, main, footer {
+    padding: 20px;
+ }
+ 
+nav {
+    text-align: right;
+}
+li {
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+}
+.copyright {
+    text-align: center;
+}
+img {
+    float: right;
+}
+.clear {
+    clear: both;
+}
