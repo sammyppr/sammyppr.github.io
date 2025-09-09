@@ -14,9 +14,9 @@ Welcome to sammyppr.github.io!
 - [造形基礎演習I](2025/AnalogueDesignI/index.md)
 
 ### 後期
-- [メディア表現VI](2025/MediaRepresentationVI/index.md)
-- [情報デザイン応用演習II](2025/InformationDesignAppliedII/index.md)
 - [情報デザイン演習II](2025/InformationDesignII/index.md)
+- [情報デザイン応用演習II](2025/InformationDesignAppliedII/index.md)
+- [メディア表現VI](2025/MediaRepresentationVI/index.md)
 
 ### 夏期スクーリング
 - [マルチメディア演習](2025/Schooling_MultiMedia/index.md)
