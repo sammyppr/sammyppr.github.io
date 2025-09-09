@@ -64,6 +64,7 @@ manabaで案内します。(通ればUNIPAの部屋情報もアップデート�
 
 ## SA紹介<!-- omit in toc -->
 - 中村音
+- 桑田祥吾
 
 さんです。半年よろしくお願いします。
 
@@ -273,6 +274,11 @@ manabaのアンケートから提出してください。
 dmgはもともとCDやフロッピーディスクで配布されていたものをディスクのイメージファイルとして扱えるようにしたものです。
 コピー後は、アンマウント(ゴミ箱に捨てる)して構いません。
 
+## なぜ、Chrome?Brave?
+- [【2025年7月調査】日本・世界のWebブラウザシェア率のランキングと推移](https://ohdo.at21.jp/web/browser-market-share/)
+
+Chromeはシェアが大きいため、これをベースに開発してから、他のブラウザで検証を行うのが最善だからです。
+
 ## Braveのインストール
 ブラウザの表示する部分を担当するレンダリングエンジンとしてChromeと同じBlinkを使用、JavaScriptを実行するところにChromeと同じV8エンジンを使用しているため、Chromeと全く同様に表示されます。
 
@@ -281,6 +287,8 @@ dmgはもともとCDやフロッピーディスクで配布されていたもの
 - [ここ](https://brave.com/ja/)からダウンロード
 - dmg(ディスクイメージ)をダブルクリック
 - アプリケーションフォルダにコピー
+
+
 
 
 
@@ -436,7 +444,7 @@ dmgはもともとCDやフロッピーディスクで配布されていたもの
 ## http, https, smb<!-- omit in toc -->
 - http: HyperText Transfer Protocol - Web用のプロトコル
 - https: HyperText Transfer Protocol Secure - Web用の暗号化されたプロトコル
-- smb: Serber Message Block - ファイル共有用のプロトコル
+- smb: Server Message Block - ファイル共有用のプロトコル
 
 
 ## 知ってたよね...<!-- omit in toc -->
@@ -459,8 +467,8 @@ Google Chrome/Braveで大学のHPを見てから
 
 で、データを見てみよう。
 
-あ、Safariでなく、Chrome推奨となります。理由は、シェアが圧倒的だからです。
-- [【2025年4月版】世界・日本におけるブラウザシェア率ランキング](https://www.qbook.jp/column/1630.html)
+あ、Safariでなく、Chrome推奨となります。先ほど言ったように理由は、シェアが圧倒的だからです。
+
 
 
 ## 表示されている場所のデータ<!-- omit in toc -->
