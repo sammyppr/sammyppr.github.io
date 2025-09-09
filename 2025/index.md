@@ -11,9 +11,9 @@
 - [造形基礎演習I](./AnalogueDesignI/)
 
 ### 後期
-- [メディア表現VI](./MediaRepresentationVI/)
 - [情報デザイン演習II](./InformationDesignII/)
 - [情報デザイン応用演習II](./InformationDesignAppliedII/)
+- [メディア表現VI](./MediaRepresentationVI/)
 
 ### 夏期スクーリング
 - [マルチメディア演習](./Schooling_MultiMedia/)
