@@ -11,7 +11,7 @@
 1. [オリエンテーション](./ida_01.md)
 授業の目的と内容、授業の進め方について説明する。
 
-2. [ECMAScript入門]
+2. [ECMAScript入門](./ida_02.md)
 JavaScriptの標準規格であるECMAScriptについて学修する。
 
 3. [Canvas入門]
