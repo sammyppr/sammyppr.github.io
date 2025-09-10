@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン演習I 2.HTML基本
+header: 情報デザイン演習II 2.HTML基本
 footer: ""
 ---
 
-# 情報デザイン演習I 2.HTML基本<!-- omit in toc -->
+# 情報デザイン演習II 2.HTML基本<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
