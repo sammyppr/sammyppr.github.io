@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン応用演習I 8. CUI入門
+header: 情報デザイン応用演習II 8. CUI入門
 footer: ""
 ---
 
-# 情報デザイン応用演習I 8. CUI入門<!-- omit in toc -->
+# 情報デザイン応用演習II 8. CUI入門<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 

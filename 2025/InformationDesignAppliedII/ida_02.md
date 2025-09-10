@@ -1,12 +1,12 @@
-# 情報デザイン応用演習I 2.ECMAScript入門
+# 情報デザイン応用演習II 2.ECMAScript入門
 
-[情報デザイン応用演習I TOP に戻る](./index.md)
+[情報デザイン応用演習II TOP に戻る](./index.md)
 
 ---
 
 ## 目次
 
-- [情報デザイン応用演習I 2.ECMAScript入門](#情報デザイン応用演習i-2ecmascript入門)
+- [情報デザイン応用演習II 2.ECMAScript入門](#情報デザイン応用演習ii-2ecmascript入門)
   - [目次](#目次)
   - [スライド](#スライド)
   - [配布資料](#配布資料)

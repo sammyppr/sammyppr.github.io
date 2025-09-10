@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン応用演習I 12. ポートフォリオ作成 III
+header: 情報デザイン応用演習II 12. ポートフォリオ作成 III
 footer: ""
 ---
 
-# 情報デザイン応用演習I 12. ポートフォリオ作成 II<!-- omit in toc -->
+# 情報デザイン応用演習II 12. ポートフォリオ作成 II<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 

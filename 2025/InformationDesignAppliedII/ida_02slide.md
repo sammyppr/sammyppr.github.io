@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン応用演習I 2.ECMAScript入門
+header: 情報デザイン応用演習II 2.ECMAScript入門
 footer: ""
 ---
 
-# 情報デザイン応用演習I 2.ECMAScript入門<!-- omit in toc -->
+# 情報デザイン応用演習II 2.ECMAScript入門<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
@@ -45,7 +45,7 @@ JavaScript の標準規格である ECMAScript について学修する
 
 ## JavaScript? ECMAScript?<!-- omit in toc -->
 
-総称すると、JavaScript なんですけれども、バージョンが色々あります。 JavaScript だと、バージョンがよくわからないので、ES2023 などと略されることがあるだけです。
+総称すると、JavaScript なんですけれども、バージョンが色々あります。 JavaScript だと、バージョンがよくわからないので、ES2025 などと略されることがあるだけです。
 Wiki にまとまってるので、確認してみましょう。
 
 [ECMAScript Wiki](https://ja.wikipedia.org/wiki/ECMAScript)
@@ -55,6 +55,37 @@ Wiki にまとまってるので、確認してみましょう。
 ブラウザが古いと新しいJavaScriptが通らなかったりします。
 
 気をつけましょう。
+
+## Deprecated(非推奨)
+バージョンが上がるに従って、
+> deprecated
+
+とされる関数があったりします。将来廃止予定のものです。
+
+今回使うプログラムの中に
+> document.write()
+
+というものがありますが、これも基本的に非推奨となっています。
+
+## document.write()の代わり
+色々試してみたのですが、次のようなものを書かないとダメなので、今回はそのまま利用とします。
+
+```
+        function docwrite(text,prepend=false){
+            if(document.body){//DOM生成されているかどうか
+                document.currentScript.insertAdjacentHTML('beforebegin',text);
+            } else {
+                addEventListener("DOMContentLoaded",(event)=>{
+                    if(!prepend){
+                        document.body.insertAdjacentHTML('beforeend',text);//bodyの最後
+                    } else {
+                        document.body.insertAdjacentHTML('beforebegin',text);//bodyの先頭
+                    }
+                })
+            }
+        }
+
+```
 
 ## JavaScript FirstStep
 

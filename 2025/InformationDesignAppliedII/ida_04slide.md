@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン応用演習I 4.Canvas応用
+header: 情報デザイン応用演習II 4.Canvas応用
 footer: ""
 ---
 
-# 情報デザイン応用演習I 4.Canvas応用<!-- omit in toc -->
+# 情報デザイン応用演習II 4.Canvas応用<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 

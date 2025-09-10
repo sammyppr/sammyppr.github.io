@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン応用演習I 9. 最近のCSSレイアウト事情
+header: 情報デザイン応用演習II 9. 最近のCSSレイアウト事情
 footer: ""
 ---
 
-# 情報デザイン応用演習I 9. 最近のCSSレイアウト事情<!-- omit in toc -->
+# 情報デザイン応用演習II 9. 最近のCSSレイアウト事情<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 

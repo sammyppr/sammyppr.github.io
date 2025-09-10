@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン応用演習I 15. 講評会・まとめ
+header: 情報デザイン応用演習II 15. 講評会・まとめ
 footer: ""
 ---
 
-# 情報デザイン応用演習I 15. 講評会・まとめ<!-- omit in toc -->
+# 情報デザイン応用演習II 15. 講評会・まとめ<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 - [URL提出](#url提出)
