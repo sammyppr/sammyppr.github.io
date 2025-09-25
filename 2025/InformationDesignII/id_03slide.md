@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン演習I 3.HTML実践
+header: 情報デザイン演習II 3.HTML実践
 footer: ""
 ---
 
-# 情報デザイン演習I 3.HTML実践<!-- omit in toc -->
+# 情報デザイン演習II 3.HTML実践<!-- omit in toc -->
 
 ---
 - [Chapter1 最初に知っておこう!Webサイトの基本](#chapter1-最初に知っておこうwebサイトの基本)
@@ -47,6 +47,8 @@ footer: ""
 2回一応説明しているので、適当に飛ばしながら行きます。
 
 教科書に書いてなくても知ってて欲しいことは都度触れようと思います。
+
+まずは、先週の課題について軽く確認してみましょう。
 
 # Chapter1 最初に知っておこう!Webサイトの基本
 ## よいWebデザインとは?<!-- omit in toc -->
@@ -157,7 +159,7 @@ Javascriptの実行を担当するソフトウェア。レンダリングエン�
 
 
 # 旧:Webデザインの基礎知識
-現テキストが触れていない必要なところだけ紹介しておきます。
+現テキストが触れていない(第二版で削除された)必要なところだけ紹介しておきます。
 
 ## 旧:Chapter1-01 インターネットとWebの歴史<!-- omit in toc -->
 <!--
@@ -292,6 +294,8 @@ HTMLはWHATWGにて策定されているのは先ほど説明した通り。CSS�
 
 と色々な人が試した上で認定されてからしか仕様確定に至らないので、一応知っておいてください。
 
+- [今さら聞けない！ベンダープレフィックスとは【CSS】](https://satoimo.blog/about-vendor-prefix/)
+
 
 # Chapter2 Webの基本構造を作る!HTMLの基本
 ## HTMLとは<!-- omit in toc -->
@@ -353,10 +357,10 @@ Webページを作る上で土台となる言語
 - br, hr, img, input, link, metaタグ等は終了タグがいらない
 
 HTMLが正しく記載されているかのチェックサービスが一応あります。
-なるべくエラーを出さない様に記述するのが望ましいです。
+なるべくエラーを出さない様に記述するのが望ましいです。(厳密なのでエラー無しにするのはかなり難しい)
 - [WHATWG HTML Conformance Checkers](https://whatwg.org/validator/)
 
-あれ...不具合？他のリンク貼っておきます。
+たまに不具合出るので他のリンクも貼っておきます。
 - [HTMLコードのチェックが簡単にできるおすすめツール5選](https://seotimes.jp/html-code-check-tool/)
 
 
@@ -378,7 +382,7 @@ HTMLが正しく記載されているかのチェックサービスが一応あ�
 があります。
 
 ちょっと難しいので、動画を紹介します。こんな考え方あるのか、くらいでいいです。
-- [要素の配置ルールとカテゴリー](https://creatorquest.jp/lessons/html/category-and-rule/)
+- [要素の配置ルールとカテゴリー(15:57)](https://creatorquest.jp/lessons/html/category-and-rule/)
 
 ## 画像を挿入しよう<!-- omit in toc -->
 後回しにします。
@@ -537,16 +541,23 @@ GIFより軽くなりやすい
 - [AVIFとは？特徴や注意点から変換できるアプリ・ツールまで紹介](https://www.sedesign.co.jp/blog/wat-is-avif)
 
 ---
-### HEIF(番外)<!-- omit in toc -->
-最近のiOSで撮影すると画像はHEIFという形式になっています。
+### Photoshopでの書き出し
+PNG,JPG,GIFは仕上がりを見ながら品質を変えられるんですが、
+WebP,AVIFはまだそれができません。
 
-これはWebで利用できないため、変換する必要があります。
+無理せず、PNGやJPGでもまだいいかな、という気もします。
 
 ---
 ### 画像フォーマットの比較<!-- omit in toc -->
-- [次世代画像形式のWebP、そしてAVIFへ](https://ics.media/entry/201001/)
+- [PNG でまだ大丈夫？　JPEG, WebP, AVIF の容量と画質を徹底比較！](https://note.com/ai_image_journey/n/nca2fd5ddd2ac)
 
-現状だと一番良いのはwebpかな...pngでも問題ありませんが...
+---
+### HEIF(番外)<!-- omit in toc -->
+最近のiOSで撮影すると画像はHEIFという形式になっています。
+
+これはWebで利用できないため(Safariは表示可能になっている)、変換する必要があります。
+
+
 
 # 画像の加工
 ## サイズ・容量に気をつけよう<!-- omit in toc -->
@@ -588,13 +599,19 @@ GIFより軽くなりやすい
 ---
 ### 画像を書き出してみよう。
 1. [FREEPIK](https://jp.freepik.com/search?format=search&last_filter=selection&last_value=1&query=Web+Templates&selection=1&type=psd)から好きなものをダウンロード
-2. Photoshopで開く
+2. zipを解凍してpsdファイルをPhotoshopで開く
 3. 書き出したい画像をコピー(Command+C)
 4. 新規作成でクリップボード(Command+N) 透過させたい場合にはカンバスカラーを透明に
 5. ペースト(Command+V)
 6. ファイル-書き出し形式、「書き出し」
 
+あ！2分割で確認できるようになってる...
+JPGにして、画質を変えて、劣化するのを確認しましょう。
+
+
+<!--
 ## XDでの書き出し(紹介のみ)
+
 - ファイル - UIキットを入手...
 - Urgym（マーケティング）をダウンロードしましょう。
 
@@ -607,9 +624,16 @@ GIFより軽くなりやすい
 
 がいいかな。Webにすると、倍の大きさでも書き出してくれます。
 XDでデザインした大きさで出してくれるので便利ですね。
+-->
+## Figma
+前期も使ったと思うんだけど...
+
+- [【完全初心者ガイド】Figmaブラウザ版とアプリ版を徹底比較！使いやすいのはどっち？](https://wwg.co.jp/blog/t85651)
+
+どちらでも構いません。
 
 ## Figmaでの書き出し やってみよう
-自分まだFigma真剣に触ってないので...
+自分まだFigma真剣に触ってないので詳しくはここを参照のこと。
 
 - [【Figma入門⑦】画像の書き出し・エクスポートの設定方法を解説](https://skillhub.jp/blogs/390)
 
@@ -617,7 +641,7 @@ XDでデザインした大きさで出してくれるので便利ですね。
 - [無料で使えるFigmaテンプレート35選。Webデザイン/モバイルUI/デザインガイドライン作成におすすめ](https://goworkship.com/magazine/figma-ui-templates/)
 
 1. 選択して(グループとか気をつけて中に入らないとかもですね)
-2. エクスポート
+2. 右のパネルの一番下のエクスポートからエクスポート
 
 で終わり。簡単！
 
@@ -693,9 +717,11 @@ ID_root - ID_03 - img - test.jpg
 - サイト外のデータはURLを使うしかないですね。
 
 
-https://sammyppr.github.io/2024/InformationDesignII/id_03_root.zip
+https://sammyppr.github.io/2025/InformationDesignII/id_03_root.zip
 
 にサンプルを置いたので、ダウンロードしてみてみましょう。
+
+VSCで新しくウィンドウを開いて、解凍したid_03_rootを開いてLiveServerで見てみましょう。
 
 <!--
 
