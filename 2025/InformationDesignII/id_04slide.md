@@ -284,6 +284,7 @@ style.cssへのリンクを忘れずに。
 
 - [【2023年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例](https://willcloud.jp/knowhow/font-family/)
 - [2024年に最適なfont-familyの書き方](https://ics.media/entry/200317/)
+- [2025年に最適なfont-familyの書き方](https://ics.media/entry/200317/)
 
 などで調べることになります。(おすすめのfont-family設定例)
 
@@ -333,7 +334,7 @@ wordでもありますね。centerの使いすぎに注意しましょう。
 4. クリックすると、複数の太さのものが表示される
 5. GetFontをクリック
 6. GetEmbededCodeをクリック
-7. 全スタイルが登録されているので、いらないスタイルは「Change styles」をクリックして、いらないのをOFFに
+7. 文字の太さで使いたいのを「Change styles」で選択
 8. headタグ内のcssをリンクしている場所より上に「Embed code in the <head> of your html」をコピー
 9. cssに「M PLUS Rounded 1c: CSS classes」をコピー
 
@@ -447,7 +448,6 @@ CSSでは
 ```
 とちょっと表記が違いますが、メモなど残すのに便利です。
 
----
 ## 課題
 
 今日は3-10までやりました。
