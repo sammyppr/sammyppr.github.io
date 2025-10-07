@@ -115,7 +115,10 @@ draw()が呼び出されたタイミングで描画されるのは前と変わ�
 
 ---
 
+<!--
 ![](https://s3-ap-northeast-1.amazonaws.com/mash-jp/production/uploads/18701/e6bdb2afd5fbff66b6afb4c03ee10f44a1f3e090.18744.desktop.png)
+-->
+<img src="https://s3-ap-northeast-1.amazonaws.com/mash-jp/production/uploads/18701/e6bdb2afd5fbff66b6afb4c03ee10f44a1f3e090.18744.desktop.png" width="600">
 
 [【初心者必見】オブジェクト指向を分かりやすく解説](https://blog.codecamp.jp/object-orientation-explanation)
 
@@ -137,7 +140,7 @@ draw()が呼び出されたタイミングで描画されるのは前と変わ�
 
 ---
 ### 簡単に物理について
-- [【物理エンジン】等加速度運動の動きをシミュレーションして勉強](https://www.youtube.com/watch?v=cm-UM109KO8)
+- [【物理エンジン】等加速度運動の動きをシミュレーションして勉強(3:28)](https://www.youtube.com/watch?v=cm-UM109KO8)
 
 ちょっとミスが多いけど、コメントにミスは書いてあります。
 
@@ -147,7 +150,7 @@ AfterEffectsやBlender等でパーティクルと呼ばれるプラグインが�
 
 これを、プログラミングでどのように記述するか、が今日の内容となります。
 
-- [【プラグイン無し】簡単！パーティクルで紙吹雪を作ろう！【AfterEffects チュートリアル】](https://www.youtube.com/watch?v=o0DqU6ObEuA&t=28s)
+- [【プラグイン無し】簡単！パーティクルで紙吹雪を作ろう！【AfterEffects チュートリアル】(0:28-3:10)](https://www.youtube.com/watch?v=o0DqU6ObEuA&t=28s)
 
 
 # 演習
