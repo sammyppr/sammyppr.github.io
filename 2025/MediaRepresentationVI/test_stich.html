@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1466b8",
+              "background-light": "#f6f7f8",
+              "background-dark": "#111921",
+            },
+            fontFamily: {
+              "display": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Bar Name</title>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative min-h-screen w-full flex flex-col justify-between">
+<div>
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center justify-between p-4">
+<div class="w-12"></div>
+<h1 class="text-xl font-bold text-gray-900 dark:text-white flex-1 text-center">Bar Name</h1>
+<button class="flex items-center justify-center h-12 w-12 rounded-full text-gray-900 dark:text-white">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+</header>
+<main>
+<div class="relative h-80 w-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA3B82fXyZ6Td2UiyPVBaTjNLiSX_WpCSTI0NUfUo0Bh3iFHLOlSCEy-nd_xOzvAy-D9vL8Vtpexkh8Fg9PWcJmLnAByuX9IXWO2t8a1FBZh8IarD5j90UhoyAjLz677Sl-6IHwqTFvi5N6u0MDdI0h8Y1iU_F__UUq2a9riaGO8tFd0FwsQ0ASaQQiSTiwDxisizeoAyUAe3gIsEK0ar82saCSXXq-UNB1wh9xy9p-4MPDYwjVqggMia91jL35cWGxWPlZcXnrZtM");'>
+<div class="absolute inset-0 bg-black/40"></div>
+</div>
+<div class="p-4 space-y-8">
+<section>
+<h2 class="text-2xl font-bold mb-3 text-gray-900 dark:text-white">About Us</h2>
+<p class="text-base text-gray-600 dark:text-gray-400">
+                Our bar offers a unique experience with a wide selection of drinks and a cozy atmosphere. Perfect for a relaxed evening with friends or a special date.
+              </p>
+</section>
+<section>
+<h2 class="text-2xl font-bold mb-3 text-gray-900 dark:text-white">Menu</h2>
+<div class="flex overflow-x-auto gap-4 -mx-4 px-4 pb-2 [scrollbar-width:none] [-ms-overflow-style:none] [&amp;::-webkit-scrollbar]:hidden">
+<div class="flex-shrink-0 w-40 space-y-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA5KdsZbTOCWsPw2rp3nHmpZ1k4DKxv6JM8iSWGa9307I5fYdXqORAHlpb_Sw2tQmr9K5N9WGoOia5yIargqhOGfsgWUMly_Uv3j_kvONQLs6f6HXZgEdrl4hR3kVFa2buK1WHnyI-ZD1mr8zOT-XRbuxrIHCCQ9d0A49c0P-VNSvvIBIPhrJs5baq_OEZJyoJv9P2RidcfJL7D4degR0EI_rPCuoVJ_aPZrgO9acoqVs-ej9lXYZdV1v4CIePiB4n6WL_kE85j5nI");'></div>
+<p class="text-center font-medium text-gray-700 dark:text-gray-300">Cocktails</p>
+</div>
+<div class="flex-shrink-0 w-40 space-y-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBprUgMUcktgieDNRzQ4HkbXfaJW2dPVZHIae1Vm7j4h3TJhrJAdRohrqWGkIG3Z9VQ3g6nYIK_LoIwvH5ej6ZNVeoxX3obFJS_Wzc_eVb_qlHVS1lL5FXZUIpiWFtYTzb345AmPgAtCYkRZelnc5fIIsk7t9jBKf2k2S_ONz6FIO7Xdkv4uJ1TvCyWgChbMIjtKQD_pFDqIG6LEsnT3xjRoD8fUVWLNdnQct7dqQNxpdFeiNPNPrREiax19uG_fpcUpkeFoPhCLBY");'></div>
+<p class="text-center font-medium text-gray-700 dark:text-gray-300">Wines</p>
+</div>
+<div class="flex-shrink-0 w-40 space-y-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAAFqJ3VxbDkwr0t-IGHLoXKbYZgt8TKNToSndNQFvaMBULEpjnGx4LJcYJAbu-F2gszy4chtroHCS38zBAv6kB7tF-7A_arwOgfVPsXXQPV19-jPEgU3qeu0BS_wjG3WZwWg1w0q7W77iTZ55jih-0qpWOoPO2ZosN7vxOR0ETI7_SIjxSIdZXYvObtWWe66vZWj4oefF2cFMAn3oJFniYsM3TjdQbl4v-oXqswKVDJuxyq008LMn4pbZ1klLjIvbzL07i9HclT5s");'></div>
+<p class="text-center font-medium text-gray-700 dark:text-gray-300">Beers</p>
+</div>
+<div class="flex-shrink-0 w-40 space-y-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-lg bg-primary/20 dark:bg-primary/30 flex items-center justify-center">
+<span class="text-primary font-medium">More</span>
+</div>
+<p class="text-center font-medium text-gray-700 dark:text-gray-300">Snacks</p>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-2xl font-bold mb-3 text-gray-900 dark:text-white">Gallery</h2>
+<div class="grid grid-cols-2 gap-3">
+<div class="w-full aspect-square bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuATXcQkpU8NVpsYv39Wu7ugAo8fIRYpWmKDa80WcLXsBhrGCw1esz4MJdcoiyBa-S1bXeRt52muGuYS174pt5WCdw97bcd4lxY8YcPBW2LoSI27eJuwVkFiItioJBsVPqhlhS0jV8v2lcu7HD8z3j4LEK-4GXbXdmdyKhOSwrE7gDSyARdAqIi9j1iypoOORqxM7ZfJYfHcJfX_zL9LHOF1tbkDZynDNPYpvUiP4OL-XDtdJalBiEB1mhdTYJ8xlMwLH43RUWwwwhI");'></div>
+<div class="w-full aspect-square bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBVaKUN-cQN8IvshfqvYI7wtmIdR7sFkCX8eorESvxibN4nAQInckOYEvyD5XjfqKIe1p0DdXqunZGWOgqrqNmeBS_mwN-_DRS6Sdw0XP3vlAOVqfBk8aD51jGzA1Qzbi-jlScc88UHczSbprCQtFEzLqyXQfacE2V93NQuHWzYa1HutXUVK70oI2UR5xjAu1MuCjiXLTsgkoRw2C6KjosZSg45DpbHwvH41fcMOkoIO_tlB6YUtGitd9FGxrCs5FU-I5nfIKPn330");'></div>
+<div class="w-full aspect-square bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA_5TopqNFqI0svNARNHYRbU_IQoxO6KoyrZzCVK8-rlu0kbxDPI6eIx_7YMZla5vPkF6zGTZOWBG0fakR-jCq3fMiwWPoApuq-VeEYajvqRvzyeuPbJUrB6uYPKE3ECABvbfPIvfwhA395_7EdUgYSx814TyvhJwRWnUx2cfUygSm1dx7NJJhlqQYkBSMP6-9JjUEnIm4YZfCRHcJFmai0b1FkD7Ht7HMAcIfqxLcY3oZ238eVa4fXrZ04ZSB41UMnAQwYCQwpSd8");'></div>
+<div class="w-full aspect-square bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDvftZ9HW_cXvXmhRzTbo4NS88kmnH13s-imfB8YTlX2oISkmI6oCnWksjX80ntwor3q7LWLcuPXPQzRjcBZfnRHlgKdk9az3hMFanCLfYRpcWD4D3OQqo4c3grEGBcd_c-6vZmR6Ow22dflSAr4-B4LhUqZMLpgjd8-AkTQ_2YawfJ9HJ-HA93eJx_oIHoFQj4ap_CH6O585zca6JtywPSoCHDR0T9goIzRjThzQ37TfJjgG4YH5YCzG1vvGEj_BnrYfazSlB5KGY");'></div>
+</div>
+</section>
+<section>
+<h2 class="text-2xl font-bold mb-3 text-gray-900 dark:text-white">Access</h2>
+<div class="w-full aspect-video bg-cover bg-center rounded-lg mb-2" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAOprLrM5iKo03-wYVJJp2fYwlOBLmVfNH2-g-FFsYV0zrkLsSwtfvrihncrTv_uJcCotYZYQIuq5ss0xcdubyyfKvi_SpKdAEvoP0CILfbEIROZbjtEdDBbsFtaRtF49GPLV9t-qJ8f6A0fVv_D_-n67TkDFZrc80VTeXF--6CI7u2c1iRU4ptaSt_ez-rL6_vjBVzybZQ-XAb2hZI6-Vfup1ZoxtH5BW_9s6AZxha7Uh-Rj6tjCGXs5NfUtdIoJwSSLWTKJT4AS4");'></div>
+<p class="text-base text-gray-600 dark:text-gray-400">1-2-3 Shibuya, Shibuya-ku, Tokyo</p>
+</section>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-t border-gray-200 dark:border-gray-800 pb-safe">
+<nav class="flex justify-around p-2">
+<a class="flex flex-col items-center justify-center gap-1 text-primary w-1/4" href="#">
+<span class="material-symbols-outlined text-2xl">home</span>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors w-1/4" href="#">
+<span class="material-symbols-outlined text-2xl">restaurant_menu</span>
+<span class="text-xs font-medium">Menu</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors w-1/4" href="#">
+<span class="material-symbols-outlined text-2xl">gallery_thumbnail</span>
+<span class="text-xs font-medium">Gallery</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors w-1/4" href="#">
+<span class="material-symbols-outlined text-2xl">location_on</span>
+<span class="text-xs font-medium">Access</span>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
