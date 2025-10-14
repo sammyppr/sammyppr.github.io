@@ -335,7 +335,7 @@ paddingとborderの値をwidth,heightに含む方法
 #### box-sizingの指定方法<!-- omit in toc -->
 ```CSS
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 ```
 と記載することで、HTMLの全ての要素に適応させることができます。
@@ -719,17 +719,20 @@ Webインスペクタで考えてみよう。
 ---
 ### どうすればいい？<!-- omit in toc -->
 CSSの機能が増えていくために、
-> リセットCSS 2024
+> リセットCSS 2025
 
 等と最新情報を調べるのがおすすめです。
 
+- [2025年リセットCSSとは？おすすめやCDNも – reset css](https://fueru.info/design/html-css/css-resetstyle/)
+<!--
 - [2024年、現在の環境に適したリセットCSSのまとめ](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
 
-教科書では「ress.css」を推奨してる様ですが、このリストにありません(汗)
+
 
 - [2024年リセットCSSとは？おすすめやCDNも – reset css](https://fueru.info/design/html-css/css-resetstyle/)
 
 こっちにはありました。そんなものです。
+-->
 
 ---
 ### CDN
