@@ -64,8 +64,10 @@ CPU が複雑な命令をこなすのに対し、GPU は定型的な命令を同
 
 ## GPU vs CPU
 動作イメージを確認しておきましょう。
-
+<!--
 [Mythbusters Demo GPU versus CPU](https://www.youtube.com/watch?v=-P28LKWTzrI)
+-->
+- [NVIDIA GPU vs CPU. 'Mythbusters' stars paint the Mona Lisa in 80 Milliseconds!](https://www.youtube.com/watch?v=8_ZTvG1WQxM)
 
 ## WebGLの後継技術
 WebGL の後継として WebGL2・WebXR・WebGPU等が策定されているようです。
