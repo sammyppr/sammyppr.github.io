@@ -359,7 +359,7 @@ sectionはarticleと似ていますが、その部分だけをみても完結は
 
 HTMLではこの階層構造の作り方が現状混乱しています。(策定された考え方(セクショニング・ルート)が廃止など)
 現時点では
-- [Living Standard — Last Updated 19 September 2024](https://momdo.github.io/html/sections.html#exposing-outlines-to-users)
+- [Living Standard — Last Updated 1 October 2025](https://momdo.github.io/html/sections.html#exposing-outlines-to-users)
 
 が一番最新の様ですが、とりあえずは、見出しタグでアウトラインを作ることを徹底しましょう。
 
@@ -601,7 +601,7 @@ li {
 こういう作りのものもあります。
 
 ---
-### float(P.16i)<!-- omit in toc -->
+### float(P.168)<!-- omit in toc -->
 画像の右寄せ・左寄せについてどう記述するかを学んでおきましょう。
 
 1. mainの中にpタグ,imgタグ,pタグ,pタグの順に適当に挿入
