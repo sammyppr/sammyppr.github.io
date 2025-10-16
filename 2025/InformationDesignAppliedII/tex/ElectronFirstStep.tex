@@ -99,13 +99,21 @@ O：大文字のオー
 \section{Electronとバージョンアップ}
 どんどんバージョンアップされています。昨年バージョンがうまく動かなくなったり等のことがよくアプリ開発では起きますので、そういうものだと思っておきましょう。
 
+主な理由は、セキュリティ周りの仕様変更となります。2年連続で動かなくなりました。
+
 \section{Electronのインストール}
 ちょっとややこしいのですが、パッケージ管理システムを複数利用してインストールします。
 
+\begin{description}
+\item[Homebrew] mac用のパッケージ管理システム
+\item[npm]node.js用のパッケージ管理システム
+\end{description}
+
+
 \begin{enumerate}
 \item Homebrewのインストール
-\item Node.jsのインストール
-\item Electronのインストール
+\item brewを使ってNode.jsのインストール
+\item npmを使ってElectronのインストール
 \end{enumerate}
 
 \subsection{homebrewのインストール}
@@ -209,55 +217,51 @@ Electronとしては、文化的に「main.js」とするようです。次に�
 それでは新規ファイルでmain.jsを作成してみましょう。
 
 \begin{lstlisting}[caption=Hello World：main.js]
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow } = require('electron/main')
 
-let win;//ウインドウを入れておく変数
+//ウインドウの作成
+const createWindow = () => {
+  const win = new BrowserWindow({
+    width: 400,
+    height: 400,
+    webPreferences: {
+        nodeIntegration: true,
+        contextIsolation: false,
+    },
+  })
+  // webPreferencesでメインプロセスとレンダラープロセスの通信をできるようにセキュリティ下げてる
 
-function createWindow() {
+  // はじめにロードするファイルをindex.htmlに設定
+  win.loadFile('index.html')
 
-    //ウインドウの作成
-    win = new BrowserWindow({
-        width: 400,
-        height: 400,
-        webPreferences: {
-            nodeIntegration: true, //Electron6から必要らしい
-            contextIsolation: false, //Security的には良くないらしいが...
-        }
-    })
-
-    //ウインドウに表示する内容
-    win.loadFile('index.html');
-
-    //デバッグ画面表示
-    // win.webContents.openDevTools();
-
-    //このウインドウが閉じられたときの処理
-    win.on('closed', () => {
-        win = null;
-    })
+ // ウィンドウ閉じられた時の挙動
+  win.on('closed', ()=>{
+    app.quit();
+  })
 }
 
-//アプリが初期化されたとき（起動されたとき）
-app.on('ready', () => {
-    createWindow();
+// electronの準備ができた時の挙動。基本、createWindow()を呼び出す
+app.whenReady().then(() => {
+  createWindow()
+  
+  // electronがアクティブになった時
+  app.on('activate', () => {
+    if (BrowserWindow.getAllWindows().length === 0) {
+      createWindow()
+    }
+  })
 })
 
-//全ウインドウが閉じられたとき
+// ウィンドウが全部閉じられた時の挙動
 app.on('window-all-closed', () => {
-    if (process.platform !== 'darwin') {
-        app.quit();
-    }
+  if (process.platform !== 'darwin') {
+    app.quit()
+  }
 })
 
-//アクティブになったとき（MacだとDockがクリックされたとき）
-app.on('activate', () => {
-    if (win === null) {
-        createWindow();
-    }
-})
 \end{lstlisting}
 
-%VSCodeだとElectronを認識しないので、エラーが出るようですが、放っておきましょう。
+
 保存を忘れないくださいね。
 
 \subsection{index.html}
@@ -266,30 +270,31 @@ app.on('activate', () => {
 \begin{lstlisting}[caption=Hello World：index.html]
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- セキュリティ回避 -->
+    <meta http-equiv="Content-Security-Policy" 
+        content="script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';">
+    <title>Hello from Electron renderer!</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Hello from Electron renderer!</h1>
+        <p>
+            We are using node
+            <script>document.write(process.versions.node)</script>,
+        </p>
+        <p>
+            Chrome
+            <script>document.write(process.versions.chrome)</script>,
+        </p>
+        <p>
+            and Electron
+            <script>document.write(process.versions.electron)</script>
+        </p>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-</head>
-
-<body>
-    <h1>Hello World!</h1>
-    <p>
-        We are using node
-        <script>document.write(process.versions.node)</script>,
-    </p>
-    <p>
-        Chrome
-        <script>document.write(process.versions.chrome)</script>,
-    </p>
-    <p>
-        and Electron
-        <script>document.write(process.versions.electron)</script>.
-    <p>
-</body>
-
-</html>
-\end{lstlisting}
+  </body>
+</html>\end{lstlisting}
 
 \begin{itemize}
 \item procdess.versions.node
@@ -301,14 +306,14 @@ app.on('activate', () => {
 \end{itemize}
 は、Electronで拡張された機能となります。
 
+metaタグにてセキュリティの程度をゆるめています。cssファイルはまだないですが、link先に指定しています。
+
 \subsection{実行してみよう}
 ターミナルで
 \begin{quote}
 npm start
 \end{quote}
 とすると、ウィンドウが次のよう表示されるはずです。(あ、この画像すでにcssついてる...気にしない...)
-
-[注意：contextIsolation: falseのところを間違えると多分バージョン番号が出ません]
 
 \includegraphics[width=5cm]{img/helloworld.png}
 
@@ -328,14 +333,11 @@ npm start
 メニューから終了しましょう。
 
 \subsection{cssを追加してみよう}
-「HelloWorld」フォルダの中に「css」フォルダを作り、その中に「index.css」を作成してみましょう。
+「HelloWorld」フォルダの中に「css」フォルダを作り、その中に「style.css」を作成してみましょう。
 
-index.htmlのheadタグの中に
-\begin{lstlisting}[caption=Hello World：index.html headタグ内]
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-\end{lstlisting}
-を追加して、読みに行くようにしましょう。そして、index.cssを適当に入力しましょう。
-\begin{lstlisting}[caption=Hello World：css/index.css]
+style.cssを以下のようにしましょう。
+
+\begin{lstlisting}[caption=Hello World：css/style.css]
 h1 {
     border-left: 10px solid red;
     border-bottom: 1px solid red;
@@ -347,7 +349,7 @@ p {
 \end{lstlisting}
 もう一度ターミナルで「npm start」で実行してみましょう。反映されてますね。Webと変わらずCSSファイルも利用することができることがわかりました。
 
-ついでにOption+Command+Iをすると、デベロッパーツールが使えることがわかります。Webkitの技術を使っているため、ほとんどブラウザと同じ、ということになります。
+ついでにOption+Command+Iをすると、デベロッパーツールが使えることがわかります。Webkit(chromeで利用しているblinkもwebkitの派生)の技術を使っているため、ほとんどブラウザと同じ、ということになります。
 
 Command-Qで終了できますが、ターミナルに\$マークが見えてない場合には、きちんと終了できていないため、Ctrl-Cで終了することを覚えましょう。
 
@@ -379,7 +381,7 @@ npm init -y
 \end{quote}
 と変更しましょう。一番最初に起動するファイルが書かれています。
 
-Electronとしては、文化的に「main.js」とするようです。次に、
+繰り返しになりますが、Electronとしては、文化的に「main.js」とするようです。次に、
 
 \begin{verbatim}
   "scripts": {
@@ -415,14 +417,20 @@ HelloWorldのものをそのまま複製しましょう。
 \begin{lstlisting}[caption=DigitalClock：index.html]
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>clock</title>
-    </head>
-    <body>
-        <div id="digital_clock"><!-- ここに時刻が入る --></div>
-        <script src="clock.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- セキュリティ回避 google font利用できるように追加-->
+    <meta http-equiv="Content-Security-Policy" 
+      content="script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="digital_clock"></div>
+    <script src="clock.js"></script>
+  </body>
 </html>
 \end{lstlisting}
 
@@ -497,7 +505,7 @@ body {
     color: #fff;
     -webkit-app-region: drag;
     -webkit-user-select: none;
-    user-select: none; //なくても動きますが、ないとVSCが警告を出します
+    user-select: none; 
 }
 \end{lstlisting}
 
@@ -516,29 +524,29 @@ dragを指定した要素内にボタンなど操作可能な要素を配置す�
 主にインタフェース部分に指定します
 \end{description}
 
--webkit-となっているのは「ベンダープレフィックス」と言って、Webkitのみで利用できるCSSとなっています。
+-webkit-となっているのは「ベンダープレフィックス」と言って、Webkit(派生のblinkも)のみで利用できるCSSとなっています。
 
 index.htmlからcssファイルへのリンクを忘れないようにしましょう。
 \subsection{cssの調整}
 見た目をさらに調整するために、以下のようにしましょう。
 \begin{lstlisting}[caption=DigitalClock：css/clock.css ]
-@import url(http://fonts.googleapis.com/css?family=Iceland);
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
 body {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    border: 5px solid rgb(42, 42, 42);
+    border: 5px solid rgb(42,42,42);
     background-color: rgba(24, 24, 24, .7);
     box-shadow: 0 0 8px 3px #000 inset;
-
+    color: #fff;
     -webkit-app-region: drag;
     -webkit-user-select: none;
-    user-select: none; //なくても動きますが、ないとVSCが警告を出します
+    user-select: none;
 }
 
 #digital_clock {
-    font-family: "Iceland";
+    font-family: "Iceland", sans-serif;
     font-size: 25px;
     line-height: 40px;
     margin-top: 9px;
@@ -577,15 +585,15 @@ npm install -D electron
 \subsection{package.json}
 \begin{verbatim}
   "devDependencies": {
-    "electron": "^33.0.1",
-    "electron-builder": "^25.1.8"
+    "electron": "^38.2.2",
+    "electron-builder": "^26.0.12"
   }
 \end{verbatim}
-の後に以下のように6行追記してください。「,」を忘れずに
+の後に(バージョン情報は変わる可能性あり)以下のように6行追記してください。「,」を忘れずに
 \begin{verbatim}
   "devDependencies": {
-    "electron": "^33.0.1",
-    "electron-builder": "^25.1.8"
+    "electron": "^38.2.2",
+    "electron-builder": "^26.0.12"
   },
   "build": {
     "appId": "jp.test.app1",
@@ -634,7 +642,7 @@ https://qiita.com/nyanchu/items/9a1c910bbca55e9d2f3c
 https://qiita.com/Yuta\_spade/items/2493c05cd868ea5f2677
 
 \section*{P.S.}
-バージョンアップすると、動かなくなるから、それの対処方法に少しハマったー
+バージョンアップすると、動かなくなるから、それの対処方法に今年も少しハマったー
 
 
 \flushright{以上}
