@@ -111,7 +111,7 @@ DeepBlue は 1 秒間に 2 億手の先読みを行い。勝つことができ�
 
 ---
 ### ニューロン
-![](img/newron.png)
+![width:600px](img/newron.png)
 
 ---
 ### ニューラルネットワーク
