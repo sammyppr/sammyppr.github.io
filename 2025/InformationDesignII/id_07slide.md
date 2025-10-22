@@ -12,13 +12,13 @@ footer: ""
 > float, Flexbox, CSS Gridによるレイアウトについて学修する。
 
 ---
-1. [今日の内容](#今日の内容)
-   1. [レスポンシブ Web デザインの仕組みを理解する](#レスポンシブ-web-デザインの仕組みを理解する)
-   2. [CSS フレームワークについて理解する](#css-フレームワークについて理解する)
-   3. [ワイヤーフレームを描く](#ワイヤーフレームを描く)
-   4. [プロトタイプの作成 (1) ページの構造化](#プロトタイプの作成-1-ページの構造化)
-   5. [プロトタイプの作成 (2) ページの視覚表現「固定幅レイアウト」](#プロトタイプの作成-2-ページの視覚表現固定幅レイアウト)
-   6. [プロトタイプの作成 (3)[コンテンツの「幅」の調整](#プロトタイプの作成-3コンテンツの幅の調整)
+- [今日の内容](#今日の内容)
+  - [float](#float)
+  - [Flexbox](#flexbox)
+  - [CSS Grid](#css-grid)
+- [まとめ](#まとめ)
+
+
 
 
 # 前回のおさらい<!-- omit in toc -->
@@ -30,7 +30,7 @@ footer: ""
    - article/sectionタグ
 
 ---
-### 残っていること
+### 残っていること<!-- omit in toc -->
 基本的な話はほぼ終わりに近づいています。本格的なレイアウトを組むための
 - Flexbox
 - CSS Grid
@@ -41,7 +41,7 @@ footer: ""
 # 今日の内容
 
 ---
-### FlexboxとCSS Grid
+### FlexboxとCSS Grid<!-- omit in toc -->
 前回、floatについて触れましたが、これからはレイアウトにfloatは使いません。
 
 画面をレイアウトするときに利用するのが、
@@ -60,7 +60,7 @@ footer: ""
 ## float
 
 ---
-### floatの難しいところ
+### floatの難しいところ<!-- omit in toc -->
 これまで2段組などレイアウトしていくときにはfloatを多用していました。
 
 ただし、難しいところは、
@@ -72,14 +72,16 @@ footer: ""
 
 
 ---
-### 今日のPDF資料について
+### 今日のPDF資料について<!-- omit in toc -->
 レイアウトの実験が目的なので
 - 内部スタイルシートを利用している(styleタグで、CSSを実装)
 - header, main, footer等のセマンティックコーディングはしていないことに注意してください。
 
 
 ---
-### やってみよう
+### やってみよう<!-- omit in toc -->
+...と思ったけど、これは興味ある人だけ最後に試してみてください。
+
 「ID_07」フォルダを作成してから、
 
 > float/FlexBox/CSS Grid入門
@@ -87,21 +89,21 @@ footer: ""
 の「floatはレイアウトを組むのには厄介！」をやって見ましょう。
 
 ---
-### floatのデメリット
+### floatのデメリット<!-- omit in toc -->
 - clear: bothしないと、変な回り込みを起こす
 - 要素の高さがバラバラ
 
 ## Flexbox
 
 ---
-### Flexboxとは？
+### Flexboxとは？<!-- omit in toc -->
 正式名称はFlexible Box Layout Moduleといいます。
 
 今までよりも自由に、そして簡単に横並びのレイアウトを作ることができます。
 フレキシブル（柔軟性のある）レイアウトができます。
 
 ---
-### Flexboxの長所
+### Flexboxの長所<!-- omit in toc -->
 あくまでも基本は要素を横に並べるためのものですが、
 - 要素の高さを自動で揃えてくれる
 - 要素が多くなり、横並びできなくなると自動で折り返してくれる
@@ -109,19 +111,19 @@ footer: ""
 - 並び順を自由に変えられる(逆とか)
 
 ---
-### Flexboxの使い方
+### Flexboxの使い方<!-- omit in toc -->
 要素が並ぶ箱に
 > display: flex;
 を追加するだけです。
 
 ---
-### やってみよう
+### やってみよう<!-- omit in toc -->
 「Flexboxは横並びに便利」をやって見ましょう。
 
 ## CSS Grid
 
 ---
-### CSS Grid
+### CSS Grid<!-- omit in toc -->
 CSS Grid Layoutが正式名称となります。
 
 Flexboxが1次元だったのに対し、CSS Grid Layoutでは2次元レイアウトを作成することが可能になります。
@@ -146,7 +148,7 @@ https://www.itmedia.co.jp/news/articles/2205/23/news066.html
 -->
 
 ---
-### これからのWebデザイン
+### これからのWebデザイン<!-- omit in toc -->
 間違いなく
 - Flexbox
 - CSS Grid Layout
@@ -154,7 +156,7 @@ https://www.itmedia.co.jp/news/articles/2205/23/news066.html
 によるレイアウトに移行していきます。それではCSS Grid Layoutに入っていきましょう。
 
 ---
-### 2次元レイアウト
+### 2次元レイアウト<!-- omit in toc -->
 それでは2次元レイアウトとはなんでしょうか？
 
 今の所多くのデバイスは液晶ディプレイにWebを表示していますから、2次元ですね。
@@ -162,46 +164,54 @@ https://www.itmedia.co.jp/news/articles/2205/23/news066.html
 ということは、サイトデザインをこの方法でレイアウトすることが可能となります。
 
 ---
-### 具体的には
+### 具体的には<!-- omit in toc -->
 マス目を用意しグリッドを作成し好きな順番に配置したりすることで様々なレイアウトが可能になります。
 
 ---
-### 用語
-#### HTML要素
+### 用語<!-- omit in toc -->
+#### HTML要素<!-- omit in toc -->
 - コンテナ グリッド全体を囲む要素
 - アイテム コンテナの子要素
 
-### 概念
+### 概念<!-- omit in toc -->
 - ライン グリッドを分ける垂直および水平線のこと。上下左右の端にも存在する
 - トラック グリッドの行と列
 - セル ラインで囲まれる最小単位
 - エリア 一つ又は複数のセルが結合してできるセルの集まり
 
 ---
-### やってみよう
+### やってみよう<!-- omit in toc -->
 「CSS Grid Layoutは簡単！」をやって見ましょう。
+
+---
+### subgrid<!-- omit in toc -->
+カード型のレイアウトを組む時には、CSS Gridでも内容量によってずれが生じることがありました。
+
+今回はやりませんが、subgridという機能が追加されたため、揃えることが簡単にできるようになっています。
+
+- [CSSのサブグリッド（subgrid）の基礎知識と使い方、たった一行のCSSで複数カードの水平グリッドを簡単に揃えられる！](https://coliss.com/articles/build-websites/operation/css/about-css-subgrid.html)
 
 # まとめ
 
 ---
-### チートシート
+### チートシート<!-- omit in toc -->
 - [Flexboxチートシート](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet#flexbox14)
 - [CSS Grid Layoutチートシート](https://qiita.com/7dt/items/577ba8eada3380c93dbb)
 
 ---
-### どう使い分ける？
+### どう使い分ける？<!-- omit in toc -->
 
-#### float
+#### float<!-- omit in toc -->
 純粋に画像などの回り込みに利用する
 
-#### Flexbox
+#### Flexbox<!-- omit in toc -->
 1方向に並べるときに利用する(改行あり)
 
-#### CSS Grid
+#### CSS Grid<!-- omit in toc -->
 サイト全体をレイアウトする
 
 ---
-### 詳しい記事
+### 詳しい記事<!-- omit in toc -->
 - [FlexboxとCSS Gridの違いと使い分け｜よくあるレイアウトで理解する](https://webliker.info/css/flexbox-grid/)
 
 詳しくみていきましょう。
@@ -218,7 +228,7 @@ Flexbox/CSS Gridの使い分けに関しては多少議論があるようです�
 
 
 ---
-### 教科書で復習しよう
+### 教科書で復習しよう<!-- omit in toc -->
 - 3-16「レイアウトを組もう」P.154~P.159
 - 3-17「CSSグリッドでタイル型に並べよう」P.160-P.166
 
@@ -229,17 +239,17 @@ Flexbox/CSS Gridの使い分けに関しては多少議論があるようです�
 レイアウトの基本で漏れていることが
 - 4-10 レスポンシブに対応させよう(P.206~214)
 
-となります。仕組みだけ伝えて終わりにしようと思います。
+となります。仕組みだけ伝えて詳しくは次回にしようと思います。
 
 
 ---
-### 追記:
+### 追記:<!-- omit in toc -->
 教科書ではmin-width, max-widthを使っていますが、これより「range-syntax」の方が直感的で分かりやすいです。
 
 - [ついにSafariも。 media queryの範囲指定をより直感的に書ける記法が全ブラウザ対応へ](https://zenn.dev/moneyforward/articles/css-range-syntax)
 
 ---
-### サンプル html
+### サンプル html<!-- omit in toc -->
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -268,9 +278,15 @@ Flexbox/CSS Gridの使い分けに関しては多少議論があるようです�
 </html>
 ```
 
+---
+### 追記2:<!-- omit in toc -->
+これも最近追加されましたが、CSSネストという方法が利用できるようになっています。
+
+- [CSSネストの7つの書き方をマスター！Sassとの違いもサクッと解説](https://frontendclip.com/css-nesting/)
+
 
 ---
-### レスポンシブ対応するには？
+### レスポンシブ対応するには？<!-- omit in toc -->
 メディアクエリを利用して、gridのエリアを変更するだけですね！！！
 
 これで余計なclear: both;など考えなくて良くなります。
