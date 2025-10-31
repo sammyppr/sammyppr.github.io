@@ -47,10 +47,14 @@ Flexbox, CSS Gridによって重要度が下がってる気がしますが、説
 
 一番有名なのは「Bootstrap」と呼ばれる旧Twitter社が開発したものになります。
 
+- [【2025年版】CSSフレームワークのおすすめ11選のと使い方を徹底比較！](https://freelance.shiftinc.jp/column/css-framework/)
+- [CSSで最も使われているフレームワークはTailwind、2位はBootstrap。レイアウトで苦労しているのはCSS Gridなど。State of CSS 2025](https://www.publickey1.jp/blog/25/csstailwind2bootstrapcss_gridstate_of_css_2025.html)
+- [「State of CSS 2025」でCSS機能の進化を知る。認知度、評価、ブラウザ互換性を比較](https://levtech.jp/media/article/column/detail_734/)
+<!--
 - [【2024年最新版】CSSのおすすめフレームワーク10選｜メリット・デメリットも解説](https://freelance.bizlink.io/tips/css-framework)
 - [Web制作者がチェックしておきたい！ 2024年版、CSSフレームワークのまとめ](https://coliss.com/articles/build-websites/operation/css/awesome-css-frameworks.html)
 - [【分野別】おすすめCSSフレームワーク40選！最新から定番、無料で使えるものまで紹介](https://jitera.com/ja/insights/27681)
-
+-->
 <!--
 - [【2023年最新！】おすすめのCSSフレームワーク40選！効率的にデザイン作成をしよう！](https://mid-works.com/columns/language/others/1114801){:target="_blank"}
 -->
