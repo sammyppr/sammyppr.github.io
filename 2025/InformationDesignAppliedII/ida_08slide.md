@@ -46,24 +46,15 @@ footer: ""
 Web系の業界(IT系とかアプリ開発とかいろいろ言いますが)ではどんな職種があるのでしょうか？
 見て見ましょう...前より増えて分類されてる気が...
 
-https://www.geekly.co.jp/column/cat-position/2011_037/
+- [Web業界に携わる職種12選！職種ごとの年収や必要なスキルも解説](https://www.geekly.co.jp/column/cat-position/2011_037/)
 
 ---
 ### 一般企業では耳にしない特殊な職種があるWEB系
 #### 指揮系の職種
-- Webディレクター
-- Webプロデューサー
-- Webプランナー
+- Webディレクター / Webプロデューサー / Webプランナー
 
 #### 作業系の職種
-- Webデザイナー
-- DTP・グラフィックデザイナー
-- UI/UXデザイナー
-- Webエンジニア
-- サーバーエンジニア
-- Webライター
-- Webオペレーター
-- プログラマ
+- Webデザイナー / DTP・グラフィックデザイナー / UI/UXデザイナー / Webエンジニア / サーバーエンジニア / Webライター / Webオペレーター / プログラマー
 
 #### 解析系の職種
 - Webマーケター
@@ -83,6 +74,7 @@ https://www.geekly.co.jp/column/cat-position/2011_037/
 - こんなことできるらしい
 
 ということは理解したのではないでしょうか。
+
 これから就活するにあたって、Web系を目指す人にはこのような視点を持って、何になりたいかを考えてほしいと思います。
 
 ---
@@ -95,6 +87,8 @@ https://www.geekly.co.jp/column/cat-position/2011_037/
 ### Wordpress
 来週から、基本はWordpressに取り掛かります。シラバス上の目標は「Wordpressのテーマの作成」です。
 毎年、完成しません(泣き)。ですが、Wordpressを利用して、より高度なサイト構築にはトライしてほしいと思います。
+
+(wordpressじゃなくて、html,css,javascriptで作りたい人いる？？？)
 
 ---
 ### MAMP
@@ -135,11 +129,11 @@ Webサーバ・データベースサーバ、2つのサーバがどうしても�
 > Local by flywheel
 
 という素晴らしい開発環境が出てきました。(数年前からあったけど)
-去年使ってないよね...
+去年使ってるね？？？
 
 ---
 ### Local by flywheelのインストール
-1. [Local by flywheel](https://localwp.com/)をダウンロード(OR DOWNLOAD FOR FREEで問題ないです)
+1. [Local by flywheel](https://localwp.com/)をダウンロード(DOWNLOAD FOR FREEで問題ないです)
 2. 名前とEmailは入力しないとダウンロードできないかな。
 3. dmgを開いてアプリケーションフォルダに入れて、Local.appを起動しましょう。
 4. 「CREATE A NEW SITE」又は左下の「+」
@@ -194,16 +188,14 @@ DNSサーバにお伺いを立てる前に、/etc/hostsのファイルを見る�
 
 ---
 ### 開発環境...
-MAMPでもLocalでも、どちらにしろ、開発するための環境であり、実際に公開はできません。
-
-まさかと思って調べてみたら、無料でホスティングしてくれるサービスがある模様です。
-
+MAMPでもLocalでも、どちらにしろ、開発するための環境であり、実際に公開はできません。無料でホスティングしてくれるサービスがある模様です(広告付きだったりするけど...)。
 実際に、ポートフォリオなどをWebで公開したい人、vivivitでも問題ありませんが、Wordpressで使うなら、こういうサービスがあることを知っておきましょう。
 
-- [14 Best Free WordPress Hosting Providers for 2023](https://blog.hubspot.com/website/best-free-wordpress-hosting-providers)
+- [無料で活用できるホスティングサービス３選！選び方と注意点も紹介](https://it-trend.jp/hosting/article/140-0006)
+- [無料レンタルサーバーおすすめ6選！広告なしプランやWordPress対応も紹介](無料レンタルサーバーおすすめ6選！広告なしプランやWordPress対応も紹介)
+- [14 Best Free WordPress Hosting Providers](https://blog.hubspot.com/website/best-free-wordpress-hosting-providers)
 
-なお、このHPが置いてあるGithubでも静的なホームページの公開は可能です
-
+なお、このHPが置いてあるGithubでも静的なホームページの公開は可能です。
 バックエンドのプログラミングが必要な場合でも、Netlifyを含め、以下のような無料サービスがあります。
 
 - [Herokuの代替サービス30選、使ってみた参考記事リンク付き](https://qiita.com/rana_kualu/items/f7fc4916b7dc9797839e)
@@ -216,7 +208,7 @@ Localの対抗馬のStudioも紹介しておきます。
 
 - [Studio by WordPress.comの使い方・設定方法【ローカル環境が爆速構築】](https://shogo-log.com/studio-by-wordpress-com/)
 
-デモサイトを5つまで無料で共有できるのはいいですね。
+デモサイト共有機能はちょっといいな
 
 ---
 ### 複数端末での表示確認(Chrome)
@@ -415,17 +407,21 @@ Gutenbergでは記事部分のみだったのが拡張された、というこ�
 
 ---
 ### FSEで気をつけること
-まだ、リリースされて日が浅いので、実際にFSEが現場で使われているのかちょっとまだよくわかりません。
+実際にFSEが現場で使われているのかちょっとまだよくわかりません。
 
 > ブロックエディタでいろいろカスタマイズできる = 簡単にデザインの一貫性が壊れる
 
 ということを意味します。ここだけ注意しましょう。
 
-なお、FSE対応テーマでないと有効にはなりません。TwentyTwentyTwoが対応しています。
+なお、FSE対応テーマでないと有効にはなりません。公式ではTwentyTwentyTwo以降が対応しています。
 
-対応テーマはいかにまとまっています。
-- [WordPressでフルサイト編集ができるベストブロックテーマ21選 (2024)](https://www.wpbeginner.com/ja/showcase/best-wordpress-full-site-editing-themes/)
+対応テーマは以下にまとまっています。
+- [【2025年】WordPressフルサイト編集でおすすめのブロックテーマ5選！](https://wpmake.jp/contents/theme/fullsite-editing-theme/)
 - [WordPress Full Site Editing](https://fullsiteediting.com/themes/)
+
+<!--
+- [WordPressでフルサイト編集ができるベストブロックテーマ21選 (2024)](https://www.wpbeginner.com/ja/showcase/best-wordpress-full-site-editing-themes/)
+-->
 
 ---
 ### 残り時間
@@ -438,10 +434,11 @@ Wordpressをおさらいしていきます。
 - メニューの作成
 - 必要に応じてプラグインインストール・設定
 
+<!--
 - 必要に応じてElementorをインストール
    [Elementorの使い方：インストールから・ページの作成までご紹介！](https://www.youtube.com/watch?v=6uoyAzctyPE)
-
 にたものとして、SiteOriginがあります。
+-->
 
 
 ---
