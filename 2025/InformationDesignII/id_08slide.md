@@ -190,7 +190,7 @@ Googleがモバイルファーストインデックスを打ち出したこと�
 #### font-family<!-- omit in toc -->
 font-familyのところ面倒ですね。
 ゴシック体を指定したいだけですからググりましょう。「CSS ゴシック体」でググると
-- [【2023年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例](https://willcloud.jp/knowhow/font-family/)
+- [【2025年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例](https://willcloud.jp/knowhow/font-family/)
 
 が出てきます。4.1からいただいてきましょう。
 
