@@ -32,7 +32,7 @@ JavaScriptのライブラリの利用について学修する。
 8. [CUI入門](./ida_08.md)
 コンピュータをコマンドで操作するCUIについて学修する。
 
-9.  [HTML/CSS復習]
+9.  [HTML/CSS復習](./ida_09.md)
 HTML/CSSについて復習するとともに最新の動向について学修する。
 
 10.  [WordPress復習]

@@ -4,11 +4,11 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン応用演習II 9. 最近のCSSレイアウト事情
+header: 情報デザイン応用演習II 9. HTML/CSS復習
 footer: ""
 ---
 
-# 情報デザイン応用演習II 9. 最近のCSSレイアウト事情<!-- omit in toc -->
+# 情報デザイン応用演習II 9. HTML/CSS復習<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
@@ -29,7 +29,7 @@ footer: ""
 - CUI入門
 
 を行いました。
-今日は一回CSSをおさらいして、触れるようであれば、wordpressをもう少し触ってみましょう。
+今日は一回CSSをおさらいして、時間が余れば、wordpressをもう少し触ってみましょう。
 
 ---
 ### CSS覚えてますか？
@@ -139,7 +139,8 @@ CSS Gridでかなり表現力が上がったのですが、入れ子表現がで
 これもチェックしておきましょう。
 - [2023年モダンCSSの最新トレンド](https://speakerdeck.com/tonkotsuboy_com/2023nian-modancssnozui-xin-torendo)
 - [2024年、CSSの最新トレンドにおける現状のまとめ、よく使用する新機能やプロパティや疑似クラス、人気のフレームワークや検証環境など](https://coliss.com/articles/build-websites/operation/css/state-of-css-2024.html)
-
+- [CSSの最新トレンド Ver.2025](https://speakerdeck.com/tonkotsuboy_com/cssnozui-xin-torendo-ver-dot-2025?slide=53)
+- [【2025年保存版】モダンCSSに移行すべき6つの古い書き方](https://www.ryoma.online/css-migration-2025/)
 
 ---
 ### 見慣れないタグ...自分で定義できるHTMLタグがある
@@ -152,7 +153,7 @@ HTMLタグは元々ある程度定義されていますが、独自に定義の�
 これは、JavaScriptで独自のタグを定義することで利用可能となります。
 ソースを読んでて、よくわからない、というときにはこれを怪しんでみましょう(JavaScriptの方も見ないといけないですが)
 
-- [【2024年版】Web Components詳細入門ガイド](https://kinsta.com/jp/blog/web-components/)
+- [【2025年版】Web Components詳細入門ガイド](https://kinsta.com/jp/blog/web-components/)
 
 ---
 ### というわけで
@@ -167,7 +168,7 @@ HTMLタグは元々ある程度定義されていますが、独自に定義の�
 
 > float/FlexBox/CSS Grid入門
 
-の「floatはレイアウトを組むのには厄介！」をやって見ましょう。
+の「floatはレイアウトを組むのには厄介！」はさらっとみて、それからFlexBox/CSS Gridに進みましょう。
 
 ---
 ### floatのデメリット
@@ -246,6 +247,15 @@ Flexboxが1次元だったのに対し、CSS Grid Layoutでは2次元レイア�
 ### やってみよう
 「CSS Grid Layoutは簡単！」をやって見ましょう。
 
+---
+### Flexbox,CSS Gridどう使うのが正解？
+
+ここに関しては、考え方が揺れている気がします。
+デベロッパーツールから、どの部分でFlexboxが使われ、どの部分でCSS Gridが使われているかをみてみましょう。
+「flex」「grid」というバッジから見つけることができます。
+
+
+
 # まとめ
 
 ---
@@ -270,7 +280,9 @@ float/Flexbox/CSS Grid
 ### レスポンシブするには？
 メディアクエリを利用して、gridのエリアを変更するだけですね！！！
 
+<!--
 これで余計なclear: both;など考えなくて良くなります。
+-->
 
 
 
