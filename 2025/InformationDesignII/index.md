@@ -75,6 +75,17 @@ Wordpressを用いた実践的なサイトを構築する。
 テキストだけでよくわからない人は参考にしてください。
 - [スクリーンキャスト](https://www.youtube.com/watch?v=rEcsDLsZX3A&list=PLeaTO-zJc7wAbJBwSaILCWwVpbr7bZEEr)
 
+# 最終課題 I
+テキスト4-7章を作成したファイルをStudentVolumeの「2025演習」「情報デザイン演習II」「WCBCafe(chapter4-7)」に学籍番号フォルダを作成してアップしてください。
+
+- カスタマイズ(4-12, 5-7, 6-6,7-10)はしなくて構いません。
+- Xプラグイン(7-6)は失敗するのでしなくて構いません
+
+
+
+
+
+
 ## wordpress簡単な使い方
 wordpressの機能を一通り触って、簡単なページを作ってみます。
 - [wordpress簡単な使い方](./wordpress-tutorial.md)
