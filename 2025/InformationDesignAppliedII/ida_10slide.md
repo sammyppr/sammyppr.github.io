@@ -37,7 +37,7 @@ footer: ""
 
 ---
 ### 今後の予定<!-- omit in toc -->
-前回決定したように
+
 > ポートフォリオ作成
 
 を最終課題として、それに対して今回入れて6回課題に取り組んでいこうと思います。
@@ -46,15 +46,37 @@ footer: ""
 
 # ポートフォリオサイト
 ### 前提条件<!-- omit in toc -->
+実力差が激しいので、
+1) 静的ページで作成する
 - Github Pagesとして公開すること
 - レスポンシブ対応であること
 
+2) Wordpressを利用する
+- FSE対応テーマでなければ小テーマを利用すること
+
+3) ポートフォリオ作成ツールを利用する
+
+のどれでも良いことにします。(本当は3は避けて欲しいけど...)
+
+### ツールについて<!-- omit in toc -->
+#### 静的ページ
+HTML/CSSで基本自分でVSCにて作成になります。
+「ポートフォリオ テンプレート html」等とググって、テンプレート利用でもOKとします。
+AIにテンプレートを作ってもらうというのも今の世の中アリだと思います。
+
+#### Wordpress
+「Wordpress ポートフォリオ」でググるとテーマ・プラグインなど様々な情報を得ることができます。
+サーバ契約しないと、これは公開できないことになります。
+
+#### ポートフォリオ作成ツール
+- [ポートフォリオ作成ツールおすすめ10選](https://brik.co.jp/tips/952)
+これvivivitのってないですね。掲載してないものを使っても構いません。
+
+wordpressを使った場合には、画面録画をしてもらって、それを提出。(サーバを契約してくれてもいいいけど)
+それ以外は、URLを提出となります。
+
 ### Git/Github
-メディア表現VIでやっている人もいますが、そうでない人もいるので、やってないていで進めていきます。
-
-# Github Pagesとは?
-
-ちょっと10分ほど自分で調べてみよう
+メディア表現VIで明日やる人もいますが、紹介しておきます。
 
 ---
 ### Git? Github? Github Pages?<!-- omit in toc -->
@@ -105,27 +127,27 @@ Webサーバを使えるようにすれば、Webページを作成できます�
 
 ---
 ### Git/Github 紹介動画<!-- omit in toc -->
-- [Gitとは？GitHubとは？10分で仕組み・使い方を解説！【超入門編】](https://www.youtube.com/watch?v=1l8oBEown8c&t=60s)
+- [Gitとは？GitHubとは？10分で仕組み・使い方を解説！【超入門編】(11:18)](https://www.youtube.com/watch?v=1l8oBEown8c&t=60s)
 
 - エンジニア向けと言ってるけど、全員使えていいと思ってます。
 - 主にはテキストファイルで使うべきで、動画などは容量が大きいためあまり向いてません。
 
 ---
 ### Github Pages 紹介動画<!-- omit in toc -->
-- [【GitHubの使い方入門】GitHub Pagesを使って世界中にサイトを公開しよう！アウトプットこそ学びだ！](https://www.youtube.com/watch?v=kftqAritHyc)
+- [【GitHubの使い方入門】GitHub Pagesを使って世界中にサイトを公開しよう！アウトプットこそ学びだ！(10:30)](https://www.youtube.com/watch?v=kftqAritHyc)
 
 真似をして、最低限のHTMLでいいので、リモートリポジトリで公開してみましょう。
 
 ---
 ### Github vscode 連携 紹介動画<!-- omit in toc -->
 Githubでプロジェクト作成して、それをVScodeで**クローン**(ローカルに引っ張ってくる)のが一番簡単だとおもうので、その方法、及び更新方法について説明します。
-- [GIT with VSCode | Clone, Commit & Push | Git Commit & Push with VSCode | GIT Clone, Commit & Push](https://www.youtube.com/watch?v=lYiE5lBS13E)
+- [GIT with VSCode | Clone, Commit & Push | Git Commit & Push with VSCode | GIT Clone, Commit & Push(6:55)](https://www.youtube.com/watch?v=lYiE5lBS13E)
 
 git configの件は、個人を特定するだけなので、ユーザ名とか適当でいいです。メアドは有効な方がエラーなど報告があるので、使えるメアドにしましょう。(設定は一回だけです)
 
 ---
 ### 仕組みの紹介動画<!-- omit in toc -->
-- [【基本知識】GitHubとは？できることや基礎用語を解説！](https://www.youtube.com/watch?v=yzNPC_QzgFM&t=400s)
+- [【基本知識】GitHubとは？できることや基礎用語を解説！(12:19)](https://www.youtube.com/watch?v=yzNPC_QzgFM&t=400s)
 
 
 ---
@@ -195,6 +217,14 @@ Git,Github,Github pagesに関する動画はたくさん上がっているので
 を制作します。
 
 ---
+### ポートフォリオサイトに必要な事項<!-- omit in toc -->
+- 自己紹介
+- 作品紹介(制作の意図・プロセス・担当範囲)
+- スキル
+- 実績
+- 連絡先
+
+---
 ### コンテンツ制作<!-- omit in toc -->
 コンテンツに必要な
 - コピー
@@ -241,10 +271,10 @@ Webページ内に別のWebページや画像、動画などのコンテンツ�
 - [モバイルファーストデザインとはスマホ版から作ればOK？手順やCSS解説つき](https://pecopla.net/web-column/mobile-first-design)
 
 ```
-@media screen and (min-width:768px){
+@media (min-width:768px){
   /*タブレット用として画面幅を768pxまでに設定*/
 }
-@media screen and (min-width:1024px){
+@media (min-width:1024px){
   /*PC用として画面幅を1024pxまでに設定*/
 }
 ```
@@ -264,9 +294,9 @@ Webページ内に別のWebページや画像、動画などのコンテンツ�
 ### 校正・品質チェック<!-- omit in toc -->
 様々な環境で表示エラーや動作の不具合がないかチェックしましょう。
 
-- ResponsivelyApp
+- ResponsiveViewer(Chrome機能拡張)
 
-もうまく使っていきましょう。
+等をうまく使っていきましょう。
 
 ---
 ### 確認・チューニング<!-- omit in toc -->
