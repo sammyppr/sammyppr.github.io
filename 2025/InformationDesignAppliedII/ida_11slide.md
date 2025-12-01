@@ -76,6 +76,9 @@ footer: ""
 - [Google Antigravityでブラウザのセットアップ手順](https://ai-souko.jp/archives/243)
 - [【完全ガイド】Google Antigravityの使い方！初期設定から実際の動作まで徹底解説](https://www.youtube.com/watch?v=Yt_6cbzUWAA)
 
+
+参考
+- [【圧巻】Gemini 3 Proでプロ顔負けのWebサイトが作れるようになりました...](https://www.youtube.com/watch?v=hxVaOKXVtsQ)
 ---
 ### この後のページ
 ほぼ前回のおさらい...
