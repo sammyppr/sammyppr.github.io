@@ -77,7 +77,7 @@ footer: ""
 ---
 ### CMS のシェア
 いろいろなものがありますが、シェアを確認してみましょう。
-「CMS シェア 2024」でググってみましょう。
+「CMS シェア 2025」でググってみましょう。
 
 ダントツでWordpressが利用されていることになります。
 残りの5回でこれを利用できる様になりましょう。
@@ -178,9 +178,12 @@ OSによって、
 に飛ばされると思います。
 
 FreeDownloadをクリックしてダウンロードしてください。
-MacはIntel, M1を選びましょう。
+MAMP-MAMP-PRO-Downloader.zip
+を解凍して、起動してからDownloadしましょう。(時間かかる？？？)
 
-インストールしましょう。終わると、MAMP PROもインストールされますが、捨てましょう。
+インストールしましょう。
+Downloaderからダウンロードが終わるとインストーラが開きます。
+終わると、MAMP PROもインストールされますが、捨てましょう。
 
 ---
 ### wordpressのダウンロード
@@ -190,7 +193,7 @@ MacはIntel, M1を選びましょう。
 
 - https://ja.wordpress.org/
 
-から「WordPressを入手」「Wordpress6.7.1をダウンロード」をクリックしましょう。
+から「WordPressを入手」「Wordpress6.8.3をダウンロード」をクリックしましょう。
 
 ---
 ### Webサーバ上にwordpressを設置
@@ -248,12 +251,25 @@ MacはIntel, M1を選びましょう。
 を覚えておきましょう。
 
 ---
+### と言いながら...Local by flywheel
+wordpressを設定するのに毎回これをするのは大変ですよね。
+
+もっと楽な方法があるので、こちらもダウンロードしましょう。
+- [Local by flywheel](https://localwp.com/)
+
+Mac Intel/Mac Apple Silicon/Windows
+から選び、Otherを選んで、emailを入力してダウンロードしましょう。
+
+---
 ### 最初の設定
 設定 - 一般から
 - サイトの言語：日本語
 - タイムゾーン：UTC+9
 
 に設定しましょう。
+
+
+
 
 # インターネット基礎知識
 
@@ -313,10 +329,12 @@ MAMPでは標準で
 ### 一般的には
 httpは80番、httpsは443番を利用することが決まっていますから
 
-- http://www.thu.ac.jp
-- http://www.thu.ac.jp:80
-- https://www.thu.ac.jp
-- https://www.thu.ac.jp:443
+> - http://www.thu.ac.jp
+> - http://www.thu.ac.jp:80
+
+
+> - https://www.thu.ac.jp
+> - https://www.thu.ac.jp:443
 
 はそれぞれ同じ意味です。
 
@@ -341,7 +359,7 @@ httpsは
 
 を利用します。
 
-これより詳しい話は「インターネット基礎理論」にて学んでください。
+これより詳しい話は「インターネット基礎理論」を復習しましょう。
 
 
 
@@ -521,11 +539,14 @@ googleから以下のような情報が出ています。
 ## メニュー
 
 ---
-### (ひょっとして...外観 - メニューがなければ)
+### テーマが
+- Twenty Twenty-Three
 - Twenty Twenty-Four
 - Twenty Twenty-Five
+が最初に入っていると思います。
+これらは、FSE対応テーマと言われます。
 
-はちょっと特殊なので、Twenty Twenty-Threeで行こうかな...
+ちょっと特殊なので、テーマを追加からTwenty Twenty-Oneを検索して有効化してみましょう。
 
 ---
 ### 外観 - メニュー
@@ -535,7 +556,7 @@ Wordpressではメニューを複数管理することができます。
 - 左の項目からメニューに適当に追加しましょう
 - ドラッグアンドドロップで入れ替えできます。
 - サブメニューにすることもできます。少し右にずらしてみましょう。
-- メニュー設定で「メニューの位置」をメイン(ヘッダーかな)に設定しましょう。
+- メニュー設定で「メニューの位置」をメインメニューに設定しましょう。
 - 保存しましょう。
 - 見てみましょう。
 
@@ -588,19 +609,19 @@ FSEというのに対応しましたが、まだ公開されて日が浅いた�
 ### テーマとは
 Wordpressのデザインや構造を決定づけるものとなります。
 
-デフォルトではWordpress6.0では
-- Twenty Twenty
-- Twenty Twenty-One
-- Twenty Twenty-Two
+デフォルトではWordpress6.8.3では
+- Twenty Twenty-Three
+- Twenty Twenty-Four
+- Twenty Twenty-Five
 
-等が利用できます。これは、Wordpressが公式に配布しているテーマとなります。
+等が利用できます。これは、Wordpressが公式に配布しているテーマとなります。(年度ごとに大体出しています。)
 
 それぞれ、有効化を押して、デザインが変わることを確認しましょう。
 
 
 ---
 ### 新規追加
-外観 - テーマ - 新規追加
+外観 - テーマ - テーマを追加
 
 とすると、たくさん出てきますね。
 
@@ -641,10 +662,13 @@ WordpressとWix、近いと思います。
 
 ---
 ### テーマはどこに？
-MAMPで
+MAMPでは
 - Preferences - Server - Open in Finder
 - wp-content - themes
 
+Localでは
+- Site Folder
+- app - public - wp-content - themes
 の中にテーマのフォルダが存在しています。
 
 これらのファイルをカスタマイズすることで、全てのコントロールが可能です。
@@ -671,7 +695,7 @@ Wordpressの機能を簡単に拡張する機能となります。
 
 ---
 ### プラグインの動向
-「wordpress プラグイン 2024」
+「wordpress プラグイン 2025」
 
 でググってみましょう。
 
