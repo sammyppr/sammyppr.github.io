@@ -14,13 +14,12 @@ footer: ""
 
 - [初めに](#初めに)
 - [ポートフォリオサイト](#ポートフォリオサイト)
-- [Github Pagesとは?](#github-pagesとは)
-    - [Git](#git)
-    - [Github](#github)
-    - [Github Pages](#github-pages)
 - [HP制作 ワークフロー](#hp制作-ワークフロー)
+    - [AI Tool紹介](#ai-tool紹介)
+    - [この後のページ](#この後のページ)
     - [ワークフロー](#ワークフロー)
     - [環境](#環境)
+    - [ガントチャート](#ガントチャート)
     - [やってみよう](#やってみよう)
 
 
@@ -38,7 +37,7 @@ footer: ""
 
 ---
 ### 今後の予定<!-- omit in toc -->
-前々回決定したように
+前回決定したように
 > ポートフォリオ作成
 
 を最終課題として、それに対して今回入れて5回課題に取り組んでいこうと思います。
@@ -47,8 +46,17 @@ footer: ""
 
 # ポートフォリオサイト
 ### 前提条件<!-- omit in toc -->
+実力差が激しいので、
+1) 静的ページで作成する
 - Github Pagesとして公開すること
 - レスポンシブ対応であること
+
+2) Wordpressを利用する
+- FSE対応テーマでなければ小テーマを利用すること
+
+3) ポートフォリオ作成ツールを利用する
+
+のどれでも良いことにします。(本当は3は避けて欲しいけど...)
 
 
 
@@ -60,8 +68,17 @@ footer: ""
 を利用して、ポートフォリオサイトに必要なステップを洗い出してみましょう。
 
 ---
+### Antigravity
+メディア表現VIでもやるつもりですが、
+自律型AIエージェントを主体とする開発プラットフォームである「[Google Antigravity](https://antigravity.google/?hl=ja)」を紹介しておきます。
+
+- [Google AntigravityでNanobananaの画像付きWebサイトを作ってみた](https://youtu.be/wpW8-GvDfKY?si=5rb7xXiUvmI7PFO3&t=154)
+- [Google Antigravityでブラウザのセットアップ手順](https://ai-souko.jp/archives/243)
+- [【完全ガイド】Google Antigravityの使い方！初期設定から実際の動作まで徹底解説](https://www.youtube.com/watch?v=Yt_6cbzUWAA)
+
+---
 ### この後のページ
-ほぼ前回のおさらい
+ほぼ前回のおさらい...
 
 
 ---
