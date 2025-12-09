@@ -9,7 +9,7 @@
 - [2024年度ゼミ](./2024.md)
 
 ## 2年生向け案内
-- [Sammyゼミ履修希望の2年生へ](/Seminar_Sammy/ForSophomore/2026ForSophomore.md)
+- [Sammyゼミ履修希望の2年生へ](/Seminar_Sammy/ForSophomore/2026ForSophomore.html)
 
 ## ゼミとは？
 > 大学などで教師の指導のもとに少数の学生がみずからの発表や討論により主体的に学習を進める形の授業，またその教授方式。(改訂新版　世界大百科事典)
