@@ -89,11 +89,9 @@ table td {
 </style>
 
 # SPI非言語　Part2
-<!--
 <div class="red">
 解答編
 </div>
--->
 
 - 集合
 - 順列・組み合わせ
@@ -306,7 +304,7 @@ J AからIのいずれでもない<br>
 <div style="page-break-before:always"></div>
 &nbsp;
 
-
+<img src="./集合01.png" style="width:60%;">
 
 <div style="page-break-before:always"></div>
 
@@ -339,7 +337,7 @@ J AからIのいずれでもない<br>
 </div>
 <div class="clear"></div>
 
-
+<img src="./集合02.png" style="width:60%;">
 
 <div style="page-break-before:always"></div>
 
@@ -348,7 +346,7 @@ J AからIのいずれでもない<br>
 
 [問い] あるイベントの来場者のうち、会場内で買い物をした人は56%, 食事をした人は36%で、どちらもしなかった人は24%だった。両方ともした人が20人だった時、イベントの来場者は[　　　]人である。
 
-
+<img src="./集合03.png" style="width:40%;">
 
 <div style="page-break-before:always"></div>
 
@@ -357,7 +355,7 @@ J AからIのいずれでもない<br>
 
 [問い] ある日の美容室の来店客54人の女性と男性の比率は13:5で、予約して来店した客は合わせて31人だった。予約なしで来店した女性は少なくとも[　　　]人いた。
 
-
+<img src="./集合04.png" style="width:40%;">
 
 <div style="page-break-before:always"></div>
 
@@ -404,6 +402,33 @@ J AからIのいずれでもない<br>
 </div>
 <div class="clear"></div>
 
+<div class="red">
+解答--------------------------------------
+</div>
+
+STEP01<br>
+百,十,一の桁それぞれ当てはまる数は1,4,7<br>
+
+$3\times 3\times 3=27$通り
+
+<br>
+STEP02<br>
+440より大きい数は百の桁：4,7
+
+<br>
+
+1)百の桁が4の時<br>
+十の桁：4,7...この時一の桁は1,2,4,7<br>
+$2\times 4=8$
+
+2)百の桁が7の時<br>
+十の桁：1,2,4,7...この時一の桁は1,2,4,7<br>
+$4\times 4 = 16$
+
+1),2)を合計して<br>
+$8+16=24$通り
+
+
 
 <div style="page-break-before:always"></div>
 
@@ -446,6 +471,30 @@ I 240通り<br>
 J AからIのいずれでもない<br>
 </div>
 <div class="clear"></div>
+
+<div class="red">
+解答--------------------------------------
+</div>
+STEP01<br>
+X組5人の中から3人<br>
+
+${}_5\mathrm{C}_3=\frac{5 \times 4 \times 3}{3 \times 2 \times 1}=10$通り
+
+Y組5人の中から1人 5通り
+
+$10\times 5 = 50$通り
+
+STEP02<br>
+全体から「X組から1人も含まれない」=「全てY組」を引けばいいので、
+
+全体は<br>
+${}_10\mathrm{C}_4=\frac{10 \times 9 \times 8 \times 7}{4 \times 3 \times 2 \times 1}=210$通り
+
+全てY組は<br>
+${}_5\mathrm{C}_4=\frac{5 \times 4 \times 3 \times 2}{4 \times 3 \times 2 \times 1}=5$通り
+
+全体から全てY組を引いて
+$210-5=205$通り
 
 
 
@@ -493,6 +542,33 @@ J AからIのいずれでもない<br>
 </div>
 <div class="clear"></div>
 
+<div class="red">
+解答--------------------------------------
+</div>
+
+<div class="column-left">
+<img src="./順列04-2.png" style="width:20%;">
+</div>
+<div class="column-right">
+
+STEP01<br>
+
+3,4,5,6の4つの席に<br>
+どう座るかの組み合わせなので
+
+$4 \times 3 \times 2 \times 1=24$通り
+
+</div>
+<div class="clear"></div>
+
+STEP02
+
+
+<img src="./順列04-3.png" style="width:50%;">
+
+JKが向かい合うのは6通りであり、残りの4席を4人で座るので
+
+$(4 \times 3 \times 2 \times 1) \times 6=144$通り
 
 
 <div style="page-break-before:always"></div>
@@ -502,6 +578,21 @@ J AからIのいずれでもない<br>
 
 [問い] 10gのおもりが2つ、50gのおもりが1つ、100gのおもりが2つある。天びんの片側だけにおもりをのせる時、[　　　]通りの重さを図ることができる。
 
+<div class="red">
+解答--------------------------------------
+</div>
+STEP01
+
+- 10gを0,1,2枚(3通り)
+- 50gを0,1枚(2通り)
+- 100gを0,1,2枚(3通り)
+
+で、<br>
+$3\times 2\times 3 = 18通り$
+
+だが、全て0枚の時、0gになってしまうので、それを引いて17通り。
+
+
 
 <div style="page-break-before:always"></div>
 
@@ -509,6 +600,14 @@ J AからIのいずれでもない<br>
 空欄に当てはまる数値を求めなさい。
 
 [問い] ある月に、P社を3回、Q社とR社を1回ずつ訪問した。訪問した順番は[　　　]通り考えられる。
+
+<div class="red">
+解答--------------------------------------
+</div>
+5回訪問のうち、Q,Rの2社の場所が決まれば、P社は残りとなるので、
+
+$5\times 4=20$通り
+
 
 <div style="page-break-before:always"></div>
 
@@ -555,6 +654,35 @@ J AからIのいずれでもない<br>
 </div>
 <div class="clear"></div>
 
+<div class="red">
+解答--------------------------------------
+</div>
+STEP01<br>
+Pが引く時、あたりを引く確率は、5本中1本なので<br>
+
+$\frac{1}{5}$
+
+Qが引く時、あたりを引く確率は、4本中1本なので<br>
+
+$\frac{1}{4}$
+
+よって
+
+$\frac{2}{5}\times \frac{1}{4}=\frac{1}{10}$
+
+STEP02<br>
+Pだけが乗れる確率は
+
+$\frac{2}{5}\times\frac{3}{4}=\frac{3}{10}$
+
+Qだけが乗れる確率は
+
+$\frac{3}{5}\times\frac{2}{4}=\frac{3}{10}$
+
+足すと
+
+$\frac{3}{10}+\frac{3}{10}=\frac{3}{5}$
+
 
 <div style="page-break-before:always"></div>
 
@@ -598,6 +726,23 @@ J AからIのいずれでもない<br>
 </div>
 <div class="clear"></div>
 
+<div class="red">
+解答--------------------------------------
+</div>
+STEP01<br>
+1回引いた時に4の倍数でない確率は
+
+$1-\frac{3}{13}=\frac{10}{13}$
+
+1枚目だけが4の倍数,2枚目だけが4の倍数を足して
+
+$\frac{3}{13}\times\frac{10}{13}+\frac{10}{13}\times\frac{3}{13}=\frac{60}{169}$
+
+STEP02<br>
+「少なくとも1枚は4の倍数以外」とは「全事象から2枚とも4の倍数を引いた」となるので
+
+$1-\frac{3}{13}\times\frac{3}{13}=\frac{160}{169}$
+
 
 
 <div style="page-break-before:always"></div>
@@ -623,6 +768,16 @@ J AからIのいずれでもない<br>
 </div>
 <div class="clear"></div>
 
+<div class="red">
+解答--------------------------------------
+</div>
+「PかQのいずれか一方だけに当選」とは「P当選Q落選とP落選Q当選の確率を足したもの」となる。
+P,Q落選確率はそれぞれ
+
+$1-0.7=0.3,1-0.40=0.60$
+ であるから
+
+$0.7\times0.6+0.3\times0.4=0.54$
 
 <div style="page-break-before:always"></div>
 
@@ -630,6 +785,12 @@ J AからIのいずれでもない<br>
 空欄に当てはまる数値を求めなさい。
 
 [問い] 3本のあたりくじが入った8本のくじがある。5人が順にくじをひき、一度引いたくじは戻さないものとする。5人とも当たりくじを引かない確率は[　　　]/[　　　]である。約分した分数で答えなさい。
+
+<div class="red">
+解答--------------------------------------
+</div>
+
+$\frac{5}{8}\times\frac{4}{7}\times\frac{3}{6}\times\frac{2}{5}\times\frac{1}{4}=\frac{1}{56}$
 
 
 <div style="page-break-before:always"></div>
@@ -639,6 +800,25 @@ J AからIのいずれでもない<br>
 
 [問い] 10円玉が3枚、5円玉が3枚ある。この6枚の硬貨を同時に投げ、表が出たものの金額を足す。金額の合計が15円になる確率は[　　　]/[　　　]である。約分した分数で答えなさい。
 
+<div class="red">
+解答--------------------------------------
+</div>
+全部で6枚あり、それぞれ裏表の2つの状態があるので、全組合わせは
+
+$2\times2\times2\times2\times2\times2=64$
+
+合計が15円になる場合は
+|  | 10円玉 | 5円玉 |
+| - | - | - |
+| パターン1 | 1枚 | 1枚 |
+| パターン2 | 0枚 | 3枚 |
+
+パターン1は10円玉,5円玉とも3通りずつなので、$3\times3=9$通り<br>
+パターン2は1通り<br>
+合わせて10通り。
+
+よって、
+$\frac{10}{64}=\frac{5}{32}$
 
 
 
