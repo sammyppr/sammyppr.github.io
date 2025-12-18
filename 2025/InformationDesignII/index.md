@@ -75,20 +75,55 @@ Wordpressを用いた実践的なサイトを構築する。
 テキストだけでよくわからない人は参考にしてください。
 - [スクリーンキャスト](https://www.youtube.com/watch?v=rEcsDLsZX3A&list=PLeaTO-zJc7wAbJBwSaILCWwVpbr7bZEEr)
 
-# 最終課題 I
+## wordpress簡単な使い方
+wordpressの機能を一通り触って、簡単なページを作ってみます。
+- [wordpress簡単な使い方](./wordpress-tutorial.md)
+
+
+---
+# 最終課題 I WCBCafe
 テキスト4-7章を作成したファイルをStudentVolumeの「2025演習」「情報デザイン演習II」「WCBCafe(chapter4-7)」に学籍番号フォルダを作成してアップしてください。
 
 - カスタマイズ(4-12, 5-7, 6-6,7-10)はしなくて構いません。
 - Xプラグイン(7-6)は失敗するのでしなくて構いません
 
+---
+# 最終課題 II Wordpress
+Wordpress を使って自由にホームページを作成してみよう。
+## 条件
+- 子テーマを作成すること
+- 固定ページと投稿ページがあること
+
+
+## テーマに関する注意
+FSE対応のテーマはお勧めしません。(まだ情報もあまりないし...混乱してそう...)
+
+テーマを有効化した時に、外観-メニューがなければFSE対応テーマとなります。
+
+### 提出方法
+QuickTime Playerの画面収録機能を使って、説明音声入りで録画してNASに提出
+> nas1-mc.thu.ac.jp - 2025演習 - 情報デザイン演習II - 15回最終課題WordPress
+
+に学籍番号.mp4として提出
+
+録画方法がよくわからない人は以下を参考にしてください。(Winの人も)
+- [パソコンで画面録画を音声付きで行う方法！Windows/Macのやり方を解説！](https://www.ricoh.co.jp/service/toruno/column/pc-recording)
+
+---
+# 最終課題III Let's Coding(できる人だけ)
+手がけた人は、提出しましょう。
+> nas1-mc.thu.ac.jp - 2025演習 - 情報デザイン演習II - 10回目LetsCoding
+
+
+
+---
+
+## 最終課題 締め切り
+1/6 13:00
+
+---
 
 
 
 
 
-## wordpress簡単な使い方
-wordpressの機能を一通り触って、簡単なページを作ってみます。
-- [wordpress簡単な使い方](./wordpress-tutorial.md)
-
-## Localがうまく動かない場合
-- [Local は Apple シリコンの Mac では Rosetta 2 が必要](../../App/Local/index.md)
