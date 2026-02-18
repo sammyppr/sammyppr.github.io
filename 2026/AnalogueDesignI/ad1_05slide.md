@@ -21,6 +21,7 @@ footer: ""
 
 # はじめに
 ## クラス間違えてない？
+TODO:
 ![](img/ad1_01_class_schedule.png)
 学生証はカードリーダーにかざしてください。
 
