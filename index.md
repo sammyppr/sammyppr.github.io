@@ -4,23 +4,23 @@ Welcome to sammyppr.github.io!
 
 過去の内容は、一番下のArchiveへ
 
-## CONTENTS 2025
+## CONTENTS 2026
 ### 前期
-- [メディア表現III](2025/MediaRepresentationIII/index.md)
-- [メディア表現V](2025/MediaRepresentationV/index.md)
-- [サウンドデザイン演習](2025/SoundDesign/index.md)
-- [インターネット基礎理論](2025/BasicTheoryOfInternet/index.md)
-- [メディア文化論V](2025/MediaCultureTheoryV/index.md)
-- [造形基礎演習I](2025/AnalogueDesignI/index.md)
+- [インターネット基礎理論](2026/BasicTheoryOfInternet/)
+- [メディア表現III](2026/MediaRepresentationIII/)
+- [メディア表現V](2026/MediaRepresentationV/)
+- [サウンドデザイン演習](2026/SoundDesign/)
+- [造形基礎演習I](2026/AnalogueDesignI/)
 
 ### 後期
-- [情報デザイン演習II](2025/InformationDesignII/index.md)
-- [情報デザイン応用演習II](2025/InformationDesignAppliedII/index.md)
-- [メディア表現VI](2025/MediaRepresentationVI/index.md)
+- [情報デザイン演習II](2026/InformationDesignII/)
+- [情報デザイン応用演習II](2026/InformationDesignAppliedII/)
+- [メディア表現VI](2026/MediaRepresentationVI/)
+
+- [共創リテラシー(メディア) デジタル共創学部](2026/CoCreationLiteracy_Media/)
 
 ### 夏期スクーリング
-- [マルチメディア演習](2025/Schooling_MultiMedia/index.md)
-
+- [マルチメディア演習](2026/Schooling_MultiMedia/)
 
 ---
 ---
@@ -63,6 +63,7 @@ Welcome to sammyppr.github.io!
 - [マークダウン Memo](./markdown_memo.md)
 
 ## Archive
+- [Contents 2025](2025/index.md)
 - [Contents 2024](2024/index.md)
 - [Contents 2023](2023/index.md)
 - [Contents 2022](2022/index.md)

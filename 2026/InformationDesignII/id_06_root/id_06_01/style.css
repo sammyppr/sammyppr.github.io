@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+}
+header {
+    background-color: red;
+    height: 100px;
+}
+main {
+    background-color: blue;
+    height: 100vh;
+}
+footer {
+    background-color: green;
+    height: 50px;
+}

@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}プログラミングするにあたっての心構え}{2}{}%
+\contentsline {subsection}{\numberline {1.1}プログラミングって何?}{2}{}%
+\contentsline {subsection}{\numberline {1.2}私、理系じゃないし...}{2}{}%
+\contentsline {subsection}{\numberline {1.3}まずはじめに覚えなくてはいけないこと}{2}{}%
+\contentsline {subsection}{\numberline {1.4}英語...}{2}{}%
+\contentsline {subsection}{\numberline {1.5}全角スペース・半角スペース}{3}{}%
+\contentsline {subsection}{\numberline {1.6}インデント}{3}{}%
+\contentsline {subsection}{\numberline {1.7}アルゴリズム}{3}{}%
+\contentsline {section}{\numberline {2}超基本的なこと}{3}{}%
+\contentsline {subsection}{\numberline {2.1}変数}{3}{}%
+\contentsline {subsection}{\numberline {2.2}つーか、どうやって実行すればいいの?}{3}{}%
+\contentsline {subsection}{\numberline {2.3}足し算をやってみよう。}{4}{}%
+\contentsline {subsection}{\numberline {2.4}配列}{5}{}%
+\contentsline {subsection}{\numberline {2.5}条件分岐}{6}{}%
+\contentsline {subsection}{\numberline {2.6}繰り返し}{6}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}for 文}{6}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}while 文}{7}{}%
+\contentsline {subsubsection}{\numberline {2.6.3}continue,break}{7}{}%
+\contentsline {subsection}{\numberline {2.7}関数}{7}{}%
+\contentsline {subsection}{\numberline {2.8}イベント}{8}{}%
+\contentsline {section}{\numberline {3}実践！}{8}{}%
+\contentsline {subsection}{\numberline {3.1}1からnまでを合計するsum(n)という関数を作ってみよう}{9}{}%
+\contentsline {subsection}{\numberline {3.2}nが素数かどうかを判定するprimenumber(n)を作ってみよう}{9}{}%
+\contentsline {subsection}{\numberline {3.3}1からnまでの素数を表示するprimenumberlist(n)という関数を作ってみよう}{9}{}%

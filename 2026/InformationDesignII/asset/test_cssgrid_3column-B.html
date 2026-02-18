@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grid Layout</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            color: white;
+            height: 100vh;
+            grid-template-rows: 100px 100px 1fr 100px;
+            grid-template-columns: 100px 1fr 100px;
+            grid-template-areas: 
+                "header header header"
+                "nav    main   ad"
+                "nav    main   side"
+                "footer footer footer";
+        }
+        header {
+            grid-area: header;
+            background-color: pink;
+        }
+        nav {
+            grid-area: nav;
+            background-color: purple;
+        }
+        main {
+            grid-area: main;
+            background-color: green;
+        }
+        aside.ad {
+            grid-area: ad;
+            background-color: gray;
+        }
+        aside.side {
+            grid-area: side;
+            background-color: darkred;
+        }
+        footer {
+            grid-area: footer;
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>タイトル</header>
+        <nav>ナビ</nav>
+        <main>メイン</main>
+        <aside class="ad">広告</aside>
+        <aside class="side">サイド</aside>
+        <footer>フッター</footer>
+    </div>
+</body>
+</html>
