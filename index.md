@@ -61,6 +61,7 @@ Welcome to sammyppr.github.io!
 
 - [SJ](sj/index.md)
 - [マークダウン Memo](./markdown_memo.md)
+- [spi]
 
 ## Archive
 - [Contents 2025](2025/index.md)
