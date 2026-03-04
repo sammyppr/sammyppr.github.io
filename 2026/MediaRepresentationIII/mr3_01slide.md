@@ -62,7 +62,7 @@ https://sammyppr.github.io/
 
 ## 利用するアプリケーション<!-- omit in toc -->
 
-- PremierePro
+- Premiere
 - AfterEffects
 - (Media Encoder...自動でインストールされます)
 
@@ -70,12 +70,23 @@ https://sammyppr.github.io/
 
 今日は利用しませんが、次回までに必ずインストールしておいてください。
 
+## Premiere? Premiere Pro?<!-- omit in toc -->
+- [Premiere Proが「Premiere」に一新　Adobe ExpressにはAI編集も](https://www.watch.impress.co.jp/docs/news/2058662.html)
+
+まだ全然慣れていませんが、Premiere Proという呼び方は2025/10でなくなったことになっています。とはいえ、アプリケーション名はPremiere Pro 2026との名称がついていて、混乱してますね。
+
+気をつけましょう。
+
+なお、Premiere Rushというものがありましたが、廃止されています。
+
+
+
 
 ## 今日の進め方<!-- omit in toc -->
 
 今日は、回線の問題もありますので、作業としては
 
-- PremierePro
+- Premiere
 - AfterEffects
 
 をインストールしながら基本知識を講義形式で行いたいと思います。
@@ -167,12 +178,13 @@ PCを使う場合には、意図的にコントロールする必要がありま
 
 ### プログレッシブ・インターレス
 
-これも詳しくやりません。
 ブラウン管の時の名残りや、放送の規格のため、データの形式が2種類あります。
 
 コンピュータ上で再生する場合には、プログレッシブを使えば問題ありません。放送する場合にはインターレスを使ったりします。
 
 YouTubeの「1080p」とかの「p」がプログレッシブという意味です。インターレスの場合には「1080i」となります。
+
+[プログレッシブとインターレース（改訂版）](https://www.youtube.com/watch?v=h785loU4bh4)
 
 ----
 
