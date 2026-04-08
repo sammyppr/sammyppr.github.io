@@ -4,8 +4,8 @@
 ## CONTENTS 2026
 ### 前期
 - [インターネット基礎理論](./BasicTheoryOfInternet/)
-- [メディア表現III](./MediaRepresentationIII/)
 - [メディア表現V](./MediaRepresentationV/)
+- [メディア表現III](./MediaRepresentationIII/)
 - [サウンドデザイン演習](./SoundDesign/)
 - [造形基礎演習I](./AnalogueDesignI/)
 
