@@ -7,8 +7,8 @@ Welcome to sammyppr.github.io!
 ## CONTENTS 2026
 ### 前期
 - [インターネット基礎理論](2026/BasicTheoryOfInternet/)
-- [メディア表現III](2026/MediaRepresentationIII/)
 - [メディア表現V](2026/MediaRepresentationV/)
+- [メディア表現III](2026/MediaRepresentationIII/)
 - [サウンドデザイン演習](2026/SoundDesign/)
 - [造形基礎演習I](2026/AnalogueDesignI/)
 
