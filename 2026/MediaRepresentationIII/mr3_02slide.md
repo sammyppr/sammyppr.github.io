@@ -4,7 +4,7 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: メディア表現III 2.PremierePro/AfterEffects基本操作
+header: メディア表現III 2.Premiere/AfterEffects基本操作
 footer: ""
 ---
 
@@ -12,7 +12,7 @@ footer: ""
 
 # 目次<!-- omit in toc -->
 
-1. [PremierePro/AfterEffectsの特徴](#premiereproaftereffectsの特徴)
+1. [Premiere/AfterEffectsの特徴](#premiereaftereffectsの特徴)
 2. [今日の内容](#今日の内容)
    1. [プロジェクト・データ管理](#プロジェクトデータ管理)
    2. [ワークスペースとパネル](#ワークスペースとパネル)
@@ -34,15 +34,17 @@ footer: ""
 
 # Adobeアカウントについて<!-- omit in toc -->
 - 2年生は1年生の時のアカウントがそのまま利用できます。
-- 3,4年生は春休みにアカウントの整理を行なっています。
+- 3年生は春休みにアカウントの整理を行なっています。
 現在、発行申請中ですので、「Adobeが使えない」という場合にはいいに来てください。
-# PremierePro/AfterEffectsの特徴
-- Premiere Pro：素材となる映像を時間軸でつなぎ合わせて1本の作品に仕上げることができるソフト
+- 4年生は購入してください
+
+# Premiere/AfterEffectsの特徴
+- Premiere ：素材となる映像を時間軸でつなぎ合わせて1本の作品に仕上げることができるソフト
 - After Effects：短いカットの映像や、細かい設定が必要な映像などを編集する際に使用
 
 どちらも映像編集ソフトですが、役割が明確に異なります。
 
-- Premiere Pro：カット・トランジション・エフェクト・BGM挿入・アニメーション・テロップ
+- Premiere ：カット・トランジション・エフェクト・BGM挿入・アニメーション・テロップ
 - After Effects：ビデオの合成・モーショングラフィックス・VFX
 
 # 使い分け<!-- omit in toc -->
@@ -53,38 +55,14 @@ footer: ""
 
 
 
-## <!-- omit in toc -->
+## Adobe公式のチュートリアル<!-- omit in toc -->
 Adobeさんが
-- Premiere Proの基礎
-- After Effectsの基本を学ぶコース
+- [Premiereについて](https://www.adobe.com/jp/learn/premiere-pro?learnIn=1)
+- [After Effectsを学ぶ](https://www.adobe.com/jp/learn/after-effects?learnIn=1)
 
 を用意してくれているので、一応参考に貼っておきます。
 
-## Premiere Proの基礎<!-- omit in toc -->
-- [Premiere Proの5つの基本編集操作](https://helpx.adobe.com/jp/premiere-pro/how-to/easy-video.html)
-- [Premiere Proのインターフェイスについて](https://helpx.adobe.com/jp/premiere-pro/how-to/overview-interface-premiere-cc.html)
-- [カラーとホワイトバランスの補正](https://helpx.adobe.com/jp/premiere-pro/how-to/lumetri-color-overview.html)
-- [ビデオ編集プロジェクトを始める](https://helpx.adobe.com/jp/premiere-pro/how-to/video-editing-project.html)
-- [ビデオとオーディオにトランジションエフェクトを適用](https://helpx.adobe.com/jp/premiere-pro/how-to/apply-transitions-premiere-cc.html)
-- [タイトルグラフィックスの作成](https://helpx.adobe.com/jp/premiere-pro/how-to/essential-graphics-panel.html)
-- [ビデオ編集テクニックの基本](https://helpx.adobe.com/jp/premiere-pro/how-to/edit-videos.html)
-- [デジタル一眼レフ動画の編集](https://helpx.adobe.com/jp/premiere-pro/how-to/dslr-video.html)
-- [ミュージックビデオの編集](https://helpx.adobe.com/jp/premiere-pro/how-to/edit-music-video.html)
-- [よりスムーズなスローモーションエフェクトを作成する](https://helpx.adobe.com/jp/premiere-pro/how-to/slow-motion.html)
-- [ローワーサードタイトルを作成し、アニメーション化する](https://helpx.adobe.com/jp/premiere-pro/how-to/create-animated-title.html)
-- [Premiere ProのビデオをMedia Encoderで書き出す](https://helpx.adobe.com/jp/media-encoder/how-to/export-video-from-premiere-pro.html)
 
-## After Effectsの基本を学ぶコース<!-- omit in toc -->
-- [After Effects入門](https://helpx.adobe.com/jp/after-effects/how-to/getting-started-after-effects.html)
-- [コンポジションの操作](https://helpx.adobe.com/jp/after-effects/how-to/create-composition-animation.html)
-- [テキストの作成とアニメーション化](https://helpx.adobe.com/jp/after-effects/how-to/creating-animating-text.html)
-- [ビデオの修復](https://helpx.adobe.com/jp/after-effects/how-to/repair-video.html)
-- [カスタムトランジションの作成](https://helpx.adobe.com/jp/after-effects/how-to/create-custom-transitions.html)
-- [ビジュアルエフェクトの作成](https://helpx.adobe.com/jp/after-effects/how-to/create-video-visual-effects.html)
-- [アニメーション背景の作成](https://helpx.adobe.com/jp/after-effects/how-to/create-animated-background.html)
-- [レイヤーの選択とアニメーション化](https://helpx.adobe.com/jp/after-effects/how-to/animate-group-layers.html)
-- [3Dの操作](https://helpx.adobe.com/jp/after-effects/how-to/work-in-3d.html)
-- [作品のレンダリング](https://helpx.adobe.com/jp/after-effects/how-to/render-video-composition.html)
 
 # 今日の内容
 ## プロジェクト・データ管理
@@ -101,7 +79,6 @@ Adobeさんが
 ## プログラムの起動について<!-- omit in toc -->
 - アプリケーションフォルダから選んで開く
 - Dockに登録してクリック
-- LaunchPadから開く
 
 が一般的かもしれませんが、個人的には
 
@@ -124,8 +101,8 @@ Premiereは計算に必要なファイルをこのフォルダの中に適当に
 (豆知識)Macでは保存ダイアログ中にFinderからフォルダをドラッグ&ドロップすることで、すぐにそこに移動できます。
 
 ## やってみよう01<!-- omit in toc -->
-1. 今日のプロジェクト用のフォルダを作成する(mr3_01等)
-2. Premiereでmr3_01としてそのフォルダの中にプロジェクトを作成しよう。
+1. 今日のプロジェクト用のフォルダを作成する(mr3_02等)
+2. Premiereでmr3_02としてそのフォルダの中にプロジェクトを作成しよう。
 3. サンプルを一つ選択して読み込み
 
 ## ヘッダーバー
@@ -237,7 +214,7 @@ Aeは、プレビューパネルの「フルスクリーン」にチェックを
 
 MediaEncoderを使うことをAdobeは望んでいましたが...Premiereに関してはPremiere内で完結に方針転換してますね。AfterEffectsはまだMediaEncoderかな。
 
-ただし、MediaEncoderはたまにトラブルに見舞われます。
+ただし、MediaEncoderはたまにトラブルに見舞われます。バージョン(2026等)が異なるものでは大体失敗します。バージョンは合わせましょう。
 
 ## 書き出し時に気をつけること<!-- omit in toc -->
 該当する
