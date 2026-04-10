@@ -44,6 +44,8 @@ Welcome to sammyppr.github.io!
 - [VJ/Projection Mapping](App/VJ/)
 - [TouchDesigner](App/TouchDesigner/index.md)
 - [RealityScan](App/RealityScan/index.md)
+- [Game](./Seminar_Sammy/Field/Game/)
+- [Lighting](./Seminar_Sammy/Field/Lighting/)
 
 ## Music
 - [Jazz](Music/Jazz/index.md)
