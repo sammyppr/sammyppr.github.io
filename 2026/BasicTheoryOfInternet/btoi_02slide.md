@@ -11,7 +11,7 @@ math: true
 # インターネット基礎理論 02<br>コンピュータ基礎理論１　ハードウェア
 
 <!--
-TODO:
+TODO: 2027
 - コンピュータG4持ってくの忘れずに
 少し早く終わるので、
 - ベンチマーク https://www.maxon.net/ja/cinebench
