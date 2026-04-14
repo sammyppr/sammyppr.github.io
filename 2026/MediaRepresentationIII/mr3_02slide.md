@@ -78,6 +78,13 @@ Adobeさんが
 ## <!-- omit in toc -->
 ![](img/mr3_02_folder.png)
 
+## editformat<!-- omit in toc -->
+メディア文化コースの映像デザイン演習ではeditformat.zipというのを用意しています。
+
+NAS2 - MovieDataVolume - 映像制作演習_共通 - editformat.zip
+
+個人的にはprprojファイルをプロジェクトフォルダに置いて、素材や出力先をフォルダ作成しての方が好きですが...
+
 ## プログラムの起動について<!-- omit in toc -->
 - アプリケーションフォルダから選んで開く
 - Dockに登録してクリック

@@ -10,6 +10,16 @@ math: true
 
 # インターネット基礎理論 02<br>コンピュータ基礎理論１　ハードウェア
 
+<!--
+TODO:
+- コンピュータG4持ってくの忘れずに
+少し早く終わるので、
+- ベンチマーク https://www.maxon.net/ja/cinebench
+- スピードテスト Blackmagic Disk Speed Test
+あたりを盛り込んでもいいかも
+-->
+
+
 ## はじめに
 ### 資料置き場
 ![bg right width:10cm](img/01_qr.png)
