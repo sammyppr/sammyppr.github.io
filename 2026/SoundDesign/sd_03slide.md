@@ -39,6 +39,7 @@ https://sammyppr.github.io/
 ---
 ハイレゾ音源って知ってますか?
 高音質で音楽が楽しめるらしいとは知っているけど...みたいな人が多いかな?
+あまり普及していない...認知されていない...という結果になっているようですが...
 
 [ハイレゾ音源って何だろう](https://www3.jvckenwood.com/audio_w/high-resolution/guidance.html)
 
