@@ -121,12 +121,12 @@ CG(Computer Graphics：コンピュータグラフィックス)・VFX(Visual Eff
 
 ---
 ### エフェクトを利用できるアプリ
-この演習ではPremiere ProとAfterEffectsを取り上げていますが、世の中には
+この演習ではPremiereとAfterEffectsを取り上げていますが、世の中には
 
 > [DavinciResolve(Fusion)](https://www.blackmagicdesign.com/jp/products/davinciresolve/fusion)/[Motion](https://www.apple.com/jp/final-cut-pro/motion/)/[NUKE](https://www.foundry.com/ja/products/nuke-family/nuke)/[Houdini](https://www.sidefx.com/ja/products/houdini/)/[Blender](https://www.blender.org/)/[Cinema4D](https://support.maxon.net/hc/ja-jp/articles/12254023984156-Cinema-4D-Lite%E3%81%AE%E6%A9%9F%E8%83%BD%E4%B8%80%E8%A6%A7)/[Maya](https://www.autodesk.co.jp/products/maya/overview?term=1-YEAR&tab=subscription)/[Unity](https://unity.com/ja)/[UnrealEngine](https://www.unrealengine.com/ja)
 
 とたくさんのアプリがあります。必要に応じて必要なものを使っていきましょう。
-もちろん、Premiere Pro, AfterEffectsでも様々なことができます。
+もちろん、Premiere, AfterEffectsでも様々なことができます。
 
 ---
 ### どう利用するの？
@@ -141,7 +141,7 @@ CG(Computer Graphics：コンピュータグラフィックス)・VFX(Visual Eff
 があります。
 
 ---
-### Premiere Pro エフェクトパネル
+### Premiere エフェクトパネル
 ![w:400](img/mr3_05_pp-panel-all.png)
 
 ---
@@ -162,10 +162,10 @@ CG(Computer Graphics：コンピュータグラフィックス)・VFX(Visual Eff
 ![w:250](img/mr3_05_ae-panel.png)
 
 ---
-### PremierePro/AfterEffectsの違い
+### Premiere/AfterEffectsの違い
 Premiereは素材をカットして繋ぎ合わせたりすることを得意としていますが、特殊効果系のエフェクトを付けるのは苦手としています。
 
-逆にAfter Effectsは特殊効果系のエフェクトを付けることを得意としており、素材をカットして繋ぎ合わせるといったことは出来ません。
+逆にAfter Effectsは特殊効果系のエフェクトを付けることを得意としており、素材をカットして繋ぎ合わせるといったことは出来ません。(頑張ればできるけど)
 
 パネルを見るだけでその違いがわかりますね。
 
@@ -173,15 +173,18 @@ Premiereは素材をカットして繋ぎ合わせたりすることを得意と
 
 ---
 ### 基本的な使い方
+#### Premiere
 - 基本エフェクト(自動で追加 モーション・不透明度・タイムリマップ・オーディオ)
 - 標準エフェクト(自分で追加)
 - トラックベース(ネストしたシーケンス)のエフェクト
 
 標準エフェクト・トラックベースのエフェクトは、クリップやネストしたシーケンスにエフェクトをドラッグ&ドロップするだけです。
-
 エフェクトコントロールから削除することもできます。
 
-AfterでもPremiereでも一緒となります。
+#### AfterEffects
+トランスフォーム(アンカーポイント・位置・スケール・回転・不透明度)が一般的なレイヤーに自動で追加され、標準エフェクトを自分で追加します。
+
+基本はレイヤーにドラッグ&ドロップです。
 
 ## キーフレーム
 
@@ -214,7 +217,7 @@ AfterでもPremiereでも一緒となります。
 
 ---
 ### キーフレームでの曲線的な変化について
-#### premiere pro
+#### premiere
 キーフレームの上で、右クリックすると
 - 時間補間法(時間軸の動き方)
 - 空間補間法(位置情報の動き方)
@@ -238,11 +241,11 @@ AfterでもPremiereでも一緒となります。
 ---
 ### イージング 説明
 - [【動画編集】ベジェ曲線でアニメーションを滑らかにする方法｜イーズイン・イーズアウト【Premiere Pro】プレミアプロ](https://www.youtube.com/watch?v=VWVBrB0llv8)
-- [【After Effects】イージングとグラフエディターの基礎知識](https://www.youtube.com/watch?v=WLbqB24GKrY)
+- [(参考 30分分動画)【After Effects】イージングとグラフエディターの基礎知識](https://www.youtube.com/watch?v=WLbqB24GKrY)
 - [Easing functions](https://haiyang.me/easing/Easings.html)
 
 ---
-### やってみよう(PremierePro)
+### やってみよう(Premiere)
 - [説明動画](https://www.youtube.com/watch?v=iiMJ9Eya8O0)
 
 1. 作業フォルダ「mr3_05」を作成
@@ -296,12 +299,12 @@ AfterでもPremiereでも一緒となります。
 
 ---
 ### 不透明度
-#### マスク
-表示する部分を限定することができます。
 #### 不透明度
 透過の具合を調整できます。
 #### 描画モード
 下の素材とどのように合成するかを決めます。通常以外に色々なモードがありますが、スクリーンを覚えておくと良いでしょう。
+
+マスクを利用する場合には、マスクツールで作成してから、不透明度などに割り当てましょう。
 
 ---
 ### タイムリマップ
@@ -344,7 +347,16 @@ AfterでもPremiereでも一緒となります。
 
 ---
 ### FXバッジ
-クリップに「fx」というマークがついています。色が変わりますが、説明しておきます。
+クリップに「fx」というマークがついています。
+
+かつては色で役割が決まっていましたが、現在ではエフェクトの適用があれば白。マウスオーバーで種類の表示。右クリックからパラメータ選択して、タイムライン上の線で値を変更できるようになりました。ペンツールを利用すれば、直接アニメーションを設定することもできます。
+
+(自分はエフェクトコントロールで操作する方が慣れてますが...)
+
+- [FX バッジの使用](https://helpx.adobe.com/jp/premiere/desktop/add-video-effects/apply-video-effects/use-fx-badges.html)
+
+
+<!-- 色が変わりますが、説明しておきます。
 - グレー：変更なし
 - 黄色：基本エフェクトが変更されている
 - 紫：エフェクトを追加している
@@ -352,7 +364,7 @@ AfterでもPremiereでも一緒となります。
 - 赤下線：ソースクリップエフェクトを追加している
 
 編集したつもりなくて、色がついている場合には何かいじってる可能性があるので注意しましょう。
-(あーん、2025から廃止されて、カーソルを上に持ってくとかかってるFXが表示されるだけになった.... 2025/05/15 追加)
+(あーん、2025から廃止されて、カーソルを上に持ってくとかかってるFXが表示されるだけになった.... 2025/05/15 追加)-->
 
 ---
 ### Lumetriカラー
