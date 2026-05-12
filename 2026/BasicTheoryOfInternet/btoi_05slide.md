@@ -58,10 +58,26 @@ https://sammyppr.github.io
 ### 記録媒体：フロッピーディスク
 ![](img/05_rec_floppydisk.jpg)
 
+### RS-232Cによるコンピュータ同士の接続
+![](img/05_dsub9-pin-example-1.png)
+
+現在でも、多くの機器を設定する際には利用されています。
+
 ### コンピュータどうしのコミュニケーション 複数台
 これがうまくいくと、次は、複数台を接続することについて研究されるようになりました。
 
 3台、4台……と増えていくうちに、いろいろなタイプが開発されました。
+
+### コンピュータ同士の直接のやり取り　Appleの場合 LocalTalk
+Apple同士を接続するLocalTalkという仕様が利用されていました。
+
+![width:600](./img/05_system-connector-kit-01.jpg)
+
+### MS-DOS(Windowsの前のMicrosoftのOS)の場合
+- MicrosoftのLAN Manager
+- Novell社のNetWare
+
+など複数の仕様が利用されていました。
 
 ### ネットワーク
 ネットワークとは
@@ -216,8 +232,12 @@ https://sammyppr.github.io
 みんなが話せる言葉を使おう
 ```
 
-
 ということが決められ、インターネットが始まります。
+
+### Appleの場合
+![width:800](./img/05_localtalk_bridge_hardware.gif)
+
+LocalTalkからEthernetに接続する方法が取られます。
 
 ### インターネット・プロトコル
 そして、この「ネットワークでの共通の言葉」のことを
@@ -242,6 +262,12 @@ Internet Protocol (IP)
 
 の２つによって、うまくデータのやりとりができるようになります。
 (次回以降詳しくみていきます。)
+
+### Ethernet
+端子もEthernetという有線LANケーブルの規格が制定され、これがメインの通信ポートとなります。
+
+![width:700](img/05_Netgear_Gigabit_Switch_5-port.jpg)
+
 
 ### ちょっと前後しますが
 インターネットの標準化されるまでには、様々な試みがありました。
