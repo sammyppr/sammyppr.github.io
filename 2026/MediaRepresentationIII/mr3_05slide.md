@@ -128,6 +128,11 @@ CG(Computer Graphics：コンピュータグラフィックス)・VFX(Visual Eff
 とたくさんのアプリがあります。必要に応じて必要なものを使っていきましょう。
 もちろん、Premiere, AfterEffectsでも様々なことができます。
 
+- [Cavalry](https://cavalry.studio/ja_jp/)
+- [Autograph](https://www.maxon.net/ja/autograph)
+
+が最近、無料で使えるアプリとして注目されています。
+
 ---
 ### どう利用するの？
 <!--- カラーコレクション
