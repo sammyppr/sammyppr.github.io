@@ -41,7 +41,7 @@ https://sammyppr.github.io/
 # 前回のおさらい
 - ミキサーとは
 - ミキサーの仕組み
-- PremiereProでの音楽制作環境の仕組み
+- Premiereでの音楽制作環境の仕組み
 - エッセンシャルサウンド
   - 音の種類(会話/ミュージック/効果音/環境音)
   - ラウドネス/修復/明瞭度/クリエイティブ
@@ -52,7 +52,7 @@ https://sammyppr.github.io/
 ---
 ### 初めに
 今日も、エフェクターの一般論より、
-- PremiereProでそれがどのような形で実装されているか
+- Premiereでそれがどのような形で実装されているか
 - どう使うのか
 
 をメインにしたいと思います。
@@ -64,7 +64,7 @@ https://sammyppr.github.io/
 ### 準備
 今日も、前回のファイルを利用します。前回いなかった人は
 
-[ノイズとリバーブの低減](https://helpx.adobe.com/jp/premiere-pro/how-to/reduce-noise-and-reverberation.html)
+- [スピーチを強調でセリフを聞き取りやすく整えよう](https://www.adobe.com/jp/learn/premiere-pro/web/jp-1min-feature-speech?learnIn=1){:target="_blank"}
 
 をダウンロードしておきましょう。
 
