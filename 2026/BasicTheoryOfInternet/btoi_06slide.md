@@ -482,21 +482,23 @@ manaba.thu.ac.jp
 インターネット上の情報を取得するための場所とアクセス方法を指定するものです。
 
 ```
-http://www.thu.ac.jp/campus/nakano.html
+https://www.thu.ac.jp/campus/nakano.html
 ```
 とあれば、
 
-> www.thu.ac.jpの
+> www.thu.ac.jpというサーバの
 > /campus/nakano.htmlにある情報を
-> httpという方法で取得したい
+> httpsという方法で取得したい
 
 という意味になります。
 
 
 ## 時間あまっていたら...
-- 本大学のログイン環境について
-- ポート
+- [ポート番号](https://www.youtube.com/watch?v=ruIRm5O5j14)
+- 本大学のログイン環境について [iEEE802.1X](https://www.youtube.com/watch?v=vvtq72Mf8V8)
+<!--
 - PPP
+-->
 
 ## 小レポート
 データをインターネット上でやり取りする仕組みについて説明せよ。(manaba)
