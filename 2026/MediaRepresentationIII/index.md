@@ -67,8 +67,14 @@ Premiereを用いたシンプルな編集の方法について学修する。
 ---
 ### モーショングラフィックスの参考リンク
 モーショングラフィックスのアイディアがまとまっています。
-- [MOTION  PERIODIC TABLE](http://foxcodex.html.xdomain.jp/index.html){:target="_blank"}
+- [MOTION PERIODIC TABLE](http://foxcodex.html.xdomain.jp/index.html){:target="_blank"}
 - [TRANSITION PERIODIC TABLE](https://transition-b89.pages.dev/){:target="_blank"}
+
+2026/05/20 追記...Motion Periodic Table無くなった...
+- [こんな有名なサイトでした...そのうち復活するかも](https://www.youtube.com/watch?v=-fFi_cGea4I)
+- [この人色んな動きについてツイートしてます。ヤマダイ ](https://x.com/ymrun_jp)
+- [Expression PERIODIC TABLE](https://vook.vc/n/2216)
+- 
 
 ### 便利なAE無償プラグイン
 #### MotionToolsPro
