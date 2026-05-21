@@ -4,8 +4,7 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 3
-header: "インターネット基礎理論 07インターネットのプロトコル
-"
+header: "インターネット基礎理論 07インターネットのプロトコル"
 math: true
 ---
 
