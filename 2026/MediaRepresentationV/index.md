@@ -34,3 +34,6 @@
 
 ## 4.2以降のBloomの方法
 [![Bloomを4.2以降で使う時](https://img.youtube.com/vi/Om9xh_UwFTw/0.jpg)](https://www.youtube.com/watch?v=Om9xh_UwFTw)
+
+## AIとの連携
+TBA
