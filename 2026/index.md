@@ -16,5 +16,8 @@
 
 - [共創リテラシー(メディア)](./CoCreationLiteracy_Media/)
 
+### 休講対応について
+- [2026/06/03](./ClassCancellation/20260603.md)
+
 ### 夏期スクーリング
 - [マルチメディア演習](./Schooling_MultiMedia/)
