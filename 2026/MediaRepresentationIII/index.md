@@ -74,7 +74,9 @@ Premiereを用いたシンプルな編集の方法について学修する。
 - [こんな有名なサイトでした...そのうち復活するかも](https://www.youtube.com/watch?v=-fFi_cGea4I)
 - [この人色んな動きについてツイートしてます。ヤマダイ ](https://x.com/ymrun_jp)
 - [Expression PERIODIC TABLE](https://vook.vc/n/2216)
-- 
+
+2026/06/03 MOTION PERIODIC TABLEほどではないですが、一覧としてまとまっていてaepファイル公開してくれています。
+- [50モーション完全解説 / Adobe After Effects](https://www.youtube.com/watch?v=LpE-5QH-rgQ)
 
 ### 便利なAE無償プラグイン
 #### MotionToolsPro
