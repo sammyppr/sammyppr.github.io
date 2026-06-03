@@ -85,10 +85,10 @@ https://sammyppr.github.io/
 - H.264のmp4形式で提出
 
 ---
-### Elephant Dreamとは？
+### Elephants Dreamとは？
 2006年にBlenderにより制作されたアニメで、全てのデータが公開されている作品です。(現在、完全なデータのリンクはリンク切れで、[BlenderStudio](https://studio.blender.org/projects/elephants-dream/?asset=1065)から有料で入手可能)
 
-[Elephant Dream Wiki](https://ja.wikipedia.org/wiki/Elephants_Dream)
+[Elephants Dream Wiki](https://ja.wikipedia.org/wiki/Elephants_Dream)
 > 製作のためのデータが全て自由なライセンスで公開されているため、データの一部を使ったり、データを追加することにより新しい作品を作ることも出来る状態で公開されている。
 
 ---
@@ -131,6 +131,13 @@ NAS1に接続して
 をダウンロードしましょう。268.2Mあります。
 
 今日はダウンロードのみでいいので、時間ずらして入手しましょう。
+ついでに後で利用する
+- Naration_Thursday.zip
+- Naration_Wednesday.zip
+
+を曜日の方ダウンロードしておきましょう。
+
+## データについて
 
 以前は[AdobeのHP](https://helpx.adobe.com/jp/audition/how-to/music-editor.html)から直接ダウンロードしてもらっていましたが、解像度が低く、不要なものが入っていたりするので、作り直しました。
 
@@ -408,6 +415,52 @@ https://g200kg.github.io/webaudio-tinysynth/soundedit.html
 
 知らない音について確認しておきましょう。
 
+
+## 会話を聞きやすくしよう
+
+---
+### データ
+前回録音してもらったデータから、使えそうなのを並べてみました。
+NAS1から
+- Naration_Thursday.zip
+- Naration_Wednesday.zip
+
+どちらかをダウンロードしたかと思います。これを聞きやすく整えましょう。
+
+---
+### 会話のレベル
+Adobeは
+- [人物の音声調整の基本を覚えよう](https://www.adobe.com/jp/learn/premiere-pro/web/at-work-tutorial-voice?learnIn=1&locale=ja&ntd=1)
+
+によれば、人の話し声の目安は **-6dB** としています。
+
+メーターで-6dBにかかるかかからないかぐらいで調整しましょう。
+
+もちろん、メーターは聴感状の音の大きさを表すものではないため、耳を信じましょう。
+
+---
+### 音を整えてみよう。
+いろんな人にとってもらったし、そもそマイクもバラバラです。
+これを雑音を取り除き、音量・音質を整えて聞きやすくしましょう。
+
+基本はエッセンシャルサウンドを利用してくれて構いません。
+
+音質が気になる人はパラメトリックイコライザーを使ってみましょう。
+音量が気になる人はダイナミック操作を使ってみましょう。
+
+---
+### BGM
+ノイズは少しくらいあっても構いません。BGMをエッセンシャルサウンドの「参照」から適宜追加してみましょう。ノイズが気にならなくなるのがわかるかと思います。
+
+「話し声あり」の時のBGMは **-24dB**が目安です。
+
+
+
+---
+### 小レポート
+音声を整えたものをWAVで書き出し、manabaで提出してください。
+
+<!--
 ## 今後について
 
 ---
@@ -424,4 +477,4 @@ ElephantDreamを、みてみましょう。
 # 小レポート
 Elephant Dreamを会話のみで見た感想を400字程度でまとめてmanabaにて提出
 
-
+-->
