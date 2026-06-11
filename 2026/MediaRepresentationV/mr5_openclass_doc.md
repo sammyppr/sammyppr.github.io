@@ -1,5 +1,5 @@
 # 公開研究授業 メディア表現V
-6/25(水)2限 @ 506
+2026/6/17(水)2限 @ 506
 
 - [公開研究授業 メディア表現V](#公開研究授業-メディア表現v)
   - [シラバス紹介](#シラバス紹介)
@@ -9,8 +9,8 @@
     - [メディア表現](#メディア表現)
     - [メディア表現VIの位置付け](#メディア表現viの位置付け)
   - [本日の内容](#本日の内容)
-    - [物理演算・パーティクル](#物理演算パーティクル)
-    - [資料](#資料)
+    - [アーマチュア・IK・リグ](#アーマチュアikリグ)
+  - [スクリーンキャストについて](#スクリーンキャストについて)
 
 ## シラバス紹介
 ### 授業のねらい及び到達目標
@@ -36,7 +36,16 @@
 14. コンポジット・動画編集
 15. モーショントラッキング
 
-9回目までで3Dの基本、10回目からは応用的な内容となっている
+9回目までで3Dの基本、10回目からは応用的な内容となっている。
+台風により6/3が休校になったため、特殊な利用例である10についてをオンラインでの補講としている。
+
+これにより、一覧記載の
+- 9. ライティング・レンダリング
+
+ではなく、
+- 8. アーマチュア・IK・リグ
+
+を扱う。
 
 ## 授業紹介
 ### メディア表現
@@ -61,27 +70,18 @@
 学生により3DCGへの関心度・スキルが異なるため、授業進度と関係なく先に進むことを許可している。
 
 ## 本日の内容
-### 物理演算・パーティクル
-これまで、基本をやりながら既に以下のトピック
-- 2回目：剛体(リジッドボディ)
-- 3回目：流体
-- 4回目：パーティクル
+### アーマチュア・IK・リグ
+詳細な資料は[メディア表現V 8回目](./mr5_08.md)を参照のこと
 
-について学んできた。
+以下、本日のスクリーンキャスト(動画による説明)
 
+[![](https://img.youtube.com/vi/XjrHzvmNrI4/0.jpg)](https://www.youtube.com/watch?v=XjrHzvmNrI4){:target="_blank"}
 
-[![](https://img.youtube.com/vi/hWLGzx87KB0/0.jpg)](https://www.youtube.com/watch?v=hWLGzx87KB0){:target="_blank"}
+[![](https://img.youtube.com/vi/2ajUg5xgmng/0.jpg)](https://www.youtube.com/watch?v=2ajUg5xgmng){:target="_blank"}
 
-[![](https://img.youtube.com/vi/SDfD5dxjedI/0.jpg)](https://www.youtube.com/watch?v=SDfD5dxjedI){:target="\_blank"}
+[![](https://img.youtube.com/vi/fi3UD1R-d0E/0.jpg)](https://www.youtube.com/watch?v=fi3UD1R-d0E){:target="_blank"}
 
-[![](https://img.youtube.com/vi/WDFyFWKuJ3E/0.jpg)](https://www.youtube.com/watch?v=WDFyFWKuJ3E){:target="_blank"}
-
-今回は、クロス(布)・服に焦点を当てて学修する。
-
-### 資料
-- [メディア表現Vトップ](https://sammyppr.github.io/2025/MediaRepresentationV/)
-- [メディア表現V 11回目](https://sammyppr.github.io/2025/MediaRepresentationV/mr5_11.html)
-
+## スクリーンキャストについて
 それぞれの進み具合に応じて確認できるようにスクリーンキャスト(YouTube)を多用している。
 資料は15回分先に公開している。
 
