@@ -11,7 +11,7 @@
 - 楽曲など制作した場合には、そのデータも提出
 - サウンドデザインをした簡単なアピール文も提出してください。
 
-提出先：StudentVolume - 2025演習 - サウンドデザイン演習 - 最終課題
+提出先：StudentVolume - 2026演習 - サウンドデザイン演習 - 最終課題
 の中に学籍番号フォルダを作成して、そこに提出
 
 ## 提出締切
@@ -27,7 +27,9 @@
 - 会話はA1,A2。A3からA10に会話以外の音が入っているので、削除します。
 
 ## 素材データetc
-- [最終課題用素材データ](https://helpx.adobe.com/jp/audition/how-to/music-editor.html){:target="_blank"}
+- NAS1 - StudentVolume - 2026演習 - サウンドデザイン演習 - ElephantsDream_VoiceOnly.zip から素材はダウンロードしてください。
+
+- [最終課題用素材データ(旧)](https://helpx.adobe.com/jp/audition/how-to/music-editor.html){:target="_blank"}
 - [翻訳](xls/translate.xlsx)
 - [構成表](xls/ElephantDreamStructure.xlsx)
 
