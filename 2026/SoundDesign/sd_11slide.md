@@ -131,9 +131,9 @@ SF等ではどのように作っているのでしょうか？スターウォー
 <!--
 - https://www.youtube.com/watch?v=msSFQxEoDFc 2:52
   -->
-- https://www.youtube.com/watch?v=unyk-Zso5Nk 4:13
+- [Best Star Wars Sound Effects | The StarWars.com 10(4:13)](https://www.youtube.com/watch?v=unyk-Zso5Nk)
 
-[「スター・ウォーズ」シリーズのサウンドデザイナーが奇妙な効果音の謎解説](https://www.esquire.com/jp/entertainment/movies/a30905518/real-world-stuff-behind-star-wars-iconic-sounds/)
+- [「スター・ウォーズ」シリーズのサウンドデザイナーが奇妙な効果音の謎解説](https://www.esquire.com/jp/entertainment/movies/a30905518/real-world-stuff-behind-star-wars-iconic-sounds/)
 
 ---
 ### 音の加工
