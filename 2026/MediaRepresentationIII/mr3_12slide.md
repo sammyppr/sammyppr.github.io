@@ -41,7 +41,8 @@ footer: ""
   - 基本補正
   - スキントーン
 
-今日は前回の復習で、肌色の修正をしてから、カラーグレーディングしていきましょう。
+今日は前回の復習で肌色の修正をしてからカラーグレーディングしていきましょう。
+(Lumetriカラーまだ使えるんだけど、カラーモード、という機能に移行しそうです...)
 
 # カラーコレクション
 ---
@@ -214,6 +215,16 @@ https://www.youtube.com/watch?v=w_ewDAjuBXA&list=PLYTBsaElYK5pWc03OP4MMT6R9Caokn
 
 なお、さらに色にこだわる人はDavinciResolveがお勧めとなります。
 
+## カラーモード
+まだベータ版だけど...
+
+## カラーモード
+Lumetriパネルが近々廃止され、新しいカラーモードが搭載されることがアナウンスされています。Lumetriパネルはエフェクトとしては残り、数年サポートされます。
+- [カラーモード登場 カラーグレーディング、動画編集者のために再発明](https://www.adobe.com/jp/products/premiere/color-mode.html)
+
+- [Premiere Pro's New Color Mode Explained in 5 Minutes](https://www.youtube.com/watch?v=Ln1SesjMnX0)
+
+
 ## ティールアンドオレンジ
 ハリウッドで人気のあるカラーグレーディングで
 - ティール(青緑)とオレンジは補色関係にあり
@@ -280,5 +291,8 @@ https://www.youtube.com/watch?v=w_ewDAjuBXA&list=PLYTBsaElYK5pWc03OP4MMT6R9Caokn
 
 雰囲気を出す方法には色以外にも様々な要素がありますが、まずは色からコントロールして、より良い作品づくりに役立ててください。
 
-# 小レポート<!-- omit in toc -->
-映像における色の表現について注意することを400字程度でまとめ、manabaより提出せよ。
+
+<!--# 小レポート-->
+<!-- omit in toc -->
+<!--
+映像における色の表現について注意することを400字程度でまとめ、manabaより提出せよ。-->
