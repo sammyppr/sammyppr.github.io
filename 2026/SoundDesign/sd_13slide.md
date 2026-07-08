@@ -59,7 +59,7 @@ https://sammyppr.github.io/
 -->
 ナレーション録り、の体験をしてみましょう。
 
-Auditionの使い方を少し触れてからとします。
+Auditionの使い方をもう少し触れてからとします。
 なお、それ以外の人は最終課題に取り組んでください。
 <!--(Wifi上手く繋がらない人は教室離れてかまいません)-->
 
@@ -71,6 +71,7 @@ Auditionの使い方を少し触れてからとします。
 - オーディオファイル
 
 の2種類があります。どちらで作業しているのかを意識する必要があります。
+
 #### マルチトラックセッション
 マルチトラックのモードでは、オーディオファイルを複数同時に再生したり個別に調整やエフェクトをかけることができます。
 
@@ -86,10 +87,17 @@ Auditionの使い方を少し触れてからとします。
 [Adobe Audition マルチトラックセッションとオーディオファイルの違い](https://hamutane.com/sound/adobe-audition-multitrack-audiofile/)
 
 ---
-### PremiereとAuditionの連携
-ある程度のことがエッセンシャルサウンドでできますが、ノイズをスペクトルで取りたい、等はAuditionを利用する必要があります。
+### 映像との同期
+- [ビデオの読み込みとビデオクリップの操作](https://helpx.adobe.com/jp/audition/desktop/video-and-surround-sound/importing-video-video-clips.html)
+
+ナレーションを録音・セリフをアフレコする時には映像を見ながら録音できると便利です。
+マルチトラックセッションモードでは「マルチトラック」 - 「ファイルを挿入」で動画を挿入できます。
+「ビデオ用のオーディオ編集」ワークスペースが存在しています。
+外部モニタを接続することにより、フルスクリーンで見ることも、タイムコードを表示することも可能です。
+
 
 ---
+### PremiereとAuditionの連携
 ### 音声クリップの編集 
 Premiereで音声クリップを右クリックして、「Auditionで編集」をすると、
 - Premiere上でファイルがコピーされる
@@ -117,4 +125,4 @@ AuditionからPremiereに戻るには「書き出し-Adobe Premiere Proへ書き
 
 
 # 最終課題(再掲)
-- [最終課題ページ](https://sammyppr.github.io/2025/SoundDesign/sd_kadai.html)
+- [最終課題ページ](https://sammyppr.github.io/2026/SoundDesign/sd_kadai.html)
