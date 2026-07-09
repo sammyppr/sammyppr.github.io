@@ -28,7 +28,7 @@ footer: ""
 と色・質感についてやってきました。作品制作に活かしていきましょう。
 
 # 最終課題について
-- [最終課題について](https://sammyppr.github.io/2025/MediaRepresentationIII/mr3_kadai.html)
+- [最終課題について](https://sammyppr.github.io/2026/MediaRepresentationIII/mr3_kadai.html)
 
 最終課題の締切日は7月末とします。
 
@@ -286,6 +286,12 @@ AfterEffectsでは
 
 - [【After Effects新機能】これぞAIパワー！ロトブラシが消えてObject Matteになった。PremiereのObject Maskと何が違うのか？(13:42)](https://www.youtube.com/watch?v=3Z6ikFesBBo)
 
+
+---
+### VFX
+- [「VFXは嘘っぽい」は嘘、いかに私たちが映像にだまされているのかがわかるムービー「VFX Games」](https://gigazine.net/news/20170220-vfx-games/)
+
+どのようにVFXを活用するか、考えさせられる動画を見てみましょう。
 
 
 # まとめ<!-- omit in TOC -->
