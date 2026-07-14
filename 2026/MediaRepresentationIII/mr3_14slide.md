@@ -30,7 +30,8 @@ footer: ""
 映像の一部分を切り取る
 - マスク
 - キーイング
-- ロトスコープ
+- ~~ロトスコープ~~
+- オブジェクトマット(Premiereはオブジェクトマスク)
 
 にて学びました。
 
@@ -45,7 +46,7 @@ footer: ""
 
 ---
 ### 最終課題について
-- [最終課題](https://sammyppr.github.io/2025/MediaRepresentationIII/mr3_kadai.html)
+- [最終課題](https://sammyppr.github.io/2026/MediaRepresentationIII/mr3_kadai.html)
 
 # 今日のトピック
 最適化
@@ -249,7 +250,7 @@ Macではファイルにタグ(色)をつけることができます。
 
 ---
 ### メモリの使い方
-皆さんのメモリは8Gに人が多いかと思いますが、人によっては16G/32Gの人もいるでしょう。
+皆さんのメモリは8G/16Gの人が多いかと思いますが、人によっては24G以上の人もいるでしょう。
 
 これの使い方を環境設定で設定することができます。
 
@@ -338,15 +339,27 @@ http://footage3.openspc2.org/HDTV/footage/4K/30f/
 ---
 ### 参考になりそうなサイト
 #### Premiere Pro
+<!--
 https://nakajimovie.com/premiere-proxy/
-https://yasunari-shigemoto.org/premiere-pro-rendering/
+-->
+- [【2026年版】Premiere Proプロキシ編集の最新設定と快適な方法を徹底解説](https://ai-yomiage.com/blog/2026premiere-pro-8IGjU4)
+
+<!--
+- [【Premiere Pro】プロキシの作り方【低スペックでも作業できる！】](https://vook.vc/n/984)
+- [【レンダリングとは？】最適化させるやり方と処理速度の高速化_Premiere Pro](https://yasunari-shigemoto.org/premiere-pro-rendering/)
+- 
 https://minesuke-design.com/2020/03/13/premiere-pro-%E9%81%85%E3%81%84%E6%99%82%E3%81%AB%E8%A9%A6%E3%81%97%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8/
+-->
 
 #### AfterEffects
-https://helpx.adobe.com/jp/after-effects/using/improve-performance.html
+- [処理速度を改善する](https://helpx.adobe.com/jp/after-effects/using/improve-performance.html)
+- [コンポジションプロファイラーを使用した詳細なパフォーマンス情報の表示](https://helpx.adobe.com/jp/after-effects/using/composition-profiler.html)
+- [AfterEffectsが重い？高速化させる方法5選](https://izuka-effects.com/aftereffects-speed-up/)
+- [AfterEffectsが重いな？と思った時の対処法一覧](https://note.com/kagehito_muji/n/n9fea2d9f5b72)
+
+<!--
 https://movie-academy.net/ae_kankyou_4point
-https://izuka-effects.com/aftereffects-speed-up/
 https://ae-doctor.com/basics-ae-settings/
 https://no-rules.site/design/aftereffects-howto/
 
-
+-->
