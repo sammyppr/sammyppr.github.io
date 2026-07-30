@@ -37,3 +37,6 @@
 
 ## AIとの連携
 - [Claude(AI)との連携](./mr5_claude.md)
+
+## 静止画・動画の書き出し方
+- [書き出し方](./mr5_howtoexport.md)
