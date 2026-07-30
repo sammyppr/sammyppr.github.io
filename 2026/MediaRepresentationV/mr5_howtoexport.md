@@ -19,7 +19,7 @@ blenderの作業後には、静止画、または動画で書き出す必要が�
 
 ## 動画書き出し時の注意
 設定を間違えるとレンダリングに非常に時間がかかります。
-テストとして1フレームを静止画で書き出し、
+テストとして1フレームをRender - Render Imageによって静止画で書き出し、
 > 1フレームのレンダリング時間 $\times$ フレーム数
 
 を計算し、どのくらい時間がかかるか目安を見積りましょう。
@@ -45,7 +45,7 @@ Scene - Outputで出力先をしっかり設定しておきましょう。
 ### 閲覧用で利用する目的の動画
 - Media TypeをVideo
 - Encoding - ContainerをMPEG-4, Video - Video CodecをH.264
-
+- Render - Render Animation
 
 
 
