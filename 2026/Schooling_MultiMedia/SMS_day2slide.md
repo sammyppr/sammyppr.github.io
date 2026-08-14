@@ -139,7 +139,7 @@ https://www.gpol.co.jp/blog/66
 e-typingについて紹介しておきます。
 まだまだブラインドタッチの技術は必要です。
 
-- 遅くても良いので、下を見ない
+- 遅くても良いので、下を見ない(タオルで物理的に見えなくする)
 - 確実に場所を覚えていく
 
 が近道だと思います。
@@ -163,7 +163,20 @@ e-typingについて紹介しておきます。
 
 現在見ているHPはGitHubのPagesというサービスを利用しています。
 
-https://techacademy.jp/magazine/6445
+---
+### ブラウザについて
+- [【2026年最新】世界・日本のブラウザシェア率ランキング - Chrome一強の加速とAIが与える影響](https://www.qbook.jp/column/1630.html)
+
+Chrome・Edgeにて8割強のシェアを誇っています。
+この二つ、違うように思えて、中身はほぼ同じです。
+
+ブラウザにはレンダリングエンジンという描画処理を担当するものがありますが、
+- [Blink, Gecko, WebKitについて](https://zenn.dev/wasabina67/articles/55-rtjrvp1didb76pvo)
+
+Chrome,Edgeとも同じBlinkを利用しているからです。
+
+Chromeで制作してから他のブラウザでチェックという流れで多くの企業がHP制作を進めています。
+
 
 ---
 ### ホームページの作りを見てみよう
@@ -216,7 +229,7 @@ https://sj.thu.ac.jp/
 ### wordpress
 CMSの中で一番シェアをとっているwordpressですが、
 
-https://blog-bootcamp.jp/start/wordpress-share/
+https://kinsta.com/jp/wordpress-market-share/
 
 これを使えるようになれば、HPは制作できます。
 
@@ -236,8 +249,9 @@ wordpressは無料ですが、wordpressの設置にはサーバが必要とな�
 ### さらに簡単に
 しかし、wordpressを実際に運用するには先ほど言ったようにサーバが必要となりますが、それさえ簡略したサービスが「[Wix](https://ja.wix.com/)」を代表とする無料ホームページ作成ツールです。
 
+<!--
 ※[シンフリーサーバー](https://www.xfree.ne.jp/)という無料でwordpressを利用可能なサーバーも出てきました。
-
+-->
 
 ---
 ### Wixの特徴
@@ -411,7 +425,7 @@ Googleはどのページに何が書いてあるかを知るために、ロボ�
 ### チートシート
 言語・アプリなどには**チートシート**と呼ばれるまとめが配布されています。
 
-「HTML チートシート」としてググってみましょう。
+「[HTML チートシート](https://www.google.com/search?q=HTML+%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88)」としてググってみましょう。
 
 ---
 ### HTML5???
@@ -515,7 +529,7 @@ HTML,CSSはそこそこわかっててJavaScriptやってみたい人は申し�
 
 が一般的になっている気がします。
 
-AdobeではHP開発用にDreamweaverというアプリを出していますが、そんなに利用されなくなっています。UI/UXデザイン用にXEDというアプリを出していましたが、Figmaに座を譲りました。
+AdobeではHP開発用にDreamweaverというアプリを出していますが、そんなに利用されなくなっています。UI/UXデザイン用にXDというアプリを出していましたが、Figmaに座を譲りました。
 
 ---
 ### Figma

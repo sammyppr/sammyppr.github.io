@@ -41,12 +41,14 @@
 [![](https://img.youtube.com/vi/FWhqiwn-rXs/0.jpg)](https://www.youtube.com/watch?v=FWhqiwn-rXs){:target="_blank"}
 
 ### テンプレートを探そう
-一昨年作った動画なので、次からダウンロードしてください。
-- Click – Free Responsive HTML5 Photography Template
+動画と同じものを利用したい場合、次からダウンロードしてください。
+- [Click – Free Responsive HTML5 Photography Template](https://themewagon.com/themes/click-free-responsive-html5-photography-template/)
 
 ダウンロードするのに、メールアドレス要らなくなっているようです。
 
-[無料のHTML5 Bootstrapテンプレート【2024年版】おすすめ25選！ホームページを簡単にカスタマイズ](https://www.seleqt.net/design/open-source-website-templates/){:target="_blank"}
+好きなテンプレートを探してくれても構いません。
+
+- [無料のHTML5 Bootstrapテンプレート【2024年版】おすすめ25選！ホームページを簡単にカスタマイズ](https://www.seleqt.net/design/open-source-website-templates/){:target="_blank"}
 
 [![](https://img.youtube.com/vi/jac_PdCbuSg/0.jpg)](https://www.youtube.com/watch?v=jac_PdCbuSg){:target="_blank"}
 
