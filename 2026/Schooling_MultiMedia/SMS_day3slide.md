@@ -126,11 +126,11 @@ Illustrator では不可能な画像処理
 
 プランはわりとくるくる変わる印象があります。現在は、次のプランがあります。学生の間は学割プランあります。
 
+- Creative Cloud Pro個人版コンプリートプラン
+- フォトプラン
 - Photoshop 単体プラン
-- Creative CLoud フォトプラン Photoshop+Lightroom
-- Creative Cloud 個人版コンプリートプラン
 
-https://www.adobe.com/jp/creativecloud/plans.html
+https://www.adobe.com/jp/creativecloud/plans.html#filter=photography
 
 ---
 ### Photoshopの代替
@@ -205,6 +205,7 @@ K を”Kuro”とか”blacK”由来というのは誤りだそうで、Key Pl
 - などなど ( 簡単な動画作成)
 
 ---
+<!--
 ### Adobe Sensei
 Adobe Sensei という AI の力を使って、様々なことが楽にできるように なってきています。
 - 被写体の選択
@@ -215,6 +216,14 @@ Adobe Sensei という AI の力を使って、様々なことが楽にできる
 デザイナーの仕事無くなってしまうんではないか、と思うくらい強力です。
 
 今日の課題終わった人は触れてみましょう。
+-->
+### Adobe AI
+最近ではAdobeが様々なところにAIを搭載してきています。
+
+- [新しいAIならアドビにおまかせ](https://www.adobe.com/jp/ai/overview.html)
+- [Adobe Firefly](https://www.adobe.com/jp/products/firefly.html)
+
+便利なのですが...クレジットも消費しますし...楽しいかな...
 
 ---
 ### 今日の方針
@@ -269,6 +278,13 @@ Photoshop やIllustratorでは
 コンピュータは、基本的には隣のマス目との色の違いを認識して、差があるところを判別していきます。
 
 ですので、差がないところは、人の目を使って選択しないといけません。
+
+現在、AIの切り抜き精度は非常に上がっています。
+Photoshop等対応しているアプリであれば、それを使うこともできます。
+
+- [写真の髪の毛を選択して切り抜く方法](https://www.adobe.com/jp/learn/photoshop/web/select-mask-hair)
+- [「被写体を選択」機能の切り抜きと色調整方法](https://www.adobe.com/jp/learn/photoshop/web/kakita-select-subject)
+
 
 ---
 ### メニューバー
@@ -361,6 +377,7 @@ https://www.youtube.com/watch?v=NUzHjXtVIUk
 
 描画モードの中身について、詳しくわかる必要はないと思います。
 自分が見て「いいな」と合成されるように選べばよいです。
+経験則で良いと思うのですが、「オーバーレイ」「スクリーン」が上手くいくことが多いです。
 
 ---
 ### レイヤースタイル
@@ -371,6 +388,7 @@ https://www.youtube.com/watch?v=NUzHjXtVIUk
 わかりやすいので、ドロップシャドウにチェックを入れて、 距離 50px, スプレッド 25%, サイズ 150px とかにしてみましょう。
 
 他にもレイヤーにはいくつもの効果をスタイルとして定義することができます。
+
 
 ---
 ### レイヤースタイルのメリット
@@ -432,14 +450,11 @@ https://www.youtube.com/watch?v=NUzHjXtVIUk
 
 Webから実験用にダウンロードして利用しても構いません(解像度高くないと荒れてしまいます)
 
-### 選択ツールについて(2025追記)
-選択した後に、以下のキーで、
+選択ツールについて、選択した後に、以下のキーで、
 - Shiftキー 選択範囲を追加
 - Optionキー 選択範囲を削除
+
 が可能です。
 
 
-## 応用編
-Adobe SenseiというAIを使った機能により色々なことが簡単にできるようになっています。
 
-HPのリンクから、Adobe Senseiの威力を体験してみましょう。
