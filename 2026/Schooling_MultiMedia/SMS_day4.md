@@ -29,10 +29,20 @@
 
 
 ### 素材
-[NHKクリエイティブライブラリー](http://www1.nhk.or.jp/archives/creative/){:target="_blank"}
+~~[NHKクリエイティブライブラリー](http://www1.nhk.or.jp/archives/creative/){:target="_blank"}~~ 放送法改正により利用できなくなりました...
 
-### 準備と素材のダウンロード
-[![](https://img.youtube.com/vi/KWjL-McplwU/0.jpg)](https://www.youtube.com/watch?v=KWjL-McplwU){:target="_blank"}
+サイズがバラバラなので、配置するときに気をつけましょう。
+
+- Adobe Stock：Premiereの「ウィンドウ」「AdobeStock」 で検索し「プレビューをダウンロード」すると真ん中に「AdobeStock」とロゴ表示されていますが、これを使いましょう。
+- [pixabay](https://pixabay.com/ja/videos/) 
+- [Pexels](https://www.pexels.com/ja-jp/videos/) 
+
+ご自分で撮影したものでも、他のサイトからでも利用して構いません。
+
+<!--
+### 準備と素材のダウンロー
+~~[![](https://img.youtube.com/vi/KWjL-McplwU/0.jpg)](https://www.youtube.com/watch?v=KWjL-McplwU){:target="_blank"}~~
+-->
 
 ### プロジェクトの作成と素材インポート
 [![](https://img.youtube.com/vi/f14QbSceKn4/0.jpg)](https://www.youtube.com/watch?v=f14QbSceKn4){:target="_blank"}

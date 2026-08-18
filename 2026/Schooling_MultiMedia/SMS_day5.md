@@ -19,7 +19,7 @@
 
 ---
 ## 演習
-昨日のが終わっていない人は、続けてください。5限まで制作時間としたいと思います。
+昨日のが終わっていない人は、続けてください。5限まで制作時間としたいと思います(6限に講評・まとめ)。
 
 終わっている人は、適当に、下の中から気になるものをやってみましょう。(提出先は)
 **「課題提出」「05_DayX_課題提出(その他)」**にお願いします。
@@ -54,14 +54,20 @@
 高校のコンピュータへのインストール権限がもらっていないときはどのようにすれば良いかとの相談がありました。
 「ブラウザ上 photoshop」「ブラウザ上 デザイン」等でググると出てくるかと思います。Webサービスはいつ有料化になるか、サービス打ち切りになるかはわからないので、確認してから利用しましょう。
 - [無料でブラウザ上からPhotoshop並に画像を編集しまくれる多機能ツール「Photopea」を使ってみた](https://gigazine.net/news/20171215-photopea-review/){:target="_blank"}
-- [Photoshopを使用してオンラインで画像を編集](https://www.adobe.com/jp/products/photoshop/online.html){:target="_blank"}
 <!--
+- [Photoshopを使用してオンラインで画像を編集](https://www.adobe.com/jp/products/photoshop/online.html){:target="_blank"}
+
 - [Photoshop Web【ブラウザ版Photoshopの使い方】](https://photoshopbook.com/2021/11/18/photoshopwebbeta/){:target="_blank"}-->
 - [【厳選6サイト比較】Illustratorはもういらない！？ブラウザ上でイラスト編集ができるオンラインサービス6選](https://www.linustock.com/article/recommends/createvectors){:target="_blank"}
+<!--
 - [ブラウザだけで動画編集ができるウェブサービスまとめ](https://douga-tec.com/?p=9636){:target="_blank"}
+-->
+<!--
 - [2025年のベスト・オンラインDAW](https://emastered.com/ja/blog/best-online-daw){:target="_blank"}
+-->
 <!--
 - [超簡単！ブラウザ上で3Dモデルを作成できる無料Webサービス厳選まとめ！](https://paiza.hatenablog.com/entry/2022/04/27/143000){:target="_blank"}
 -->
 
-終わり
+- [The Best Online DAW in 2026: Make Music Free in Your Browser](https://dhwanika.com/blog/best-online-daw)
+
