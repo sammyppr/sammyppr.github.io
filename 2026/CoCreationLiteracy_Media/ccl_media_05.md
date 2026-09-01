@@ -14,4 +14,4 @@
 
 ## スライド
 
-[スライド資料](./ccl_media_04slide.pdf){:target="_blank"}
+[スライド資料](./ccl_media_05slide.pdf){:target="_blank"}
