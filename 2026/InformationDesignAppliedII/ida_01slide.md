@@ -266,10 +266,39 @@ ReactというJavaScriptのライブラリがあります。
 生成AIもReactで作ってくること増えてるんですよね。
 軽く読めるようになっておくことも大事かも...
 
+# 余談
+## iPhone Duo
+[iPhone Duo](https://www.apple.com/jp/iphone-duo/?afid=p240%7Cgo~cmp-24228224598~adg-198752674686~ad-824083492468_kwd-592180251779~dev-c~ext-~prd-~mca-~nt-search&cid=wwa-jp-kwgo-iphone-core-iphoneduo-iphoneduo_hero_announce_091026-iPhone_Core_Exact-iPhoneDuo_Exact)
+
+出ましたね..高いですね...
+
+## ユーザインターフェイス
+[アイコンをさらに小さく？？？](https://x.com/sbr_m/status/2097831580937109869)
+
+## デザイナーは大変に
+- [画面幅](https://x.com/minimal_kan/status/2097882000132902941)
+- [画面比率](https://x.com/ken_tbdz/status/2097878973724463242)
+- [App Controls](https://x.com/usagimaruma/status/2097768383865561232)
+
+## Appleからの公式発表
+[Design for iPhone Duo](https://developer.apple.com/jp/videos/play/tech-talks/111466/)
+
+## 個人的に思うこと
+これだけ派手にデザインに影響を与えるデバイスは、iPhoneの登場以来かな、という気がします。
+ガラケー->スマホ->Duo
+
+UI/UXデザイナーを目指す人は、特に動向に注視しましょう。
+
 
 # 残り時間、HTML,CSSの復習やってみよう
 
+## Githubやっちゃおうかな...
+メディア表現VIみんなとってるかな...
+
+https://sammyppr.github.io/2025/MediaRepresentationVI/mr6_10.html
+
 ## 最初にやるべきこと
+(Githubやったら、Cloneしてくれば良い)
 
 - 書類フォルダ等に、「IDA_root」というフォルダを作成
 - VSCode(Visual Studio Codeのことを以下こう呼びます)起動
@@ -284,6 +313,8 @@ ReactというJavaScriptのライブラリがあります。
 LiveServerを開くと、
 「http://127.0.0.1:5500/」
 等となると思いますが、これは「フォルダーを開く」で指定したフォルダが基準となっています。
+
+
 
 ## IDA_root<!-- omit in toc -->
 
