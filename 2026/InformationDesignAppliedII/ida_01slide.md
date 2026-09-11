@@ -271,6 +271,7 @@ ReactというJavaScriptのライブラリがあります。
 [iPhone Duo](https://www.apple.com/jp/iphone-duo/?afid=p240%7Cgo~cmp-24228224598~adg-198752674686~ad-824083492468_kwd-592180251779~dev-c~ext-~prd-~mca-~nt-search&cid=wwa-jp-kwgo-iphone-core-iphoneduo-iphoneduo_hero_announce_091026-iPhone_Core_Exact-iPhoneDuo_Exact)
 
 出ましたね..高いですね...
+- [実際には1ドル約165.9円のレート](https://x.com/gizmodojapan/status/2097763202973200649)
 
 ## ユーザインターフェイス
 [アイコンをさらに小さく？？？](https://x.com/sbr_m/status/2097831580937109869)
@@ -282,6 +283,14 @@ ReactというJavaScriptのライブラリがあります。
 
 ## Appleからの公式発表
 [Design for iPhone Duo](https://developer.apple.com/jp/videos/play/tech-talks/111466/)
+
+動画はこちらでみましょう(字幕つけられるので)
+[Design for iPhone Duo YouTube](https://www.youtube.com/watch?v=do3UqxfYc3I)
+
+## まとめ記事
+詳しくみたい人は、みてみましょう。
+- [iPhone Duo のデザイン：動くもの、分かれるもの、留まるもの](https://blakecrosley.com/ja/blog/designing-for-iphone-duo)
+- [iPhone Duoで変わる手と画面の関係 —— Appleの折りたたみ設計と新体制の体験デザインを読む](https://tarosite.net/design/2026/09/10/design-for-iphone-duo/)
 
 ## 個人的に思うこと
 これだけ派手にデザインに影響を与えるデバイスは、iPhoneの登場以来かな、という気がします。
