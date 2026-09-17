@@ -41,7 +41,7 @@ style: |
 # 前回のアンケート結果
 「この授業に期待すること」について、こんな結果が出ました。
 
-- [01課題1まとめ](data/01kadai1result.pdf)
+- [01課題1まとめ](https://sammyppr.github.io/2026/CoCreationLiteracy_Media/data/01kadai1result.pdf)
 
 GoogleNotebookさん優秀です。
 GoogleNotebookは登録した情報を元に分析などしてくれるので、非常に便利です。
