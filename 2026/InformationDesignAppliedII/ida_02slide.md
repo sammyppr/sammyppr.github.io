@@ -30,9 +30,26 @@ Visual Studio Code入ってますね。
 
 機能拡張入れておきましょう。
 
+---
+前回休んでGithubの設定終わっていない人、
+前の方に座りましょう。SAと設定終わらせます。
+
+https://sammyppr.github.io/2025/MediaRepresentationVI/mr6_10.html
+
+の「使ってみよう」
+
+で、
+GitHub上でリモートリポジトリを作成しよう
+name your new repository…のところに**IDA**
+
+VSCodeでクローンする
+ローカルリポジトリの場所を指定してクローン
+は、ホームフォルダにgithubというフォルダを作成して、そこを指定しましょう。
+
+
 ## 作業フォルダ<!-- omit in toc -->
 
-前回、「IDA_root」というフォルダを作成してもらったと思います。
+前回、「IDA」というフォルダを作成してもらったと思います。
 今日は、その中に「IDA_02」を作りましょう。
 
 ## 最低限のHTML<!-- omit in toc -->
