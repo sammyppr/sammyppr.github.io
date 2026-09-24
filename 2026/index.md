@@ -14,6 +14,8 @@
 - [情報デザイン応用演習II](./InformationDesignAppliedII/)
 - [メディア表現VI](./MediaRepresentationVI/)
 
+- [アドバンスセミナーIIB 経済シリーズ](./AdvanceSeminarIIB/index.md)
+
 - [共創リテラシー(メディア)](./CoCreationLiteracy_Media/)
 
 ### 休講対応について
