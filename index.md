@@ -17,6 +17,8 @@ Welcome to sammyppr.github.io!
 - [情報デザイン応用演習II](2026/InformationDesignAppliedII/)
 - [メディア表現VI](2026/MediaRepresentationVI/)
 
+- [アドバンスセミナーIIB 経済シリーズ](2026/AdvanceSeminarIIB/index.md)
+
 - [共創リテラシー(メディア) デジタル共創学部](2026/CoCreationLiteracy_Media/)
 
 ### 休講対応について
