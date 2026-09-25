@@ -23,6 +23,8 @@ footer: ""
 
 ---
 
+- 席自由ですが、前回来ていない人、Githubの設定が終わっていない人は前に座りましょう。
+
 - テキスト持ってない人どのくらいいる？(今日もまだ持っていない人いる想定だけど)
 
 
@@ -31,11 +33,24 @@ footer: ""
 
 - [1冊ですべて身につくHTML & CSSとWebデザイン入門講座［第2版］](https://www.sbcr.jp/product/4815618469/)
 
+## 前回いなかった人<!-- omit in toc -->
+[初回のページ](https://sammyppr.github.io/2026/InformationDesignII/id_01.html)
+
+の下の方の「使ってみよう」を見て、
+1. git インストール
+2. git の初期設定
+3. Githubアカウントの作成
+4. リモートリポジトリの作成「ID2026」
+5. ローカルにクローン(例えば「書類」-「github」)
+
+をしておきましょう。
 
 ## HPの置き場所(再掲)<!-- omit in toc -->
 https://sammyppr.github.io/
 
 に置きます。これは学外からも閲覧可能です。予習復習にはもちろん、あれなんだっけー？みたいな時に利用してください。
+
+
 
 # HTMLの歴史
 
@@ -52,7 +67,9 @@ https://sammyppr.github.io/
 ## HyperCard<!-- omit in toc -->
 ハイパーテキストを実現した最初の商用ソフトウェアで、1987年にできました。クリックすることで、別のページに飛べるというものでした。
 
-![HyperCard](https://www.x68uec.org/files/other/press/2002/lecture/hcard/home_l.gif)
+今から見ると大したことありませんが、当時は画期的でした。
+
+[![HyperCard](https://www.x68uec.org/files/other/press/2002/lecture/hcard/home_l.gif)](https://hypercard.org/)
 
 
 
@@ -67,7 +84,7 @@ CERNには膨大な数の論文が存在していたため、それを探す手�
 > - HTMLは文章構造を担う言語である
 > - HTMLはもともと非公開の中、ある研究機関で使われていた
 > - WWWの生みの親ティム・バーナーズ・リーはHTMLも開発していた
-> - 最新のHTML5では動的な動きが可能になる
+> - 最新のHTML5以降では動的な動きが可能になる
 > - HTMLがもたらした最大の功績はリンクによるページ移動である
 
 [引用:世界中の情報整理を後押ししたHTMLの進歩](https://ec-orange.jp/ec-media/?p=12988)
@@ -84,7 +101,7 @@ CERNには膨大な数の論文が存在していたため、それを探す手�
 意味づけすることでHTML文書は記載されます。
 
 ## 現在のバージョン<!-- omit in toc -->
-HTML5が利用されています。
+HTML Living Standardが利用されています。
 
 ...ちょっとややこしいのですが、「HTML5は廃止された標準仕様。」？？？
 
@@ -101,6 +118,7 @@ HTML5は廃止されているにも関わらず、
 HTML Living Standardのアイコンは存在しておらず、HTML5のアイコンが引き続き利用されている、という謎の状態が現状となっています。
 
 - [W3CがHTML5のロゴを発表！ ホームページに貼ろう！](https://www.publickey1.jp/blog/11/w3chtml5.html)
+- [Web標準化団体「WHATWG」の怠慢か？ロゴマークがない](https://oops0011.blog.fc2.com/blog-entry-771.html)
 
 
 ## 今後どうなるの？<!-- omit in toc -->
@@ -115,7 +133,7 @@ HTML 6が登場することはありません。
 [英語のサイト](https://html.spec.whatwg.org/multipage/)
 [日本語版](https://momdo.github.io/html/)
 
-全ての仕様がここに書かれていますが、多く使うものは限られています。
+全ての仕様がここに書かれていますが、よく使うものは限られています。
 多すぎて無理ーー、と思わないようにしましょう。
 
 
@@ -132,12 +150,13 @@ HTML 6が登場することはありません。
 ```
 <!DOCTYPE html>
 <html>
-<head>
-   <!-- 宣言部分 -->
-</head>
-<body>
-   <!-- 本文部分 -->
-</body>
+　　<head>
+   　　<!-- 宣言部分 -->
+      <title>ここにタイトル</title>
+　　</head>
+　　<body>
+   　　<!-- 本文部分 -->
+　　</body>
 </html>
 ```
 
@@ -169,8 +188,8 @@ TABキーで入力できます。Shift+TABで一つ上に戻ります。
 - body: この中に本文が書かれます。
 
 ## 確認：インストール<!-- omit in toc -->
-- [Visual Studio Code(VSC)](https://azure.microsoft.com/ja-jp/products/visual-studio-code){:target="_blank"}
-- [Chrome](https://www.google.com/intl/ja_jp/chrome/){:target="_blank"}
+- [Visual Studio Code(VSC)](https://azure.microsoft.com/ja-jp/products/visual-studio-code)
+- [Chrome](https://www.google.com/intl/ja_jp/chrome/)
 
 入ってますね？VSCodeに
 - Japanese Language Pack
@@ -181,15 +200,18 @@ TABキーで入力できます。Shift+TABで一つ上に戻ります。
 
 ## やってみよう<!-- omit in toc -->
 「ID_root」までは前回の再掲です。
-
-- 書類フォルダ等に、「ID_root」というフォルダを作成
+クローンがうまくいっていれば「書類」-「github」- 「ID2026」ができているはずで、VSCode上で「ID2026」がトップに出ているはずです。
+<!--
+- 書類フォルダ等に、「ID2026 」というフォルダを作成
 - VSCode(Visual Studio Codeのことを以下こう呼びます)起動
 - 「フォルダーを開く」で、「ID_root」を指定
+-->
 - 新規フォルダを作成して「ID_02」
-- 新規ファイルを作成して、「test.html」とファイルを作成
+- その中に新規ファイルを作成して、「test.html」とファイルを作成
 
 起動は「Command+スペース」でvsc,またはcodeでできるかと思います。
 「.html」とすることで、VSCodeは「あ、HTMLファイルを作りたいんだ」と認識して、便利な機能を提供してくれます。
+
 
 ## VSCodeの注意！<!-- omit in toc -->
 ### フォルダの指定
@@ -243,7 +265,8 @@ LiveServerを利用するときなど、**どこを基準に作業している�
 ## Live Server<!-- omit in toc -->
 実際にブラウザで閲覧するには、右下のGo Liveをクリックです。
 
-Live Serverをインストールしているので、再読み込みをしなくても、ソースを保存するとアップデートされるよ。
+Live Serverをインストールしているので、再読み込みをしなくても、ソースを保存するとアップデートされます。
+(かつては、ファイルの保存->ブラウザに切り替え->再読み込み、という手順を頻繁に行っていました。)
 
 保存しないと、データ失われるので気をつけましょう。
 コマンド+Sは覚えておいて良いショートカットです。
@@ -487,6 +510,11 @@ HTML, CSS, 画像フォーマット等どのブラウザで何が利用できる
 - HTMLファイルには基本となる形がある
 - あとはタグをつけて内容を増やしていけばいいだけ
 
+## NAS3
+Finderから移動->サーバへ接続で
+> smb://nas3-mc.thu.ac.jp
+
+を追加しましょう。NAS1が古くなったので夏休みに導入しました。
 
 ## 課題
 
@@ -498,8 +526,17 @@ HTML, CSS, 画像フォーマット等どのブラウザで何が利用できる
 
 「なんでもいい」が困る人は、うちの大学のキャンパス・学部・学科・コースなど階層を意識して書いてみましょう。好きなアーティストグループの説明でもいいですよ。
 
-### 提出先
-> StudentVolume - 2025演習 - 情報デザイン演習II - 02回
+## 提出先
+> StudentNAS3 - 2026演習 - 情報デザイン演習II - 02回
 
 に学籍番号フォルダを作成して、ID_02をコピーしてください。
+
+Githubに反映させるために
+1. VSCodeの左の上から3番目のアイコン
+2. 変更の右の方で「+」(全ての変更をステージ)
+3. メッセージに「02 update」
+4. 「コミット」を押す
+5. 「同期」を押す
+
+を押して、リモートリポジトリに反映されていることを確認しましょう。
 
