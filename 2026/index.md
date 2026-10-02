@@ -18,6 +18,8 @@
 
 - [共創リテラシー(メディア)](./CoCreationLiteracy_Media/)
 
+- [高校生向け特別授業](./ForHS_Special/)
+
 ### 休講対応について
 - [2026/06/03](./ClassCancellation/20260603.md)
 
