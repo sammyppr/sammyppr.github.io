@@ -17,7 +17,7 @@ JavaScriptの標準規格であるECMAScriptについて学修する。
 3. [Canvas入門](./ida_03.md)
 HTML5のCanvasによるアニメーション表現について学修する。
 
-4. [Canvas応用]
+4. [Canvas応用](./ida_04.md)
 HTML5のCanvasによるアニメーション表現について学修する。
 
 5. [WebGL入門]
