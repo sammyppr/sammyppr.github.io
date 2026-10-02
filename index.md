@@ -21,6 +21,8 @@ Welcome to sammyppr.github.io!
 
 - [共創リテラシー(メディア) デジタル共創学部](2026/CoCreationLiteracy_Media/)
 
+- [高校生向け特別授業](./2026/ForHS_Special/)
+
 ### 休講対応について
 - [2026/06/03](./2026/ClassCancellation/20260603.md)
 
