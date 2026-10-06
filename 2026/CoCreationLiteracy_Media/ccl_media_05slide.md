@@ -36,6 +36,21 @@ style: |
 
 - [出席管理システム](./data/unipa_attendance.pdf)
 
+### Canva・Teams
+使えるようになってますかね？
+Teamsは、授業内での質問などで利用してくださいね。
+
+
+
+### 課題について
+必修授業です。
+
+> [シラバス]成績評価方法・基準
+> 各回の課題レポート100％で評価し、60点以上を合格する
+
+出していないと評価できません。
+受付終了でも、提出可能なはずですので、必ず提出しましょう。
+
 
 # 広告市場データとメディア業界統計による構造分析<br>（メディア産業の構造と市場規模）
 
@@ -65,7 +80,10 @@ style: |
 
 これによってデータのカラーモードには2種類あります。
 
+<!--
 [CMYK vs. RGB - What's the difference?](https://www.youtube.com/watch?v=eF0KWUHxhww)
+-->
+- [【簡単解説】RGBとCMYKの違いについて(4:17)](https://www.youtube.com/watch?v=KcvLSOkU3ow)
 
 ### 定義
 #### RGB
@@ -119,6 +137,8 @@ RGBとCMYKでは表現できる色空間が異なります。
 
 - [【広告デザインに絶対必要な知識】「トンボ」と「塗り足し」がよく解る動画(-3:48)](https://www.youtube.com/watch?v=lmDrdwsAYLE)
 
+最近ではトンボが不要な印刷所も出てきていますが、基本は押さえておきましょう。実際には、印刷所の指定通りにデータを作成しましょう。
+
 ### フォントのアウトライン化
 文字の字体を決めるフォントですが、自分のコンピュータ内にあるものが印刷所にも入っているとは限りません。そのため、
 
@@ -127,18 +147,42 @@ RGBとCMYKでは表現できる色空間が異なります。
 が必須となります。
 印刷所に入稿する前には必ず確認しましょう。
 
+フォントの埋め込まれたPDFファイルで入稿する場合には必要ありません。
+
 ### デザインの基礎
 実際のデザインには4原則と呼ばれるものがあります。
 これを知っているだけで、かなりデザイン力上がります。
 
 - [デザインの4原則](https://designpartner.jp/principle/)
 
+- [4つの基本原則を意識しよう！(P.98)](https://sammyppr.github.io/2026/Schooling_MultiMedia/SMS_day1slide.pdf)
+
+
 # 課題1
 Manabaのレポートより以下を提出せよ。
 
 デザインの基礎知識について簡単にまとめよ。
 
+# 作業
 
+### 名刺を作成してみよう。
+日本の標準的な名刺は、
+- 91mm $\times$ 55mm
+
+となっています。これを作成してみましょう。
+(横で作成してみましょう。)
+
+### Canva使うよ
+1. Canvaの作成からカスタムサイズ
+2. 幅：91mm, 高さ：55mm, 単位：mm
+3. 「名刺(横)」が出てくるので選択
+4. 今日はテンプレ禁止！！！
+5. テキストで「テキストボックスを追加」
+6. 氏名・氏名(かな)・[大学名(学部・学科・コース・住所・電話番号)](https://www.thu.ac.jp/access/access_ike)...ネストの扱い酷いな...を別々のテキストボックスに
+7. GoogleマップのURLで[QRコードも作成](https://qr.quel.jp/url.php)しましょう。
+8. 4原則のうち3つ(「近接」「整列」「対比」)を意識しながらデザインしてみましょう。
+
+あえて、今日は画像なしでみやすいデザインを心がけましょう。
 
 
 # 広告業界
@@ -150,7 +194,8 @@ Manabaのレポートより以下を提出せよ。
 ### 広告業界の概要
 ![width:24cm](img/AdvertisingIndustryOverview.png)
 
-[参考：広告業界：図解で3分解説】どんな仕事をやるの？向いている学生や...](https://www.stephouse-recruit.com/article/advertising-industry)
+### 広告業界 どんな仕事？
+- [【広告業界：図解で3分解説】どんな仕事をやるの？向いている学生や今後の動向、企業ランキングも紹介](https://www.stephouse-recruit.com/article/advertising-industry)
 
 ### 説明
 - 広告代理店：企業からの依頼を受けて広告出稿を代理で行う
@@ -162,14 +207,16 @@ Manabaのレポートより以下を提出せよ。
 ### 4大メディア+インターネット広告 推移
 ![width:24cm](img/AdSpendingTrend.png)
 
-[参考：日本の広告費」の媒体別の推移グラフまとめ【2025年版】](https://media-radar.jp/mediapicks/article/knowledge/ad_cost)
+[参考：「日本の広告費」の媒体別の推移グラフまとめ【2025年版】](https://media-radar.jp/mediapicks/article/knowledge/ad_cost)
 
 ### メディアシェアの変化
 ![width:25cm](img/MediaShare.png)
 
 ### インターネット普及から約30年
 ![width:20cm](img/InternetPenetrationRate.png)
-[参考:インターネットの歴史｜技術革新、普及の軌跡をたどる](https://www.cross-m.co.jp/column/digital_marketing/dmc20250926)
+
+### インターネットの歴史
+- [インターネットの歴史｜技術革新、普及の軌跡をたどる](https://www.cross-m.co.jp/column/digital_marketing/dmc20250926)
 
 1995年の普及開始から30年、これに伴いメディアシェアが大きく変化したことがわかります。
 
