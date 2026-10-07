@@ -264,7 +264,7 @@ Manabaのレポートより以下を提出せよ。
 Manabaのレポートより以下を提出せよ
 
 - ソース [2025 日本の広告費](https://www.dentsu.co.jp/knowledge/ad_cost/2025/pdf/koukokuhi_2025.pdf)
-- Google Notebookを利用して「広告業界の構造分析」のスライドを作成せよ。(PDF)
+- Gemini Notebook(旧NotebookLM)を利用して「広告業界の構造分析」のスライドを作成せよ。(PDF)
 - 「広告業界の構造分析」をテーマに400字以上で述べよ。(Word)
 
 PDF,Wordの両ファイルを提出せよ。
