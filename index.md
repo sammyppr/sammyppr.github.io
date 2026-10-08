@@ -19,7 +19,7 @@ Welcome to sammyppr.github.io!
 
 - [アドバンスセミナーIIB 経済シリーズ](2026/AdvanceSeminarIIB/index.md)
 
-- [共創リテラシー(メディア) デジタル共創学部](2026/CoCreationLiteracy_Media/)
+- [共創リテラシー(メディア) 共創学部](2026/CoCreationLiteracy_Media/)
 
 - [高校生向け特別授業](./2026/ForHS_Special/)
 
