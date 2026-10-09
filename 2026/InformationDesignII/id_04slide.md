@@ -114,7 +114,7 @@ CSSをどこに記述するかという話ですが、
 
 ---
 ### やってみよう<!-- omit in toc -->
-1. VSCを開いて、ID_ROOTが開かれていることを確認
+1. VSCを開いて、「ID2026」が開かれていることを確認
 2. 今日の作業フォルダ**ID_04**を作成,その中に**c3-02**フォルダを作成
 3. 03-02の中にc3-02-1.htmlを作成して、P.89を入力
 4. 同じくstyle.cssを作成して
@@ -282,9 +282,10 @@ style.cssへのリンクを忘れずに。
 
 と、Windows, Macともにインストール済みのデバイスフォントは同じフォントが少ないので結局、無難な組み合わせを
 
-- [【2023年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例](https://willcloud.jp/knowhow/font-family/)
-- [2024年に最適なfont-familyの書き方](https://ics.media/entry/200317/)
-- [2025年に最適なfont-familyの書き方](https://ics.media/entry/200317/)
+- [2026年に最適なfont-familyの書き方](https://ics.media/entry/200317/)
+<!--
+- [【2026年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例](https://willcloud.jp/knowhow/font-family/)
+-->
 
 などで調べることになります。(おすすめのfont-family設定例)
 
@@ -459,7 +460,7 @@ kadai.html
 style.css
 を作成して、そこで自由に記述してみましょう。
 
-kadaiフォルダを圧縮して、NASに提出してください。
+kadaiフォルダを圧縮して、StudentNAS3に提出してください。
 
 <!--
 
