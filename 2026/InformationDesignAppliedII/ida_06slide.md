@@ -109,15 +109,17 @@ JavaScript を用いたソフトウェアフレームワークとして
 ### Electronで開発されているアプリケーション
 - Atom
 - Visual Studio Code
+- Slack
+- Discord
 - Microsoft Teams
 - Slack
-- Facebook Messenger
+- Notion
 
 え？と思うようなアプリまでElectronで開発されています。
 
 ---
 ### Electron とは?
-GitHub 社が Atom というエディタを作成するため作成したクロスプラットフォームデスクトップアプリケーションエンジンです。
+GitHub 社が Atom(現在は開発終了) というエディタを作成するため作成したクロスプラットフォームデスクトップアプリケーションエンジンです。
 
 クロスプラットフォームというのは、Mac でも Windows,Linux 用のアプリケーションを作成できることを意味します。
 

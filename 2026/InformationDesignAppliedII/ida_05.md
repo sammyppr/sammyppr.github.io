@@ -20,3 +20,6 @@
 ## 配布資料
 
 [three.js FirstStep](./tex/ThreeJsFirstStep.pdf)
+
+画像は
+![](img/earthmap1k.jpg)をダウンロードしてください。
