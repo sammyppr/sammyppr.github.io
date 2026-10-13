@@ -147,7 +147,7 @@ p {
 ## 3-3 CSSファイルを作ろう
 1. **ID_04**に**c3-03**フォルダを作成
 2. その中にstyle.cssを作成してP.92を記述
-3. **c3-03**に**c-03-2.html**を作成してP.93を記述
+3. **c3-03**に**c3-03-2.html**を作成してP.93を記述
 4. Live Serverで見てみよう。
 
 ## 3-4 CSSの基本の書き方を身につけよう
@@ -329,15 +329,16 @@ wordでもありますね。centerの使いすぎに注意しましょう。
 
 ---
 ### やってみよう<!-- omit in toc -->
-1. [Google Fonts](https://fonts.google.com/)に行ってみよう
-2. FilterのLanguageから「Japanese」
-3. 「M plus rounded 1c」を検索してみよう
-4. クリックすると、複数の太さのものが表示される
-5. GetFontをクリック
-6. GetEmbededCodeをクリック
-7. 文字の太さで使いたいのを「Change styles」で選択
-8. headタグ内のcssをリンクしている場所より上に「Embed code in the <head> of your html」をコピー
-9. cssに「M PLUS Rounded 1c: CSS classes」をコピー
+1. c3-06フォルダを作成して、c3-06-01.html作成
+2. [Google Fonts](https://fonts.google.com/)に行ってみよう
+3. FilterのLanguageから「Japanese」
+4. 「M plus rounded 1c」を検索してみよう
+5. クリックすると、複数の太さのものが表示される
+6. GetFontをクリック
+7. GetEmbededCodeをクリック
+8. 文字の太さで使いたいのを「Change styles」で選択
+9. headタグ内のcssをリンクしている場所より上に「Embed code in the <head> of your html」をコピー
+10. cssに「M PLUS Rounded 1c: CSS classes」をコピー
 
 
 
