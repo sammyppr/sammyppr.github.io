@@ -72,7 +72,7 @@ npm-check-updatesをインストールします。
 
 DigitalClockフォルダの中に
 「.gitignore」
-というフォルダを作成し、
+というファイルを作成し、
 ```json
 node_modules/
 dist/
