@@ -189,11 +189,38 @@ $ which electron
 $の行を入力して、リターンを押して、表示されることを確認してください。
 
 ---
+### フォルダ作って...
+今日、プロジェクトを作るので、
+- IDA_06
+  - DigitalClock
+  - HelloWorld
+
+と、ファイルを先に作成しておきましょう。
+
+---
+### DigitalClockではソースコード以外はGitHub連携しない
+DigitalClockをビルドすると、ソース以外の
+- node_modules
+- dist
+
+というフォルダが作成されます。
+これらは、Gighub連携の必要がないため、DigitalClockの中に「.gitignore」
+というフォルダを作成して、
+
+```
+node_modules/
+dist/
+```
+としておきましょう。そうすると、Gitの管理からから除外されます。
+
+---
 ### Electronの導入ができたね。
 それではElectronFirstStepに行きましょう。
 
 ※：AppleSiliconとかバージョンアップとかで、buildまでエラー出たら、できる限り対処します。
 ※：Electronもバージョンアップして、ちょっと至る所で???という状態が起きているのですが、対応すると煩雑になるので、今回はこのままとします。
+
+
 
 
 
