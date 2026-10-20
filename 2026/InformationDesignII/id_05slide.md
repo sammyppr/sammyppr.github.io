@@ -340,7 +340,7 @@ paddingとborderの値をwidth,heightに含む方法
 
 ---
 ### サイズを指定しよう「widthプロパティ」「heightプロパティ」<!-- omit in toc -->
-widthが幅で、hightが高さでしたね。
+widthが幅で、heightが高さでしたね。
 
 死ぬほど使います。このスペル、読み方は忘れないように。
 
