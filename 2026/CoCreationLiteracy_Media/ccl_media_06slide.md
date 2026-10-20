@@ -41,11 +41,14 @@ style: |
 
 - [出席管理システム](./data/unipa_attendance.pdf)
 
+### 今日は...
+Canva等を使った演習はなし...
+
 
 # 効果測定データに基づくビジュアル設計と最適化<br>（広告のクリエイティブ・デザインとAI活用）
 
 ### 今日のトピック
-**効果測定データ**というと一般的には(CTR,CVR)等を指しますが、ビジュアル設計とは直結しません。
+**効果測定データ**というと一般的には(KGI,KPI,CTR,CVR)等を指しますが、ビジュアル設計とは直結しません。
 
 そのため、**行動分析ツール**というジャンルにも触れたいと思います。
 
@@ -120,7 +123,7 @@ HPを開いて、ボタンや画像を右クリックから「検証」とする
 
 - [Share of web traffic from mobile devices worldwide from 1st quarter 2015 to 2nd quarter 2026](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/)
 
-一時期6割を超えていたのが、本年度は5割ちょっとなのは興味深いですね。
+一時期6割を超えていたのが、本年度少し減って5割ちょっと、になり、また6割弱なのは興味深いですね。
 いずれにせよ、モバイルがPCより多くの利用をされていることがわかります。
 
 ### かつてのHP
@@ -218,7 +221,7 @@ KGI・KPIが設定できたら、それを達成するために有効な手段�
 
 - 「認知」を目的とした場合に適しているのは広告
 - 「リード獲得」や「購買促進」を目的とする場合は、特にリスティング広告が有効
-- 利用の継続」を目的とする場合はメルマガが有効
+- 「利用の継続」を目的とする場合はメルマガが有効
 
 ### STEP4：施策を行う
 施策を行う際は
@@ -243,6 +246,8 @@ KGI・KPIが設定できたら、それを達成するために有効な手段�
 
 同じく成果が出た施策に関しても、なぜ成果に繋がったのかを要素分解していく必要があります。その上で「どの施策により多くの資源を投資するべきか」「どの施策を今後はやめるべきか」「どう改善していけばいいか」「KPIの仮説が間違っていないか」などを検討することが重要です。
 
+### KPI/KGI動画
+- [5分でわかる【KPIとは？】超初心者向けにわかりやすく解説(4:58)](https://www.youtube.com/watch?v=X6Vjp1Bqjwo)
 
 # ABテスト
 ### ABテストとは
@@ -296,7 +301,7 @@ GA4（Googleアナリティクス4）とは、Googleが提供している無料�
 ### GTMとは
 GTM(Googleタグマネージャ)とは、GA4や広告などの計測タグを一元管理・配信するタグ管理ツール」です
 
-- [【超簡単】Googleタグマネージャー（GTM）の始め方を徹底解説(-)](https://youtube.com/watch?v=5CN0zr1nDko&t=35s)
+- [【超簡単】Googleタグマネージャー（GTM）の始め方を徹底解説(0:35-4:03)](https://youtube.com/watch?v=5CN0zr1nDko&t=35s)
 
 ### GA4・GTMの連携
 GTMと連携することにより
@@ -318,7 +323,7 @@ Microsoftが完全無料で提供しているWebサイトのユーザー行動�
 - [Microsoft Clarity](https://clarity.microsoft.com/lang/ja-jp)
 - [What is Microsoft Clarity?(2:58)](https://www.youtube.com/watch?v=cCfPxElfAz0)
 
-公式のライブデモいいかも...
+公式のライブデモいいかもDashboard/HeatMap少し...
 
 ただ、Googleのツールと競合するわけではなく、連携して利用します。
 
