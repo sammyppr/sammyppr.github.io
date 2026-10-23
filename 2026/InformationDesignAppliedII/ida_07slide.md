@@ -151,6 +151,44 @@ Stable Diffusion, Dall-E, Midjourneyの画像生成に続き、chatGPTを始め�
 
 という役割分担をやっていけば良いでしょう。
 
+---
+### ローカルLLM
+2026追加
+外部のクラウドサーバーではなく、自身のパソコンや社内サーバーなどの手元（ローカル）の環境で動作させる大規模言語モデル（LLM）のことです。
+メリットとしては、
+- 高いセキュリティ・プライバシー保護: 入力データや社内文書がインターネットを介して外部に送信されないため、情報漏洩のリスクを大幅に抑えられます。
+- ランニングコストの抑制: クラウド型のようなAPI従量課金や月額のサブスクリプション費用がかからず、原則無料で使い放題になります（電気代やハードウェアの初期投資は必要です）。
+- オフラインでの利用: インターネット接続がない環境でも動作します。
+
+PC版だと[ollama](https://ollama.com/),[LM studio](https://lmstudio.ai/)とかありますが、難しいので、スマホ版を紹介しておきます。
+
+- [【ローカルLLM】 Android・iOSでGemma4を動かす、Google AI Edge Galleryで始めるローカルLLM活用](https://kaleidot.net/2026/04/setup-gemma4-on-android-device/)
+
+---
+### リバースエンジニアリング
+2026追加
+
+- [わずか2週間でGitHubスター30万超　AIでリバースエンジニアリングする「REA」が話題](https://news.yahoo.co.jp/articles/43b27c97594cb502f907519e72b8f0652e27c4e8)
+
+---
+### ArtCraft
+2026追加
+
+- [Adobeそっくり「ArtCraft」の動画編集ツールを試す　AIで挙動を再現した“クローンソフト”はアリなのか](https://www.itmedia.co.jp/news/article/2610/22/2000002485/3)
+
+---
+### AIが隠蔽を支持
+2026追加
+
+- [AIが「次の自分」に隠蔽を指示 米OpenAI、訓練中の不正行動6件を公開](https://exawizards.com/column/ai-trend/news-09-19-2026/)
+
+---
+### PHP脆弱性
+2026追加
+首相まで注意喚起して大騒ぎになりましたが...
+
+- [【文系も】今話題のPHPの「致命的」脆弱性を落ち着いて理解しよう](https://www.youtube.com/watch?v=gtuPvLCVqfA)
+
 ## 顔認識
 
 ---
