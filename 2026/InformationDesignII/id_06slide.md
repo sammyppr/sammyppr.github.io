@@ -350,6 +350,7 @@ sectionはarticleと似ていますが、その部分だけをみても完結は
 
 ---
 ### コンテンツモデル
+3回目にも紹介しましたが、再度...
 > ある要素がどの要素を内容として持つことができるか、つまり子要素とできるかというルール
 
 - [コンテンツ・モデルのおはなし](https://speakerdeck.com/atsuco/kontentumoderufalseohanasi)
@@ -631,10 +632,10 @@ li {
 pタグの中はlorem20等使って適当に長くしておいてください。
 画像は、loremの画像版です。デモを作成する時に非常に便利かと
 
-- [ Lorem Picsum](https://picsum.photos/)
+- [Lorem Picsum](https://picsum.photos/)
 
-日本語のダミー文章が欲しい時はこちら
-- [Lorem JPsum ](https://lorem.sabigara.com/)
+日本語のダミー文章が欲しい時は「日本語 lorem」で検索しましょう
+- [ダミーテキスト生成ツール](https://rakkokeyword.com/techo/tool-dummy-text-generator/)
 
 ---
 ### 答え css<!-- omit in toc -->
@@ -684,7 +685,7 @@ floatはclearとセットにしないと高さをうまく計算してくれな�
 4. mainタグの中を削除
 5. sectionタグを3つ作成。その中にh2で「経歴・趣味・座右の銘」を作ろう
 6. 最後にarticleタグを追加しよう。記事名をh2, それ以下の見出しはh3を使おう(完結するような内容を記載しよう)
-7. cssを整えよう
+7. cssを整えよう...(「見出し css」「背景 css」「枠 css」「リンク css」などでググってコピペしてもOK...cssが理解していれば使えるはず)
 
 HTML Outlineでアウトラインを確認しながらやってみよう。
 アウトラインを綺麗にまとめるのはかなり難しいです。
