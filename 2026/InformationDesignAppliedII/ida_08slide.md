@@ -30,7 +30,7 @@ footer: ""
 - AI入門
 
 とやってきました。お疲れ様でした。
-来週の下準備をしてからCUI入門へ入っていきます。
+Wordpressの下準備をしてからCUI入門へ入っていきます。
 
 ---
 ### FaceRecognitionFirstStepの説明<!-- omit in toc -->
@@ -85,10 +85,23 @@ Web系の業界(IT系とかアプリ開発とかいろいろ言いますが)で�
 
 ---
 ### Wordpress
+CUIをした後に、Wordpressの復習に取り掛かります。Wordpressはまだまだ利用されているので、おさらいしておきましょう。
+
+(うーん、今日で平気そうなら、11回目やめるかも...)
+
+本当は、Wordpressのテーマを自作しよう、をやりたいのですが、あまり評判良くないので、最終課題をポートフォリオ作成(HTML,CSS,JavaScirptで)を行なっています。
+
+Wordpressを無料で利用できるサーバが少なく、(ほぼwordpress.com一択？？？)実際に稼働できないのも理由となっています。
+
+Github Pagesを利用すれば、実際に稼働します。
+
+<!--
+
 来週から、基本はWordpressに取り掛かります。シラバス上の目標は「Wordpressのテーマの作成」です。
 毎年、完成しません(泣き)。ですが、Wordpressを利用して、より高度なサイト構築にはトライしてほしいと思います。
 
 (wordpressじゃなくて、html,css,javascriptで作りたい人いる？？？)
+-->
 
 ---
 ### MAMP
@@ -174,6 +187,7 @@ Webサーバ・データベースサーバ、2つのサーバがどうしても�
 > $ less /etc/hosts
 
 としてみましょう。
+(windowsのパスはC:\Windows\System32\drivers\etc\hosts)
 
 名前解決の仕組みはDNSサーバというのを利用していますが、
 DNSサーバにお伺いを立てる前に、/etc/hostsのファイルを見ることになっています。
@@ -188,11 +202,11 @@ DNSサーバにお伺いを立てる前に、/etc/hostsのファイルを見る�
 
 ---
 ### 開発環境...
-MAMPでもLocalでも、どちらにしろ、開発するための環境であり、実際に公開はできません。無料でホスティングしてくれるサービスがある模様です(広告付きだったりするけど...)。
-実際に、ポートフォリオなどをWebで公開したい人、vivivitでも問題ありませんが、Wordpressで使うなら、こういうサービスがあることを知っておきましょう。
+MAMPでもLocalでも、どちらにしろ、開発するための環境であり、実際に公開はできません。無料でホスティングしてくれるサービスがある模様です(広告付きだったり、限りなく制限あり。現状お勧めできない)。
+実際に、ポートフォリオなどをWebで公開したい人、vivivitかなぁ...一応、みてみましょう。
 
 - [無料で活用できるホスティングサービス３選！選び方と注意点も紹介](https://it-trend.jp/hosting/article/140-0006)
-- [無料レンタルサーバーおすすめ6選！広告なしプランやWordPress対応も紹介](無料レンタルサーバーおすすめ6選！広告なしプランやWordPress対応も紹介)
+- [無料レンタルサーバーおすすめ6選！広告なしプランやWordPress対応も紹介](https://www.value-domain.com/media/free-rentalserver/)
 - [14 Best Free WordPress Hosting Providers](https://blog.hubspot.com/website/best-free-wordpress-hosting-providers)
 
 なお、このHPが置いてあるGithubでも静的なホームページの公開は可能です。
@@ -235,7 +249,7 @@ Chrome拡張として**Responsive Viewer**というのも出ています。
 - [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=ja)
 
 ---
-### Responsively App
+### Responsively App/Responsively Viewer
 - iPhone
 - iPad
 - NoteBook
@@ -245,7 +259,7 @@ Chrome拡張として**Responsive Viewer**というのも出ています。
 ## CUI入門
 
 ---
-### 入門シリーズの最後として...
+### 入門シリーズの最後として...(あ、2026年度からReact...)
 ターミナルを利用してコンピュータを操作する方法を
 - CUI: Character User Interface
 
@@ -254,7 +268,7 @@ Chrome拡張として**Responsive Viewer**というのも出ています。
 - GUI: Graphical User Interface
 
 と呼びます。
-一般の人はGUIで十分ですが、CUIは開発者にとって便利なため、最近では Windows でも WSL(Windows Subsystem for Linux) というものが出てきています。(以前は、独自のコマンドプロンプト)
+一般の人はGUIで十分ですが、CUIは開発者にとって便利なため、最近では Windows でも WSL２(Windows Subsystem for Linux 2) というものが出てきています。(以前は、独自のコマンドプロンプト)
 
 ---
 ### 何で今更？
@@ -270,6 +284,14 @@ Chrome拡張として**Responsive Viewer**というのも出ています。
 
 デスクトップにでも実験用のtestというフォルダを作成しましょう。
 
+Windowsの人、iMacでやってみましょう。(Windowsだとコマンドが変わる)
+
+---
+### Windowsの人用メモ
+Windowsの人でWSL2を使わない人は、多少変わります。
+ターミナルの代わりに「コマンドプロンプト」を起動しましょう。
+「cmd」で検索できると思います。
+- [【コマンドプロンプト】目的別コマンド一覧｜基本的な使い方](https://techmania.jp/blog/cmd0002/)
 
 ---
 ### Finderでやっていること
