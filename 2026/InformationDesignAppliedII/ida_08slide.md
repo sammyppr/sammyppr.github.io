@@ -49,7 +49,7 @@ Web系の業界(IT系とかアプリ開発とかいろいろ言いますが)で�
 - [Web業界に携わる職種12選！職種ごとの年収や必要なスキルも解説](https://www.geekly.co.jp/column/cat-position/2011_037/)
 
 ---
-### 一般企業では耳にしない特殊な職種があるWEB系
+### WEB系職種一覧
 - 【Webデザイン系】Webデザイナー、UI/UXデザイナー
 - 【エンジニア系】Webエンジニア（フロントエンド・バックエンド）、プログラマー
 - 【管理系】Webディレクター、Webプロデューサー、Webプランナー
@@ -99,6 +99,22 @@ Github Pagesを利用すれば、実際に稼働します。
 
 (wordpressじゃなくて、html,css,javascriptで作りたい人いる？？？)
 -->
+
+---
+### Github Pages
+先に設定方法を覚えておきましょう。
+
+- [Github Pagesの使い方まとめ](https://qiita.com/snow_swallow/items/631bbceabbb953da2646)
+
+流れ
+- 公開するWebページを作成
+- Githubに新しいリポジトリを作成する
+- 作成したリポジトリとローカル環境を連携する
+- リポジトリにファイルを追加する
+- コミット＆プッシュをする
+- Github Pagesの公開設定をする
+
+
 
 ---
 ### MAMP
@@ -179,12 +195,13 @@ Webサーバ・データベースサーバ、2つのサーバがどうしても�
 ---
 ### ドメイン
 ****.localというドメイン名でアクセスしてますね。
-これ、どうなってるんでしょう？
+これ、どうなってるんでしょう？ターミナルで
 
 > $ less /etc/hosts
 
-としてみましょう。
-(windowsのパスはC:\Windows\System32\drivers\etc\hosts)
+としてみましょう。Winはコマンドプロンプトで
+windowsのパスはC:\Windows\System32\drivers\etc\hostsなので
+type C:\Windows\System32\drivers\etc\hosts かな
 
 名前解決の仕組みはDNSサーバというのを利用していますが、
 DNSサーバにお伺いを立てる前に、/etc/hostsのファイルを見ることになっています。
@@ -200,14 +217,14 @@ DNSサーバにお伺いを立てる前に、/etc/hostsのファイルを見る�
 ---
 ### 開発環境...
 MAMPでもLocalでも、どちらにしろ、開発するための環境であり、実際に公開はできません。無料でホスティングしてくれるサービスがある模様です(広告付きだったり、限りなく制限あり。現状お勧めできない)。
-実際に、ポートフォリオなどをWebで公開したい人、vivivitかなぁ...一応、みてみましょう。
+実際に、ポートフォリオなどをWebで公開したい人、[vivivit](https://www.vivivit.com/)かなぁ...一応、みてみましょう。
 
 - [無料で活用できるホスティングサービス３選！選び方と注意点も紹介](https://it-trend.jp/hosting/article/140-0006)
 - [無料レンタルサーバーおすすめ6選！広告なしプランやWordPress対応も紹介](https://www.value-domain.com/media/free-rentalserver/)
 - [14 Best Free WordPress Hosting Providers](https://blog.hubspot.com/website/best-free-wordpress-hosting-providers)
 
 なお、このHPが置いてあるGithubでも静的なホームページの公開は可能です。
-バックエンドのプログラミングが必要な場合でも、Netlifyを含め、以下のような無料サービスがあります。
+Netlifyも有名です。バックエンドのプログラミングが必要な場合は、かつてはherokuがありましたが、以下のような無料サービスがあります。
 
 - [Herokuの代替サービス30選、使ってみた参考記事リンク付き](https://qiita.com/rana_kualu/items/f7fc4916b7dc9797839e)
 
@@ -326,6 +343,31 @@ vi とか emacs とかいったテキストエディタを利用しても良い�
 とすることで、中身が hello である hello.txt を作成することができます。 less で見てみましょう。
 
 ---
+### パイプ
+UNIX系のコマンドはたいてい
+- 標準入力
+- 標準出力
+
+というものが存在しています。
+
+そして、標準出力を次のコマンドの標準入力に接続するパイプ「|」という機能もあります。
+
+---
+### パイプの例
+$ ps aux
+は、
+> 現在システム上で実行中のすべてのプロセス（プログラム）を一覧表示するコマンドです。
+
+ですが、多すぎて困ります。そんな時に
+$ ps aux |grep visual
+
+とすると、grepは
+> テキストファイルやコマンドの出力結果の中から、指定した文字列や正規表現に一致する行を検索して抽出するプログラム（コマンド）
+ですので、visualが入っている行のみ出力することができます。
+
+- [【Linux】今日から使えるgrepコマンド](https://tech-blog.rakus.co.jp/entry/20220912/grep)
+
+---
 ### ファイルのグループ権限
 ファイルには、誰が利用して良いか?という設定が可能です。
 - everyone
@@ -356,7 +398,9 @@ vi とか emacs とかいったテキストエディタを利用しても良い�
 - chgrp グループの変更
 
 ---
-###
+### その他
+ターミナルのクリア
+- clear
 ターミナルの終了
 - exit
 
@@ -371,8 +415,10 @@ vi とか emacs とかいったテキストエディタを利用しても良い�
 とすると、拡張子がtxtのものだけが表示されます。
 
 ---
-### ファイル名補完
+### ファイル名補完・上下矢印
 ファイル名は途中まで打って、TABキーを押すと、勝手に入力してくれます。
+
+上下の矢印で前のコマンドを簡単に呼び出せます。
 
 ---
 ### このくらいかな
@@ -381,7 +427,10 @@ vi とか emacs とかいったテキストエディタを利用しても良い�
 怖がらずに、「こんなものか」と思う様にしましょう。
 
 一応まとまったページ紹介しておきます。
+- [UNIXコマンドの使い方入門！用途別に一覧で種類も紹介](https://www.sejuku.net/blog/2643)
+<!--
 [これだけは覚えておきたい！基本的なUNIXコマンド20【初心者向け】](https://techacademy.jp/magazine/6406)
+-->
 
 ---
 ### 最後にUNIXって何？
@@ -392,8 +441,9 @@ OSの1種です。で、
 
 が有名なOSですが、macOSとLinuxはUNIX系のOSとなっています。
 
-[UNIX系OSの系譜](https://ja.wikipedia.org/wiki/UNIX#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Unix_history-simple.svg)
+- [UNIX系OSの系譜](https://ja.wikipedia.org/wiki/UNIX#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Unix_history-simple.svg)
 
+- [Linuxとは？｜Linuxの成り立ちや、UNIXとの違いをまじえて3分でわかりやすく解説します(2:46)](https://www.youtube.com/watch?v=unkvw8TGC6g)
 ---
 ### homebrew
 electronの時にhomebrewというものを利用しました。
@@ -415,7 +465,7 @@ homebrewは開発者向けではありますが、caskという機能でGUIア�
 そして、homebrewのGUIアプリケーションも公式で発表されました。
 - [Homebrew BrewUI](https://github.com/Homebrew/brewui)
 
-アップデートや、新規Macでのインストールを一括でできる、というのが大きなメリットですかね。
+アップデートや、新規Macでのインストールを一括でできる、というのが大きなメリットですね。
 
 - [brew bundleでMacのアプリをまとめてインストール・管理](https://qiita.com/vochicong/items/f20afc89a6847cd58f0f)
 
@@ -500,6 +550,15 @@ Wordpressをおさらいしていきます。
 にたものとして、SiteOriginがあります。
 -->
 
+---
+### 初めてで、よくわからない人
+Cocoonというテーマは日本語情報たくさんあります。
+自分は最近頼まれると、まずこのテーマで作成できるか確認しています。
+動画を見て真似てみましょう。
+
+- [【Cocoon】ブログを30分で「それっぽい」デザインにする手順を紹介【難しい事しません】](https://www.youtube.com/watch?v=4T1d2VkbGM0)
+
+- [Cocoon マニュアル](https://wp-cocoon.com/manual/)
 
 ---
 ### 終わり
