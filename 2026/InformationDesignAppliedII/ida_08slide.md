@@ -30,7 +30,7 @@ footer: ""
 - AI入門
 
 とやってきました。お疲れ様でした。
-Wordpressの下準備をしてからCUI入門へ入っていきます。
+Wordpressの復習もしたいので下準備をしてからCUI入門へ入っていきます。
 
 ---
 ### FaceRecognitionFirstStepの説明<!-- omit in toc -->
@@ -50,14 +50,11 @@ Web系の業界(IT系とかアプリ開発とかいろいろ言いますが)で�
 
 ---
 ### 一般企業では耳にしない特殊な職種があるWEB系
-#### 指揮系の職種
-- Webディレクター / Webプロデューサー / Webプランナー
-
-#### 作業系の職種
-- Webデザイナー / DTP・グラフィックデザイナー / UI/UXデザイナー / Webエンジニア / サーバーエンジニア / Webライター / Webオペレーター / プログラマー
-
-#### 解析系の職種
-- Webマーケター
+- 【Webデザイン系】Webデザイナー、UI/UXデザイナー
+- 【エンジニア系】Webエンジニア（フロントエンド・バックエンド）、プログラマー
+- 【管理系】Webディレクター、Webプロデューサー、Webプランナー
+- 【マーケティング・ライティング系】Webマーケター、Webアナリスト、Webライター、Webオペレーター
+- 【グラフィック・DTPデザイン系】DTP、グラフィックデザイナー
 
 ---
 ### 共通して必要なこと
@@ -241,10 +238,10 @@ Chromeでレスポンシブデザインを確認するときには
 というわけで、探していたら、ありました！
 [Responsively App](https://responsively.app/)
 
-これも入れておきましょう。
+これでもいいですが、
 
 Chrome拡張として**Responsive Viewer**というのも出ています。
-どちらにするかは気分ですかね。
+こちらの方が気軽かな。
 
 - [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=ja)
 
@@ -273,7 +270,7 @@ Chrome拡張として**Responsive Viewer**というのも出ています。
 ---
 ### 何で今更？
 - コンピュータの内部の動作は基本 CUI
-- サーバ系では GUI は便利だけど絶対に必要なものではない
+- サーバ系では GUI は便利だけど絶対に必要なものではない(CPUをGUIの描画のために持ってかれる...)
 - ワイルドカードと呼ばれる機能は便利
 
 とかですかね...こういう世界があるということをElectronで経験しましたが、それの意味を知っておいてほしいと思います。
@@ -288,8 +285,12 @@ Windowsの人、iMacでやってみましょう。(Windowsだとコマンドが�
 
 ---
 ### Windowsの人用メモ
+WSL2（Windows Subsystem for Linux 2）とは、Windows上で仮想化技術を使い、そのまま本物のLinux環境を動かすための機能です。
+
+- [WindowsでWSL2を使って「完全なLinux」環境を作ろう！](https://www.kagoya.jp/howto/it-glossary/develop/wsl2_linux/)
+
 Windowsの人でWSL2を使わない人は、多少変わります。
-ターミナルの代わりに「コマンドプロンプト」を起動しましょう。
+ターミナルの代わりに「コマンドプロンプト」を起動となります。
 「cmd」で検索できると思います。
 - [【コマンドプロンプト】目的別コマンド一覧｜基本的な使い方](https://techmania.jp/blog/cmd0002/)
 
@@ -393,6 +394,33 @@ OSの1種です。で、
 
 [UNIX系OSの系譜](https://ja.wikipedia.org/wiki/UNIX#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Unix_history-simple.svg)
 
+---
+### homebrew
+electronの時にhomebrewというものを利用しました。
+
+> homebrew はmacOSやLinuxなどのOS上で、ソフトウェアや開発ツールをまとめて管理するためのパッケージ管理システム（パッケージマネージャー）です。
+>
+> HomebrewはmacOS（Sequoia 15以降）、Linux、Windows Subsystem for Linux（WSL）をサポートしています。
+
+通常のアプリのインストールは、AppStoreでアプリをダウンロードするか、ダウンロードしてインストールをしていますよね。
+
+その代わりにターミナルからインストールできます。前回はelectronというCUI向けのアプリケーションでした。
+
+---
+### homebrew cask
+homebrewは開発者向けではありますが、caskという機能でGUIアプリケーションもインストール可能です。
+
+- [Homebrew Cask でインストールできるオススメの無料アプリ一覧](https://qiita.com/normalsalt/items/e9603e6159338966ac81)
+
+そして、homebrewのGUIアプリケーションも公式で発表されました。
+- [Homebrew BrewUI](https://github.com/Homebrew/brewui)
+
+アップデートや、新規Macでのインストールを一括でできる、というのが大きなメリットですかね。
+
+- [brew bundleでMacのアプリをまとめてインストール・管理](https://qiita.com/vochicong/items/f20afc89a6847cd58f0f)
+
+全員マストというわけではないですが、こういう機能がある、ということは知っておきましょう。
+
 ## Wordpressおさらい
 
 ---
@@ -406,7 +434,7 @@ OSの1種です。で、
 ---
 ### Wordpressの進化
 Wordpressが2022/5/24に6.0をリリースしました。
-2024/9/10には6.6.2まで出ています。
+2024/9/10には6.6.2、2026/10/30現在7.1.4まで出ています。
 
 大きく変わったところは
 > FSE(フルサイト編集)
@@ -415,6 +443,9 @@ Wordpressが2022/5/24に6.0をリリースしました。
 
 18分ありますが、おさらい含めてみてみましょう。
 - [WordPress 6.0でノーコードサイト制作しよう](https://www.youtube.com/watch?v=-ocDLP6Jf8o)
+
+Wordpress7の新機能はこちら
+- [【2026年最新】WordPress7.0にアップデート！新機能と使い方をわかりやすく解説(11:04)](https://www.youtube.com/watch?v=lh4xp1J4Tno)
 
 ---
 ### FSEとは？
@@ -440,6 +471,13 @@ Gutenbergでは記事部分のみだったのが拡張された、というこ�
 対応テーマは以下にまとまっています。
 - [【2025年】WordPressフルサイト編集でおすすめのブロックテーマ5選！](https://wpmake.jp/contents/theme/fullsite-editing-theme/)
 - [WordPress Full Site Editing](https://fullsiteediting.com/themes/)
+
+--- 
+### FSEにするべきか
+- [2026年のWordPress制作で知っておきたいFSEと従来のテーマ開発の選び方](https://ebiz-create.co.jp/emagazine/1536/)
+
+こんな意見も
+- [WordPressのフルサイト編集を学ぶ必要は無い(5:36)](https://www.youtube.com/watch?v=0War_ZoqkX0)
 
 <!--
 - [WordPressでフルサイト編集ができるベストブロックテーマ21選 (2024)](https://www.wpbeginner.com/ja/showcase/best-wordpress-full-site-editing-themes/)
