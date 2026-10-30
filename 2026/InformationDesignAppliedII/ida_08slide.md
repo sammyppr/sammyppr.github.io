@@ -534,6 +534,13 @@ Gutenbergでは記事部分のみだったのが拡張された、というこ�
 -->
 
 ---
+### 見せたくないのだが...
+AI機能が公式に...
+
+- [知らなかった｜WordPressの公式AI機能でできること](https://www.youtube.com/watch?v=tdx8MounClc)
+
+
+---
 ### 残り時間
 Wordpressをおさらいしていきます。
 - テーマを決める
