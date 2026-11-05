@@ -33,12 +33,18 @@ footer: ""
 
 ---
 ### CSS覚えてますか？
-1年ぶりなので、忘れている人も多いと思いますので、おさらいしたいと思います。
+1年ぶりなので、忘れている人も多いと思いますので、おさらいしたいと思います。(今年初めての人もいるので、HTML含め少し丁寧にやります。ボックスモデルも必須ですね)
+
 また、
 - flexbox
 - css grid
 
 これの利用が確定になっていますので、もう一度やってみましょう。
+
+---
+### HTML 基本タグ
+- [【初心者向け】HTMLのタグ一覧と書き方をわかりやすく解説](https://webst8.com/code/html-major-basic-tag/)
+- [初心者向けHTML入門：書き方の基本とタグの使い方](https://saruwakakun.com/html-css/basic/html)
 
 ---
 ### id, class
@@ -65,6 +71,11 @@ HTMLでid, classを設定し、それについてCSSで指定をしましたよ�
 
 でしたね。
 
+---
+### ボックスモデル
+Webのレイアウトに関する基本事項です。
+
+- [ボックスモデル](https://zenn.dev/ojk/books/intro-to-html-css/viewer/css-boxmodel)
 
 ---
 ### 最近のCSSレイアウト事情
@@ -112,6 +123,30 @@ HTMLでid, classを設定し、それについてCSSで指定をしましたよ�
 
 まだ2年弱ですが、確実にこのコンテナクエリも必須な知識となると思います。
 
+これ、HPを参考に実験しておきましょう。
+
+---
+### CSSのネスト(入れ子)
+CSSを効率的に記述するために、SASS,SCSSという書き方がありました。
+- [SassとSASSとSCSSの違いについて](https://popinsight.jp/blog/?p=91909)
+
+ただし、これらは昔はCSSに変換して利用する必要がありました。
+
+ですが、2023年あたりからネストして記述することがCSSでも可能になっています。
+
+- [CSSネストの基本とメリット・デメリット](https://markleaps.com/2024/12/20/css-nesting/)
+
+
+
+---
+### CSS 変数(CSSカスタムプロパティ)
+CSSがプログラミングの要素を取り入れてきています。
+
+CSSでも変数が設定できるようになっています。
+
+- [CSSで変数（カスタムプロパティ）を使ってみよう](https://www.webcreatorbox.com/blog/css-variables)
+
+
 ---
 ### CSS 関数
 CSSでの定義に関数を使うことも可能になってきています。
@@ -141,6 +176,7 @@ CSS Gridでかなり表現力が上がったのですが、入れ子表現がで
 - [2024年、CSSの最新トレンドにおける現状のまとめ、よく使用する新機能やプロパティや疑似クラス、人気のフレームワークや検証環境など](https://coliss.com/articles/build-websites/operation/css/state-of-css-2024.html)
 - [CSSの最新トレンド Ver.2025](https://speakerdeck.com/tonkotsuboy_com/cssnozui-xin-torendo-ver-dot-2025?slide=53)
 - [【2025年保存版】モダンCSSに移行すべき6つの古い書き方](https://www.ryoma.online/css-migration-2025/)
+- [2026年版：今すぐ使いこなしたいモダンCSS機能 13選](https://zenn.dev/tcool/articles/4eaf9529aca917)
 
 ---
 ### 見慣れないタグ...自分で定義できるHTMLタグがある
@@ -153,11 +189,13 @@ HTMLタグは元々ある程度定義されていますが、独自に定義の�
 これは、JavaScriptで独自のタグを定義することで利用可能となります。
 ソースを読んでて、よくわからない、というときにはこれを怪しんでみましょう(JavaScriptの方も見ないといけないですが)
 
-- [【2025年版】Web Components詳細入門ガイド](https://kinsta.com/jp/blog/web-components/)
+- [【2026年版】Web Components詳細入門ガイド](https://kinsta.com/jp/blog/web-components/)
+
+詳しくはReact入門にてやってみようと思います。
 
 ---
 ### というわけで
-おさらいしてみましょう。
+flexbox/CSSGridおさらいしてみましょう。
 
 ここから、完全に昨年のおさらいとなりますが、floatはやらなくていいです。
 
@@ -299,11 +337,33 @@ float/Flexbox/CSS Grid
 - 必要に応じてプラグインインストール・設定
 
 ---
-### 忘れちゃってる人もいると思うので、
-わりと素晴らしいと思われるページを見つけました。
-まずは、これからやっていきましょう。
+### 前回はCocoonを利用しましたが...
+テーマの選び方が問題だという話はしました。
+そして、前回はCocoonを利用し、
 
-- [Lightning G3 クイックスタート](https://lightning.vektor-inc.co.jp/setting/quick-start/)
+- [【Cocoon】ブログを30分で「それっぽい」デザインにする手順を紹介【難しい事しません】](https://www.youtube.com/watch?v=4T1d2VkbGM0)
 
-### Ligntning G3をカスタマイズしてみよう
+を試してもらいました。
+
+Cocoonかなり良いと思います。
+
+ただ、問題は、やっぱり、
+> デモサイト素晴らしいのに、同じ感じにならない...設定面倒
+
+ということかと思います。
+
+---
+### もっと楽な方法
+[VK FullSite Installer](https://vk-fullsite-installer.com/)を利用することで、デモサイトと同じ状態を簡単に作ることができます。Wordpressの設定・コンテンツの設定までをある程度やってしまい、あとは画像や文章の変更をする方法となります。これを試してみましょう。
+
+---
+### やってみよう
+1. Localでの新規サイト作成
+2. Setting-Generalで日本語・UTC+9は必須
+3. [HPからプラグインをダウンロード](https://vk-fullsite-installer.com/)
+4. LocalでPHPを8.3.23にアップデート(そうしないと使えない)
+5. 次のHPから動画通りにすると、デモサイトがすぐに立ち上がります。
+6. 設定では、ライセンス無料として、テーマは全部選択してみましょう。
+7. 「Lightning 無料版 ビジネス」は試し済みです。
+
 - [WordPressでホームページを自作する手順！無料テーマですぐに作れる](https://www.xserver.ne.jp/bizhp/homepage-creation-by-wordpress/)
