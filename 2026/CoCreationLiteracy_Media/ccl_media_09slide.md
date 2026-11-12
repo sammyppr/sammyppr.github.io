@@ -166,7 +166,7 @@ Manabaのレポートより以下を提出せよ。
 
 報告書はP.298もあるので、GoogleNotebookにスライド化してもらいました。
 
-- [こどもたちの「デジタルエコシステム」を解き明かす](./data/2025_Youth_Digital_Ecosystem.pdf)
+- [こどもたちの「デジタルエコシステム」を解き明かす](https://sammyppr.github.io/2026/CoCreationLiteracy_Media/data/2025_Youth_Digital_Ecosystem.pdf)
 
 > エコシステム（Ecosystem）とは、もともと生物と環境が相互に作用し合う「生態系」を意味する言葉ですが、ビジネスやITの分野では企業や製品、サービスなどが互いに連携・共存し合い、全体として大きな価値や経済圏を形成する仕組みを指します。
 
@@ -198,7 +198,7 @@ Manabaのレポートより以下を提出せよ。
 
 ### ニューヨークでの事例
 一方、2026/9/3NYではAIツールの利用を原則禁止の方針が示されました。
-- [中学生以下の生成AI利用を原則禁止、NY市が新方針-影響検証へ](https://news.yahoo.co.jp/pickup/6594089)
+- [中学生以下の生成AI利用を原則禁止、NY市が新方針-影響検証へ](https://newsdig.tbs.co.jp/articles/withbloomberg/2917049?display=1)
 
 ### 新技術の教育への影響
 ゲームのところで示したように、新技術がどのように学力に影響を与えるかについては、検証が必要なことだと思います。
@@ -216,7 +216,8 @@ Manabaのレポートより以下を提出せよ。
 
 長いので、インフォグラフィックスにまとめてみました。
 
-[![width:10cm](img/ai-brain.png)](img/ai-brain.png)
+###
+[![width:28cm](img/ai-brain.png)](img/ai-brain.png)
 
 # 日本のインターネット・情報に関する社会課題
 ### 青少年の社会課題
