@@ -47,17 +47,8 @@ Flexbox, CSS Gridによって重要度が下がってる気がしますが、説
 
 一番有名なのは「Bootstrap」と呼ばれる旧Twitter社が開発したものになります。
 
-- [【2025年版】CSSフレームワークのおすすめ11選のと使い方を徹底比較！](https://freelance.shiftinc.jp/column/css-framework/)
-- [CSSで最も使われているフレームワークはTailwind、2位はBootstrap。レイアウトで苦労しているのはCSS Gridなど。State of CSS 2025](https://www.publickey1.jp/blog/25/csstailwind2bootstrapcss_gridstate_of_css_2025.html)
-- [「State of CSS 2025」でCSS機能の進化を知る。認知度、評価、ブラウザ互換性を比較](https://levtech.jp/media/article/column/detail_734/)
-<!--
-- [【2024年最新版】CSSのおすすめフレームワーク10選｜メリット・デメリットも解説](https://freelance.bizlink.io/tips/css-framework)
-- [Web制作者がチェックしておきたい！ 2024年版、CSSフレームワークのまとめ](https://coliss.com/articles/build-websites/operation/css/awesome-css-frameworks.html)
-- [【分野別】おすすめCSSフレームワーク40選！最新から定番、無料で使えるものまで紹介](https://jitera.com/ja/insights/27681)
--->
-<!--
-- [【2023年最新！】おすすめのCSSフレームワーク40選！効率的にデザイン作成をしよう！](https://mid-works.com/columns/language/others/1114801){:target="_blank"}
--->
+- [CSSフレームワーク完全比較ガイド｜2026年版選び方](https://fivenine-design.com/blog/css-framework-comparison-guide-2026)
+- [【2026年最新比較】始めるならどれ？CSSフレームワーク3選（Bootstrap、Tailwind v4、Foundation）の特徴と選び方](https://ginneko-atelier.com/blog/entry546/)
 
 ---
 ### CSSフレームワークの使い方<!-- omit in toc -->
@@ -73,7 +64,7 @@ Flexbox, CSS Gridによって重要度が下がってる気がしますが、説
 ### CSSフレームワークの使い方 Bootstrapの場合<!-- omit in toc -->
 - [Bootstrap](https://getbootstrap.jp/)
 
-を見ると、「CDN経由でインクルードする」というものがあります。
+を見ると、「CDN経由で含める」というものがあります。
 
 - linkの行をコピーしてheadタグの中に
 - scriptの行をコピーしてbodyの一番最後に
@@ -141,6 +132,8 @@ Wordpressの部分を少し短くするかもしれません。
 
 があります。
 
+(臨時の特典ダウンロードサイトができてます。そちらで「HTML」で検索すると出てきます・)
+
 > HTML-CSS-Webdesign2.zip
 
 をダウンロードしましょう。
@@ -190,9 +183,9 @@ Googleがモバイルファーストインデックスを打ち出したこと�
 #### font-family<!-- omit in toc -->
 font-familyのところ面倒ですね。
 ゴシック体を指定したいだけですからググりましょう。「CSS ゴシック体」でググると
-- [【2025年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例](https://willcloud.jp/knowhow/font-family/)
+- [【2026年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例](https://willcloud.jp/knowhow/font-family/)
 
-が出てきます。4.1からいただいてきましょう。
+が出てきます。「おすすめのfont-family設定例（2026年版）」からいただいてきましょう。
 
 ---
 ### 2カラムのレイアウトとは/2カラムページの制作の流れ<!-- omit in toc -->
