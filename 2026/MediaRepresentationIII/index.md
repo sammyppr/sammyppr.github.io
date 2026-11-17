@@ -65,6 +65,15 @@ Premiereを用いたシンプルな編集の方法について学修する。
 
 
 ---
+### 27.0大型アップデート(2026/11)
+Lumetriカラーがなくなり、カラーモードが搭載されました。
+Lumetriカラーはエフェクト扱いになり、今後はカラーモードが推奨されます。
+
+他にも、生成系などもできること増えてます。
+- [【徹底解剖】Premiere 27.0「カラーモード」だけじゃない！知らないと損する新機能てんこ盛り！](https://www.youtube.com/watch?v=n_JyVhx1C4A)
+
+
+---
 ### モーショングラフィックスの参考リンク
 モーショングラフィックスのアイディアがまとまっています。
 - [MOTION PERIODIC TABLE](http://foxcodex.html.xdomain.jp/index.html){:target="_blank"}
