@@ -56,6 +56,8 @@ style: |
 
 1992年のSF小説『スノウ・クラッシュ』に登場したネット上の仮想世界が名前の由来です。
 
+2023年の紹介動画を見てみましょう。
+- [【メタバースって何？】イチから分かる！(5:10)](https://www.youtube.com/watch?v=z3v3DydqX2A)
 
 
 ### メタバースを支える技術(あえて2024年の記事を紹介)
@@ -113,12 +115,12 @@ ARを進化させ現実世界と仮想のオブジェクトをより高度に融
 ### VR歴史
 - [VRの歴史が一目で分かるインフォグラフィック](https://www.moguravr.com/vr-history-infographic/)
 
-2012年のOculus Rift(現在のメタ社)の登場が大きかったと思います。
+2012年のOculus Rift(現在のメタ社が買収)の登場が大きかったと思います。
 
 現在では
-- PlayStation VR2
-- HTC VIVE
-- Meta Quest
+- [PlayStation VR2](https://www.playstation.com/ja-jp/ps-vr2/)
+- [HTC VIVE](https://www.vive.com/jp/)
+- [Meta Quest](https://www.meta.com/jp/quest/)
 
 等ゲーム好きな人は利用していることでしょう。
 
@@ -149,17 +151,30 @@ Mac使いの自分は[Apple Vision Pro](https://www.apple.com/jp/apple-vision-pr
 
 [スマートグラス](https://wired.jp/article/smart-glasses-post-smartphone-era/)と呼ばれる通常のメガネのような形状で、現在のVRゴーグルの性能のものが低価格で入手できるようになったら、メタバース本格普及の可能性があるのかもしれません。
 
-と思っていたら、[RayNeo Air 4 Pro ARグラス](https://jp.rayneo.com/products/rayneo-air-4-pro-ar-glasses)攻めた性能・値段で出してきました。
+と思っていたら、[RayNeo Air 4 Pro ARグラス](https://jp.rayneo.com/products/rayneo-air-4-pro-ar-glasses)攻めた性能・値段で出してきました。普及するのでしょうか...
 
+# 成功しているプラットフォーム
 
 ### フォートナイト
+フォートナイトはEpicGamesがリリースした「バトルロイヤル」「パーティーロイヤル」「クリエイティブ」「世界を救え」の4つのモードを備えるゲームであり、「メタバース空間」としての活用も広がっています。
+
 - [【2026年1月最新】フォートナイトのプレイヤー人口は？](https://xrcloud.jp/blog/articles/meta-game/31029/)
 
 2026年1月時点の集計で約6.5億人規模とされています。
 これは世界人口の約8%、つまり12人に1人がアカウントを保有している計算になります。
 月間アクティブユーザー数（MAU）は1億1,000万人前後で安定して推移しています。
 
-メタバースに一番近い環境が、現在はフォートナイトと言えるでしょう。
+### メタバースとしてのフォートナイト
+UEFN(Unreal Editor for Fortnite)を利用することで、フォートナイト内で手軽に島やルールを作れる機能の拡張機能を利用することができます。
+
+公開と収益化も可能です。
+> 2020年4月、ラッパーのトラヴィス・スコットがフォートナイト内で行ったバーチャルコンサートには、同時に1200万人を超えるユーザーが参加したと発表されました。
+
+メタバースにかなり近い環境が、現在はフォートナイトと言えるでしょうか....
+
+- [Travis Scott and Fortnite Present: Astronomical (Full Event Video)(1:00-2:30?)](https://youtube.com/watch?v=wYeFAlVC8qU&t=60)
+- [フォートナイトのメタバース活用｜企業事例と始め方](https://u-rth.com/post/fortonitemetaverse/)
+
 
 ### VRChat
 VRChatはユーザーが3Dアバターを使ってバーチャル空間を自由に動き回り、世界中の人々と音声やテキストで交流できるソーシャルVRプラットフォームです。
@@ -167,8 +182,12 @@ VRChatはユーザーが3Dアバターを使ってバーチャル空間を自由
 VRヘッドセット（Meta Questシリーズなど）だけでなく、Windows PCのデスクトップモードやスマートフォン（iOS/Android）からもアクセス可能となっています。
 
 - [VRChat アクセス数データの一部を公開、日本ユーザー数は3.9倍増加](https://www.moguravr.com/vrchat-concurrent-users-record-2026/)
+
 同時接続数：平均で10万人。2026年には最高15万8,192人を記録。
 
+- [VRChatとは？なにをしたらいいの？今から始めたい初心者に向けて解説！(0:21-4:23)](https://youtube.com/watch?v=glqQm3MtOeY&t=21)
+
+# メタバースの未来
 ### Metaの動向
 2021年にはFacebook社がメタバースを睨んで、「Meta」と社名を変更しましたが、
 
@@ -204,7 +223,9 @@ VRヘッドセット（Meta Questシリーズなど）だけでなく、Windows 
 
 と書かれています。
 
-個人的には???と思っています。
+- [ムーンショット目標１：アニメーションで描く2050(4:23)](https://www.youtube.com/watch?v=fIi83fAR3yM)
+
+メタバースの先を狙ってる計画に見えますが、将来どうなるんでしょうか...
 
 
 # 課題1
