@@ -58,7 +58,7 @@ style: |
 
 
 
-### メタバースを支える技術
+### メタバースを支える技術(あえて2024年の記事を紹介)
 - [【2024年最新】メタバース開発に必要な13の技術や仕組みを紹介](https://crexgroup.com/ja/xr/metaverse/souken-development/)
 
 1. VR/AR/MRデバイス：ディスプレイ、バッテリー、プロセッサー、モーションキャプチャー
@@ -76,7 +76,7 @@ style: |
 - 2021年（世界的なブーム）：フェイスブック社が「Meta（メタ）」へ社名を変更したことをきっかけに、世界的な大注目を集めました。
 
 ### Second Life
-003年にリリースされたSecond Lifeと呼ばれるメタバースは、2006年に数々のメディアや企業の参入によって注目が集まりました。本屋さんに本がたくさん並んだほどです。
+2003年にリリースされたSecond Lifeと呼ばれるメタバースは、2006年に数々のメディアや企業の参入によって注目が集まりました。本屋さんに本がたくさん並んだほどです。
 
 特に話題となったのはSecond Life内で起きた不動産売買であり、アンシェ・チェン氏というユーザーが仮想空間内の400以上の島へ投資した結果、100万ドル以上の利益を獲得しました。
 
@@ -106,7 +106,9 @@ Second Lifeの仮想空間内では、「Linden Dollar（リンデンドル）�
 #### AR（拡張現実 / Augmented Reality）
 スマートフォンや専用グラスを通して、現実の風景にデジタル情報やCGを重ねて表示する技術です。
 #### MR（複合現実 / Mixed Reality）
-ARをさらに進化させ、現実世界と仮想のオブジェクトをより高度に融合させる技術です。
+ARを進化させ現実世界と仮想のオブジェクトをより高度に融合させる技術です。
+
+- [What is VR AR MR XR and What are the differences between VR AR MR XR ?(6:50)](https://www.youtube.com/watch?v=y8RXyABMEzQ)
 
 ### VR歴史
 - [VRの歴史が一目で分かるインフォグラフィック](https://www.moguravr.com/vr-history-infographic/)
@@ -184,7 +186,13 @@ VRヘッドセット（Meta Questシリーズなど）だけでなく、Windows 
 - [『ポケモンGO』リリース10年で世界累計ダウンロード数が8億以上に。日本では24億ドルの収益、ユーザー年齢層は35～44歳が最多層に](https://www.famitsu.com/article/202608/85424)
 
 - [ポケモンGOの統計まとめ：ユーザー数・売上・ダウンロード・人気の動向](https://jp.locachange.com/pokemon-go/pokemon-go-statistics/)
+
 2025年時点で、ポケモンGOは世界中で月間6,000万人以上のアクティブユーザーを誇り、その根強い人気とゲーム市場での存在感を示しています。
+
+### 2026年の答え合わせ
+- [米メタバース予算30％削減か　来年人員削減も【モーサテ】(0:32)](https://www.youtube.com/watch?v=iHI_SsYch1Q)
+- [メタバースは失敗だったのか｜評価が分かれる理由](https://u-rth.com/post/metaversefailure/)
+- [【2026年】メタバースは今どうなった？4つの数字で答え合わせ](https://note.com/hush_dots/n/na676d53b7f0c)
 
 ### 政府の計画
 内閣府のHPをみると
@@ -240,7 +248,7 @@ Web3.0はそれに対して、まだ起きていない未来に先に付けら�
 
 - [Web3は失敗していない。ただし、成功もしていない｜Crypto Matters](https://wired.jp/article/sz-crypto-matters-web3-is-not-dead/)
 
-- [Webの歴史（Web3、Web2.0、Web1.0）](https://www.youtube.com/watch?v=mnjUc727-Q4)
+- [Webの歴史（Web3、Web2.0、Web1.0）(5:00)](https://www.youtube.com/watch?v=mnjUc727-Q4)
 
 ### NFT
 NFT（Non-Fungible Token、非代替性トークン）とは、ブロックチェーン（分散型台帳）技術を利用して、デジタルデータに「世界に一つだけの証明書」を付与する仕組みのことです。
@@ -258,6 +266,8 @@ NFT（Non-Fungible Token、非代替性トークン）とは、ブロックチ�
 
 終わったかどうかわかりませんが、成功とはまるで言えないと思います。
 
+- [オワコン化したNFT　全盛期に買って5万損した話(3:47)](https://www.youtube.com/watch?v=ykT2Qv2OUGQ)
+
 ### Society5.0
 内閣府が2016年にSociety 5.0を提唱しました。
 - Society 1.0：狩猟社会 狩りと採集をして暮らした社会。
@@ -266,7 +276,7 @@ NFT（Non-Fungible Token、非代替性トークン）とは、ブロックチ�
 - Society 4.0：情報社会 インターネットが普及し、情報が共有されるようになった社会。
 - Society 5.0：超スマート社会 仮想空間と現実空間を深くつなぎ、便利で心豊かな暮らしを実現する社会。
 
-さて、これは成功するのでしょうか？
+さて、これは成功するのでしょうか？先ほどのムーンショット型研究開発制度も、Society5.0を背景として設定されています。
 
 - [Society 5.0](https://www8.cao.go.jp/cstp/society5_0/)
 
@@ -289,6 +299,7 @@ Google Trendで調べてみましょう
 # メタバースの事例紹介
 ### 事例紹介
 - [【2025年最新】国内メタバース事例15選！成功モデルと失敗例を徹底解説](https://v-inc.jp/blog/d4Ag83Bd)
+- [【2026年最新】メタバース成功例6選｜終了事例と成功要因を解説](https://u-rth.com/post/meta-success/)
 
 メタバースには当然成功しているものもあります。
 インターネットが普及したみたいには成功していないだけです。
