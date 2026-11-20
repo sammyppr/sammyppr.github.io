@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component 04</title>
+</head>
+<body>
+    <h1>3つの技術の組み合わせ</h1>
+
+    <!-- HWebComponents用のテンプレート-->
+    <template id="title-template">
+        <div>
+            <slot name="title">titleデフォルト</slot>
+            <slot name="subtitle">subtitleデフォルト</slot>
+            <p>パラグラフ</p>
+        </div>
+        <style>
+            p {
+                color:blue;
+            }
+        </style>
+    </template>
+
+    <script>
+        class MyTitle extends HTMLElement {
+            constructor(){
+                super();
+                const template = document.getElementById('title-template');
+                const title = template.content.cloneNode(true);
+
+                const shadowRoot = this.attachShadow({mode: "closed"});
+                shadowRoot.appendChild(title);
+            }
+        }
+        customElements.define('my-title', MyTitle);
+    </script>
+
+    <my-title>
+        <p slot="title">タイトル</p>
+        <p slot="subtitle">サブタイトル</p>
+    </my-title>
+</body>
+</html>

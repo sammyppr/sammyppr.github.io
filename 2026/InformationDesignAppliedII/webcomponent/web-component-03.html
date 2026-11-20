@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component 03</title>
+</head>
+<body>
+    <h1>HTML Template</h1>
+
+    <!-- HTML Templateの定義-->
+    <template id="title-template">
+        <h1>
+            <slot name="text">デフォルトのテキスト</slot>
+        </h1>
+    </template>
+
+    <!-- HTML Templateをここに埋め込む -->
+    <div id="container">
+        <!--埋め込む際に利用されるslot要素-->
+        <p slot="text">スロットに代入するテキスト</p>
+    </div>
+
+    <script>
+        const titleTemplate = document.getElementById('title-template');
+        const title = titleTemplate.content.cloneNode(true);
+
+        const shadowRoot = document.getElementById('container').attachShadow({mode: "closed"});
+        shadowRoot.appendChild(title);
+    </script>
+    <style>
+        h1 {
+            /* 普通のh1にしかきいてない */
+            color: red;
+        }
+    </style>
+</body>
+</html>

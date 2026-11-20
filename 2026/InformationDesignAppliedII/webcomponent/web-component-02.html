@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component 02</title>
+</head>
+<body>
+    <h1>Shadow DOM</h1>
+
+    <style>
+        p {
+            /* 普通のpにしかきいてない */
+            color: blue;
+        }
+    </style>
+
+    <div id="shadowHost"></div>
+
+    <script>
+        //ShadowHostにShadowDomを生成
+        const shadowHost = document.getElementById('shadowHost');
+        const shadow = shadowHost.attachShadow({mode: "open"});
+
+        //ShadowDomの中身を生成する
+        const title = document.createElement('p');
+        title.textContent = "Shadow Dom 内";
+        const style = document.createElement('style');
+        style.textContent = 'p {color: red;}';
+        const container = document.createElement('div');
+        container.appendChild(title);
+        container.appendChild(style);
+
+        //ShadowDOMに中身を追加
+        shadow.appendChild(container);
+    </script>
+</body>
+</html>
