@@ -35,7 +35,7 @@ JavaScriptのライブラリの利用について学修する。
 9.  [HTML/CSS復習](./ida_09.md)
 HTML/CSSについて復習するとともに最新の動向について学修する。
 
-10. [React入門]
+10. [React入門](./ida_10.md)
 WebサイトやWebアプリのUI開発に用いられるReactについて学修する。
 
 11. [WordPress復習]
