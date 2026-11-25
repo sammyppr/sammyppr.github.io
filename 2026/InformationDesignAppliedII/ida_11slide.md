@@ -4,19 +4,20 @@ theme: default
 size: 16:9
 paginate: true
 headingDivider: 2
-header: 情報デザイン応用演習II 11. ポートフォリオ作成 II
+header: 情報デザイン応用演習II 11. ポートフォリオ作成 I
 footer: ""
 ---
 
-# 情報デザイン応用演習II 11. ポートフォリオ作成 II<!-- omit in toc -->
+# 情報デザイン応用演習II 11. ポートフォリオ作成 I<!-- omit in toc -->
 
 # 目次<!-- omit in toc -->
 
 - [初めに](#初めに)
+- [Github準備](#github準備)
 - [ポートフォリオサイト](#ポートフォリオサイト)
 - [HP制作 ワークフロー](#hp制作-ワークフロー)
     - [AI Tool紹介](#ai-tool紹介)
-    - [この後のページ](#この後のページ)
+    - [Antigravity](#antigravity)
     - [ワークフロー](#ワークフロー)
     - [環境](#環境)
     - [ガントチャート](#ガントチャート)
@@ -29,22 +30,97 @@ footer: ""
 
 ---
 ### 前回の内容<!-- omit in toc -->
-- Git
-- Github
-- Github Pages
+フロントエンド開発で利用するReactについてやってみました。
 
-をメインに行ないました。
+難易度高かったかもしれませんが、
+- こんな感じで開発してるんだ
+- Webコンポーネントで、カスタムのHTMLタグ作れるんだ、ということを理解してくれればと思います。
 
 ---
 ### 今後の予定<!-- omit in toc -->
-前回決定したように
 > ポートフォリオ作成
 
 を最終課題として、それに対して今回入れて5回課題に取り組んでいこうと思います。
 
 企画から公開までを全てこなす課題となります。
+(Wordpressの場合は、画面録画)
+
+# Github準備
+---
+### 初回にGithubを設定したけど
+しっかり、うまく利用していたでしょうか？
+- ステージに上げる
+- コミット
+- 同期
+
+とすることで、Github上に常に最新版が掲載される状態となりましたね。
+
+---
+### .gitignore
+気をつけるべきは、node_modulesなど、後で復活できるものはソースコードに入れないように
+> .gitignore
+
+というファイルを作成し、その中に以下の様に指定する必要があります。
+
+```
+# ディレクトリを指定する場合
+node_modules/
+
+# ファイルのパターン一致でコンパイルなどで生成したファイルを指定する場合
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+```
+
+---
+### ポートフォリオサイト用のリポジトリの作成
+これまでは、演習の中身だったので、ポートフォリオサイト用に新しく、リポジトリを作成しましょう。
+
+1. github.comにアクセス
+2. ログイン
+3. 上部の「+」から「New Repository」を選択
+4. Repository nameに「portfolio」
+5. Add READMEをON
+6. Create repository
+
+---
+### VSCでクローン
+1. portfolioリポジトリを選択した状態で
+2. CodeからCloneのURLをコピー
+3. VSCで新しいウィンドウを開く
+4. Gitリポジトリのクローン
+5. ローカルで保存する場所を選択
+
+テスト用のindex.htmlを作成しておきましょう。
+
+---
+### Githubで公開
+1. githubでportfolioリポジトリを選択した状態で
+2. Settings
+3. Pages
+4. Branchで「main」を選択してSave
+
+これで、少しするとリポジトリが公開されます。
+公開されると、次のように表示がされます。
+
+> Your site is live at https://sammyppr.github.io/portfolio
+
+同期後、だいたい5分くらいで更新されますが、更新が終わったかどうかはActionsタブで確認できます。
+
+---
+### まずは、リポジトリがうまく設定されているか確認しよう。
+1. テストで作成したindex.htmlがうまくURLで表示されるか確認
+2. index.htmlを改変
+3. ステージに上げて、コミット、同期
+4. 更新が反映されていることを確認
+
 
 # ポートフォリオサイト
+
+---
 ### 前提条件<!-- omit in toc -->
 実力差が激しいので、
 1) 静的ページで作成する
@@ -58,7 +134,11 @@ footer: ""
 
 のどれでも良いことにします。(本当は3は避けて欲しいけど...)
 
+---
+### AIについて<!-- omit in toc -->
+AIを利用しながらの制作はこれから、必須でしょう。
 
+もちろん、自力で作成してくれても構いませんが、AIの利用も可とします。
 
 # HP制作 ワークフロー
 ---
@@ -79,9 +159,7 @@ footer: ""
 
 参考
 - [【圧巻】Gemini 3 Proでプロ顔負けのWebサイトが作れるようになりました...](https://www.youtube.com/watch?v=hxVaOKXVtsQ)
----
-### この後のページ
-ほぼ前回のおさらい...
+
 
 
 ---
@@ -154,11 +232,18 @@ Webページ内に別のWebページや画像、動画などのコンテンツ�
 ### Webサイトデザイン<!-- omit in toc -->
 情報を整理し、ユーザビリティを考慮したWebページをデザインします。
 
+<!--
 一から制作するのは大変ですので、XDのテンプレートを利用してもOKです。レスポンシブ対応なことにも留意しましょう。
 
 - [Free XD responsive portfolio template](https://www.xdguru.com/free-xd-responsive-portfolio-template/)
 
 こんなの使うと作りやすいかもです。自分でも探してみましょう。「XD ポートフォリオ テンプレート」等
+-->
+
+一から制作するのは大変ですのでFigmaのテンプレートを利用してもOKです。レスポンシブ対応には注意しましょう。
+
+- [ポートフォリオのテンプレート](https://www.figma.com/ja-jp/community/portfolio-templates?resource_type=files&editor_type=figma)
+
 
 - トップページ
 - 各作品ページ
@@ -175,10 +260,10 @@ Webページ内に別のWebページや画像、動画などのコンテンツ�
 - [モバイルファーストデザインとはスマホ版から作ればOK？手順やCSS解説つき](https://pecopla.net/web-column/mobile-first-design)
 
 ```
-@media screen and (min-width:768px){
+@media screen and (width <= 768px){
   /*タブレット用として画面幅を768pxまでに設定*/
 }
-@media screen and (min-width:1024px){
+@media screen and (width <= 1024px){
   /*PC用として画面幅を1024pxまでに設定*/
 }
 ```
@@ -198,13 +283,17 @@ Webページ内に別のWebページや画像、動画などのコンテンツ�
 
 この辺参考にしてみましょう。
 
+<!--
 - [【コピペで簡単】ハンバーガーメニューをCSSだけで作る方法](https://rui-log.com/css-hamburger-menu/)
+-->
+- [【脱・JavaScript】CSSだけで作る！リッチに動くハンバーガーメニュー完全ガイド](https://qiita.com/mukai3/items/f465c2bff43a4ce63299)
 
 ---
 ### 校正・品質チェック<!-- omit in toc -->
 様々な環境で表示エラーや動作の不具合がないかチェックしましょう。
 
 - ResponsivelyApp
+- Chrome拡張 [ResponsiveViewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=ja)
 
 もうまく使っていきましょう。
 
@@ -214,17 +303,6 @@ Webページ内に別のWebページや画像、動画などのコンテンツ�
 
 今回は、なくてもいいですかね。
 
----
-### サイト公開<!-- omit in toc -->
-Githubで公開できるようにして終了です。
-
-今回はデザインを終えた状態で、
-1. 新たにGithubで「portfolio」というリポジトリを作成
-2. VSCでクローン
-3. index.htmlを作成し、公開されることを確認
-4. 制作に取り組む
-
-とすると無駄がないかと思います。
 
 ---
 ### 就活で利用する場合<!-- omit in toc -->
